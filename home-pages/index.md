@@ -23,7 +23,7 @@ description
 
 </section>
 
-## RadiantOne Integration
+## title
 
 <section>
   
@@ -33,7 +33,7 @@ description
 </section>
 
  
-## RadiantOne Directory
+## title
 
 <section>
   
