@@ -11,27 +11,27 @@ From the *Reporting* screen, you can generate various reports to assist in monit
 
 ## Getting started
 
-To navigate to the *Reporting* screen, select **Reporting** (![image description](images/report-icon.png)) from the left navigation.
+To navigate to the *Reporting* screen, select **Reporting** (![image description](Media/report-icon.png)) from the left navigation.
 
-![image description](images/select-reporting.png)
+![image description](Media/select-reporting.png)
 
 ## Generate a report
 
 To generate a report you must select an environment to generate the report for. Optionally, you can also select a time range to filter the data for a specified period of time. 
 
-![image description](images/reporting-dropdowns.png)
+![image description](Media/reporting-dropdowns.png)
 
 ### Select an environment
 
 From the **Environment** dropdown, select the environment to generate the report for.
 
-![image description](images/env-dropdown.png)
+![image description](Media/env-dropdown.png)
 
 A detailed overview of the various components of the environment, their status, and operational health will display.
 
 For further details on the components of each report, see the [report types](report-types.md) guide.
 
-![image description](images/report-details.png)
+![image description](Media/report-details.png)
 
 ### Filter data by time range
 
@@ -39,7 +39,7 @@ You can filter the report data by time range, allowing you to narrow down the da
 
 To filter by time, select a range from the **Time Range** dropdown.
 
-![image description](images/time-range-dropdown.png)
+![image description](Media/time-range-dropdown.png)
 
 ## Next steps
 
