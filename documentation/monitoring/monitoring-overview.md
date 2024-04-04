@@ -11,9 +11,9 @@ From the *Monitoring* screen, you can review the status and health of various Ra
 
 ## Getting started
 
-To navigate to the *Monitoring* screen, select **Monitoring** (![image description](images/monitoring-icon.png)) from the left navigation.
+To navigate to the *Monitoring* screen, select **Monitoring** (![image description](Media/monitoring-icon.png)) from the left navigation.
 
-![image description](images/select-monitoring.png)
+![image description](Media/select-monitoring.png)
 
 ## Monitor an environment
 
@@ -21,19 +21,19 @@ To generate monitoring metrics, an environment and at least one node must be sel
 
 To set the environment, select an environment from the **Environment** dropdown.
 
-![image description](images/select-env.png)
+![image description](Media/select-env.png)
 
 Select at least one node from the **Node** dropdown. 
 
-![image description](images/select-node.png)
+![image description](Media/select-node.png)
 
 If you would like to monitor more than one node, continue selecting all required nodes and then collapse the **Node** dropdown. The monitoring dashboard will update to display the component metrics for all nodes selected.
 
-![image description](images/multiple-nodes.png)
+![image description](Media/multiple-nodes.png)
 
 To remove a node, select the "X" associated with the node name.
 
-![image description](images/remove-node.png)
+![image description](Media/remove-node.png)
 
 ### Filter data by time range
 
@@ -41,7 +41,7 @@ You can filter monitoring data by time range, allowing you to narrow down the ta
 
 To filter by time, select a range from the **Time Range** dropdown.
 
-![image description](images/select-timerange.png)
+![image description](Media/select-timerange.png)
 
 ## Monitoring components
 
@@ -65,8 +65,6 @@ Component metrics displayed include:
 | CPU Usage | A line graph that charts CPU usage over time. |
 | RAM Usage | A line graph that charts RAM usage over time. |
 
-![image description](images/monitoring-components.png)
+![image description](Media/monitoring-components.png)
 
-## Next steps
 
-After reading this guide you should have an understanding of how to generate metrics to monitor environment nodes. For details on reviewing RadiantOne operation and activity reports, see the [reporting](../reporting/reporting-overview.md) guide.
