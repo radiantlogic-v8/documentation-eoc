@@ -23,7 +23,7 @@ There are two options you can configure the proxy connection. First option is to
 | UserName | If proxy server requires authetication, its username value. |
 | Password | If proxy server requires authetication, its password value. |
 
-![image description](images/appsettings-proxy.png)
+![image description](Media/appsettings-proxy.png)
 
 Second option is to set the proxy configuration at the windows operating system level by setting the system environment variables **http_proxy** and **https_proxy**.
 
@@ -38,7 +38,7 @@ The values for these variables can be of following formats:
 | proxy_server_ip | The proxy server IP. |
 | proxy_server_port | The proxy server port. |
 
-![image description](images/win-proxy-env-variables.png)
+![image description](Media/win-proxy-env-variables.png)
 
 Once you have the proxy configuration setup, go back to *Deploy on Windows* section in [deploy a secure data connector client](#deploy-the-secure-data-connector-client) guide and follow the next steps.
 
@@ -54,7 +54,7 @@ There are two options you can configure the proxy connection. First option is to
 | UserName | If proxy server requires authetication, its username value. |
 | Password | If proxy server requires authetication, its password value. |
 
-![image description](images/appsettings-proxy.png)
+![image description](Media/appsettings-proxy.png)
 
 Second option is to set the proxy configuration at the linux operating system level by setting the environment variable **https_proxy**.
 
@@ -85,13 +85,13 @@ docker run -e "ServerHubConfiguration__AgentToken=[access_token]" -e "ServerHubC
 
 The second option is to set the proxy configuration at the docker engine as shown below.
 
-![image description](images/proxy-docker-engine.png)
+![image description](Media/proxy-docker-engine.png)
 
 When proxy configuration is set at the docker engine, the secure data connector client can be run as normal:
 
 	docker run -e "ServerHubConfiguration_AgentToken=[access_token]" radiantone/sdc-client
 
-![image description](images/docker-command-line.png)
+![image description](Media/docker-command-line.png)
 
 It is highly recommended to have logs from sdc-client to go into a mounted drive, to have that setup replace the above commands with the one below based on one of the options you chose for your deployment:
 
@@ -132,28 +132,28 @@ Before deploying the secure data connector client, you must retrieve the registr
 
 To locate these dependencies in Env Ops Center, select the connector name to open the connector details. Alternatively, you can also select **View Details** from the **Options** (**...**) dropdown menu to open the connector details.
 
-![image description](images/connector-view-details.png)
+![image description](Media/connector-view-details.png)
 
 In the *Data Connector Info* section the connector status displays as "Unregistered", and there are no available connections. 
 
 Next to the status in the *Data Connector Info* section select **Register**.
-![image description](images/connector-register.png)
+![image description](Media/connector-register.png)
 
 For Windows or Linux systems, select the applicable card to download the binary.
 
-![image description](images/download-binary.png)
+![image description](Media/download-binary.png)
 
 A confirmation message displays once the binary has successfully downloaded.
 
-![image description](images/binary-success.png)
+![image description](Media/binary-success.png)
 
 Select the copy icon to copy the registration token located just below the Windows and Linux cards. You will use this while deploying the secure data connector client. The steps to deploy a secure data connector on a Windows or Linux system are outlined in the following sections.
 
-![image description](images/copy-token.png)
+![image description](Media/copy-token.png)
 
 For a Docker container, copy the docker command located in the *Docker* section of the *Data Connector Registration* dialog. You will use this while deploying the secure data connector client on the Docker container. The steps to deploy a secure data connector on a Docker container are outlined in the following sections.
 
-![image description](images/docker-token.png)
+![image description](Media/docker-token.png)
 
 ## Deploy on Windows
 
@@ -162,17 +162,17 @@ To deploy the secure data connector client on a Windows system, first unzip the 
 - *appsettings.Production.json*
 - *RadiantLogic.OnPremisesAgentClient.Agent.exe*
 
-![image description](images/binary-windows-files.png)
+![image description](Media/binary-windows-files.png)
 
 Open the *appsettings.Production.json* file and locate the `"AgentToken"` field. Enter the token copied from the *Data Connector Registration* dialog in Env Ops Center into the `"AgentToken"` field.
 
-![image description](images/appsettings-token.png)
+![image description](Media/appsettings-token.png)
 
 If the client to be run on a network where proxy is setup, see the [Proxy Configuration for Windows](#proxy-configuration-for-windows) section. Once you have the proxy settings updated following instructions in [proxy configuration](#run-the-secure-data-connector-client-under-proxy-network-setup) guide, continue to the next steps.
 
 Launch the *RadiantLogic.OnPremisesAgentClient.Agent.exe* file. A notification displays in the command line that confirms a connection has been established between the agent and server.
 
-![image description](images/windows-success.png)
+![image description](Media/windows-success.png)
 
 Once the client is running, you can can setup a connection with the on-premise backend. For details on setting up a connection, see the [Data Sources](../configuration/data-sources/data-sources.md) guide.
 
@@ -183,21 +183,21 @@ Once the client is running, you can can setup a connection with the on-premise b
 #### Step 2: Create the service using following commands
     sc create <ServiceName> binPath= "<PathToExecutable> --service”
 
-![image description](images/windows-create-service.png)
+![image description](Media/windows-create-service.png)
 
 #### Step 3: Configure the service to start automatically (Optional)
     sc config <ServiceName> start= auto
 
-![image description](images/windows-service-auto-start.png)
+![image description](Media/windows-service-auto-start.png)
 
 #### Step 4: Start the service 
     sc start <ServiceName>
 
-![image description](images/windows-service-start.png)
+![image description](Media/windows-service-start.png)
 
 Following all the above steps, your sdc-client should be registered to run as a Windows service and started automatically.
 
-![image description](images/windows-service-running.png)
+![image description](Media/windows-service-running.png)
 
 ## Deploy on Linux
 
@@ -208,7 +208,7 @@ To deploy the secure data connector client on a Linux system, first unzip the *s
 
 Open the *appsettings.Production.json* file using an editor and locate the `"AgentToken"` field. Enter the token copied from the *Data Connector Registration* dialog in Env Ops Center into the `"AgentToken"` field.
 
-![image description](images/linux-vi-appsettingsjson-file.png)
+![image description](Media/linux-vi-appsettingsjson-file.png)
 
 If the client to be run on a network where proxy is setup, see the *Proxy Configuration for Linux* section in [run the secure data connector client under proxy network setup](configure-sdc-client.md) guide.  Once you have the proxy settings updated following instructions in [proxy configuration](#run-the-secure-data-connector-client-under-proxy-network-setup) guide, continue to the next steps.
 
@@ -223,7 +223,7 @@ Then launch the secure data connector client using this command:
 
 A notification displays in the command line that confirms a connection has been established between the agent and server.
 
-![image description](images/linux-run-client.png)
+![image description](Media/linux-run-client.png)
 
 Once the client is running, you can can setup a connection with the on-premise backend. For details on setting up a connection, see the [Data Sources](../configuration/data-sources/data-sources.md) guide.
 
@@ -234,7 +234,7 @@ Once the client is running, you can can setup a connection with the on-premise b
     chmod +x ./RadiantLogic.OnPremisesAgentClient.Agent
     chmod +x ./inlets-pro
 
-![image description](images/linux-chmod-cmds.png)
+![image description](Media/linux-chmod-cmds.png)
 #### Step 2: Check the Init System:
 Determine which init system your Linux distribution uses. Common init systems include systemd, SysV init, and Upstart. You can often identify the init system by checking the version of Linux or the documentation for your specific distribution. Steps 3.1 and 3.2 covers the cases of systemd and SysV Init.
 
@@ -269,7 +269,7 @@ Environment=ASPNETCORE_ENVIRONMENT=Production
 WantedBy=multi-user.target
 ```
 
-![image description](images/linux-edit-service-file.png)
+![image description](Media/linux-edit-service-file.png)
 
 - WorkingDirectory: Set this to the directory where your downloaded binaries is located.
 
@@ -285,7 +285,7 @@ After creating and editing the service file, reload the systemd configuration an
 
     sudo systemctl start your-app-name
 
-![image description](images/linux-start-daemon.png)
+![image description](Media/linux-start-daemon.png)
 
 **Enable Autostart on Boot:**
 
@@ -295,7 +295,7 @@ To make sure your application starts automatically when the system boots, enable
 
 To validate the sdc client is successfully started as a service, you can check the client logs in the /Logs folder and opening the log file:
 
-![image description](images/linux-check-logs-service-started.png)
+![image description](Media/linux-check-logs-service-started.png)
 
 **Manage the Service:**
 
@@ -391,6 +391,6 @@ If the client to be run on a network where proxy is setup, see [Proxy Configurat
 
 The `radiantone/sdc-client` is the latest image of the secure data connector client container located in the Radiant Logic Docker Hub repository.
 
-![image description](images/docker-command-line.png)
+![image description](Media/docker-command-line.png)
 
 Once the client is running, you can can setup a connection with the on-premise backend. For details on setting up a connection, see the [Data Sources](../configuration/data-sources/data-sources.md) guide.
