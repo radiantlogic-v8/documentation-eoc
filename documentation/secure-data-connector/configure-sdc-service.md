@@ -9,7 +9,7 @@ Secure data connectors allow data to flow from your on premises or private cloud
 
 To navigate to the *Secure Data Connectors* home screen, select **Secure Data Connectors** (![image description](images/agent-icon.png)) from the left navigation bar.
 
-![image description](images/secure-data-connectors.png)
+![image description](Media/secure-data-connectors.png)
 
 ## Concepts
 
@@ -33,7 +33,7 @@ The *Secure Data Connector* home screen provides an overview of all your organiz
 The list of data connectors is organized by group. Each group has a set of RadiantOne environments that are allowed to use the data connectors belonging to that group.
 Each group contains a list of data connectors and their associated information (name, description, status). You can expand/collapse each group to show or hide the associated data connectors.
 
-![image description](images/connector-info-expanded.png)
+![image description](Media/connector-info-expanded.png)
 
 ### Adding a New Data Connector
 
@@ -50,7 +50,7 @@ To establish a connection between Env Ops Center and an on-premises network, a d
 
 To add a new group, select **New Group** from the *Secure Data Connectors* home screen.
 
-![image description](images/new-group.png)
+![image description](Media/new-group.png)
 
 #### Add Group info
 
@@ -67,17 +67,17 @@ In a **new row**, enter the group name and select one or multiple environments f
 
 Once you have entered these fields, select :white_check_mark: to add the new group.
 
-![image description](images/save-group.png)
+![image description](Media/save-group.png)
 
 Once the group is successfully created, it is displayed in the list of available groups on the *Secure Data Connectors* home screen.
 
-![image description](images/new-group-created.png)
+![image description](Media/new-group-created.png)
 
 #### Add data connector info
 
 Now that **group** being created, the next step is to add a new data connector. Select **...** from last column of selected group to get list of options, from these options select ***Add Data Connector***.
 
-![image description](images/add-data-connector.png)
+![image description](Media/add-data-connector.png)
 
 In the *New Data Connector* row, enter the data connector information in the provided name and description fields.
 
@@ -90,19 +90,19 @@ In the *New Data Connector* row, enter the data connector information in the pro
 
 Once you have completed entering the required fields for new data connector, select :white_check_mark: to add the new connector.
 
-![image description](images/save-connector.png)
+![image description](Media/save-connector.png)
 
 If the data connector is successfully created, it appears in the list of available data connectors under the *Group*.
 
 The *Status* of the new data connector displays as "UNREGISTERED". A connection needs to be established between a new data connector and the on-prem or cloud network for the connector to become "Active". For details on deploying the secure data connector client, see the [configure a secure data connector client](configure-sdc-client.md) guide.
 
-![image description](images/new-connector-created.png)
+![image description](Media/new-connector-created.png)
 
 ### Manage Data Connectors
 
 Each data connector has an **Options** (**"..."**) menu that allows you to manage the connector. For more details on managing data connectors, please refer to the [Manage Data Connectors](configure-sdc.md) guide.
 
-![image description](images/options.png)
+![image description](Media/options.png)
 
 ## View data connector details
 
@@ -110,11 +110,11 @@ A detailed view is available for each data connector and provides additional dat
 
 Data connector details can be accessed in two ways. One way is to select the data connector name from the list shown on the Secure Data Connectors screen.
 
-![image description](images/select-name.png)
+![image description](Media/select-name.png)
 
 Another way to access data connector details is to select **View Details** from the **Options** (**...**) menu of the corresponding data connector.
 
-![image description](images/view-details.png)
+![image description](Media/view-details.png)
 
 ### Data connector info
 
@@ -128,7 +128,7 @@ The *Data Connector Info* section in the data connector detailed view outlines t
 | Connections | The number of on-prem or cloud backend connections made to the data connector. |
 | Status | Indicates if the data connector is "Active", "Paused", "Inactive" or "Unregistered". |
 
-![image description](images/connector-info.png)
+![image description](Media/connector-info.png)
 
 ### Connection details
 
@@ -143,5 +143,5 @@ All of the on-premise or cloud connections made to the data connector are listed
 | Server Port | The port of the on-prem or cloud data source where the connection was made. |
 | Status | Indicates if the connection is "Connected" or "Disconnected". |
 
-![image description](images/connections.png)
+![image description](Media/connections.png)
 
