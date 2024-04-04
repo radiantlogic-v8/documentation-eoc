@@ -12,48 +12,29 @@ description: knowledge
 <tabpanels>
   <tabpanel>
 
-# Title
+# Welcome to Environment Operations Center!
 
-description
-
-<section>
-  
-  > [Title](folder/page)  
-  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec ipsum a dui fermentum accumsan. Nullam euismod tellus non odio efficitur, at luctus velit cursus. Maecenas vel metus metus
-
-</section>
-
-## title
+The Environment Operations Center is a centralized control plane for managing and monitoring RadiantOne Identity Data Platform deployments. It provides a user-friendly interface for spinning up environments, deploying applications, accessing monitoring dashboards, scaling resources, applying updates, scheduling backups, and troubleshooting issues.
 
 <section>
   
-  > [Title](folder/page)  
-  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec ipsum a dui fermentum accumsan. Nullam euismod tellus non odio efficitur, at luctus velit cursus. Maecenas vel metus metus
+  > [Getting Started](getting-started/overview)  
+  > Radiant Logic’s fully managed, RadiantOne SaaS offering is built to deploy quickly and streamline configuration, maintenance, and upgrades.
   
-</section>
+  > [Environments](environments/create-environments)  
+  > Learn how to use the Environment Operations Center as a centralized control plane to manage all RadiantOne environments.
 
- 
-## title
+  > [Secure Data Connectors](secure-data-connector/configure-sdc)  
+  > Learn how to install, configure and use Secure Data Connectors as a secure way for cloud environments to selectively access on-premise identity data sources.
 
-<section>
+  > [Reporting](reporting/reporting-overview)  
+  > Learn about reporting capabilities for RadiantOne Identity Data Platform.
+
+  > [Monitoring](monitoring/monitoring-overview)  
+  > Learn about monitoring the RadiantOne Identity Data Platform.
   
-  > [Title](folder/page)  
-  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec ipsum a dui fermentum accumsan. Nullam euismod tellus non odio efficitur, at luctus velit cursus. Maecenas vel metus metus
-  
-</section>
-
-</tabpanel>
-
-<tabpanel>
-
-## title
-
-description
-
-<section>
-  
-  > [Title](folder/page)  
-  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec ipsum a dui fermentum accumsan. Nullam euismod tellus non odio efficitur, at luctus velit cursus. Maecenas vel metus metus
+  > [Release Notes](release-notes/eoc-1-0-0)  
+  > Learn about improvements and bug fixes for Environment Operations Center.
 
 </section>
 
