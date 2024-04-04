@@ -3,15 +3,6 @@ title: Knowledge
 description: knowledge
 ---
 
-<tabs>
-  <tablist>
-    <tab>Knowledge</tab>
-    <tab>Developer</tab>
-  </tablist>
-
-<tabpanels>
-  <tabpanel>
-
 # Welcome to Environment Operations Center!
 
 The Environment Operations Center is a centralized control plane for managing and monitoring RadiantOne Identity Data Platform deployments. It provides a user-friendly interface for spinning up environments, deploying applications, accessing monitoring dashboards, scaling resources, applying updates, scheduling backups, and troubleshooting issues.
@@ -37,8 +28,3 @@ The Environment Operations Center is a centralized control plane for managing an
   > Learn about improvements and bug fixes for Environment Operations Center.
 
 </section>
-
-</tabpanel>
-
-</tabpanels>
-</tabs>
