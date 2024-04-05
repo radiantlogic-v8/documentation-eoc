@@ -43,9 +43,9 @@ To filter by time, select a range from the **Time Range** dropdown.
 
 ![image description](Media/select-timerange.png)
 
-## Monitoring components
+## Monitored Metrics for Identity Data Management
 
-The monitoring dashboard displays several node component metrics, allowing you to monitor the health of RadiantOne servers.
+The monitoring dashboard displays several node component metrics, allowing you to monitor the health of RadiantOne service.
 
 Component metrics displayed include:
 
