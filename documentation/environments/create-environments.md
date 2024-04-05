@@ -16,8 +16,8 @@ The number of each type of environment available depends on the tier selected du
 Before setting up your environment, you need the following:
 
 - Your environment tier.
-- The version number that corresponds with your instance.
-- If you are importing a configuration file, ensure you have the correct file type saved and ready to go.
+- The version number that corresponds with your RadiantOne product (Identity Data Management and/or Identity Analytics).
+- If you are deploying the Identity Data Management application, and want to initialize the product with configuration that has been exported from an existing environment, ensure you have the correct file type saved and ready to go since you need to select this file during creation of the new environment.
 
 The new environment setup requires you to define the environment type, details, and provides an optional step to upload a configuration file from another environment.
 
