@@ -5,7 +5,7 @@ description: Learn how to create environments.
 
 # Overview
 
-This guide provides an overview of the steps required to create a new environment in Environment Operations Center.
+This guide provides an overview of the steps required to create a new environment and deploy applications in Environment Operations Center.
 
 An environment is where a RadiantOne product lives. Each environment is completely isolated and contains endpoints to access different applications. Each instance of Env Ops Center has a predefined number of production and non-production environments that can be created for production, development, quality assurance, and staging purposes.
 
