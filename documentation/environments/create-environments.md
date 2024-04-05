@@ -26,13 +26,13 @@ The new environment setup requires you to define the environment type, details, 
 
 To create a new environment, select **New Environment** on the *Environments* home screen or from the *Overview* home screen.
 
-![image description](images/create-new.png)
+![image description](Media/create-new.png)
 
-![image description](images/overview-create.png)
+![image description](Media/overview-create.png)
 
 This takes you to the *New Environment* page that contains all the input fields for the information required to create a new environment. The following sections outline how to complete these required fields.
 
-![image description](images/new-env-dialog.png)
+![image description](Media/new-env-dialog.png)
 
 ### Define Environment Type
 
@@ -42,25 +42,25 @@ Start by selecting the required **Environment Type** and **Environment Tier**.
 
 To set the **Environment Type**, use the radio buttons to select either **Non-production**, for development and testing, or **Production**, for production purposes.
 
-![image description](images/create-env-type.png)
+![image description](Media/create-env-type.png)
 
 #### Environment Tier
 
 To set the **Environment Tier**, select the tier that suits your organization's Env Ops Center subscription.
 
-![image description](images/env-tier.png)
+![image description](Media/env-tier.png)
 
 #### Environment name
 
 To set the **Environment Name**, enter a unique name in the space provided. Names must follow the naming convention: can be alphanumeric, can contain underscores and hyphens, cannot contain any other special characters, and can contain 18 characters or less.
 
-![image description](images/create-env-name.png)
+![image description](Media/create-env-name.png)
 
 #### Applications
 
 To deploy an IDM (Identity Data management) application select the box adjacent to "Identity Data management" this deploys FID and when expanded you will need fill in the Application Details.
 
-![image description](images/apps-select.png)
+![image description](Media/apps-select.png)
 
 #### Application Details
 
@@ -68,13 +68,13 @@ Under the **Application Details** section, set the version, password , confirm p
 
 Also under the **Application Details** are the options to **INSTALL SAMPLES** and **ADVANCED SETUP** which are toggle buttons and provide options to install sample stores in the application and also create an applicatin using a migration export from another environment.
 
-![image description](images/apps-details.png)
+![image description](Media/apps-details.png)
 
 #### Version
 
 To set the Environment **Version**, select the version drop down to display all available versions. Select the value that corresponds with your organization's version of Environment Operations Center.
 
-![image description](images/create-env-version.png)
+![image description](Media/create-env-version.png)
 
 #### Password
 
@@ -86,11 +86,11 @@ Depending on the complexity and strength of your password, you will receive a no
 
 To confirm your password, reenter or copy and paste your password in the confirmation space provided. If you selected to have a password automatically generated, the password will also automatically populate in the confirmation text box.
 
-![image description](images/password.png)
+![image description](Media/password.png)
 
-To reveal your original or confirmation password, select the eye icon (![image description](images/eye-icon.png)) located within the text field you wish to view.
+To reveal your original or confirmation password, select the eye icon (![image description](Media/eye-icon.png)) located within the text field you wish to view.
 
-![image description](images/password-reveal.png)
+![image description](Media/password-reveal.png)
 
 #### Create the new environment
 
@@ -102,7 +102,7 @@ Completing the steps outlined in the *Environment Type* and *Application Details
 
 An optional advanced setup is available if you would like to upload a configuration ZIP file from another environment or create the environment using samples. Enable advanced setup by toggling on **Advanced Setup**.
 
-![image description](images/advanced-setup.png)
+![image description](Media/advanced-setup.png)
 
 The **Install Samples** option imports sample data. See [Sample Data](../introduction/samples.md) for further details about sample data.
 
@@ -110,17 +110,17 @@ The **Install Samples** option imports sample data. See [Sample Data](../introdu
 
 To import a configuration file, select the configuration ZIP file to upload. You can locate the file on your system and drag and drop it into the provided space. Alternatively, you can select **choose file** within the upload box to open your system's file manager and locate the file to upload.
 
-![image description](images/choose-file.png)
+![image description](Media/choose-file.png)
 
 While your file is uploading, an **Uploading** message displays in the file upload box, along with a progress bar. You can cancel the file upload while it is in progress by selecting the **X** located in the progress bar box.
 
 Once your configuration file has successfully loaded, the file name displays in place of the file upload box. Select **Create** to create the new environment.
 
-![image description](images/config-uploaded.png)
+![image description](Media/config-uploaded.png)
 
 To delete the file and return to the file upload screen, select the trash can icon located in the same box as the successful file upload.
 
-![image description](images/delete-config.png)
+![image description](Media/delete-config.png)
 
 If the file upload is not successful, the configuration upload box displays with a red dashed outline and an error message appears just below. Review your file type to ensure you have selected the correct configuration file for upload and try again.
 
@@ -128,15 +128,15 @@ If the file upload is not successful, the configuration upload box displays with
 
 After saving the New Environment details form, you return to the *Environments* home screen. A confirmation message appears noting that your environment is being created and that the process can take up to 1 hour. The status of your new environment shows as "Creating". Select **Dismiss** to close the confirmation message.
 
-![image description](images/creating.png)
+![image description](Media/creating.png)
 
-![image description](images/creating2.png)
+![image description](Media/creating2.png)
 
 Once the environment has been successfully created, the environment's status changes to "Operational".
 
-![image description](images/operational.png)
+![image description](Media/operational.png)
 
-![image description](images/operational2.png)
+![image description](Media/operational2.png)
 
 ### Form submission failure
 
@@ -156,8 +156,8 @@ Select the ellipsis (**...**) in line with the environment to display a list of 
 
 The **CONTROL PANEL** endpoint provides access to the Main Control Panel of FID and is enabled by default after the environment is created.
 
-![image description](images/cp-endpoint.png)
+![image description](Media/cp-endpoint.png)
 
 The URL can be clicked directly and new window opens with control panel sign in page or the URL can be copy pasted into a browser.
 
-![image description](images/cp-login-page.png)
+![image description](Media/cp-login-page.png)
