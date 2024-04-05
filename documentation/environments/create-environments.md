@@ -1,6 +1,6 @@
 ---
 title: Creating Environments
-description: Learn how to create environments.
+description: Learn how to create environments and deploy applications.
 ---
 
 # Overview
