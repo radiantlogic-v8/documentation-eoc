@@ -13,11 +13,11 @@ This section provides an overview of the *Admin* home screen and its features. F
 
 All Env Ops Center users can access the *Admin* screen, but view and edit permissions differ depending on a user's assigned role. For details on role-based permissions, see the [role-based permissions](role-based-permission/role-based-permissions.md) guide.
 
-To navigate to the *Admin* screen, select **Admin** (![image description](images/icon-admin.png)) located at the bottom of the left navigation.
+To navigate to the *Admin* screen, select **Admin** (![image description](Media/icon-admin.png)) located at the bottom of the left navigation.
 
-![image description](images/admin.png)
+![image description](Media/admin.png)
 
-![image description](images/admin2.png)
+![image description](Media/admin2.png)
 
 ## Top navigation
 
@@ -29,7 +29,7 @@ A navigation bar is located at the top of the *Admin* home screen and is visible
 - Activity Log
 - Settings
 
-![image description](images/top-nav.png)
+![image description](Media/top-nav.png)
 
 ### Users
 
@@ -37,7 +37,7 @@ The *Users* tab allows you to manage all users within your Environment Operation
 
 For details on managing Environment Operation Center users, including their roles and permissions, see the [user management](user-management/create-user.md) guide.
 
-![image description](images/users-tab.png)
+![image description](Media/users-tab.png)
 
 ### Alerts
 
@@ -45,7 +45,7 @@ From the *Alerts* tab you can monitor and create alerts for your environments. T
 
 For more information on alert management, see the [alert management](alert-management/alert-management-overview.md) guide.
 
-![image description](images/alerts-tab.png)
+![image description](Media/alerts-tab.png)
 
 ### Integration
 
@@ -53,19 +53,19 @@ From the *Integrations* tab you can manage your connections to external applicat
 
 For details on managing integrations, see the [managing integrations](integrations/manage-integrations.md) guide.
 
-![image description](images/integration-tab.png)
+![image description](Media/integration-tab.png)
 
 ### Activity Log
 
 The *Activity Log* provides an overview of all create, update, and delete activities performed for all environments, including the action, environment, date and time stamp of the activity, and the user who performed the activity.
 
-![image description](images/activity-log-tab.png)
+![image description](Media/activity-log-tab.png)
 
 ### Settings
 
 The **settings** provides options to setup release channels and also automatic/manual update checks for the channel
 
-![image description](images/settings-tab.png)
+![image description](Media/settings-tab.png)
 
 
 ## Managing Account Settings
@@ -76,7 +76,7 @@ This guide provides an overview of how to update your account settings and manag
 
 From any section or tab in Environment Operations Center, your account avatar will be visible in the upper right corner of the screen. To access your account settings, select the avatar icon to expand the account dropdown menu. From the dropdown menu, select **Account Settings** to open the *Account Settings* screen.
 
-![image description](images/account-settings.png)
+![image description](Media/account-settings.png)
 
 ## Account settings
 
@@ -88,13 +88,13 @@ To update your first or last name, enter your information in the spaces provided
 
 > [!note] Only administrators can update email addresses. Please contact your administrator if you need to change the email associated with your Env Ops Center account.
 
-![image description](images/account-details.png)
+![image description](Media/account-details.png)
 
 ### Update profile image
 
 To update your profile image, select "Edit Avatar" and select an image from you local file system to upload.
 
-![image description](images/edit-avatar.png)
+![image description](Media/edit-avatar.png)
 
 ## Manage API tokens
 
@@ -102,13 +102,13 @@ To update your profile image, select "Edit Avatar" and select an image from you 
 
 To create a new API token, set the API expiration by selecting one of the **Expires In** radio buttons. Then select **Generate** to generate a new API token. A unique API token will populate in the *API token* input field.
 
-![image description](images/generate-token.png)
+![image description](Media/generate-token.png)
 
 A unique API token will populate in the *API token* input field and the creation and expiration dates will display below the token. Copy the token immediately and store in a save place.
 
 > [!warning] Once you leave the page, you can no longer view or copy the API token. Ensure you copy the token before saving.
 
-![image description](images/created-copy.png)
+![image description](Media/created-copy.png)
 
 You will receive a warning when your API token is close to expiring. A warning is displayed in your *Account Settings* next to the *Expiration Date* dropdown.
 > [!warning] API token expiry cannot be extended. Once a token has expired, a new token must be generated.
@@ -117,15 +117,15 @@ You will receive a warning when your API token is close to expiring. A warning i
 
 Only one API token can be created at a time. If you need to create a new API token but one already exists, you must first delete the current token.
 
-You can delete the API token by selecting the trash bin icon (![image description](images/icon-delete.png)) located next to the *API Token* input field.
+You can delete the API token by selecting the trash bin icon (![image description](Media/icon-delete.png)) located next to the *API Token* input field.
 
 > [!warning] Deleting an API token is a permanent action and cannot be undone.
 
-![image description](images/delete-token.png)
+![image description](Media/delete-token.png)
 
 A confirmation message will appear to verify that you would like to delete the API token and reminding you that a new API token will need to be generated for future calls. Select **Confirm** to delete the token.
 
-![image description](images/delete-confirmation.png)
+![image description](Media/delete-confirmation.png)
 
 If the token is successfully deleted you will receive a confirmation message and the *API token* field will be empty. You can proceed to generate a new token or exit out of *Account Settings* without generating a new token by selecting **Save**.
 
