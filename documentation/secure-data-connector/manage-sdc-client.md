@@ -34,7 +34,7 @@ Installing a rolling update allows the client to continue running with no downti
 
 Copy the new token from the *Data Connector Registration* dialog in the data connector details section.
 
-![image description](images/docker-token.png)
+![image description](Media/docker-token.png)
 
 Follow the steps outlined in the [deploy a secure data connector client](deploy-sdc-client.md) guide for your system type to deploy the client as a fresh installation.
 
