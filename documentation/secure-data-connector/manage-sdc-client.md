@@ -112,19 +112,19 @@ To regenerate the token:
 
 1. Navigate to your Secure Data Connector's Data Connector Info page.
 
-    ![image1](media/image1.png)
+    ![image1](Media/image1.png)
 
 1. Click **Regenerate Token**. 
 
 1. Select an expiration for the token.
 
-    ![image1](media/image2.png)
+    ![image1](Media/image2.png)
 
 1. Click **Generate**.
 
 1. Copy the generated token.
 
-    ![image1](media/image3.png)
+    ![image1](mMdia/image3.png)
 
 ## Updating the Application Configuration
 
