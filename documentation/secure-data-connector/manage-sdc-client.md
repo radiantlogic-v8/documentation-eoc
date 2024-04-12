@@ -48,7 +48,7 @@ The following sections outline common errors that can occur while deploying or r
 
 The unique token associated with a new data connector in Env Ops Center can only be used to deploy one secure data connector client. If a data connector token is used to run more than one client, you will receive a duplicate agent connection error in the client terminal.
 
-![image description](images/err-duplicate-connection.png)
+![image description](Media/err-duplicate-connection.png)
 
 To resolve the error, return to Env Ops Center an create a new secure data connector and use the unique token to deploy the client.
 
@@ -58,7 +58,7 @@ For details on creating a new data connector, see the [add a data connector](add
 
 The following control panel error may indicate that the secure data connector client has stopped running: "Connection failed: An error has occurred, please contact your administrator".
 
-![image description](images/test-connection-err.png)
+![image description](Media/test-connection-err.png)
 
 If you receive the above connection failure error, return to the secure data connector client and verify that it is running.
 
@@ -66,11 +66,7 @@ If you receive the above connection failure error, return to the secure data con
 
 A test connection may fail for the localhost hostname for a secure data connector client deployed on a Docker container. The following error may indicate that a test connection failure has occurred: "Connection failed: Protocol or communication error".
 
-![image description] (insert error image)
-
 To resolve the connection failure, enter the special DNS name `host.docker.internal` in the **Host Name** field. This will resolve the internal IP address used by the host, allowing the Docker container running the client to access the host server backend.
-
-![image description] (insert control panel image)
 
 ### Inoperative test connection
 
