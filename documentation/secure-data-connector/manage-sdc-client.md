@@ -124,7 +124,7 @@ To regenerate the token:
 
 1. Copy the generated token.
 
-    ![image1](mMdia/image3.png)
+    ![image1](Media/image3.png)
 
 ## Updating the Application Configuration
 
