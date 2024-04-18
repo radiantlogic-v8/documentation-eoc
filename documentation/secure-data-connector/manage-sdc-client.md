@@ -100,11 +100,11 @@ List the log files:
 
 From here, you can open the logs files to access further details on the client activity.
 
-# Regenerating SDC Registration Tokens
+## SDC Token Expiration and Renewal
 
 A secure data connector's token has lifetime of up to one year. This section describes how to regenerate a secure data connector's token and update the application configuration.
 
-## Regenerating the Token
+### Regenerating the Token
 
 To regenerate the token:
 
@@ -126,7 +126,7 @@ To regenerate the token:
 
     ![image1](Media/image3.png)
 
-## Updating the Application Configuration
+### Updating the Application Configuration
 
 On Windows:
 
@@ -156,7 +156,7 @@ On Docker:
 
     docker run -v /path/on/host:/app/logs -e "ServerHubConfiguration_AgentToken=[regenerated_token]" radiantone/sdc-client
 
-## Performing a Rolling update
+### Performing a Rolling update
 
 To minimize the risk of interruptions to the ongoing connections, it is recommended that you perform a rolling update.
 
