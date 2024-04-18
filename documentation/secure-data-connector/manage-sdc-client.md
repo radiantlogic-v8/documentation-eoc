@@ -130,19 +130,23 @@ To regenerate the token:
 
 On Windows:
 
-    1. Stop the client if it is already running as a standalone application or as a windows service. 
+1. Stop the client if it is already running as a standalone application or as a windows service. 
 
-    1. Open appsettings.Production.json using an editor. 
+1. Open appsettings.Production.json using an editor. 
     
-    1. In the **AgentToken** field, enter the token value copied in [Regenerating the Token](#regenerating-the-token). 
+1. In the **AgentToken** field, enter the token value copied in [Regenerating the Token](#regenerating-the-token).
+
+1. Restart the client.
 
 On Linux:
 
-    1. Stop the client if it is already running as a standalone application or as a daemon.
+1. Stop the client if it is already running as a standalone application or as a daemon.
 
-    1. Open appsettings.Production.json using an editor. 
+1. Open appsettings.Production.json using an editor. 
     
-    1. In the **AgentToken** field, enter the token value copied in [Regenerating the Token](#regenerating-the-token).
+1. In the **AgentToken** field, enter the token value copied in [Regenerating the Token](#regenerating-the-token).
+
+1. Restart the client.
 
 On Docker:
 
