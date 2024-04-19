@@ -5,13 +5,36 @@ description: Learn how to manage secure data connectors.
 
 ## Overview
 
-This is the overview.
+This guide describes the following topics.
 
-## Managing Groups
+- [Managing Groups](#managing-groups)
+- [Managing Secure Data Connectors](Managing-secure-data-connectors)
 
-How to add/edit/delete SDC groups.
+### Managing Groups
 
-## Managing Secure Data Connectors
+This section describes how to add, edit, and delete SDC groups.
+
+#### Adding Groups
+
+To add an SDC group:
+
+1. In the navigation pane on the left, select **Secure Data Connectors**.
+
+1. In the upper-right corner, click **New Group**.
+
+1. Enter a group name.
+
+1. From the drop-down menu, select an environment.
+
+1. 
+
+#### Editing Groups
+
+
+#### Deleting Groups
+
+
+### Managing Secure Data Connectors
 
 Secure data connectors can be managed from the *Secure Data Connectors* screen. From here, you can edit, enable or disable, and delete connectors. This guide outlines the steps to manage data connectors.
 
