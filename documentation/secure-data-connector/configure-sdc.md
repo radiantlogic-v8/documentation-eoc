@@ -36,7 +36,7 @@ The new group is displayed.
 
 1. Click "..." next to the group you want to edit.
 
-  ![image description](Media/edit-group.png).
+    ![image description](Media/edit-group.png).
 
 1. Edit the group name and/or change the group's environment.
 
