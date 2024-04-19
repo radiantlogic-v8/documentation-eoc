@@ -26,6 +26,8 @@ To add an SDC group:
 
 1. From the drop-down menu, select an environment.
 
+1. Click ![image description](Media/check-mark.png).
+
 1. 
 
 #### Editing Groups
