@@ -28,13 +28,31 @@ To add an SDC group:
 
 1. Click ![image description](Media/check-mark.png).
 
-1. 
+The new group is displayed. 
 
 #### Editing Groups
 
+1. In the navigation pane on the left, select **Secure Data Connectors**.
+
+1. Click "..." next to the group you want to edit.
+
+  ![image description](Media/edit-group.png).
+
+1. Edit the group name and/or change the group's environment.
+
+1. Click ![image description](Media/check-mark.png).
 
 #### Deleting Groups
 
+1. In the navigation pane on the left, select **Secure Data Connectors**.
+
+1. Click "..." next to the group you want to edit.
+
+  ![image description](Media/delete-button.png).
+
+1. In the Delete Group dialog box, enter the name of the group and click Delete.
+
+  ![image description](Media/delete-group.png).
 
 ### Managing Secure Data Connectors
 
