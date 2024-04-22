@@ -5,7 +5,7 @@ description: Learn how to perform initial setup and configuration in Environment
 
 # Overview
 
-This is the overview.
+This guide describes Managing admins, account settings, API tokens, and integrations. It also describes how to view activity logs. 
 
 ## Managing Admins
 
