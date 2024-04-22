@@ -9,6 +9,6 @@ TO BE UPDATED
 - [Overview](overview.md)
 - [Environments](#)
   - [Login](#)
-    - [Login Page](login/login-overview.md)
+    - [Login Page](login-page/login-overview.md)
   - [Environment overview](#)
     - [Environments overview](environments/environment-overview/environments)
