@@ -7,47 +7,47 @@ description: Learn how to access environment details and status in Environment O
 
 This guide provides an overview of the *Environments* home screen and its features. To navigate to the *Environments* home screen, select **Environments** in the left navigation.
 
-![image description](images/select-envs.png)
+![image description](Media/select-envs.png)
 
 The *Environments* home screen provides an overview of all your organization's available environments. Each environment is displayed with a set of 4 blocks, each with a different color, and provides information about the applications like if they are in operational, warning, critical or offline state.
 
 Two environment display views are available, either list- or grid-view. In the list-view, environments are organized by row with the associated environment details contained in the row.
 
-![image description](images/envs-list-view.png)
+![image description](Media/envs-list-view.png)
 
 In the grid-view, environments are organized in a card format with associated details for an environment contained within the card.
 
-![image description](images/envs-grid-view.png)
+![image description](Media/envs-grid-view.png)
 
 Each environment has its own **Options** menu (**...**) that allows you to either ADD or DELETE the environment.
 
 In the list-view, the options menu is located at the end of an environment row.
 
-![image description](images/options-list.png)
+![image description](Media/options-list.png)
 
 In the grid-view, the options menu is located in the upper corner of an environment card.
 
-![image description](images/options-grid.png)
+![image description](Media/options-grid.png)
 
 A **Search For** bar at the top of the *Environments* screen can be used to filter the listed environments. Enter an environment name, specific characters, or words in the space provided to quickly filter through the environments.
 
-![image description](images/search-to-filter.png)
+![image description](Media/search-to-filter.png)
 
 A refresh button is located in the upper right corner of the *Environments* screen. Select the refresh icon to pull up to date information about the environments.
 
-![image description](images/refresh-envs.png)
+![image description](Media/refresh-envs.png)
 
 ## Environment details
 
 To access further details about an environment, select the name of the environment you wish to view.
 
-![image description](images/env-details.png)
+![image description](Media/env-details.png)
 
 This brings you to the environment's *Overview* screen, where you can view further information about a given environment, such as node status or connections, and perform monitoring and updating actions.
 
 > To learn more about the environment *Overview* features, review the [environment details](../environment-details/environment-overview.md) guide.
 
-![image description](images/detailed-view.png)
+![image description](Media/detailed-view.png)
 
 ## Environment status
 
@@ -64,19 +64,19 @@ The environment **Status** indicates the current state of the environment. Statu
 - Updating: The environment is currently updating (this can take up to 1 hour).
 - Creating: The environment is currently being created (this can take up to 1 hour).
 
-![image description](images/env-status.png)
+![image description](Media/env-status.png)
 
-![image description](images/env-warning.png)
+![image description](Media/env-warning.png)
 
-![image description](images/env-critical.png)
+![image description](Media/env-critical.png)
 
-![image description](images/env-offline.png)
+![image description](Media/env-offline.png)
 
 ## Environment creation date
 
 The **Creation Date** indicates the date and time when the environment was created.
 
-![image description](images/creation-date.png)
+![image description](Media/creation-date.png)
 
 ## Environment version
 
@@ -84,7 +84,7 @@ The **Creation Date** indicates the date and time when the environment was creat
 
 To learn more about updating an environment, review the [update an environment](update-an-environment.md) guide.
 
-![image description](images/version.png)
+![image description](Media/version.png)
 
 ## Environment nodes
 
@@ -92,7 +92,7 @@ To learn more about updating an environment, review the [update an environment](
 
 To learn more about adjusting the number of nodes in an environment, see the [update and monitor nodes](../environment-details/node-details.md) guide.
 
-![images description](images/nodes.png)
+![images description](Media/nodes.png)
 
 ## Options Menu
 
@@ -108,7 +108,7 @@ To view a list of operations that can be performed on a given environment, selec
 
 The **New Environment** button allows you to quickly start creating a new environment from the home screen. For details on how to create a new environment, review the guide on [creating a new environment](create-an-environment.md).
 
-![image description](images/new-env.png)
+![image description](Media/new-env.png)
 
 ## Access Permissions
 
