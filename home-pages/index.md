@@ -18,6 +18,9 @@ The Environment Operations Center is a centralized control plane for managing an
   > [Secure Data Connectors](secure-data-connector/configure-sdc)  
   > Learn how to install, configure and use Secure Data Connectors as a secure way for cloud environments to selectively access on-premise identity data sources.
 
+  > [Admin](admin/admin-overview)
+  > Learn how to manage account settings, Environment Operation Center users, environment alerts and integrations, and monitor cluster health.
+
   > [Reporting](reporting/reporting-overview)  
   > Learn about reporting capabilities for RadiantOne Identity Data Platform.
 
