@@ -8,7 +8,7 @@ description: Environment operations center guide
 - [Overview](overview.md)
 - [Environments](#)
   - [Login](#)
-    - [Login Page](../environments/login/login-overview.md)
+    - [Login Page](../login/login-overview.md)
   - [Environment overview](#)
     - [Environments overview](../environments/environment-details/environment-overview.md)
     - [Create an environment](../environments/environment-overview/create-environments.md)
