@@ -7,8 +7,6 @@ description: Environment operations center guide
 
 - [Overview](overview.md)
 - [Environments](#)
-  - [Login](#)
-    - [Login Page](../login/login-overview.md)
   - [Environment overview](#)
     - [Environments overview](../environments/environment-details/environment-overview.md)
     - [Create an environment](../environments/environment-overview/create-environments.md)
@@ -26,6 +24,8 @@ description: Environment operations center guide
     - [Schedule automated environment backups](../environments/backup-and-restore/schedule-backup.md)
   - [Logging](#)
     - [Environment logs](../environments/logging/environment-logs.md)
+- [Login](#)
+    - [Login Page](../login/login-overview.md)
 - [Reporting](#)
   - [Reporting overview](../reporting/reporting-overview.md)
   - [Report types](../reporting/report-types.md)
