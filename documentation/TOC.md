@@ -10,7 +10,7 @@ description: Environment operations center guide
   - [Login](#)
     - [Login Page](../environments/login/login-overview.md)
   - [Environment overview](#)
-    - [Environments overview](../environments/environment-overview/environments)
+    - [Environments overview](../environments/environment-details/environment-overview.md)
     - [Create an environment](../environments/environment-overview/create-environments.md)
     - [Update an environment](../environments/environment-overview/update-an-environment.md)
     - [Delete an environment](../environments/environment-overview/delete-an-environment.md)
