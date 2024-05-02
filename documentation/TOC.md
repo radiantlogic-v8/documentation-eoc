@@ -37,7 +37,7 @@ description: Environment operations center guide
   - [Manage data connectors](../secure-data-connector/manage-data-connectors.md)
   - [Configure a Secure Data Connector Client in on-premise or private cloud data sources network](#)
     - [Deploy a Secure Data Connector Client](../secure-data-connector/deploy-sdc-client.md)
-    - [Deploy a Secure Data Connector Client on a proxy network](../secure-data-connector/deploy-sdc-client-in-proxy.md)
+    - [Deploy a Secure Data Connector Client on a proxy network](../secure-data-connector/configure-sdc-client.md)
   - [Manage the Secure Data Connector Client](../secure-data-connectors/manage-sdc-client.md)
 - [Admin](#)
   - [Admin overview](../admin/admin-overview.md)
