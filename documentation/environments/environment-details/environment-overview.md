@@ -60,14 +60,6 @@ Under the *Activity Log*, you can view a list of all actions performed on an env
 
 ![image description](images/activity-log.png)
 
-## Monitor environment
-
-A **Monitor Environment** button is located near the top of the *Overview* screen. Select **Monitor Environment** to navigate to the monitoring section with the current environment selected.
-
-For further details on monitoring environments, see the [monitoring](../../monitoring/monitoring-overview.md) guide.
-
-![image description](images/monitor-env.png)
-
 ## Refresh Environment Details
 
 A refresh button is located next to **Monitor Environment**. Select **Refresh** to display the most up to date details for the environment.
