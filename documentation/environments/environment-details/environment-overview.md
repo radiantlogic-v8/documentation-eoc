@@ -118,28 +118,6 @@ The *Application Endpoints* section lists all of the environment endpoints.
 
 ![image description](images/endpoints.png)
 
-## Node monitoring
-
-The lower section of the *Overview* page displays monitoring sections for the FID nodes of an environment. The status, CPU, memory, disk space, and number of connections are provided for each node.
-
-Node status will be listed as "Healthy", "Warning, or "Outage", indicating that the node is either operational, experiencing a partial outage, or experiencing a complete outage.
-
-![image description](images/node-details.png)
-
-CPU, memory, and disk are all displayed as color-coded percentages to indicate their health.
-
-- Green: Indicates the component is operational.
-- Yellow: Indicates the component has a partial outage.
-- Red: Indicates a full outage.
-
-![image description](images/overview-health-indicators.png)
-
-An expandable **Options** (**...**) menu is available for each node. Selecting the **Options** dropdown menu displays the options to **View Details** or **View Logs** for the selected node.
-
-For further details on reviewing nodes details, see the [node details](node-details.md) guide.
-
-![image description](images/node-options.png)
-
 ## Next steps
 
 After reading this guide you should be able to navigate the *Overview* screen of an environment and understand its main features including the top navigation, Environment Details, Application Endpoints, and Node Monitoring. For details on updating the environment, review the guide to [update an environment](update-environment.md).
