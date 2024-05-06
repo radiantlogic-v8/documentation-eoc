@@ -62,7 +62,7 @@ Under the *Activity Log*, you can view a list of all actions performed on an env
 
 ## Refresh Environment Details
 
-A refresh button is located next to **Monitor Environment**. Select **Refresh** to display the most up to date details for the environment.
+To display the most up-to-date details for the environment, click **Refresh**. 
 
 ![image description](images/refresh-env.png)
 
