@@ -39,10 +39,6 @@ There are two ways to access the status details for a specific node: select the 
 
 ![image details](images/select-node-name.png)
 
-Alternatively, you can select the **Options** (**...**) menu located in the node row to expand the drop-down menu. From the **Options** menu select **View Node Details** to open the the node details dialog.
-
-![image details](images/options-view-details.png)
-
 ### FID node details
 
 The FID node details dialog provides the following information for the selected node:
