@@ -37,8 +37,6 @@ The number of nodes in the environment increases or decreases accordingly.
 
 There are two ways to access the status details for a specific node: select the node name to open node details or select the **Options**(**...**) menu.
 
-You can select the node name to open the node details dialog.
-
 ![image details](images/select-node-name.png)
 
 Alternatively, you can select the **Options** (**...**) menu located in the node row to expand the drop-down menu. From the **Options** menu select **View Node Details** to open the the node details dialog.
