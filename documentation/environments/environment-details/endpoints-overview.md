@@ -35,8 +35,6 @@ When the endpoint is enabled, a confirmation message appears, the toggle turns g
 
 ![image description](images/enable-ldaps-confirmation-init.png)
 
-![image description](images/enable-ldaps.png)
-
 The endpoint enabling process takes about 5-10 minutes for an endpoint to be successfully enabled.
 
 ![image description](images/enable-ldaps-confirmation.png)
