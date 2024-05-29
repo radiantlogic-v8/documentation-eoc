@@ -26,6 +26,7 @@ description: Environment operations center guide
     - [Environment logs](../environments/logging/environment-logs.md)
 - [Login](#)
     - [Login Page](../login/login-overview.md)
+    - [Microsoft SSO](../login/microsoft-sso.md)
 - [Reporting](#)
   - [Reporting overview](../reporting/reporting-overview.md)
   - [Report types](../reporting/report-types.md)
