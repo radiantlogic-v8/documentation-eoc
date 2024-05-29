@@ -12,7 +12,7 @@ The Environment Operations Center is a centralized control plane for managing an
   > [Getting Started](getting-started/overview)  
   > Radiant Logic’s fully managed, RadiantOne SaaS offering is built to deploy quickly and streamline configuration, maintenance, and upgrades. Learn how to log into the Environment Operations Center and perform the initial configuration required for delegated administration.
   
-  > [Environments](environments/create-environments)  
+  > [Environments](environment-overview/create-environments)  
   > Learn how to use the Environment Operations Center as a centralized control plane to manage all RadiantOne environments.
 
   > [Secure Data Connectors](secure-data-connector/configure-sdc)  
