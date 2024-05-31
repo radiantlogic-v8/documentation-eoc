@@ -24,10 +24,8 @@ This section describes how to establish your application as a recognized entity 
 4. Enter a descriptive name that helps identify the application within your organization.  
 ![form](images/register-application.png)
 5. In the Supported Account Types section, select one of the following options.  
-
-    - **Single Tenant** - limits access to users within the organization.
-    - **Multitenant** - allows users from any Azure AD directory to access the application.  
-
+    - **Single Tenant:** limits access to users within the organization.
+    - **Multitenant:** allows users from any Azure AD directory to access the application.  
 6. From the Select A Platform drop-down menu, select **Web**.  
 7. Next to the Select A Platform menu, specify a URI to which Azure AD will send authentication responses.  
 8. Click **Register**.  
@@ -56,8 +54,7 @@ This section describes how to specify which resources your application can acces
 3. Select an API and click **Delegated Permissions**.  
 ![form](images/request-api-permissions.png)  
 4. Add permissions as needed.  
-
-    >[!warning] These permissions must align with the functionality your application requires.  
+    > [!warning] These permissions must align with the functionality your application requires.  
 
 5. To apply these permissions across all users in your directory, click **Grant admin consent for [your directory]"**.  
 6. Click **Yes**.  
@@ -71,8 +68,6 @@ The section describes how to integrate and verify that SSO via Azure AD is funct
 2. Configure the authentication library or framework you are using (such as Microsoft's Identity platform libraries) to interact with Azure AD using these credentials.  
 3. Implement a login feature where users are redirected to Azure AD for authentication.  
 4. Verify that after successful authentication, Azure AD redirects users back to your application's specified redirect URI.  
-
-    >[!note] Your application should handle this response to authenticate the user internally.
-
+    > [!note] Your application should handle this response to authenticate the user internally.
 5. After implementation, monitor the integration closely for any performance issues or errors.  
 6. Review logs and user feedback to identify and troubleshoot any potential problems in the SSO process.  
