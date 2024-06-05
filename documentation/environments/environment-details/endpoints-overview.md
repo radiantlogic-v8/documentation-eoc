@@ -23,6 +23,16 @@ The URL can be clicked directly and new window opens with control panel sign in 
 
 ![image description](images/cp-login-page.png)
 
+## API
+
+The RadiantOne service can respond to Directory Service Markup Language (DSML) and Service Provisioning Markup Language (SPML), SCIM (System for Cross-domain Identity Management), REST requests via HTTP/SOAP, and SAML attribute queries.
+
+![image description](images/.png)
+
+The API is disabled by default, and can be enabled by using toggle button.
+
+![image description](images/.png)
+
 ## LDAPS
 
 The **LDAPS** endpoint provides access to RadiantOne through LDAPS protocol.
