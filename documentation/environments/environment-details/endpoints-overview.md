@@ -25,7 +25,7 @@ The URL can be clicked directly and new window opens with control panel sign in 
 
 ## LDAPS
 
-The **LDAPS** endpoint provides access to the fid through LDAPS protocol.
+The **LDAPS** endpoint provides access to RadiantOne through LDAPS protocol.
 
 The LDAPS is disabled by default, and can be enabled by using toggle button.
 
