@@ -19,7 +19,9 @@ The **CONTROL PANEL** endpoint provides access to the Main Control Panel of FID 
 
 ![image description](images/cp-endpoint.png)
 
-The URL can be clicked directly and new window opens with control panel sign in page or the URL can be copy pasted into a browser.
+The URL can be clicked directly and new window opens with control panel sign in page or the URL can be copy pasted into a browser, i.e.:
+
+https://rlqa-usw2-docs.dev01.radiantlogic.io/api:8089/adap/ou=globalgroups,cn=config?returnMode=default
 
 ![image description](images/cp-login-page.png)
 
@@ -29,7 +31,9 @@ The RadiantOne service can respond to Directory Service Markup Language (DSML) a
 
 ![image description](images/api-endpoint.png)
 
-The API is disabled by default, and can be enabled by using toggle button.
+The API is enabled by default. To use this endpoint, copy it and paste it into the URL field of your REST client.
+
+![image description](images/api.png)
 
 ## LDAPS
 
