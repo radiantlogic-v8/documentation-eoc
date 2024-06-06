@@ -21,8 +21,6 @@ The **CONTROL PANEL** endpoint provides access to the Main Control Panel of FID 
 
 The URL can be clicked directly and new window opens with control panel sign in page or the URL can be copy pasted into a browser, i.e.:
 
-https://rlqa-usw2-docs.dev01.radiantlogic.io/api:8089/adap/ou=globalgroups,cn=config?returnMode=default
-
 ![image description](images/cp-login-page.png)
 
 ## API
