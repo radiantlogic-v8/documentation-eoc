@@ -25,7 +25,7 @@ The URL can be clicked directly and new window opens with control panel sign in 
 
 ## API
 
-The RadiantOne service can respond to Directory Service Markup Language (DSML) and Service Provisioning Markup Language (SPML), SCIM (System for Cross-domain Identity Management), REST requests via HTTP/SOAP, and SAML attribute queries.
+The RadiantOne service can respond to REST requests via HTTP/SOAP.
 
 ![image description](images/api-endpoint.png)
 
