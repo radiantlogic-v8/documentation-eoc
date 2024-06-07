@@ -61,7 +61,7 @@ A message appears on the Environment Details Panel that says, "Deleting environm
 
 ## REST
 
-The **REST** endpoint provides API access to the fid.
+The **REST** endpoint provides API access to RadiantOne.
 
 The REST endpoint is disabled by default, and can be enabled by using toggle button.
 
