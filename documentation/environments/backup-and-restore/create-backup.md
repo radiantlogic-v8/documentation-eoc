@@ -11,7 +11,7 @@ This guide provides an overview of the steps required to create environment back
 
 To begin creating a manual backup of an environment, select the **Backup** button.
 
-![image description](images/backups-schedule-button-new.png)
+![image description](Media/backups-schedule-button-new.png)
 
 ## Backup details
 
