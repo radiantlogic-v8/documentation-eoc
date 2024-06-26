@@ -39,7 +39,7 @@ For details on managing Environment Operation Center users, including their role
 
 ### Alerts
 
-From the *Alerts* tab you can monitor and create alerts for your environments. The main *Alerts* screen displays all of your current alerts including their associated environment, notification channel, a time and date stamp of the last update to the alert, and the severity status.
+From the *Alerts* [age you can monitor and create alerts for your environments. The main *Alerts* screen displays all of your current alerts including their associated environment, notification channel, a time and date stamp of the last update to the alert, and the severity status.
 
 For more information on alert management, see the [alert management](alert-management/alert-management-overview.md) guide.
 
@@ -47,7 +47,7 @@ For more information on alert management, see the [alert management](alert-manag
 
 ### Integration
 
-From the *Integrations* tab you can manage your connections to external applications to send alerts from Environment Operations Center. The *Integrations* tab displays the integration "Label", indicating the integrations purpose, and the "Integration", indicating the external application the integration is connected to.
+From the *Integrations* page you can manage your connections to external applications to send alerts from Environment Operations Center. The *Integrations* tab displays the integration "Label", indicating the integrations purpose, and the "Integration", indicating the external application the integration is connected to.
 
 For details on managing integrations, see the [managing integrations](integrations/manage-integrations.md) guide.
 
@@ -55,13 +55,13 @@ For details on managing integrations, see the [managing integrations](integratio
 
 ### Activity Log
 
-The *Activity Log* provides an overview of all create, update, and delete activities performed for all environments, including the action, environment, date and time stamp of the activity, and the user who performed the activity.
+The *Activity Log* page provides an overview of all create, update, and delete activities performed for all environments, including the action, environment, date and time stamp of the activity, and the user who performed the activity.
 
 ![image description](images/activity-log-tab.png)
 
 ### Settings
 
-The **settings** provides options to setup release channels and also automatic/manual update checks for the channel
+The **Settings** page provides options to setup release channels and automatic/manual update checks for the channel. It also allows you to configure a OIDC provider and enable multi-factor authentication. 
 
 ![image description](images/settings-tab.png)
 
