@@ -1,7 +1,7 @@
 ---
 keywords:
 title: Alert Management
-description: Learn how to update your account settings and manage your API tokens. Users can generate API tokens for applications that are required to connect to Environment Operations Center without logging in.
+description: Learn how to create custom alerts to monitor the health and operations of your environment. 
 ---
 # Alert Management
 
