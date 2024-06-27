@@ -9,20 +9,16 @@ This guide provides an overview of the steps required to create a new environmen
 
 An environment is where a RadiantOne product lives. Each environment is completely isolated and contains endpoints to access different applications. Each instance of Env Ops Center has a predefined number of production and non-production environments that can be created for production, development, quality assurance, and staging purposes.
 
-The number of each type of environment available depends on the tier selected during the initial configuration of your Env Ops Center instance. If you would like to adjust the number of production or non-production environments, please contact your Radiant account manager.
-
 ## Getting Started
 
 Before setting up your environment, you need the following:
 
-- Your environment tier.
 - The version number that corresponds with your RadiantOne product (Identity Data Management and/or Identity Analytics).
 - If you are deploying the Identity Data Management application, and want to initialize the product with configuration that has been exported from an existing environment, ensure you have the correct file type saved and ready to go since you need to select this file during creation of the new environment.
 
 The new environment setup requires you to define the environment type, details, and provides an optional step to upload a configuration file from another environment.
 
 ## Creating Environments
-
 
 To create a new environment, select **New Environment** on the *Environments* home screen or from the *Overview* home screen.
 
@@ -36,19 +32,13 @@ This takes you to the *New Environment* page that contains all the input fields 
 
 ### Define Environment Type
 
-Start by selecting the required **Environment Type** and **Environment Tier**.
+Start by selecting the required **Environment Type**.
 
 #### Environment type
 
 To set the **Environment Type**, use the radio buttons to select either **Non-production**, for development and testing, or **Production**, for production purposes.
 
 ![image description](Media/create-env-type.png)
-
-#### Environment Tier
-
-To set the **Environment Tier**, select the tier that suits your organization's Env Ops Center subscription.
-
-![image description](Media/env-tier.png)
 
 #### Environment name
 
