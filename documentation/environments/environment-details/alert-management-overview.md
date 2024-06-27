@@ -78,9 +78,7 @@ More than one alert metric can be set for the selected environment(s). After you
 
 ![image description](images/new.png)
 
-Follow the steps outlined above to complete the required alert metric details. You can continue adding as many metrics as are needed to help your team monitor the selected environment(s).
-
-![image description](images/metric-fields.png)
+Follow the steps outlined above to complete the required alert metric details. 
 
 ### Save alert
 
