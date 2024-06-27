@@ -11,7 +11,7 @@ Custom alerts can be created in Environment Operations Center to help your teams
 
 ## Getting started
 
-Navigate to the *Alerts* tab in the *Admin* section of environment operations center. From this tab, you can add new environment monitoring alerts and manage existing alerts.
+Navigate to the *Alerts* tab in the *Environments* section of environment operations center. From this tab, you can add new environment monitoring alerts and manage existing alerts.
 
 ![image description](images/alerts-tab.png)
 
@@ -90,7 +90,7 @@ If the alert is successfully created, it will be added to the list of alerts on 
 
 ## Manage alerts
 
-Alerts are managed from the *Alerts* tab in the *Admin* section of Env Ops Center. Each alert listed on the *Alerts* tab has a corresponding **Options** (**...**) menu that provides the option to edit or delete the alert.
+Alerts are managed from the *Alerts* tab in the *Environments* section of Env Ops Center. Each alert listed on the *Alerts* tab has a corresponding **Options** (**...**) menu that provides the option to edit or delete the alert.
 
 ![image description](images/options.png)
 
@@ -118,7 +118,7 @@ To delete an alert, select **Delete** from the **Options** (**...**) menu of the
 
 ![image description](images/delete.png)
 
-A notification will appear to confirm that you would like to delete the selected alert. Select **Delete** to proceed and delete the alert.
+A notification displays to confirm that you would like to delete the selected alert. Select **Delete** to proceed and delete the alert.
 
 ![image description](images/confirm-delete.png)
 
