@@ -27,7 +27,7 @@ The Environment Operations Center is a centralized control plane for managing an
   > [Monitoring](monitoring/monitoring-overview)  
   > Learn about monitoring the RadiantOne Identity Data Platform.
   
-  > [Release Notes](release-notes/eoc-1-0-0)  
+  > [Release Notes](release-notes/release-notes)  
   > Learn about improvements and bug fixes for Environment Operations Center.
 
 </section>
