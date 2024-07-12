@@ -7,7 +7,7 @@ description: Get a quick introduction to using Secure Data Connectors for connec
 
 Secure data connectors allow data to flow from your on premises or private cloud environments to your RadiantOne SaaS environment. This guide provides an overview of the *Secure Data Connectors* home screen in Environment Operations Center and its features. 
 
-To navigate to the *Secure Data Connectors* home screen, select **Secure Data Connectors** (![image description](images/agent-icon.png)) from the left navigation bar.
+To navigate to the *Secure Data Connectors* home screen, select **Secure Data Connectors** (![image description](Media/agent-icon.png)) from the left navigation bar.
 
 ![image description](Media/secure-data-connectors.png)
 
