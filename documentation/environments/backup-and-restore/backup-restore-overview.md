@@ -37,7 +37,7 @@ For details on creating manual environment backups, see the [create a backup](cr
 
 ![image description](Media/backup-button.png)
 
-Each backup has an **Options** (**...**) menu that allows you to either **Download** a backup or **Delete** the backup. Selecting **Download** will download the configuration file of that backup to your system. You will need a downloaded copy of the backup to restore the environment if needed. Selecting **Delete** will permanently delete the backup.
+Each backup has an **Options** (**...**) menu that allows you to either **Download** a backup or **Delete** the backup. Selecting **Download** will download the configuration file of that backup to your system. You will need a downloaded copy of the backup to [restore](../environment-overview/create-environments#advanced-setup) the environment if needed. Selecting **Delete** will permanently delete the backup.
 
 ![image description](Media/backup-options.png)
 
