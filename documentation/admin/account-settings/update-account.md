@@ -39,7 +39,7 @@ To create a new API token, set the API expiration by selecting one of the **Expi
 
 ![image description](images/generate-token.png)
 
-A unique API token will populate in the *API token* input field and the creation and expiration dates will display below the token. Copy the token immediately and store in a save place.
+A unique API token will populate in the *API token* input field and the creation and expiration dates will display below the token. Copy the token immediately and store in a safe place.
 
 > [!warning] Once you leave the page, you can no longer view or copy the API token. Ensure you copy the token before saving.
 
