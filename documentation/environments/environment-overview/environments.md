@@ -102,7 +102,7 @@ To view a list of operations that can be performed on a given environment, selec
 - **View logs**: takes you to an environment's *Logs* screen where you can view log files for a given date range. To learn how to review logs, visit the environment details [logs](../environment-details/environment-overview#logs) guide.
 - **Delete**: opens the dialog to being the workflow to delete an environment. For information on deleting an environment, review the [Delete an Environment](delete-an-environment.md) guide.
 
-![image description](images/options-menu.png)
+![image description](Media/options-menu.png)
 
 ## New environment
 
