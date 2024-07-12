@@ -44,7 +44,7 @@ description: Environment operations center guide
 - [Admin](#)
   - [Admin overview](../admin/admin-overview.md)
   - [Account settings](#)
-    - [Accounts settings](../admin/account-settings/update-account.md)
+    - [Manage Accounts settings](../admin/account-settings/update-account.md)
   - [Integrations](#)
     - [Manage integrations](../admin/integrations/manage-integrations.md)
   - [User management](#)
