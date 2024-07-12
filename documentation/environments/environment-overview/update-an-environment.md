@@ -13,20 +13,20 @@ When version updates are available for an application running in an environment 
 
 When an application requires updating, an **Update** message displays next to the application's version number.
 
-![image description](images/update-alert.png)
+![image description](Media/update-alert.png)
 
 ### Launch update
 
 Begin the application update workflow from the home screen by selecting the **Update** message. The designated environment page displays, and the **UPDATE** option is available next to the **VERSION** number. This also opens the **Update Environment** dialog box.
 
-![image description](images/update-alert.png)
+![image description](Media/update-alert.png)
 
-![image description](images/select-update.png)
+![image description](Media/select-update.png)
 
 Clicking on **UPDATE** from the Environments page opens the detailed overview page for the selected environment.
 In the detailed overview for the environment page, you can see the current version and an **UPDATE** option beside it.
 
-![image description](images/update-env-dialog.png)
+![image description](Media/update-env-dialog.png)
 
 Alternatively, you can locate the environment you would like to update and directly select the **UPDATE** message located next to the environment's version number, which again opens the **Update Environment** dialog box.
 
@@ -36,31 +36,31 @@ Once you have started the environment update workflow, a dialog box appears cont
 
 > [!note] Environment versions can only be increased incrementally. You cannot select a version that is more than one level ahead of your current version.
 
-![image description](images/select-version.png)
+![image description](Media/select-version.png)
 
 Once you have set the correct version number, click **Update**. In the next dialog, click **UPDATE**.  The update process typically takes around 10 minutes. To quit the update and return to the main *Environments* screen, select **Cancel**.
 
-![image description](images/update.png)
+![image description](Media/update.png)
 
-![image description](images/confirm-update.png)
+![image description](Media/confirm-update.png)
 
 ### Environment update confirmation
 
 After selecting **Update**, the main *Environments* page displays. The status of the environment being updated displays as "Updating". A confirmation message displays, indicating that the environment is updating both on the envrionement overview as well as on the envrionments page.
 
-![image description](images/updating.png)
+![image description](Media/updating.png)
 
-![image description](images/updating-env-message.png)
+![image description](Media/updating-env-message.png)
 
 When the application is updating, the status of application under the environment, in environments page shows up as offline.
 
-![image description](images/offline-when-updating.png)
+![image description](Media/offline-when-updating.png)
 
 If the environment updates successfully, a success notification displays, and the environment's status changes to "Operational".
 
-![image description](images/update-success.png)
+![image description](Media/update-success.png)
 
-![image description](images/update-success-operational.png)
+![image description](Media/update-success-operational.png)
 
 If an environment update is unsuccessful, an error notification displays, and the environment's status changes to "**Update Failed**".
 
@@ -74,11 +74,11 @@ To navigate to an environment's details section, select the environment name fro
 
 This brings you to the environment *Overview* screen. From here, select **View Version History** in the *Environment Details* section to open the *Version History* dialog.
 
-![image description](images/view-version-history.png)
+![image description](Media/view-version-history.png)
 
 The *Version History* dialog displays a chronological list of all previous updates including the version number, the date the update was applied, and the user who applied the update.
 
-![image description](images/version-history.png)
+![image description](Media/version-history.png)
 
 ### Revert to a previous version
 
