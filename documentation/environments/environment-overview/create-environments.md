@@ -92,6 +92,8 @@ Completing the steps outlined in the *Environment Type* and *Application Details
 
 An optional advanced setup is available if you would like to upload a configuration ZIP file from another environment or create the environment using samples. Enable advanced setup by toggling on **Advanced Setup**.
 
+>![warn] Use this approach to restore an environment from an existing backup file. When creating a new environment, choose the backup configuration (ZIP file) that was downloaded from the environment you want to restore. 
+
 ![image description](Media/advanced-setup.png)
 
 The **Install Samples** option imports sample data. See [Sample Data](../introduction/samples.md) for further details about sample data.
