@@ -13,7 +13,7 @@ description: Environment operations center guide
     - [Update an environment](../environments/environment-overview/update-an-environment.md)
     - [Delete an environment](../environments/environment-overview/delete-an-environment.md)
   - [Environment details](#)
-    - [Alert management](../admin/alert-management/alert-management-overview.md)
+    - [Alert management]((../environments/environment-details/alert-management-overview.md)
     - [Environment details](../environments/environment-details/environment-overview.md)
     - [Update an environment from its detailed view](../environments/environment-details/update-environment.md)
     - [Delete an environment from its detailed view](../environments/environment-details/delete-environment.md)
