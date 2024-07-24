@@ -63,17 +63,14 @@ From the *Tasks* page, you can view information on the following EOC tasks.
 - Start application
 - Stop application
 - Update application
-
 - Create backup
 - Update backup settings
-
 - Create environment
 - Delete environment
-
 - Enable endpoint
 - Disable endpoint
 
-Information on these tasks includes the environment and application the tasks was performed on, the task's start and end times, and the task's status.
+Information on these tasks includes the environment and application the tasks was performed on, the task's start and end times, and the task's status. The search bar in the upper-left corner allows you to display tasks for specified environments. 
 
 ![image description](images/tasks.png)
 
