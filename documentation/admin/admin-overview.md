@@ -46,11 +46,42 @@ For details on managing integrations, see the [managing integrations](integratio
 
 ![image description](images/integration-tab.png)
 
-### Activity Log
+### Event
 
-The *Activity Log* page provides an overview of all create, update, and delete activities performed for all environments, including the action, environment, date and time stamp of the activity, and the user who performed the activity.
+The *Event* page provides an overview of all create, update, and delete activities performed for all environments, including the action, environment, date and time stamp of the activity, and the user who performed the activity.
 
 ![image description](images/activity-log-tab.png)
+
+### Tasks
+
+From the *Tasks* page, you can view information on the following EOC tasks.
+
+- Create application
+- Delete application
+- Restart application
+- Scale application
+- Start application
+- Stop application
+- Update application
+
+- Create backup
+- Update backup settings
+
+- Create environment
+- Delete environment
+
+- Enable endpoint
+- Disable endpoint
+
+Information on these tasks includes the environment and application the tasks was performed on, the task's start and end times, and the task's status.
+
+![image description](images/tasks.png)
+
+### Authentication
+
+The *Authentication* page provies an overview of all authentication providers. 
+
+![image description](images/authentication.png)
 
 ### Settings
 
