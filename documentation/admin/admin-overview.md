@@ -38,14 +38,6 @@ For details on managing Environment Operation Center users, including their role
 
 ![image description](images/users-tab.png)
 
-### Alerts
-
-From the *Alerts* [age you can monitor and create alerts for your environments. The main *Alerts* screen displays all of your current alerts including their associated environment, notification channel, a time and date stamp of the last update to the alert, and the severity status.
-
-For more information on alert management, see the [alert management](alert-management/alert-management-overview.md) guide.
-
-![image description](images/alerts-tab.png)
-
 ### Integration
 
 From the *Integrations* page you can manage your connections to external applications to send alerts from Environment Operations Center. The *Integrations* tab displays the integration "Label", indicating the integrations purpose, and the "Integration", indicating the external application the integration is connected to.
