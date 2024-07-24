@@ -22,9 +22,10 @@ To navigate to the *Admin* screen, select **Admin** (![image description](images
 A navigation bar is located at the top of the *Admin* home screen and is visible from all tabs in the *Admin* view. The top navigation allows you to access several account and user management tools through the following tabs:
 
 - Users
-- Alerts
 - Integration
-- Activity Log
+- Events
+- Tasks
+- Authentication
 - Settings
 
 ![image description](images/top-nav.png)
