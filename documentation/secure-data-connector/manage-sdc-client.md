@@ -172,4 +172,4 @@ If there is only one SDC client instance is running, it is recommended that you 
 
 ## Next steps
 
-You should now have an understanding of how to update, troubleshoot, and monitor the secure data connector client. For details on deploying the secure data connector client, see the [deploy a secure data connector client](deploy-sdc-client.md) guide. For details on managing data connectors in Env Ops Center, see the [manage data connectors](manage-data-connectors.md) guide.
+You should now have an understanding of how to update, troubleshoot, and monitor the secure data connector client. For details on deploying the secure data connector client, see the [deploy a secure data connector client](configure-sdc-client/#deploy-the-secure-data-connector-client) guide. 
