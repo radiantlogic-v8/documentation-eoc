@@ -69,5 +69,5 @@ The integration is removed from the *Integrations* tab, and alerts are no longer
 
 ## Next steps
 
-You should now have an understanding of the steps to add integrations to receive Environment Operations Center alerts in external channels. To learn how to create alerts to send to the configured channels, see the [alert management](../alert-management/alert-management-overview.md) guide.
+You should now have an understanding of the steps to add integrations to receive Environment Operations Center alerts in external channels. To learn how to create alerts to send to the configured channels, see: [alert management](../environments/environment-details/alert-management-overview)
 
