@@ -10,6 +10,10 @@ This guide describes the following topics.
 - [Managing Groups](#managing-groups)
 - [Managing Secure Data Connectors](Managing-secure-data-connectors)
 
+> [!warning] Secure Data Connectors are only leveraged in Identity Data management.  
+> For more information on configuring data upload in Identity Data Analytics please refer to:  
+> - https://developer.radiantlogic.com/ia/version-1.5/configuration/powershell-extraction/
+
 ### Managing Groups
 
 This section describes how to add, edit, and delete SDC groups.
