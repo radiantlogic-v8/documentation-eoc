@@ -11,11 +11,14 @@ This guide covers the **additional steps** needed for running the client in a pr
 
 >[!note] You must create a secure data connector endpoint in Env Ops Center before deploying on the client side. For details on how to create a secure data connector in Env Ops Center, see the [add a data connector](configure-sdc-service#adding-a-new-data-connector) guide.
 
+
 ## Proxy Configuration for Windows
 
 To have secure data connector client run on a Windows system, refer the section ***Deploy on Windows*** in [deploy a secure data connector client](#deploy-the-secure-data-connector-client) guide.
 
 There are two options you can configure the proxy connection. First option is to open the *appsettings.Production.json* file and locate the proxy section, and fill in the values for respective keys.
+
+>[!note] The proxy configuration supports only simple authentication. However, if certificate-based authentication is preferred, it would need to be implemented at the system level using environment variables.
 
 | Proxy Configuration Key| Description |
 | ------------------- | ----------- |
@@ -47,6 +50,8 @@ Once you have the proxy configuration setup, go back to *Deploy on Windows* sect
 To have secure data connector client run on a Linux system, refer the section ***Deploy on Linux*** in [deploy a secure data connector client](#deploy-the-secure-data-connector-client) guide.
 
 There are two options you can configure the proxy connection. First option is to open the *appsettings.Production.json* file and locate the proxy section, and fill in the values for respective keys.
+
+>[!note] The proxy configuration supports only simple authentication. However, if certificate-based authentication is preferred, it would need to be implemented at the system level using environment variables.
 
 | Proxy Configuration Key| Description |
 | ------------------- | ----------- |
@@ -125,6 +130,7 @@ System requirements:
 - RAM 512 MB
 - Minimum disc space (64-bit): 4.5 GB
 - Operation System: Windows Server 2016 Datacenter, Windows Server 2019 Datacenter, Windows Server 2022 Datacenter, AWS Linux 2, Ubuntu 20.04.6 LTS, Red Hat Enterprise Linux 8.8, and Debian GNU/Linux 12.
+- Ensure wildcard searches for "radiantlogic.io" are whitelisted for outbound network connections, including any specific network firewalls configured for WSS protocol.
 
 ## Getting started
 
