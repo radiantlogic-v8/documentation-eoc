@@ -23,8 +23,8 @@ There are two options you can configure the proxy connection. First option is to
 | Proxy Configuration Key| Description |
 | ------------------- | ----------- |
 | Url | The proxy server url. |
-| UserName | If proxy server requires authetication, its username value. |
-| Password | If proxy server requires authetication, its password value. |
+| UserName | If proxy server requires authentication, its username value. |
+| Password | If proxy server requires authentication, its password value. |
 
 ![image description](Media/appsettings-proxy.png)
 
@@ -56,8 +56,8 @@ There are two options you can configure the proxy connection. First option is to
 | Proxy Configuration Key| Description |
 | ------------------- | ----------- |
 | Url | The proxy server url. |
-| UserName | If proxy server requires authetication, its username value. |
-| Password | If proxy server requires authetication, its password value. |
+| UserName | If proxy server requires authentication, its username value. |
+| Password | If proxy server requires authentication, its password value. |
 
 ![image description](Media/appsettings-proxy.png)
 
