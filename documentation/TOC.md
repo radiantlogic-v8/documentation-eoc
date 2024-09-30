@@ -53,5 +53,8 @@ description: Environment operations center guide
     - [Delete a user](../admin/user-management/delete-user.md)
   - [Role based permissions](#)
     - [Role-based permissions](../admin/role-based-permission/role-based-permissions.md)
+- [Release Notes](#)
+     - [1.0.0](release-notes/eoc-1-0-0)
+     - [1.1.0](release-notes/eoc-1-1-0)
   
 
