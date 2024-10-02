@@ -33,7 +33,7 @@ The required configuration details differ depending on the type of configuration
 
 If the integration is successfully created, you will receive a confirmation message and the integration will be added to the list of integrations on the *Integrations* tab.
 
-> [!note] For the integration to become active, you will need to configure the applicable alerts to send to the channel. See the [alert management](../alert-management/alert-management-overview.md) guide to learn how to set up alerts to send via the integration.
+> [!note] For the integration to become active, you will need to configure the applicable alerts to send to the channel. See the [alert management](../../environments/environment-details/alert-management-overview.md) guide to learn how to set up alerts to send via the integration.
 
 ![image description](images/success.png)
 
@@ -45,7 +45,7 @@ Each integration listed on the *Integrations* tab has an **Options** (**...**) d
 
 The workflow to edit an integration is the same as the *New Integration* workflow. You can select a new integration type and add the required configuration details. Alternatively, you can keep the same integration type and proceed to adjust the configuration details.
 
-> [!note] When updating an integration, ensure any alerts that have been created for the channel are also updated with the correct channel information. See the [alert management](../alert-management/alert-management-overview.md) documentation for details on editing alerts.
+> [!note] When updating an integration, ensure any alerts that have been created for the channel are also updated with the correct channel information. See the [alert management](../../environments/environment-details/alert-management-overview.md) documentation for details on editing alerts.
 
 ![image description](images/edit-config.png)
 
@@ -69,5 +69,5 @@ The integration is removed from the *Integrations* tab, and alerts are no longer
 
 ## Next steps
 
-You should now have an understanding of the steps to add integrations to receive Environment Operations Center alerts in external channels. To learn how to create alerts to send to the configured channels, see: [alert management](../../environments/environment-details/alert-management-overview)
+You should now have an understanding of the steps to add integrations to receive Environment Operations Center alerts in external channels. To learn how to create alerts to send to the configured channels, see: [alert management](../../environments/environment-details/alert-management-overview.md)
 
