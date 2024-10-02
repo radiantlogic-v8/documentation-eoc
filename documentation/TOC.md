@@ -5,7 +5,7 @@ description: Environment operations center guide
 
 # Environment Operations Center Guide
 
-- [Overview](overview.md)
+- [Overview](/documentation/getting-started/overview.md)
 - [Environments](#)
   - [Environment overview](#)
     - [Environments overview](../environments/environment-overview/environments.md)
