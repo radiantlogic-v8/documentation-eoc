@@ -50,7 +50,7 @@ For information on managing your environment backups, refer to the [backup and r
 
 The *Alerts* tab provides an overview of all alerts that have been triggered for the environment including the alert message, the channel the alert was sent to, date, and status.
 
-For details on creating environment alerts, see the [alert management](../../admin/alert-management/alert-management-overview.md) guide.
+For details on creating environment alerts, see the [alert management](./alert-management-overview.md) guide.
 
 ![image description](images/alerts.png)
 
