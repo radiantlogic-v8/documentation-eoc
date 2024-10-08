@@ -5,7 +5,7 @@ description: Learn how to integrate with external notification services (e.g. Sl
 ---
 # Manage Integrations
 
-External communication channels can be integrated with Environment Operations Center to receive alerts or notifications about changes of state. From the *Integrations* tab in the Admin section, Administrators can add, edit, or delete integrations. This guide outlines the required steps to manage communication channel integrations.
+External communication channels can be integrated with Environment Operations Center to receive alerts or notifications about changes of state. From the *Integrations* tab in the Admin section, administrators can add, edit, or delete integrations. This guide outlines the required steps to manage communication channel integrations.
 
 ## Getting started
 
@@ -37,13 +37,9 @@ If the integration is successfully created, you will receive a confirmation mess
 
 > [!note] For the integration to become active, you will need to configure the applicable alerts to send to the channel. See the [alert management](../../environments/environment-details/alert-management-overview.md) guide to learn how to set up alerts to send via the integration.
 
-![image description](images/success.png)
-
 ## Edit an integration
 
 Each integration listed on the *Integrations* tab has an **Options** (**...**) dropdown menu. From the dropdown, select **Edit** to begin editing the integration.
-
-![image description](images/edit.png)
 
 The workflow to edit an integration is the same as the *New Integration* workflow. You can select a new integration type and add the required configuration details. Alternatively, you can keep the same integration type and proceed to adjust the configuration details.
 
@@ -52,8 +48,6 @@ The workflow to edit an integration is the same as the *New Integration* workflo
 ![image description](images/edit-config.png)
 
 If the integration successfully updates, a confirmation message displays, and the details are updated on the *Integrations* tab.
-
-![image description](images/edited.png)
 
 ## Delete an integration
 
@@ -69,5 +63,5 @@ The integration is removed from the *Integrations* tab, and alerts are no longer
 
 ## Next steps
 
-You should now have an understanding of the steps to add integrations to receive Environment Operations Center alerts in external channels. To learn how to create alerts to send to the configured channels, see: [alert management](../../environments/environment-details/alert-management-overview.md)
+You should now have an understanding of the steps to add integrations to receive Environment Operations Center alerts in external channels. To learn how to create alerts to send to the configured channels, see [alert management](../../environments/environment-details/alert-management-overview.md).
 
