@@ -6,7 +6,7 @@ description: Get a quick introduction to navigating applications in Environment 
 
 # Application details
 
-Each environment has a detailed view where you can see further information about the installed application(s), monitor application status, and perform various operations on the application. This guide outlines the detailed view of an application as seen in the application *Overview* screen. For an overview of the *Environments* screen that lists all available environments, see the [environments overview guide](../environment-overview/environments.md).
+Each installed application(s) in your environment has a detailed view where you can monitor application status, and perform various operations on the application. This guide outlines the detailed view of an application as seen in the application *Overview* screen. For an overview of the *Environments* screen that lists all available environments, see the [environments overview guide](../environment-overview/environments.md).
 
 ## Getting started
 
@@ -14,7 +14,7 @@ To navigate to the detailed view of an application, select an application name f
 
 ![image description](images/view-details.png)
 
-This brings you to the application's *Overview* screen that displays a summary of the environment details and operation statuses. Further monitoring and updating tools for the application are accessible from the navigation bar located at the top of the page.
+This brings you to the application's *Overview* screen that displays a summary of the environment details and operation statuses. Monitoring and updating tools for the application are also accessible from the navigation bar located at the top of the page.
 
 ![image description](images/details-overview.png)
 
@@ -33,7 +33,7 @@ A navigation bar is located at the top of the *Overview* screen and is visible f
 
 ### Logs
 
-The *Log* tab allows you to view an environment's log details.
+The *Logs* tab allows you to view an environment's log details.
 
 For further details on reviewing environment logs, see the [Environment Logs](../logging/environment-logs.md) guide.
 
@@ -63,7 +63,7 @@ Under the *Events* tab, you can view a list of all events related to an applicat
 
 ### Monitoring 
 
-Under the *Monitoring* tab, you can view dashboard(s) with monitoring reports related to your application. The dashboard displays information such as CPU usage, Memory usage, Disk usage, etc. You can specify which node and the time-range you'd like to retrieve the dashboard for. You can also enable or disable refresh option for the dashboard.
+Under the *Monitoring* tab, you can view dashboard(s) with monitoring reports related to your application. The dashboard displays information such as CPU usage, Memory usage, Disk usage, etc. While generating a dashboard, you can specify the node and the time-range for the dashboard. You can also enable or disable refresh option for the dashboard.
 
 ![image description](images/app-monitoring.png)
 
@@ -85,7 +85,7 @@ To learn how to update or delete the environment, review the respective [delete 
 
 ## Application details
 
-The *Application Details* section outlines the environment name, status, nodes, type, version, and description. In addition to viewing the application details, you can also perform these actions:
+The *Application Details* section outlines the environment name, status, nodes, type, version, and description of an application. In addition to viewing the application details, you can also perform these actions:
 * Update the version of the application by clicking **Update**
 * Scale the number of nodes for your application as needed by clicking **Scale**
 * View application version history 
