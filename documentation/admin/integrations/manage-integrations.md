@@ -29,6 +29,8 @@ Select an **Integration Type** from the available channels listed and select **N
 
 The required configuration details differ depending on the type of configuration selected. Complete the required configuration fields and select **Create** to finish setting up the new integration.
 
+The example below demonstrates how to configure email integration, allowing you to specify one or more comma-separated email addresses for receiving alerts.
+
 ![image description](images/config.png)
 
 If the integration is successfully created, you will receive a confirmation message and the integration will be added to the list of integrations on the *Integrations* tab.
@@ -64,8 +66,6 @@ A message displays, asking you to confirm that you would like to delete the sele
 ![image description](images/confirm-delete.png)
 
 The integration is removed from the *Integrations* tab, and alerts are no longer sent to the communication channel.
-
-![image description](images/deleted.png)
 
 ## Next steps
 
