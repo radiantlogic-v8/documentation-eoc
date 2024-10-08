@@ -1,20 +1,20 @@
 ---
 keywords:
-title: Environment Details
-description: Get a quick introduction to navigating environments in Environment Operations Center. This includes where to see an overview, how to access logs, how to create backups, how to configure alerts and where to see the activity log.
+title: Application Details
+description: Get a quick introduction to navigating applications in Environment Operations Center. This includes where to see an overview, how to access logs, how to create backups, how to configure alerts and where to see the activity log.
 ---
 
-# Environment Details
+# Application details
 
-Each environment has a detailed view where you can see further information about the environment, monitor its status, and perform various operations on the environment. This guide outlines the detailed view of an environment as seen in the environment *Overview* screen. For an overview of the *Environments* screen that lists all available environments, see the [environments overview guide](../environment-overview/environments.md).
+Each environment has a detailed view where you can see further information about the installed application(s), monitor application status, and perform various operations on the application. This guide outlines the detailed view of an application as seen in the application *Overview* screen. For an overview of the *Environments* screen that lists all available environments, see the [environments overview guide](../environment-overview/environments.md).
 
 ## Getting started
 
-To navigate to the detailed view of an environment, select the environment name from the list of environments displayed on the *Environments* screen.
+To navigate to the detailed view of an application, select an application name from one of the environments displayed on the *Environments* screen.
 
 ![image description](images/view-details.png)
 
-This brings you to the environment's *Overview* screen that displays a summary of the environment details and operation statuses. Further monitoring and updating tools for the environment are accessible from the navigation bar located at the top of the page.
+This brings you to the application's *Overview* screen that displays a summary of the environment details and operation statuses. Further monitoring and updating tools for the environment are accessible from the navigation bar located at the top of the page.
 
 ![image description](images/details-overview.png)
 
@@ -54,9 +54,9 @@ For details on creating environment alerts, see the [alert management](./alert-m
 
 ![image description](images/alerts.png)
 
-### Activity log
+### Events
 
-Under the *Activity Log*, you can view a list of all actions performed on an environment. Each action has a corresponding time and date stamp of when it was performed and the user who performed the action is also listed.
+Under the *Events* tab, you can view a list of all events related to an application. Each event has a corresponding time and date stamp of when it occured and the user associated with the event is also listed.
 
 ![image description](images/activity-log.png)
 
