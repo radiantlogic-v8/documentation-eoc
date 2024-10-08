@@ -65,8 +65,7 @@ Under the *Events* tab, you can view a list of all events related to an applicat
 
 Under the *Monitoring* tab, you can view dashboard(s) with monitoring reports related to your application. The dashboard displays information such as CPU usage, Memory usage, Disk usage, etc. You can specify which node and the time-range you'd like to retrieve the dashboard for. You can also enable or disable refresh option for the dashboard.
 
-![image description](images/monitoring.png)
-
+![image description](images/app-monitoring.png)
 
 
 ## Application operations
