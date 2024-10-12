@@ -74,11 +74,7 @@ More than one alert metric can be set for the selected environment(s). After you
 
 ![image description](images/new.png)
 
-Follow the steps outlined above to complete the required alert metric details. 
-
-### Save alert
-
-Once you have completed the required fields in the *Alert information* and *Alert metrics* sections, select **Save** to create the new alert.
+Follow the steps outlined above to complete the required alert metric details. Once you have completed the required fields in the *Alert information* and *Alert metrics* sections, select **Save** to create the new alert.
 
 If the alert is successfully created, it will be added to the list of alerts on the *Alerts* tab.
 
