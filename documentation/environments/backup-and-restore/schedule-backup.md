@@ -13,7 +13,7 @@ By default the backup scheduled option is set to disabled
 
 ![image description](Media/backup-default-disabled.png)
 
-From the *Backups* tab, select the gear icon (![image description](images/gear-icon.png)) to navigate to the *Backup Settings* screen.
+From the *Backups* tab, select the gear icon (![image description](Media/gear-icon.png)) to navigate to the *Backup Settings* screen.
 
 ![image description](Media/backup-schdeule-button-new.png)
 
