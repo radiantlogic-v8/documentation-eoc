@@ -3,7 +3,7 @@ keywords:
 title: Getting Started
 description: Getting started
 ---
-# Getting Started
+# Getting started
 
 Environment Operations Center allows you to control your RadiantOne implementation in a cloud environment. It provides all of the required tools to:
  
@@ -37,13 +37,13 @@ For information on managing your account settings, see the [account settings](..
 ![image description](Media/account-menu.png)
 
 
-### Quick Links
+### Quick links
 
 By default, the Quick Links section contains guides and resources to help you with your work in RadiantOne and Environment Operations Center. An admin can add or remove links to display relevant content in this section. For further details on role-based permissions, see the [role-based permissions](../admin/role-based-permission/role-based-permissions.md) guide.
 
 ![image description](Media/documentation-link.png)
 
-### Application Status 
+### Application status 
 
 The *Application Status* section on the *Overview* screen allows you to quickly preview your available environments and see the count of applications in various status — Operational, Offline, Critical, and Warning.
 
@@ -78,13 +78,15 @@ The left navigation contains links to various screens, providing access to the f
 ![image description](Media/left-nav.png)
 
 - Overview: To navigate to the *Overview* screen, select either **Overview** or the Radiant Logic logo.
-- Environments: The main *Environments* screen provides an overview of all the environments you have access to. Select **Environments** to navigate to the *Environments* overview. To learn more about the *Environments* section, see the [environments overview](../environments/environment-overview/environments-overview.md) guide.
+
+- Environments: The main *Environments* screen provides an overview of all the environments you have access to. Select **Environments** to navigate to the *Environments* overview. To learn more about the *Environments* section, see the [environments overview](../environments/environment-overview/environments.md) guide.
+
 - Secure data connectors: You can manage connections to on-premise data connectors in the *Secure Data Connectors* section. Select **Secure Data Connectors** to navigate to the *Secure Data Connectors* screen. For details on managing data connections, see the [secure data connectors](../secure-data-connectors/data-connectors-overview.md) guide.
 
-- Observe: The Observe section contains navigation items for **[Reporting](../reporting/reporting-overview.md)**, **[Monitoring](../monitoring/monitoring-overview.md)**, **[Logging](./environments/logging/environment-logs/)**, and **[Alerting](././environments/environment-details/alert-management-overview/)**.
+- Observe: The Observe section contains navigation items for **[Reporting](../reporting/reporting-overview.md)**, **[Monitoring](../monitoring/monitoring-overview.md)**, **[Logging](../environments/logging/environment-logs.md)**, and **[Alerting](../environments/environment-details/alert-management-overview.md)**.
 
 - Admin: From the *Admin* section you can perform various administrative actions in Environment Operations Center. Select **Admin** to navigate to the *Admin* home screen. For further details on operations available in the *Admin* section, see the [admin overview](../admin/admin-overview.md) guide.
 
 ## Next steps
 
-After reading this guide you should have an understanding of the *Overview* screen components and how to navigate the Environment Operations Center user interface. For more information on environments, see the [environments overview](../environments/environment-overview/environments-overview.md) guide. To learn how to create an environment, see the [create an environment](../environments/environment-overview/create-an-environment.md) guide.
+After reading this guide you should have an understanding of the *Overview* screen components and how to navigate the Environment Operations Center user interface. For more information on environments, see the [environments overview](../environments/environment-overview/environments.md) guide. To learn how to create an environment, see the [create an environment](../environments/environment-overview/create-environments.md) guide.
