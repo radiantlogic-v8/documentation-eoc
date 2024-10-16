@@ -9,11 +9,11 @@ This guide provides an overview of the steps required to schedule automated back
 
 ## Getting started
 
-By default the backup scheduled option is set to disabled
+By default the backup scheduled option is set to disabled.
 
 ![image description](Media/backup-default-disabled.png)
 
-From the *Backups* tab, select the gear icon (![image description](Media/gear-icon.png)) to navigate to the *Backup Settings* screen.
+to navigate to the *Backup Settings* screen, from the *Backups* tab, select the gear icon (![image description](Media/gear-icon.png)). 
 
 ![image description](Media/backup-schdeule-button-new.png)
 
