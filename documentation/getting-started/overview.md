@@ -9,7 +9,7 @@ Environment Operations Center allows you to control your RadiantOne implementati
  
 1. Create and manage RadiantOne [environments](../environments/environment-overview/environments.md) as well as install and manage RadiantOne applications in your environments. 
 
-2. [Securely connect with on-premises data ](../secure-data-connector/configure-sdc-service.md).
+2. [Securely connect with on-premises data ](../secure-data-connector/configure-sdc-service.md). Note that this feature is supported in Identity Data Management applications only.
 
 3. Observe usage and issues with [reporting](../reporting/reporting-overview.md), [monitoring](../monitoring/monitoring-overview.md), [logging](../environments/logging/environment-logs.md), and [alerting](../environments/environment-details/alert-management-overview.md) dashboards.
 
