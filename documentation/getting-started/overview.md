@@ -9,7 +9,7 @@ Environment Operations Center allows you to control your RadiantOne implementati
  
 1. Create and manage RadiantOne [environments](../environments/environment-overview/environments.md) as well as install and manage RadiantOne applications in your environments. 
 
-2. [Securely connect with on-premises data ](../secure-data-connector/configure-sdc-service.md). Note that this feature is supported in Identity Data Management applications only.
+2. [Securely connect with on-premises data ](../secure-data-connector/configure-sdc-service.md). Note that this feature is currently supported in Identity Data Management applications only.
 
 3. Observe usage and issues with [reporting](../reporting/reporting-overview.md), [monitoring](../monitoring/monitoring-overview.md), [logging](../environments/logging/environment-logs.md), and [alerting](../environments/environment-details/alert-management-overview.md) dashboards.
 
@@ -33,8 +33,6 @@ A user avatar is always located in the upper right corner of the Env Ops Center 
 The dropdown displays your name, email, and permissions associated with the account. From the dropdown menu you can navigate to your **Account Settings**, access the **Help** center, or **Logout** of Env Ops Center.
 
 For information on managing your account settings, see the [account settings](../admin/account-settings/update-account.md) guide.
-
-![image description](Media/account-menu.png)
 
 
 ### Quick links
@@ -62,7 +60,7 @@ The **What's new** section shows Radiant Logic's latest infographics, webinars, 
 
 ### Custom widgets
 
-At the buttom right of the screen, you will see a customization icon as shown in the image below.
+At the bottom right of the screen, you will see a customization icon as shown in the image below.
 
 ![image description](Media/custom-widget.png)
 
@@ -81,7 +79,7 @@ The left navigation contains links to various screens, providing access to the f
 
 - Environments: The main *Environments* screen provides an overview of all the environments you have access to. Select **Environments** to navigate to the *Environments* overview. To learn more about the *Environments* section, see the [environments overview](../environments/environment-overview/environments.md) guide.
 
-- Secure data connectors: You can manage connections to on-premise data connectors in the *Secure Data Connectors* section. Select **Secure Data Connectors** to navigate to the *Secure Data Connectors* screen. For details on managing data connections, see the [secure data connectors](../secure-data-connectors/data-connectors-overview.md) guide.
+- Secure data connectors: You can manage connections to on-premise data connectors in the *Secure Data Connectors* section. Select **Secure Data Connectors** to navigate to the *Secure Data Connectors* screen. For details on managing data connections, see the [secure data connectors](../secure-data-connectors/data-connectors-overview.md) guide. This feature is currently available only in the Identity Data Management application.
 
 - Observe: The Observe section contains navigation items for **[Reporting](../reporting/reporting-overview.md)**, **[Monitoring](../monitoring/monitoring-overview.md)**, **[Logging](../environments/logging/environment-logs.md)**, and **[Alerting](../environments/environment-details/alert-management-overview.md)**.
 
