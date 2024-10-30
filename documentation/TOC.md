@@ -54,5 +54,6 @@ description: Environment operations center guide
 - [Release Notes](#)
      - [1.0.0](../release-notes/eoc-1-0-0.md)
      - [1.1.0](../release-notes/eoc-1-1-0.md)
+     - [1.2.0](../release-notes/eoc-1-2-0.md)
   
 
