@@ -15,9 +15,13 @@ Navigate to the *Alerts* tab in the *Environments* section of environment operat
 
 ![image description](images/alerts-tab.png)
 
-All existing alerts are listed on the *Alerts* tab including the alert name, description, environment name, notification channel, when it was last updated, and the severity of the alert.
-
+All existing alerts are listed on the *Alerts* tab including the alert name, description, environment name, notification channel, when it was last updated, and the severity of the alert. 
 ![image description](images/alert-details.png)
+
+You can search for an existing alert by using the search bar. 
+
+![image description](images/search.png)
+
 
 ## Add alerts
 
@@ -52,23 +56,15 @@ Under *Metric*, select the specific environment component to provide alerts for.
 
 ![image description](images/metric.png)
 
-Under *Statistic*, define what value the alert is based on. To set the statistic, select the downward arrow to expand the dropdown list. Select a value from the list to measure for the metric.
+1. Under *Statistic*, define what value the alert is based on. To set the statistic, select the downward arrow to expand the dropdown list. Select a value from the list to measure for the metric.
 
-![image description](images/statistic.png)
+2. Under *Condition*, select the conditional expression to measure the metric against the threshold. To set the condition, select the downward arrow to expand the dropdown and select a conditional expression from the list. Once you select the statistic and the condition, you will see the current metric value for the condition under the *Statistic* field. 
 
-Under *Condition*, select the conditional expression to measure the metric against the threshold. To set the condition, select the downward arrow to expand the dropdown and select a conditional expression from the list.
+3. Under *Threshold*, select the percentage value that the condition is measured against. To set the threshold, enter a percentage in the space provided.
 
-![image description](images/condition.png)
+4. Under *Duration*, select the amount of time the condition must be met before the alert is sent. To set the duration, select the downward arrow to expand the dropdown and select a time from list.
 
-Under *Threshold*, select the percentage value that the condition is measured against. To set the threshold, enter a percentage in the space provided.
-
-![image description](images/threshold.png)
-
-Under *Duration*, select the amount of time the condition must be met before the alert is sent. To set the duration, select the downward arrow to expand the dropdown and select a time from list.
-
-![image description](images/duration.png)
-
-Once you have completed all required fields, select the checkmark to add the alert metric.
+Once you have completed all required fields, click **Save** to add the alert metric.
 
 ![image description](images/checkmark.png)
 
@@ -78,11 +74,7 @@ More than one alert metric can be set for the selected environment(s). After you
 
 ![image description](images/new.png)
 
-Follow the steps outlined above to complete the required alert metric details. 
-
-### Save alert
-
-Once you have completed the required fields in the *Alert information* and *Alert metrics* sections, select **Save** to create the new alert.
+Follow the steps outlined above to complete the required alert metric details. Once you have completed the required fields in the *Alert information* and *Alert metrics* sections, select **Save** to create the new alert.
 
 If the alert is successfully created, it will be added to the list of alerts on the *Alerts* tab.
 
