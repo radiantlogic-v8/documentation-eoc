@@ -1,7 +1,7 @@
 ---
 keywords:
 title: Account Settings
-description: Learn how to update your account settings and manage your API tokens. Users can generate API tokens for applications that are required to connect to Environment Operations Center without logging in.
+description: Learn how to view and update your account settings and manage your API tokens. Users can generate API tokens for applications that are required to connect to Environment Operations Center without logging in.
 ---
 # Account Settings
 
@@ -15,7 +15,7 @@ From any section or tab in Environment Operations Center, your account avatar wi
 
 ## Account settings
 
-From the *Account Settings* screen you can update your user details including your first name, last name, email address associated with the account, and your profile image.
+From the *Account Settings* screen you can update your user details including your first name, last name, email address associated with the account, email address to receive notifications and your profile image.
 
 ### Update user details
 
@@ -23,13 +23,9 @@ To update your first or last name, enter your information in the spaces provided
 
 > [!note] Only administrators can update email addresses. Please contact your administrator if you need to change the email associated with your Env Ops Center account.
 
-![image description](images/account-details.png)
-
-### Update profile image
-
 To update your profile image, select "Edit Avatar" and select an image from you local file system to upload.
 
-![image description](images/edit-avatar.png)
+![image description](images/account-details.png)
 
 ## Manage API tokens
 
