@@ -1,7 +1,7 @@
 ---
 keywords:
-title: Getting Started
-description: Getting started
+title: Overview
+description: Overview of EOC
 ---
 # Getting started
 
@@ -87,4 +87,4 @@ The left navigation contains links to various screens, providing access to the f
 
 ## Next steps
 
-After reading this guide you should have an understanding of the *Overview* screen components and how to navigate the Environment Operations Center user interface. For more information on environments, see the [environments overview](../environments/environment-overview/environments.md) guide. To learn how to create an environment, see the [create an environment](../environments/environment-overview/create-environments.md) guide.
+After reading this guide you should have an understanding of the *Overview* screen components and how to navigate the Environment Operations Center user interface. To learn how to create an environment, see the [create an environment](../environments/environment-overview/create-environments.md) guide.
