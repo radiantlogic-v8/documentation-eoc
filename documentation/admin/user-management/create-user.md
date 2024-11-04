@@ -29,23 +29,19 @@ Set the user's status by adjusting the *Status* toggle to "Active".
 
 ![image description](images/create-user-details.png)
 
-All the fields in the *User Details* section are required and must be completed to submit the form. If a field is missing information, you cannot click **Save**. Hovering over the **Save** button displays a reminder that the form must be complete to create the user.
+All required fields in the *User Details* section must be filled out to submit the form. If a field is missing information, you cannot click **Save**. Hovering over the **Save** button displays a reminder that the form must be complete to create the user.
 
-![image description](images/create-save-disabled.png)
+Once you have completed the *User Details* section, you can proceed to the *Options* and *Role Details* section to assign the user a role and one or more environments.
 
-Once you have completed the *User Details* section, you can proceed to the *Role* and *Role Details* section to assign the user a role and one or more environments.
+## Options
 
-## Roles
-
-An user can assume two roles, either a **TENANT ADMIN** or an **ENVIRONMENT CREATOR**. These roles can be enabled/disabled using the toggle buttons.
+In the *Options* section, you can assign a specific role to a user. A user can assume one of these three roles, either a **READ-ONLY** user, a **TENANT ADMIN**, or an **ENVIRONMENT CREATOR**. These roles can be enabled/disabled using the toggle buttons. 
 
 ![image description](images/roles.png)
 
 ## Role details
 
-In the *Options* section, you can assign a specific role to a user. Once you select the user role, you can specify if the user needs an additional role for an environment in the *Roles* section.
-
-A user can be assigned to more than one role, but can only hold one role per environment. For example, a user may be assigned Tenant Administrator to environments "A" and "B", and also be assigned as an Environment User for environments "C" and "D". The user holds two different roles, but the environment assignments for each role are unique.
+In addition to the account level role defined in the *Options* section, you can assign an environment level role to a user. For example, a user may be assigned Tenant Administrator to environments "A" and "B", and also be assigned as an Environment User for environments "C" and "D". The user holds two different roles, but the environment assignments for each role are unique.
 
 See the [role based permission](../role-based-permission/role-based-permissions.md) guide for further details on role definitions and permission details.
 
