@@ -81,17 +81,9 @@ Next, select the down arrow located in the *Role* field to expand the drop-down 
 
 ![image description](images/edit-role-arrow.png)
 
-From the list of roles, select the role to assign to the user.
-
-![image description](images/edit-select-role.png)
-
-Select the checkmark icon (check mark icon) to set the new role.
-
-![image description](images/edit-role-checkmark.png)
+From the list of roles, select the role to assign to the user. Select the checkmark icon (check mark icon) to set the new role.
 
 Select **Save** to update the user role.
-
-![image description](images/edit-save-role.png)
 
 ### Update environment assignments
 
@@ -105,15 +97,8 @@ To add new environments, select the environments from the drop-down menu. Multip
 
 To remove assigned environments, select the **X** located next to the environment name.
 
-![image description](images/edit-delete-envs.png)
+Once you have updated the user environment assignments, select the **checkmark** to set the new environment assignments. Select **Save** to update the user environment assignments.
 
-Once you have updated the user environment assignments, select the **checkmark** to set the new environment assignments.
-
-![image description](images/edit-env-checkmark.png)
-
-Select **Save** to update the user environment assignments.
-
-![image description](images/edit-save-envs.png)
 
 ### Review user roles and environments
 
