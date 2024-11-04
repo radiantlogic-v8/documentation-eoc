@@ -67,17 +67,17 @@ To update a user's status from the *Edit User* screen, adjust the *Status* toggl
 
 After selecting save, the *Users* tab indicates that the user status has been updated accordingly to the status you selected.
 
-![image description](images/edit-inactive-status2.png)
-
 ## Update role details
 
-To update the role or environment assignments of a user, from the *Edit User* screen select the **Options** (**...**) menu next to the role and environment pairing to be edited. Select **Edit** from the drop-down to enable editing for the role and environment fields.
+To update the role assignments of a user, from the *Edit User* screen, enable or disable the user role from the **Options** (**...**) menu next to the role.
 
 ![image description](images/edit-roledetails.png)
 
-### Update user role
+### Update user role for an environment
 
-To update the user role, select the down arrow located in the *Role* field to expand the drop-down menu.
+To update environment-specific role for the user,  select the Options (...) menu next to the role and environment pairing to be edited. Select Edit from the drop-down to enable editing for the role and environment fields.
+
+Next, select the down arrow located in the *Role* field to expand the drop-down menu.
 
 ![image description](images/edit-role-arrow.png)
 
