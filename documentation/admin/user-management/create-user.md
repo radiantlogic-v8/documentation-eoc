@@ -1,7 +1,7 @@
 ---
 keywords:
 title: Create a User
-description: Learn how to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Tenant Administrator, Environment Administrator, and Environment User
+description: Learn how to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Read Only, Tenant Administrator, Environment Administrator, and Environment User
 ---
 # Create a User
 
@@ -53,7 +53,7 @@ To assign an environment, select the *Environment* field to expand the environme
 
 ![image description](images/create-env.png)
 
-A user can be assigned to multiple environments for their given role. Continue selecting environments from the dropdown list until you have assigned all required environments to the user. Select the arrow (arrow icon) in the *Environment* field to close the drop-down list. (**confirming dropdown multi-selection functionality**).
+A user can be assigned to multiple environments for their given role. Continue selecting environments from the dropdown list until you have assigned all required environments to the user. Select the arrow (arrow icon) in the *Environment* field to close the drop-down list.
 
 ![image description](images/create-multiple-envs.png)
 
@@ -72,8 +72,6 @@ Once you have completed the *User Details* and *Role Details* sections, select *
 You will receive a confirmation message notifying you that all the current form details will be lost. Select **Confirm** to continue and exit the *Create User* form without saving the current user details.
 
 If you wish to return to the *Create User* form to continue creating the new user, select **Cancel**.
-
-![image description](images/create-confirm-cancel.png)
 
 ## Confirmation
 
