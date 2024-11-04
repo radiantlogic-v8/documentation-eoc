@@ -117,11 +117,8 @@ To reset the MFA token associated with an user, go to the options menu for that 
 
 ![image description](images/reset-mfa-button.png)
 
-A message box appears on the top right corner of the EOC page, saying the MFA reset has been successful.
+A message box appears on the top right corner of the EOC page, saying the MFA reset has been successful. The "MFA STATUS" for the user changes to "NOT SET".
 
-The "MFA STATUS" for the user changes to "NOT SET".
-
-![image description](images/mfa-not-set.png)
 
 ### Reset User Password
 
@@ -132,8 +129,6 @@ To reset the password for an user, from the options menu of the user, click **Re
 ![image description](images/reset-password-conf.png)
 
 After a successful reset of the password, a message confirms the password reset for the selected user.
-
-![image description](images/reset-password-conf-message.png)
 
 ## Next steps
 
