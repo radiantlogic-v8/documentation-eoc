@@ -43,7 +43,9 @@ An user can assume two roles, either a **TENANT ADMIN** or an **ENVIRONMENT CREA
 
 ## Role details
 
-In the *Role Details* section you can assign roles and environments to the user. A user can be assigned to more than one role, but can only hold one role per environment. For example, a user may be assigned Tenant Administrator to environments "A" and "B", and also be assigned as an Environment User for environments "C" and "D". The user holds two different roles, but the environment assignments for each role are unique.
+In the *Options* section, you can assign a specific role to a user. Once you select the user role, you can specify if the user needs an additional role for an environment in the *Roles* section.
+
+A user can be assigned to more than one role, but can only hold one role per environment. For example, a user may be assigned Tenant Administrator to environments "A" and "B", and also be assigned as an Environment User for environments "C" and "D". The user holds two different roles, but the environment assignments for each role are unique.
 
 See the [role based permission](../role-based-permission/role-based-permissions.md) guide for further details on role definitions and permission details.
 
@@ -67,11 +69,7 @@ To edit the *Role Details* section after you have set the assignment, select **O
 
 ![image description](images/create-options.png)
 
-Once you have completed the *User Details* and *Role Details* sections, select **Save** to create the new user. The user receives an email notification at the email address associated with their user account confirming their user creation and the link to the EOC.
-
-![image description](images/create-save.png)
-
-To exit out of the *Create User* form without creating a new user, select **Cancel**.
+Once you have completed the *User Details* and *Role Details* sections, select **Save** to create the new user. The user receives an email notification at the email address associated with their user account confirming their user creation and the link to the EOC. To exit out of the *Create User* form without creating a new user, select **Cancel**.
 
 ![image description](images/create-cancel.png)
 
