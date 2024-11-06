@@ -49,7 +49,32 @@ This brings you to the environment's *Overview* screen, where you can view furth
 
 ![image description](Media/detailed-view.png)
 
-## Environment status
+
+### Environment version
+
+**Version** indicates the current version of the environment. The version number is set by the environment administrator during environment setup. If the environment version number no longer matches the current available version of Environment Operations Center, an "Update" notification is displayed next to the version number prompting you to update the environment.
+
+To learn more about updating an environment, review the [update an environment](update-an-environment.md) guide.
+
+### Environment nodes
+
+**Nodes** indicates the number of nodes in the environment. The number of nodes is set by the environment administrator during environment setup. An environment Administrator can increase or decrease the number of nodes in an environment at any time.
+
+To learn more about adjusting the number of nodes in an environment, see the [update and monitor nodes](../environment-details/node-details.md) guide.
+
+### Options Menu
+
+To view a list of operations that can be performed on a given environment, select the ellipsis (**...**) in the environment row or card to expand the **Options** menu. Options include:
+
+- **View Details**: takes you to an environment's *Overview* screen where you can view further details about the environment. To learn more about the environment *Overview*, review the [environment overview guide](../environment-details/environment-overview#environment-details).
+- **View logs**: takes you to an environment's *Logs* screen where you can view log files for a given date range. To learn how to review logs, visit the environment details [logs](../environment-details/environment-overview#logs) guide.
+- **Delete**: opens the dialog to being the workflow to delete an environment. For information on deleting an environment, review the [Delete an Environment](delete-an-environment.md) guide.
+
+### New environment
+
+The **New Environment** button allows you to quickly start creating a new environment from the home screen. For details on how to create a new environment, review the guide on [creating a new environment](create-an-environment.md).
+
+### Environment status
 
 The environment **Status** indicates the current state of the environment. Statuses automatically change as operations are performed on an environment or if any errors have occurred. Environment statuses include:
 
@@ -66,49 +91,8 @@ The environment **Status** indicates the current state of the environment. Statu
 
 ![image description](Media/env-status.png)
 
-![image description](Media/env-warning.png)
 
-![image description](Media/env-critical.png)
 
-![image description](Media/env-offline.png)
-
-## Environment creation date
-
-The **Creation Date** indicates the date and time when the environment was created.
-
-![image description](Media/creation-date.png)
-
-## Environment version
-
-**Version** indicates the current version of the environment. The version number is set by the environment administrator during environment setup. If the environment version number no longer matches the current available version of Environment Operations Center, an "Update" notification is displayed next to the version number prompting you to update the environment.
-
-To learn more about updating an environment, review the [update an environment](update-an-environment.md) guide.
-
-![image description](Media/version.png)
-
-## Environment nodes
-
-**Nodes** indicates the number of nodes in the environment. The number of nodes is set by the environment administrator during environment setup. An environment Administrator can increase or decrease the number of nodes in an environment at any time.
-
-To learn more about adjusting the number of nodes in an environment, see the [update and monitor nodes](../environment-details/node-details.md) guide.
-
-![images description](Media/nodes.png)
-
-## Options Menu
-
-To view a list of operations that can be performed on a given environment, select the ellipsis (**...**) in the environment row or card to expand the **Options** menu. Options include:
-
-- **View Details**: takes you to an environment's *Overview* screen where you can view further details about the environment. To learn more about the environment *Overview*, review the [environment overview guide](../environment-details/environment-overview#environment-details).
-- **View logs**: takes you to an environment's *Logs* screen where you can view log files for a given date range. To learn how to review logs, visit the environment details [logs](../environment-details/environment-overview#logs) guide.
-- **Delete**: opens the dialog to being the workflow to delete an environment. For information on deleting an environment, review the [Delete an Environment](delete-an-environment.md) guide.
-
-![image description](Media/options-menu.png)
-
-## New environment
-
-The **New Environment** button allows you to quickly start creating a new environment from the home screen. For details on how to create a new environment, review the guide on [creating a new environment](create-an-environment.md).
-
-![image description](Media/new-env.png)
 
 ## Access Permissions
 
