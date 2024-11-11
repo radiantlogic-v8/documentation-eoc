@@ -1,64 +1,46 @@
 ---
 keywords:
-title: Update an Environment
-description: Learn how to manually update the RadiantOne version running in an environment.
+title: Update an application
+description: Learn how to manually update the RadiantOne application  version running in an environment.
 ---
-# Update an Application in an Environment
+# Update an Application
 
-When version updates are available for an application running in an environment in your Environment Operations Center instance, you will see an *Update* notification. You can update your application from the *Environments* home screen or you can update a specific environment from its *Overview* screen. This guide outlines the steps required to update your environments from the *Environments* home screen. For details on updating an individual environment from its detailed view, review the environment details guide on [updating an environment](../environment-details/update-environment.md).
-
+When version updates are available for an application running in an environment in your Environment Operations Center instance, you will see an *Update* notification. You can update your application from the **Application Details**
+screen. 
 > [!note] Before getting started, make sure you have your current version of Environment Operations Center and the required number of RadiantOne nodes to display for each environment that requires updating.
 
-## Managing Application Updates
 
-When an application requires updating, an **Update** message displays next to the application's version number.
+## Updating an application
+
+ When an application requires updating, an **Update** message appears next to the application version number under "Application Details" and also under the selected environment in environments page.
 
 ![image description](Media/update-alert.png)
 
 ### Launch update
 
-Begin the application update workflow from the home screen by selecting the **Update** message. The designated environment page displays, and the **UPDATE** option is available next to the **VERSION** number. This also opens the **Update Environment** dialog box.
-
-![image description](Media/update-alert.png)
+Begin the application update workflow by selecting the **Update** message. The designated application page displays, and the **UPDATE** option is available next to the **VERSION** number. Selecting update opens the **Update** dialog box.
 
 ![image description](Media/select-update.png)
 
-Clicking on **UPDATE** from the Environments page opens the detailed overview page for the selected environment.
-In the detailed overview for the environment page, you can see the current version and an **UPDATE** option beside it.
+### Select a version number
 
-![image description](Media/update-env-dialog.png)
+ To update your environment, select the next available version number that is ahead of your current environment version. Your currently installed version number is displayed just above the dropdown menu for reference.
 
-Alternatively, you can locate the environment you would like to update and directly select the **UPDATE** message located next to the environment's version number, which again opens the **Update Environment** dialog box.
-
-### Select version number
-
-Once you have started the environment update workflow, a dialog box appears containing the field required to update the environment version. To update your environment, select the next available version number that is ahead of your current environment version. Your currently installed version number is displayed just above the dropdown menu for reference.
-
-> [!note] Environment versions can only be increased incrementally. You cannot select a version that is more than one level ahead of your current version.
+> [!note] Application versions can only be increased incrementally. You cannot select a version that is more than one level ahead of your current version.
 
 ![image description](Media/select-version.png)
 
 Once you have set the correct version number, click **Update**. In the next dialog, click **UPDATE**.  The update process typically takes around 10 minutes. To quit the update and return to the main *Environments* screen, select **Cancel**.
 
-![image description](Media/update.png)
-
 ![image description](Media/confirm-update.png)
 
 ### Environment update confirmation
 
-After selecting **Update**, the main *Environments* page displays. The status of the environment being updated displays as "Updating". A confirmation message displays, indicating that the environment is updating both on the envrionement overview as well as on the envrionments page.
-
-![image description](Media/updating.png)
+After selecting **Update**, the status of the application being updated displays as "UPDATE APPLICATION". A confirmation message displays, indicating that the environment is being updated.
 
 ![image description](Media/updating-env-message.png)
 
-When the application is updating, the status of application under the environment, in environments page shows up as offline.
-
-![image description](Media/offline-when-updating.png)
-
-If the environment updates successfully, a success notification displays, and the environment's status changes to "Operational".
-
-![image description](Media/update-success.png)
+If the application updates successfully, a success notification displays, and the application's status changes to "Operational".
 
 ![image description](Media/update-success-operational.png)
 
@@ -78,7 +60,6 @@ This brings you to the environment *Overview* screen. From here, select **View V
 
 The *Version History* dialog displays a chronological list of all previous updates including the version number, the date the update was applied, and the user who applied the update.
 
-![image description](Media/version-history.png)
 
 ### Revert to a previous version
 
