@@ -85,23 +85,17 @@ To confirm your password, reenter or copy and paste your password in the confirm
 
 To reveal your original or confirmation password, select the eye icon (![image description](Media/eye-icon.png)) located within the text field you wish to view.
 
-![image description](Media/password-reveal.png)
-
 ### Advanced Setup
 
 This is an optional step and is not required. An advanced setup is available if you would like to upload a configuration ZIP file from another environment or create the environment using samples. Enable advanced setup by toggling on **Advanced Setup**.
 
 >![warn] Use this approach to restore an environment from an existing backup file. When creating a new environment, choose the backup configuration (ZIP file) that was downloaded from the environment you want to restore. 
 
-![image description](Media/advanced-setup.png)
-
 The **Install Samples** option imports sample data. See [Sample Data](../introduction/samples.md) for further details about sample data.
 
 #### Custom Configuration
 
 To import a configuration file, select the configuration ZIP file to upload. You can locate the file on your system and drag and drop it into the provided space. Alternatively, you can select **choose file** within the upload box to open your system's file manager and locate the file to upload.
-
-![image description](Media/choose-file.png)
 
 While your file is uploading, an **Uploading** message displays in the file upload box, along with a progress bar. You can cancel the file upload while it is in progress by selecting the **X** located in the progress bar box.
 
