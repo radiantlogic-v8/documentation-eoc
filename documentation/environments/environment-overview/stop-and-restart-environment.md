@@ -13,13 +13,12 @@ This guide outlines the required steps to stop an application while on the *Envi
 
 From the *environment* home screen, locate the application you would like to stop from the list of applications. Go the specific application and, on the right top corner, click on the power icon.
 
-![image description](Media/power-icon.png)
+![image description](Media/power-icon-stop.png)
 
-From the list of options elect **STOP** to stop the application.
+From the list of options select **STOP** to stop the application.
 
 > [!note] When an application is stopped, no data is lost. The application can be started back to the state before it was stopped.
 
-![image description](Media/power-icon-stop.png)
 
 A pop up appears asking to confirm Stopping the application, click **CONFIRM** to stop the application, or click **CANCEL** to cancel the operation.
 
@@ -29,15 +28,7 @@ In the upper-right corner of the application overview page, a message indicates 
 
 ![image description](Media/stopping-env-message.png)
 
-![image description](Media/stopping-application.png)
-
-When the application is successfully stopped, the status on the overview page changes to **OFFLINE**.
-
-![image description](Media/offline.png)
-
-![image description](Media/offline1.png)
-
-![image description](Media/offline2.png)
+When the application is successfully stopped, the status of the application changes to **OFFLINE**.
 
 ## Start application
 
