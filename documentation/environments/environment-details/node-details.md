@@ -1,19 +1,21 @@
 ---
 keywords:
-title: Update and Monitor Environment Nodes
+title: Update and monitor environment nodes
 description: Learn how to adjust the number of nodes in a RadiantOne cluster and to monitor the status details of a specific node.
 ---
 # Update and Monitor Environment Nodes
+
+A node here refers to an individual server that is configured within a RadiantOne cluster. When you have multiple nodes, workloads are automatically distributed between the nodes. Each account in Environment Operations Center is assigned a certain number of nodes that you can scale up or down. 
 
 This guide describes how to adjust the number of nodes in an environment and to monitor the status details of a specific node. The *Overview* tab provides a high-level view of all FID node statuses for quick monitoring of cluster health. Each individual node has a detailed view that provides further information on the status and health of a given node.
 
 ## Adjust number of nodes
 
-To set the number of FID nodes contained in an environment, select the  **Scale** option under "Application Details"
+To set the number of FID nodes contained in an environment, select the  **Scale** option under "Application Details".
 
 ![image description](images/select-scale.png)
 
-In the *Adjust Environment Scale* dialog, use the slider to increase or decrease the quantity. Alternatively, you can select either the minus (**-**) or plus (**+**) sign on either side of the slider to increase or decrease the number of FID nodes to display.
+In the *Adjust Environment Scale* dialog, use the slider to increase or decrease the quantity. Alternatively, you can select either the minus (**-**) or plus (**+**) sign on either side of the slider to increase or decrease the number of nodes to display.
 
 By default the scale reflects the number of nodes at the current state. Adjust the scale to required number of nodes.
 
@@ -23,11 +25,7 @@ Click **UPDATE** to confirm your selection.
 
 ![image description](images/scale-confirmation.png)
 
-A message indicates that the environment scale is in process.
-
-![image description](images/scale-confirmation-message.png)
-
-The number of nodes in the environment increases or decreases accordingly.
+A message indicates that the environment scale is in process. After the process completes, the number of nodes in the environment changes to match your selection.
 
 ![image description](images/increased-nodes-new.png)
 
