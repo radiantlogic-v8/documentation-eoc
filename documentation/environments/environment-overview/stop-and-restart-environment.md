@@ -35,10 +35,7 @@ When the application is successfully stopped, the status of the application chan
 > [!note] Starting an application is only available when an application has been created and stopped.
 
 To start the selected application, click the power icon in the upper-right corner of the *Overview* page.
-
-![image description](Media/power-icon2.png)
-
-From the options under power, click **Start**.
+From the options listed, click **Start**.
 
 ![image description](Media/start.png)
 
@@ -50,9 +47,6 @@ A "Starting application" message displays on the application *Overview* page.
 
 ![image description](Media/starting-env.png)
 
-![image description](Media/starting-env1.png)
-
-![image description](Media/starting-env2.png)
 
 > [!note] The process of starting an application may take up to 10 minutes.
 
@@ -61,5 +55,3 @@ A "Starting application" message displays on the application *Overview* page.
 After a successful restart of the application, status of the application turns to **OPERATIONAL** on the application *Overview* page.
 
 ![image description](Media/operational-message.png)
-
-![image description](Media/operational-message1.png)
