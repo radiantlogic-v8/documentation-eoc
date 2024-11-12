@@ -11,7 +11,7 @@ This guide describes how to adjust the number of nodes in an environment and to 
 
 ## Adjust number of nodes
 
-To set the number of FID nodes contained in an environment, select the  **Scale** option under "Application Details".
+To set the number of FID nodes contained in an environment, select the  **Scale** option under *Application Details*.
 
 ![image description](images/select-scale.png)
 
