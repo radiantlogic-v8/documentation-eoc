@@ -5,7 +5,7 @@ description: Learn how to delete environments in Environment Operations Center.
 ---
 # Delete an Environment from its Detailed View
 
-This guide outlines the required steps to delete an environment from a specific environment's *Overview* screen. For details on deleting an environment from the *Environments* home screen that lists all environments, review the [delete an environment guide](../environment-overview/delete-an-environment.md).
+This guide outlines the required steps to delete an environment and the application(s) that are in the environment.
 
 > [!note] Only non-production environments can be deleted by users. To delete a production environment, please contact Radiant Logic.
 
