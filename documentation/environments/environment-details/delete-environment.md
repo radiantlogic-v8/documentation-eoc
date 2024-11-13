@@ -16,6 +16,7 @@ To do so, select the ellipsis in the application to expand the **Options** menu.
 ![image description](images/delete-application.png)
 
 From the **Options** menu, select **Delete**. This will open the delete application dialog box. Enter the Application name in the dialog box and click **Delete**. This will permanently delete the application
+![image description](images/delete-application-confirm.png)
 
 ## Enter environment details
 
@@ -28,8 +29,6 @@ To delete the selected environment, enter the name of the environment in the spa
 ![image description](images/delete-enter-name.png)
 
 If you would like to keep the environment and exit out of the confirmation dialog, select **Keep the Environment** to return to the *Overview*  screen.
-
-![image description](images/delete-keep-env.png)
 
 ## Confirmation
 
