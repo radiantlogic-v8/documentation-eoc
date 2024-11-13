@@ -3,7 +3,7 @@ keywords:
 title: Update and monitor environment nodes
 description: Learn how to adjust the number of nodes in a RadiantOne cluster and to monitor the status details of a specific node.
 ---
-# Update and Monitor Environment Nodes
+# Update and monitor environment nodes
 
 A "node" refers to an individual service configured within a RadiantOne cluster. When multiple nodes are present, a load balancer automatically distributes workloads across them. Each customer’s tenant in the Environment Operations Center is allocated a specific number of nodes based on their license plan. The number of nodes can be scaled up or down within your environment, and the total number of nodes allowed is shared across all environments.
 
