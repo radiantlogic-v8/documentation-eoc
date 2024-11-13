@@ -1,6 +1,6 @@
 ---
 keywords:
-title: Delete an Environment from its Detailed View
+title: Delete an Environment
 description: Learn how to delete environments in Environment Operations Center.
 ---
 # Delete an Environment from its Detailed View
@@ -11,11 +11,15 @@ This guide outlines the required steps to delete an environment from a specific 
 
 ## Getting started
 
-To begin the workflow to delete the environment, select the ellipsis next to **Monitor Environment** to expand the **Options** menu. From the **Options** menu, select **Delete**. This will open the delete environment dialog box.
+To begin the workflow to delete the environment, navigate to the environments page and click the environment you would like to delete. If the environment has any existing application, you must delete the application first.
+To do so, select the ellipsis in the application to expand the **Options** menu.
+![image description](images/delete-application.png)
 
-![image description](images/delete-options.png)
+From the **Options** menu, select **Delete**. This will open the delete application dialog box. Enter the Application name in the dialog box and click **Delete**. This will permanently delete the application
 
 ## Enter environment details
+
+After deleting the application(s) in the environment, you can now proceed to delete the environment. 
 
 > [!warning] Deleting an environment is a permanent action and cannot be undone once submitted.
 
