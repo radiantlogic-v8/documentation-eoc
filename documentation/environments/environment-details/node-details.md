@@ -5,7 +5,7 @@ description: Learn how to adjust the number of nodes in a RadiantOne cluster and
 ---
 # Update and Monitor Environment Nodes
 
-A node here refers to an individual service that is configured within a RadiantOne cluster. When you have multiple nodes, workloads are automatically distributed between the nodes with the help of a load-balancer. Each customer's tenant in Environment Operations Center is assigned a certain number of nodes that you can scale up or down. The number of nodes allowed is total across all environments. 
+A "node" refers to an individual service configured within a RadiantOne cluster. When multiple nodes are present, a load balancer automatically distributes workloads across them. Each customer’s tenant in the Environment Operations Center is allocated a specific number of nodes based on their license plan. The number of nodes can be scaled up or down within your environment, and the total number of nodes allowed is shared across all environments.
 
 This guide describes how to adjust the number of nodes in an environment and to monitor the status details of a specific node. The *Overview* tab provides a high-level view of all FID node statuses for quick monitoring of cluster health. Each individual node has a detailed view that provides further information on the status and health of a given node.
 
