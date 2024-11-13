@@ -5,13 +5,17 @@ description: Learn how to enable/disable endpoints of environments in Environmen
 ---
 
 
-# Endpoints
+# Application endpoints
 
-There are three major endpoints provided through EOC and can be disbaled / enabled as required.
+The Environment Operations Center has various endpoints for Identity Data Management and Identity Data Analytics applications. This document provides an overview of these
+endpoints and how they can be disabled or enabled as required.
 
-![image description](images/endpoints.png)
+![image description](images/IDDM-endpoints.png)
+![image description](images/IDA-endpoints.png)
 
-> [!note] Enabling/Disabling endpoints should be done one endpoint at a time.
+> [!note] Enabling/Disabling endpoints should only be done one endpoint at a time.
+
+## Identity Data Management Endpoints
 
 ## Control Panel
 
@@ -84,3 +88,5 @@ A message appears on the Environment Details Panel that says, "Deleting environm
 ![image description](images/delete-rest.png)
 
 > If the status of the endpoint does not change and the enabling message still sppears, refresh the envrionments page.
+
+## Identity Data Analytics Endpoint
