@@ -1,7 +1,7 @@
 ---
 keywords:
 title: Monitoring 
-description: Learn how to use the Monitoring section in Environment Operations Center to view metrics associated with specific environments and RadiantOne FID Nodes. Default monitored metrics include CPU Usage, RAM Usage, Disk space used, connection pool usage, operations count since startup broken down by operation type, and current number of live connections.
+description: Learn how to use the Monitoring section in Environment Operations Center to view metrics associated with a specific application in an environment. Default monitored metrics include CPU Usage, RAM Usage, Disk space used, connection pool usage, operations count since startup broken down by operation type, and current number of live connections.
 ---
 # Monitoring
 
@@ -17,31 +17,23 @@ To navigate to the *Monitoring* screen, select **Monitoring** (![image descripti
 
 ## Monitor an environment
 
-To generate monitoring metrics, an environment and at least one node must be selected.
+To generate monitoring metrics, an environment and at least one application must be selected.
 
-To set the environment, select an environment from the **Environment** dropdown.
+To set the environment, select an environment from the **Environment** dropdown, an application from the **Application** dropdown.
+Select a dashboard from the **Dashboard** dropdown and one or more nodes from the **Node** dropdown. 
 
-![image description](Media/select-env.png)
+The monitoring dashboard will update to display the component metrics for all nodes selected.
 
-Select at least one node from the **Node** dropdown. 
-
-![image description](Media/select-node.png)
-
-If you would like to monitor more than one node, continue selecting all required nodes and then collapse the **Node** dropdown. The monitoring dashboard will update to display the component metrics for all nodes selected.
-
-![image description](Media/multiple-nodes.png)
+![image description](Media/dashboard.png)
 
 To remove a node, select the "X" associated with the node name.
 
-![image description](Media/remove-node.png)
 
 ### Filter data by time range
 
 You can filter monitoring data by time range, allowing you to narrow down the targeted data to a specific time frame.
 
 To filter by time, select a range from the **Time Range** dropdown.
-
-![image description](Media/select-timerange.png)
 
 ## Monitored Metrics for Identity Data Management
 
@@ -64,7 +56,5 @@ Component metrics displayed include:
 | Peak Stats | Peak statistics for various components, such as CPU, Connections, Memory, and Disk. |
 | CPU Usage | A line graph that charts CPU usage over time. |
 | RAM Usage | A line graph that charts RAM usage over time. |
-
-![image description](Media/monitoring-components.png)
 
 
