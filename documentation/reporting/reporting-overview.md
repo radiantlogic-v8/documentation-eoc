@@ -1,13 +1,13 @@
 ---
 keywords:
 title: Reporting Overview
-description: Learn about the environment reporting options available Environment Operations Center.
+description: Learn about the application reporting options available in the Environment Operations Center.
 ---
 # Reporting Overview
 
-From the *Reporting* screen, you can generate various reports to assist in monitoring performance and operations within your environments. This guide provides an overview of the *Reporting* section in Environment Operations Center, including its features and how to generate reports. 
+From the *Reporting* screen, you can generate various reports to assist in monitoring performance and operations within your application. This guide provides an overview of the *Reporting* section in Environment Operations Center, including its features and how to generate reports. 
 
->[!note] Reports should be generated frequently to maintain a clear understanding of performance, load, configuration updates, and user activity.
+>[!note] Reports should be generated frequently to maintain a clear understanding of performance, load, configuration updates, and user activity. Currently, reports are only supported for Identity Data Management applications. 
 
 ## Getting started
 
@@ -66,29 +66,26 @@ Details that are unique to each operation type include:
 
 ## Generate a report
 
-To generate a report you must select an environment to generate the report for. Optionally, you can also select a time range to filter the data for a specified period of time. 
+To generate a report you must select an environment, an application in that environment and a dashboard.
+
+Optionally, you can also select a time range to filter the data for a specified period of time. 
 
 ![image description](Media/reporting-dropdowns.png)
 
-### Select an environment
-
-From the **Environment** dropdown, select the environment to generate the report for.
-
-![image description](Media/env-dropdown.png)
-
 A detailed overview of the various components of the environment, their status, and operational health will display.
-
-For further details on the components of each report, see the [report types](report-types.md) guide.
-
-![image description](Media/report-details.png)
 
 ### Filter data by time range
 
-You can filter the report data by time range, allowing you to narrow down the data to target a specific time frame.
+Optionally, you can filter the report data by time range, allowing you to narrow down the data to target a specific time frame.
 
 To filter by time, select a range from the **Time Range** dropdown.
 
-![image description](Media/time-range-dropdown.png)
+
+### Set or disable auto-refresh
+
+You can set a time range to auto-refresh the report with the latest data. To do so, select a time next to the refresh button. For instance, if you select 5 secons, the refresh will occur every five seconds. To disable auto-refresh, select "Off" from the dropdown options.
+
+![image description](Media/reporting-refresh.png)
 
 ## Next steps
 
