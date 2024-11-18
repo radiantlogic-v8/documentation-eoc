@@ -39,3 +39,7 @@ Environment Operations Center also provides an option to login using an email an
 Logging in with microsoft requires additional authorization from Azure.
 
 ![image description](images/microsoft-signin.png)
+
+### Next Steps
+Refer to the [Microsoft SSO guide](./microsoft-sso.md
+) to learn how to set up single sign on with Microsoft. 
