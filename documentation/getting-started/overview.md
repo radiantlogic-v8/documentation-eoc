@@ -26,11 +26,11 @@ A navigation bar is located to the left and is visible from all screens within E
 
 ## Account settings
 
-A user avatar is always located in the upper right corner of the Env Ops Center user interface. Select the avatar to expand your account dropdown menu. 
+A user avatar is always located in the upper right corner of the Environment Operations Center user interface. Select the avatar to expand your account dropdown menu. 
 
 ![image description](Media/profile-icon.png)
 
-The dropdown displays your name, email, and permissions associated with the account. From the dropdown menu you can navigate to your **Account Settings**, access the **Help** center, or **Logout** of Env Ops Center.
+The dropdown displays your name, email, and permissions associated with the account. From the dropdown menu you can navigate to your **Account Settings**, access the **Help** center, or **Logout** of Environment Operations Center.
 
 For information on managing your account settings, see the [account settings](../admin/account-settings/update-account.md) guide.
 

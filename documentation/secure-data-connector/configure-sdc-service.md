@@ -46,7 +46,7 @@ The process to create a new secure data connector and establish a connection wit
 
 This guide outlines the steps to add a new secure data connector in Environment Operations Center. For details on deploying the secure data connector client, see the [configure a secure data connector client](configure-sdc-client.md) guide. For details on connecting to an on-premise backend from the control panel, see the RadiantOne System Administration Guide.
 
-To establish a connection between Env Ops Center and an on-premises network, a data connector must first be created in Env Ops Center.
+To establish a connection between Environment Operations Center and an on-premises network, a data connector must first be created in Environment Operations Center.
 
 To add a new group, select **New Group** from the *Secure Data Connectors* home screen.
 
@@ -136,7 +136,7 @@ All of the on-premise or cloud connections made to the data connector are listed
 
 | Connection details | Description |
 | ------------------ | ----------- |
-| Environment Name | The name of the Env Ops Center environment the connector is associated with. |
+| Environment Name | The name of the Environment Operations Center environment the connector is associated with. |
 | Data Source Name | The given name of the on-premise or cloud data source connected to the data connector. |
 | Tunnel Port | The high port where the connection is initiated. |
 | Server Name/IP | The IP of the on-prem or cloud data source that has been connected. |

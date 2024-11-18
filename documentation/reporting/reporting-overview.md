@@ -17,9 +17,9 @@ To navigate to the *Reporting* screen, select **Reporting** (![image description
 
 ## Report Types
 
-This guide outlines the types of reports available in Environment Operations Center for you to monitor activities and the overall health of your environments. Only Access Log Reports are currently available in Env Ops Center. Additional report types will be added in future releases.
+This guide outlines the types of reports available in Environment Operations Center for you to monitor activities and the overall health of your environments. Only Access Log Reports are currently available in Environment Operations Center. Additional report types will be added in future releases.
 
-The reporting dashboards displayed in Environment Operation Center are a representation of the Kibana log monitoring user interface available. Every time any application or client accesses the server, that data is captured in log files available through Elastic Search. Logs can be searched or filtered in Env Ops Center for particular events or activities.
+The reporting dashboards displayed in Environment Operation Center are a representation of the Kibana log monitoring user interface available. Every time any application or client accesses the server, that data is captured in log files available through Elastic Search. Logs can be searched or filtered in Environment Operations Center for particular events or activities.
 
 ### Access reports
 

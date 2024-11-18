@@ -9,7 +9,7 @@ Once a secure data connector has been created in Environment Operations Center, 
 
 This guide covers the **additional steps** needed for running the client in a proxy network setup.
 
->[!note] You must create a secure data connector endpoint in Env Ops Center before deploying on the client side. For details on how to create a secure data connector in Env Ops Center, see the [add a data connector](configure-sdc-service#adding-a-new-data-connector) guide.
+>[!note] You must create a secure data connector endpoint in Environment Operations Center before deploying on the client side. For details on how to create a secure data connector in Environment Operations Center, see the [add a data connector](configure-sdc-service#adding-a-new-data-connector) guide.
 
 
 ## Proxy Configuration for Windows
@@ -116,7 +116,7 @@ Once the client is running, you can can set up a connection with the on-premise 
 
 Once a secure data connector has been created in Environment Operations Center, the client must be deployed on your local system before you can establish a connection. This guide outlines the system requirements and steps to deploy a data connector client on a Windows, Linux, or Docker system.
 
-> [!note] You must create a secure data connector endpoint in Env Ops Center before deploying on the client side. For details on how to create a secure data connector in Env Ops Center, see the [add a data connector](configure-sdc-service#adding-a-new-data-connector) guide.
+> [!note] You must create a secure data connector endpoint in Environment Operations Center before deploying on the client side. For details on how to create a secure data connector in Environment Operations Center, see the [add a data connector](configure-sdc-service#adding-a-new-data-connector) guide.
 
 ## System requirements
 
@@ -134,9 +134,9 @@ System requirements:
 
 ## Getting started
 
-Before deploying the secure data connector client, you must retrieve the registration token associated with the data connector in Env Ops Center. For Windows or Linux systems, you must also download the respective binary. 
+Before deploying the secure data connector client, you must retrieve the registration token associated with the data connector in Environment Operations Center. For Windows or Linux systems, you must also download the respective binary. 
 
-To locate these dependencies in Env Ops Center, select the connector name to open the connector details. Alternatively, you can also select **View Details** from the **Options** (**...**) dropdown menu to open the connector details.
+To locate these dependencies in Environment Operations Center, select the connector name to open the connector details. Alternatively, you can also select **View Details** from the **Options** (**...**) dropdown menu to open the connector details.
 
 ![image description](Media/connector-view-details.png)
 
@@ -170,7 +170,7 @@ To deploy the secure data connector client on a Windows system, first unzip the 
 
 ![image description](Media/binary-windows-files.png)
 
-Open the *appsettings.Production.json* file and locate the `"AgentToken"` field. Enter the token copied from the *Data Connector Registration* dialog in Env Ops Center into the `"AgentToken"` field.
+Open the *appsettings.Production.json* file and locate the `"AgentToken"` field. Enter the token copied from the *Data Connector Registration* dialog in Environment Operations Center into the `"AgentToken"` field.
 
 ![image description](Media/appsettings-token.png)
 
@@ -212,7 +212,7 @@ To deploy the secure data connector client on a Linux system, first unzip the *s
 - *appsettings.Production.json*
 - *RadiantLogic.OnPremisesAgentClient.Agent*
 
-Open the *appsettings.Production.json* file using an editor and locate the `"AgentToken"` field. Enter the token copied from the *Data Connector Registration* dialog in Env Ops Center into the `"AgentToken"` field.
+Open the *appsettings.Production.json* file using an editor and locate the `"AgentToken"` field. Enter the token copied from the *Data Connector Registration* dialog in Environment Operations Center into the `"AgentToken"` field.
 
 ![image description](Media/linux-vi-appsettingsjson-file.png)
 
@@ -383,7 +383,7 @@ If your init system supports it, you might be able to enable the script to start
 
 To deploy the secure data connector client on Docker, Docker must first be installed on the system. If you have not yet installed Docker, please visit the [Docker](https://docs.docker.com/get-docker) site and follow the instructions to download and install.
 
-Open the command line and run the copied command from Env Ops Center to start the client:
+Open the command line and run the copied command from Environment Operations Center to start the client:
 
     docker run -e "ServerHubConfiguration_AgentToken=[access_token]" radiantone/sdc-client
 

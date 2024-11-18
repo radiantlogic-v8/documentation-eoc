@@ -21,7 +21,7 @@ From the *Account Settings* screen you can update your user details including yo
 
 To update your first or last name, enter your information in the spaces provided and select **Save** to update.
 
-> [!note] Only administrators can update email addresses. Please contact your administrator if you need to change the email associated with your Env Ops Center account.
+> [!note] Only administrators can update email addresses. Please contact your administrator if you need to change the email associated with your Environment Operations Center account.
 
 To update your profile image, select "Edit Avatar" and select an image from you local file system to upload.
 

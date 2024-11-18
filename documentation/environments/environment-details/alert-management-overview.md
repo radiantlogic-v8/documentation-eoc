@@ -82,7 +82,7 @@ If the alert is successfully created, it will be added to the list of alerts on 
 
 ## Manage alerts
 
-Alerts are managed from the *Alerts* tab in the *Environments* section of Env Ops Center. Each alert listed on the *Alerts* tab has a corresponding **Options** (**...**) menu that provides the option to edit or delete the alert.
+Alerts are managed from the *Alerts* tab in the *Environments* section of Environment Operations Center. Each alert listed on the *Alerts* tab has a corresponding **Options** (**...**) menu that provides the option to edit or delete the alert.
 
 ![image description](images/options.png)
 
@@ -120,4 +120,4 @@ You'll receive a message confirming that the alert was successfully deleted and 
 
 ## Next steps
 
-You should now have an understanding of the steps to create and manage alerts to help monitor your environments in Env Ops Center. To learn more about managing communication channels see the [manage integrations](../integrations/manage-integrations.md) guide.
+You should now have an understanding of the steps to create and manage alerts to help monitor your environments in Environment Operations Center. To learn more about managing communication channels see the [manage integrations](../integrations/manage-integrations.md) guide.
