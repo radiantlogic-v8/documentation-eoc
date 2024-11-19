@@ -62,7 +62,7 @@ Refer to the [Install an application](to-add) guide for additional details on th
 
 ## Access Permissions
 
-Depending on your role, your administrator may set your access permissions to read-only for certain environments. If you have read-only access:
+Depending on your [role](../../admin/role-based-permission/role-based-permissions/), your administrator may set your access permissions to read-only for certain environments. If you have read-only access:
 
 - You will not be able to create new environments and the **New Environment** button will be deactivated.
 - Certain environments will be hidden if you have not been assigned either read-only or editing permissions.
