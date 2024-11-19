@@ -3,14 +3,11 @@ keywords:
 title: Update an application
 description: Learn how to manually update the RadiantOne application  version running in an environment.
 ---
-# Update an Application
+# Update an application
 
 When version updates are available for an application running in an environment in your Environment Operations Center instance, you will see an *Update* notification. You can update your application from the **Application Details**
 screen. 
 > [!note] Before getting started, make sure you have your current version of Environment Operations Center and the required number of RadiantOne nodes to display for each environment that requires updating.
-
-
-## Updating an application
 
  When an application requires updating, an **Update** message appears next to the application version number under "Application Details" and also under the selected environment in environments page.
 
@@ -72,11 +69,10 @@ To revert to a previous update, follow the same steps to restore an environment 
 When an environment is created where the RadiantOne Identity Data Management product is installed, the Super User credentials are defined.  To update these credentials in Environment Operations Center,  select the environment name > Identity Data Management application from the *Environments* home screen.
 Choose the **Change Password** option from the "..." menu.
 
-![image description](Media/change-password-option.jpg)
+![image description](Media/change-password-option.png)
 
 Enter the new password, confirm the value and click **Apply Password**. You can click *Generate* to autogenerate a password as an alternative to entering your own value. If you choose to auto-generate a value, remember to click the *Copy to Clipboard* icon to share the new value with your RadiantOne Adminstrator.
 
-![image description](Media/change-password.jpg)
 
 
 
