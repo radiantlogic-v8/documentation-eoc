@@ -1,7 +1,7 @@
 ---
 keywords:
 title: Microsoft SSO
-description: This Guide provides the information about configuring the SSO for microsoft
+description: This Guide provides the information about configuring the SSO for Microsoft in Microsoft and setting up Microsoft SSO authentication in the Environment Operations Center. 
 ---
 
 # Microsoft SSO
@@ -12,11 +12,11 @@ This guide describes the following topics required to configure Microsoft SSO.
 - [Creating a Secret for Authentication](#creating-a-secret-for-authentication)
 - [Assigning API Permissions](#assigning-api-permissions)
 - [Implementation and Testing](#implementation-and-testing)
+- 
 
-## Registering Your Application in Azure AD
+## Registering your application in Azure AD
 
-This section describes how to establish your application as a recognized entity in Azure AD to facilitate secure interactions.
-
+This section describes how to establish your application as a recognized entity in Azure AD to facilitate secure interactions. 
 1. Using an administrative account, log into the Azure AD portal.
 2. In the navigation pane on the left, select **App registrations**.
     ![menu](images/app-registrations.png)
@@ -31,20 +31,20 @@ This section describes how to establish your application as a recognized entity 
 8. Click **Register**.
 9. Make note of the Application ID for future reference.
 
-## Creating a Secret for Authentication
+## Creating a secret for authentication
 
 This section describes how to generate a secret key that your application uses to authenticate itself with Azure AD.
 
 1. In the Azure AD portal, navigate to **Manage > Certificates & Secrets**.
     ![menu](images/certificates-secrets.png)
-2. On the Client Secret tab, click **New Client Secret**. The Add a Client Secret window displays.
+2. On the Client Secret tab, click **New Client Secret**. An "Add a Client Secret" window displays.
     ![form](images/add-client-secret.png)
 3. Provide a meaningful description for the secret, i.e. "Production Key 2024".
 4. Select an option from the **Expires** drop-down menu.
 5. Note the value displayed on the Client Secrets tab.
     ![result](images/client-secrets.png)
 
-## Assigning API Permissions
+## Assigning API permissions
 
 This section describes how to specify which resources your application can access and which actions it can perform in Azure AD.
 
@@ -59,7 +59,7 @@ This section describes how to specify which resources your application can acces
 6. Click **Yes**.
     ![result](images/configured-permissions.png)
 
-## Implementation and Testing
+## Implementation and testing
 
 The section describes how to integrate and verify that SSO via Azure AD is functioning correctly in your application.
 
@@ -69,4 +69,20 @@ The section describes how to integrate and verify that SSO via Azure AD is funct
 4. Verify that after successful authentication, Azure AD redirects users back to your application's specified redirect URI.
     > [!note] Your application should handle this response to authenticate the user internally.
 5. After implementation, monitor the integration closely for any performance issues or errors.
-6. Review logs and user feedback to identify and troubleshoot any potential problems in the SSO process.
+6. Review logs and user feedback to identify and troubleshoot any potential problems in the SSO process. 
+
+For the latest information on these steps, refer to [Microsoft's OIDC document](https://learn.microsoft.com/en-us/entra/identity-platform/v2-protocols-oidc). 
+
+## Enable Microsoft SSO authentication in Environment Operations Center
+
+After configuring the SSO with Azure, you will need to enable this SSO option in the Environment Operations Center by following these steps:
+1. Click on the Admin option at the bottom of the left navigation bar.
+2. Click Authentication and click New Provider.
+3. In the OpenID Connector form, provide details for the OIDC Provider.
+    i. Select Microsoft as the OIDC PROVIDER. Next, you will see that PROVIDER NAME, DISCOVERY URL, REDIRECT URL, AUTHORIZATION ENDPOINT URL, TOKEN ENDPOINT URL, and EMAIL SCOPE fields get auto-populated.
+   ii. Enter the CLIENT ID and CLIENT SECRET that was generated in your Azure application.
+  iii. Optionally, you can enable EOC MFA. If you enable EOC MFA, upon logging in, the user will be see a prompt to set up MFA with an authenticator app. Complete the prompt to enable MFA.
+    ![form](images/OIDC-form.png)
+
+
+
