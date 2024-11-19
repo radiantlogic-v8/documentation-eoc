@@ -16,6 +16,8 @@ screen.
 
 ![image description](Media/update-alert.png)
 
+> [!note] Ensure that your application is active and hasn't stopped. If the status of your application is OFFLINE, you will not see the Update option for your application unless to restart the application.  
+
 ### Launch update
 
 Begin the application update workflow by selecting the **Update** message. The designated application page displays, and the **UPDATE** option is available next to the **VERSION** number. Selecting update opens the **Update** dialog box.
@@ -24,7 +26,7 @@ Begin the application update workflow by selecting the **Update** message. The d
 
 ### Select a version number
 
- To update your environment, select the next available version number that is ahead of your current environment version. Your currently installed version number is displayed just above the dropdown menu for reference.
+ To update your application, select the next available version number that is ahead of your current environment version. Your currently installed version number is displayed just above the dropdown menu for reference.
 
 > [!note] Application versions can only be increased incrementally. You cannot select a version that is more than one level ahead of your current version.
 
@@ -48,13 +50,11 @@ If an environment update is unsuccessful, an error notification displays, and th
 
 ## Previous updates
 
-You can view updates previously applied to an environment from the *Version History*, located within a specific environment's details view.
+You can view updates previously applied to an application from the *Version History*, located within a specific application's details view.
 
-### View previous version updates
+To navigate to an application's details section, select the environment name from the *Environments* home screen.
 
-To navigate to an environment's details section, select the environment name from the *Environments* home screen.
-
-This brings you to the environment *Overview* screen. From here, select **View Version History** in the *Environment Details* section to open the *Version History* dialog.
+This brings you to the *Overview* screen. From here, select **View Version History** to open the *Version History* dialog.
 
 ![image description](Media/view-version-history.png)
 
@@ -63,11 +63,11 @@ The *Version History* dialog displays a chronological list of all previous updat
 
 ### Revert to a previous version
 
-To be able to revert to a previous environment update, you must have first created a backup of the environment after it was updated. For details on creating environment backups, see the [create a backup](../backup-and-restore/create-backup.md) guide.
+To be able to revert to a previous application update, you must have first created a backup of the environment after it was updated. For details on creating backups, see the [create a backup](../backup-and-restore/create-backup.md) guide.
 
 To revert to a previous update, follow the same steps to restore an environment backup. Ensure the version number of the back up matches the version number that you would like to restore the environment to.
 
-## Update Identity Data Management Super User Credentials
+## Update Super User Credentials
 
 When an environment is created where the RadiantOne Identity Data Management product is installed, the Super User credentials are defined.  To update these credentials in Environment Operations Center,  select the environment name > Identity Data Management application from the *Environments* home screen.
 Choose the **Change Password** option from the "..." menu.
@@ -78,9 +78,6 @@ Enter the new password, confirm the value and click **Apply Password**. You can 
 
 ![image description](Media/change-password.jpg)
 
-## Next steps
-
-After reading this guide you should have an understanding of the steps required to update an environment.
 
 
 
