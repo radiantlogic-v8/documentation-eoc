@@ -1,11 +1,11 @@
 ---
 keywords:
-title: Delete a User
+title: Delete a user
 description: Learn how to delete a user in Environment Operations Center.
 ---
-# Delete a User
+# Delete a user
 
-This guide outlines the required steps to delete a user in Environment Operations Center.
+This guide outlines the required steps to delete a user in the Environment Operations Center.
 
 >[!warning] Deleting a user is a permanent operation and cannot be undone.
 
@@ -13,10 +13,8 @@ If you would prefer to deactivate a user, see the [edit a user](edit-user.md) gu
 
 ## Getting started
 
-To delete a user, locate the user from the list of users displayed on the *Users* tab in the *Admin* section.
-
-![image description](images/delete-select-user.png)
-
+To delete a user, click the Admin icon ![image description](images/admin-icon.png) at the bottom of the left navigation bar and click USERS. 
+Locate the user from the list of users displayed under the *Users* tab.
 Select the **Options** (**menu**) associated with the user. From the options dropdown, select **Delete** to open the *Delete User* confirmation dialog.
 
 ![image description](images/delete-options.png)
