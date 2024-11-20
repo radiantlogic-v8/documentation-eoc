@@ -1,23 +1,23 @@
 ---
 keywords:
-title: Environment Logs
-description: Learn how to access and review logs for a specific environment in Environment Operations Center. Log files let you monitor activities and troubleshoot errors in your environments. They outline the event description, a date and time stamp of when the event occurred, and the email of the user who triggered the event.
+title: Application Logs
+description: Learn how to access and review logs for a specific application in Environment Operations Center. Log files let you monitor activities and troubleshoot errors in your applications. They outline the event description, a date and time stamp of when the event occurred, and the email of the user who triggered the event.
 ---
-# Environment Logs
+# Application Logs
 
-This guide outlines the steps to review logs for a specific environment. Log files let you monitor activities and troubleshoot errors in your environments. They outline the event description, a date and time stamp of when the event occurred, and the email of the user who triggered the event. The information contained in these logs is helpful if you require assistance from Radiant Logic Support to troubleshoot problems if they arise.
+This guide outlines the steps to review logs for a specific application. Log files let you monitor activities and troubleshoot errors in your application. They outline the event description, a date and time stamp of when the event occurred, and the email of the user who triggered the event. The information contained in these logs is helpful if you require assistance from Radiant Logic Support to troubleshoot problems if they arise.
 
 Environment Operations Center is connected to Elastic and displays the Elastic monitoring user interface directly within the Environment Operations Center logging tab. This allows you to review environment logs directly in Environment Operations Center without having to navigate away from the application.
 
->[!note] For further details on specific log types and the data they provide, see the RadiantOne [logging and troubleshooting](../../../logging-and-troubleshooting-guide/01-overview.md) guide.
+>[!note] For further details on specific log types and the data they provide, see the RadiantOne [logging and troubleshooting](../../../idm/v8.1/troubleshooting/troubleshooting.md) guide.
 
 ## Getting started
 
-To navigate to the *Logs* screen for a specific environment, select **Logs** from the top navigation in the environment's detailed view.
+To navigate to the *Logs* screen for a specific application, select **Logs** from the top navigation in the application's detailed view.
 
 ![image description](images/select-logs.png)
 
-From the logs tab you can filter and search the environment logs to review detailed information about environment activity.
+From the logs tab you can filter and search the application logs to review detailed information about application activity.
 
 ![image description](images/logs-tab.png)
 
@@ -55,4 +55,4 @@ To review a different log file, select the **Log File** dropdown and select the 
 
 ## Next steps
 
-After reviewing this guide you should have an understanding of the steps required to review the log files of a specific environment. To learn more about backing up an environment, see the environment [backup and restore](../backup-and-restore/backup-restore-overview.md) documentation.
+After reviewing this guide you should have an understanding of the steps required to review the log files of a specific application. To learn more about backing up an application, see the [backup and restore](../backup-and-restore/backup-restore-overview.md) documentation.
