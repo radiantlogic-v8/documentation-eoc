@@ -51,8 +51,6 @@ Select the **Date and Time** bar to set the date and time to refresh log data. A
 
 To review a different log file, select the **Log File** dropdown and select the log file to review. Once you select the file typ, the page will load with the file details.
 
-![image description](images/log-type.png)
-
 ## Next steps
 
 After reviewing this guide you should have an understanding of the steps required to review the log files of a specific environment. To learn more about backing up an environment, see the environment [backup and restore](../backup-and-restore/backup-restore-overview.md) documentation.
