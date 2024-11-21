@@ -15,8 +15,6 @@ Environment Operations Center is connected to Elastic and displays the Elastic m
 
 To navigate to the *Logs* screen for a specific application, select **Logs** from the top navigation in the application's detailed view.
 
-![image description](images/select-logs.png)
-
 From the logs tab you can filter and search the application logs to review detailed information about application activity.
 
 ![image description](images/logs-tab.png)
