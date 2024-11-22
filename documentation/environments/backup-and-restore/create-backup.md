@@ -13,6 +13,11 @@ To begin creating a manual backup of an application, select the **Backup** butto
 
 ![image description](Media/backups-schedule-button-new.png)
 
+> Note that the application needs to be running in order for you to create a backup. If your application's status is offline, re-start the application by clicking the start button in order to see the backup option.
+
+![image description](Media/restart-offline.png)
+
+
 ## Backup details
 
 On the *Create Backup* screen, the "Backup Name" field must be completed in order to submit the form to create a backup. A unique backup name will automatically generate in the name field. You can adjust the provided name but it must be unique. If a backup with the same name exists, you will not be able to save the backup.
