@@ -36,13 +36,11 @@ After the backup process is initiated, you can see a **"Creating application bac
 
 ![image description](Media/backup-success-message.png)
 
-If the backup was successfully created, you will receive a confirmation message and the new backup will be visible in the list of backups on the main *Backups* screen. Select **Dismiss** to close the message.
+If the backup was successfully created, you will receive a confirmation message and the new backup will be visible in the list of backups on the main *Backups* screen. Select **Dismiss** to close the message. Download this backup file to store a local copy in your computer. 
 
-![image description](Media/backup-success.png)
+![image description](Media/backup-list.png)
 
 If the backup could not be successfully created, you will receive an error message indicating that the backup creation failed and it will no longer be listed on the main *Backups* screen. Select **Dismiss** to close the message and proceed to try creating the backup again.
-
-![image description](Media/backup-failure.png)
 
 ## Next steps
 
