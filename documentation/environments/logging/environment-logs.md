@@ -47,7 +47,7 @@ Select the **Date and Time** bar to set the date and time to refresh log data. A
 
 ## Change log type
 
-To review a different log file, select the **Log File** dropdown and select the log file to review. Once you select the file typ, the page will load with the file details.
+To review a different log file, select the **Log File** dropdown and select the log file to review. Once you select the file type, the page will load with the file details.
 
 ![image description](images/log-type.png)
 
