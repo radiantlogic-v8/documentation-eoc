@@ -6,18 +6,13 @@ description: This Guide provides the information about configuring the SSO for M
 
 # Microsoft SSO
 
-This guide describes the following topics required to configure Microsoft SSO.
+This guide provides details on how to configure Microsoft SSO using Microsoft Entra ID. Note that by default, Radiant Logic provides you with an option to sign in with Microsoft. However, if you would like to set up Microsoft authentication on your own, follow the steps outlined in this guide. 
 
-- [Registering Your Application in Azure AD](#registering-your-application-in-azure-ad)
-- [Creating a Secret for Authentication](#creating-a-secret-for-authentication)
-- [Assigning API Permissions](#assigning-api-permissions)
-- [Implementation and Testing](#implementation-and-testing)
-- 
 
-## Registering your application in Azure AD
+## Registering your application in Entra ID 
 
 This section describes how to establish your application as a recognized entity in Azure AD to facilitate secure interactions. 
-1. Using an administrative account, log into the Azure AD portal.
+1. Using an administrative account, log into the Entra ID (previously known as Azure AD) portal.
 2. In the navigation pane on the left, select **App registrations**.
     ![menu](images/app-registrations.png)
 3. At the top of the page, click **New Registration**.
@@ -59,7 +54,7 @@ This section describes how to specify which resources your application can acces
 6. Click **Yes**.
     ![result](images/configured-permissions.png)
 
-## Implementation and testing
+## Testing your implementation
 
 The section describes how to integrate and verify that SSO via Azure AD is functioning correctly in your application.
 
@@ -75,14 +70,18 @@ For the latest information on these steps, refer to [Microsoft's OIDC document](
 
 ## Enable Microsoft SSO authentication in Environment Operations Center
 
-After configuring the SSO with Azure, you will need to enable this SSO option in the Environment Operations Center by following these steps:
+After configuring OIDC with Microsoft Entra ID, you will need to enable this SSO option in Radiant Logic's Environment Operations Center by following these steps:
 1. Click on the Admin option at the bottom of the left navigation bar.
 2. Click Authentication and click New Provider.
 3. In the OpenID Connector form, provide details for the OIDC Provider.
+
     i. Select Microsoft as the OIDC PROVIDER. Next, you will see that PROVIDER NAME, DISCOVERY URL, REDIRECT URL, AUTHORIZATION ENDPOINT URL, TOKEN ENDPOINT URL, and EMAIL SCOPE fields get auto-populated.
+
    ii. Enter the CLIENT ID and CLIENT SECRET that was generated in your Azure application.
-  iii. Optionally, you can enable EOC MFA. If you enable EOC MFA, upon logging in, the user will be see a prompt to set up MFA with an authenticator app. Complete the prompt to enable MFA.
-    ![form](images/OIDC-form.png)
+
+   iii. Optionally, you can enable EOC MFA. If you enable EOC MFA, upon logging in, the user will be see a prompt to set up MFA with an authenticator app. Complete the prompt to enable MFA.
+
+   ![form](images/OIDC-form.png)
 
 
 
