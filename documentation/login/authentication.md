@@ -15,9 +15,12 @@ This guide provides information about configuring SSO with various OIDC provider
 ### **Steps to Configure SSO in Environment Operations Center:**
 
 #### **1. Navigate to the Admin screen**
-   - In EOC, navigate to the **Admin** screen and click **Authentication**.
+   - In your Environment Operations Center account, navigate to the **Admin** screen and click **Authentication**. Next, click **New Provider**.
+   ![image description](images/admin-page.png)
 
 #### **2. Provide required details related to your OIDC provider**
+
+![image description](images/new-oidc.png)
 
   1. OIDC PROVIDER
       * Select your provider from the dropdown list. If your provider's name is not included in the list, select CUSTOM as your provider. Note that if you select an option other than CUSTOM, certain details such as PROVIDER NAME, DISCOVERY URL, REDIRECT URL, AUTHORIZATION ENDPOINT URL and TOKEN ENDPOINT URL will be auto-filled by Radiant Logic. 
@@ -48,13 +51,14 @@ This guide provides information about configuring SSO with various OIDC provider
 
  10. Configure EOC MFA **(Optional)**
      * If you enable this option, user will be required to go through an additional step of identity verification. 
+   ![image description](images/eoc-mfa.png)
 
 
 #### **3. Save the Provider Configuration**
    - After entering all the details and verifying the information, click on the **Save** button to save your provider configuration.
 
 #### **4. Enable SSO for Users**
-   - Once the SSO is established, you can assign the provider to the appropriate user and specify the conditions for login.
+   - Once the SSO is established, you can assign the provider to the appropriate user and specify the conditions for login when adding new users from the **Users** tab.
 
 
 ### **Conclusion**
