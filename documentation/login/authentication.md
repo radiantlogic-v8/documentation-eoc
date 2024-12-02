@@ -20,10 +20,10 @@ This guide provides information about configuring SSO with various OIDC provider
 
 #### **2. Provide required details related to your OIDC provider**
 
-![image description](images/new-oidc.png)
-
   1. OIDC PROVIDER
-      * Select your provider from the dropdown list. If your provider's name is not included in the list, select CUSTOM as your provider. Note that if you select an option other than CUSTOM, certain details such as PROVIDER NAME, DISCOVERY URL, REDIRECT URL, AUTHORIZATION ENDPOINT URL and TOKEN ENDPOINT URL will be auto-filled by Radiant Logic. 
+      * Select your provider from the dropdown list. If your provider's name is not included in the list, select CUSTOM as your provider. Note that if you select an option other than CUSTOM, certain details such as PROVIDER NAME, DISCOVERY URL, REDIRECT URL, AUTHORIZATION ENDPOINT URL and TOKEN ENDPOINT URL will be auto-filled by Radiant Logic.
+     ![image description](images/new-oidc.png)
+
      
   2. PROVIDER NAME
      * This is the name of your OpenID Connect provider. It can be any name you choose to identify the provider (e.g., "MyOIDCProvider") or it can be same as the selection you made in the first step. 
