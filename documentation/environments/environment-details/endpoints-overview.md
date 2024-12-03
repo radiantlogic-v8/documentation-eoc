@@ -75,10 +75,18 @@ A message appears on the Environment Details Panel that says, "Deleting environm
 
 Unlike Identity Data Management, Identity Analytics endpoints do not have a toggle option and are accessible through the URLs displayed in your account. 
 
-**Portal**: This endpoint is used by end-users to log in and access Identity Analytics interfaces.
+## Portal
 
-**Configuration**: This endpoint is for the administrator of the Identity Analytics instance to perform technical configurations, including tasks like scheduling batch jobs for data ingestion, configuring proxy and SMTP settings for notifications, Identity Analytics customization, and more. Learn more about the Configuration interface here: [Configuration UI](https://developer.radiantlogic.com/ia/version-1.5/configuration/config-ui/). 
+This endpoint is used by end-users to log in and access Identity Analytics interfaces.
 
-**Controller**: This endpoint enables the IDA administrator to configure connectors for data extraction, manage data files once uploaded (e.g., in "import files" and "uploads"), and oversee data ingestion into the IDA database through "execution plans." Learn more about the Controller interface here: [Controller](https://developer.radiantlogic.com/ia/version-1.5/containers/controller/).
+## Configuration
 
-**Admin Console**: This is the Keycloak configuration interface used to manage end-user accounts and roles, providing access to the Portal. 
+This endpoint is for the administrator of the Identity Analytics instance to perform technical configurations, including tasks like scheduling batch jobs for data ingestion, configuring proxy and SMTP settings for notifications, Identity Analytics customization, and more. Learn more about the Configuration interface here: [Configuration UI](https://developer.radiantlogic.com/ia/version-1.5/configuration/config-ui/). 
+
+## Controller
+
+This endpoint enables the IDA administrator to configure connectors for data extraction, manage data files once uploaded (e.g., in "import files" and "uploads"), and oversee data ingestion into the IDA database through "execution plans." Learn more about the Controller interface here: [Controller](https://developer.radiantlogic.com/ia/version-1.5/containers/controller/).
+
+## Admin Console
+
+This is the Keycloak configuration interface used to manage end-user accounts and roles, providing access to the Portal. 
