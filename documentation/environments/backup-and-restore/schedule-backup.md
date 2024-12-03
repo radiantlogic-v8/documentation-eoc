@@ -9,13 +9,11 @@ This guide provides an overview of the steps required to schedule automated back
 
 ## Getting started
 
-By default the backup scheduled option is set to disabled.
+To start, select an application in your environment and click **BACKUPS** to open the backup screen. 
+![image description](Media/backup-nav.png)
 
+To navigate to the *Backup Settings* screen, from the *Backups* tab, select the gear icon (![image description](Media/gear-icon.png)). 
 ![image description](Media/backup-default-disabled.png)
-
-to navigate to the *Backup Settings* screen, from the *Backups* tab, select the gear icon (![image description](Media/gear-icon.png)). 
-
-![image description](Media/backup-schdeule-button-new.png)
 
 The *Backup Settings* view contains all of the fields required to create a scheduled backup.
 
@@ -27,7 +25,7 @@ To create a scheduled backup, you must complete the sections outlined on the *Ba
 
 ### Automatic Backups
 
-The **Automatic Backups** section provides toggle options to enable/disable the automatic backups
+The **Automatic Backups** section provides toggle options to enable/disable the automatic backups. To enable scheduled backup, toggle the ENABLED option to ACTIVE. 
 
 ![image description](Media/auto-backup-enable-new.png)
 
@@ -69,11 +67,7 @@ To set the backup start time, select the dropdown menu and select a time from th
 
 Once you have saved the environment backup settings, you will return to the *Backups* tab. If the scheduled backup was successfully created you will receive a confirmation message. Select **Dismiss** to close the confirmation message.
 
-![image description](Media/schedule-success.png)
-
 If the scheduled backup could not be created, you will receive an error message indicating that creating the scheduled backup failed. Select **Dismiss** to close the error message and proceed to try creating the scheduled backup again.
-
-![image description](Media/schedule-failed.png)
 
 ## Next steps
 
