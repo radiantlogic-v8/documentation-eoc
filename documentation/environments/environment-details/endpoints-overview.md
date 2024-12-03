@@ -57,7 +57,7 @@ A message appears on the Environment Details Panel indicatinh that the endpoint 
 
 The **REST** endpoint provides API access to RadiantOne.
 
-![image description](images/rest.png)
+![image description](images/rest-api.png)
 
 The REST endpoint is disabled by default, and can be enabled by using toggle button.
 
