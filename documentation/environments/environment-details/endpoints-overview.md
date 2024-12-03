@@ -10,9 +10,6 @@ description: Learn how to enable/disable endpoints of environments in Environmen
 The Environment Operations Center has various endpoints for Identity Data Management and Identity Data Analytics applications. This document provides an overview of these
 endpoints and how they can be disabled or enabled as required.
 
-![image description](images/IDDM-endpoints.png)
-![image description](images/IDA-endpoints.png)
-
 > [!note] Enabling/Disabling endpoints should only be done one endpoint at a time.
 
 ## Identity Data Management Endpoints
