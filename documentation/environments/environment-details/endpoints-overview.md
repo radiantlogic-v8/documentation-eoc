@@ -74,6 +74,7 @@ A message appears on the Environment Details Panel that says, "Deleting environm
 ## Identity Data Analytics Endpoint 
 
 Unlike Identity Data Management, Identity Analytics endpoints do not have a toggle option and are accessible through the URLs displayed in your account. 
+
 ![image description](images/IDA-endpoints.png)
 
 
