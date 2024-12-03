@@ -7,7 +7,7 @@ description: Overview of EOC
 
 Environment Operations Center allows you to control your RadiantOne implementation in a cloud environment. It provides all of the required tools to:
  
-1. Create and manage RadiantOne [environments](../environments/environment-overview/environments.md) as well as install and manage RadiantOne applications in your environments. 
+1. Create and manage RadiantOne [environments](../environments/environment-overview/environments.md) where you can install and manage RadiantOne applications in your environments. 
 
 2. [Securely connect with on-premises data ](../secure-data-connector/configure-sdc-service.md). Note that this feature is currently supported in Identity Data Management applications only.
 
