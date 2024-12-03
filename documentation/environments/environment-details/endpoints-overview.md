@@ -33,7 +33,7 @@ Click the URL directly or copy and paste it in a browser to open control panel i
 The Configuration REST API is enabled by default. To use this endpoint, copy it and paste it into the URL field of your REST client.
 The RadiantOne service can respond to REST requests via HTTP/SOAP.
 
-![image description](images/api-endpoint.png)
+![image description](images/config-endpoint.png)
 
 
 ## LDAPS
