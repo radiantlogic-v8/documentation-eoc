@@ -23,8 +23,11 @@ To install an application in a new environment, refer to the [Create an environm
 To add an application to an existing environment in the Environment Operations Center, follow these steps:
 
 1. After logging into your Environment Operations Center, select **Environments** in the left navigation.
-2. On the Environments page, locate the environment where you want to add the new application. Use the Search or Filter options if necessary. 
-3. Click on (...) options and select Add Application from the dropdown. 
+2. On the Environments page, locate the environment where you want to add the new application. Use the Search or Filter option if necessary. 
+3. Click on the (...) option and select **Add Application** from the dropdown. 
+
+   ![image description](Media/applications.png)
+
 4. Select the checkbox adjacent to the application name.
 5. In the expanded view, fill out all required information listed below. 
 
