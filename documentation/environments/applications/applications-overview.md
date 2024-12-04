@@ -26,7 +26,7 @@ To add an application to an existing environment in the Environment Operations C
 2. On the Environments page, locate the environment where you want to add the new application. Use the Search or Filter option if necessary. 
 3. Click on the (...) option and select **Add Application** from the dropdown. 
 
-   ![image description](Media/applications.png)
+   ![image description](../Media/applications.png)
 
 4. Select the checkbox adjacent to the application name.
 5. In the expanded view, fill out all required information listed below. 
