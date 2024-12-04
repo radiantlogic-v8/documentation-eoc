@@ -24,7 +24,7 @@ After logging in to the Environment Operations Center, the *Overview* screen app
 
 A navigation bar is located to the left and is visible from all screens within Environment Operation Center. You can access your account settings by selecting the avatar in the upper right corner, also visible from all screens in the application. If you are an admin, you can access admin settings by selecting the admin icon in the bottom left corner of the page. 
 
-## Account settings
+### Account settings
 
 A user avatar is always located in the upper right corner of the Environment Operations Center user interface. Select the avatar to expand your account dropdown menu. 
 
@@ -69,7 +69,7 @@ By clicking on it, you can change the layout of the home screen, add another wid
  ![image description](Media/customize.png)
 
 
-## Left navigation
+### Left navigation
 
 The left navigation contains links to various screens, providing access to the following Environment Operation Center features:
 
