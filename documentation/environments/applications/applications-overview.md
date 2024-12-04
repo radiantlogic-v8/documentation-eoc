@@ -19,7 +19,7 @@ In your environment, you can install one or both of the following RadiantLogic a
 
 ## Install an application 
 
-To install an application in a new environment, refer to the [Create an environment]() guide. 
+To install an application in a new environment, refer to the [Create an environment](to-add) guide. 
 To add an application to an existing environment in the Environment Operations Center, follow these steps:
 
 1. After logging into your Environment Operations Center, select **Environments** in the left navigation.
@@ -36,9 +36,9 @@ Under the **Application Details** section, provide the required details such as 
 
 There are minor differences in the application details form for Identity Data Management and Identity Analytics application. For Identity Data Management deployment, you have the option to enable advanced setup if you wish to deploy the application using an existing configuration file. Note that this option is available only in Identity Data Management, not in Identity Analytics.
 
-![image description](Media/iddm-details.png)
+![image description](../environment-overview/Media/iddm-details.png)
 
-![image description](Media/ida-details.png)
+![image description](../environment-overview/Media/ida-details.png)
 
 
 ### Version
@@ -55,9 +55,9 @@ Depending on the complexity and strength of your password, you will receive a no
 
 To confirm your password, reenter or copy and paste your password in the confirmation space provided. If you selected to have a password automatically generated, the password will also automatically populate in the confirmation text box.
 
-![image description](Media/password.png)
+![image description](../environment-overview/Media/password.png)
 
-To reveal your original or confirmation password, select the eye icon (![image description](Media/eye-icon.png)) located within the text field you wish to view.
+To reveal your original or confirmation password, select the eye icon (![image description](../environment-overview/Media/eye-icon.png)) located within the text field you wish to view.
 
 ### Advanced Setup
 
@@ -75,18 +75,18 @@ While your file is uploading, an **Uploading** message displays in the file uplo
 
 Once your configuration file has successfully loaded, the file name displays in place of the file upload box. Select **Create** to create the new environment.
 
-![image description](Media/config-uploaded.png)
+![image description](../environment-overview/Media/config-uploaded.png)
 
 To delete the file and return to the file upload screen, select the trash can icon located in the same box as the successful file upload.
 
-![image description](Media/delete-config.png)
+![image description](../environment-overview/Media/delete-config.png)
 
 If the file upload is not successful, the configuration upload box displays with a red dashed outline and an error message appears just below. Review your file type to ensure you have selected the correct configuration file for upload and try again.
 
 After saving the details form, you are redirected to the *Applications* home screen. A confirmation message appears noting that your application is being created and that the process can take up to twenty minutes. Select **Dismiss** to close the confirmation message.
 
 
-![image description](Media/creating2.png)
+![image description](../environment-overview/Media/creating2.png)
 
 Once the application has been successfully installed, the application's status changes to "Operational".
 
@@ -97,6 +97,7 @@ If there is an issue with the form submission, an error message states that the 
 
 ## Update an application 
 
+Refer to the [managing application updates](to-add) guide to learn how to update an application. 
 
 
 ## Delete an application 
@@ -105,12 +106,12 @@ If there is an issue with the form submission, an error message states that the 
 
 2. Next, select the ellipsis in the application to expand the **Options** menu.
 
-   ![image description](images/delete-application.png)
+   ![image description](../environment-details/images/delete-application.png)
 
 3. From the **Options** menu, select **Delete**. This will open the delete application dialog box. Enter the Application name in the dialog box and click **Delete**. 
+   This will permanently delete the application.
 
-   This will permanently delete the application
-   ![image description](images/delete-application-confirm.png)
+   ![image description](../environment-details/images/delete-application-confirm.png)
 
 ## Next steps 
 
