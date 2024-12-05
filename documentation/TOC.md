@@ -29,6 +29,8 @@ description: Environment operations center guide
   - [Report types](../reporting/report-types.md)
 - [Monitoring](#)
   - [Monitoring overview](../monitoring/monitoring-overview.md)
+- [Alerting](#)
+  - [Managing alerts](../alert-management-overview.md)
 - [Secure data connectors](#)
   - [Secure data connectors overview](../secure-data-connector/configure-sdc-service.md)
   - [Add a data connector](../secure-data-connector/configure-sdc-service#adding-a-new-data-connector)
