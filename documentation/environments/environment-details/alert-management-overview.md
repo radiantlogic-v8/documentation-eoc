@@ -13,21 +13,21 @@ Custom alerts can be created in Environment Operations Center to help your teams
 
 Navigate to the *Alerts* tab in the *Environments* section of environment operations center. From this tab, you can add new environment monitoring alerts and manage existing alerts.
 
-![image description](images/alerts-tab.png)
+![image description](../applications/images/alerts-tab.png)
 
 All existing alerts are listed on the *Alerts* tab including the alert name, description, environment name, notification channel, when it was last updated, and the severity of the alert. 
-![image description](images/alert-details.png)
+![image description](../applications/images/alert-details.png)
 
 You can search for an existing alert by using the search bar. 
 
-![image description](images/search.png)
+![image description](../applications/images/search.png)
 
 
 ## Add alerts
 
 To add a new alert, select **New Alert**. This opens the *New Alert* dialog where you will add the alert information and metrics to create the new alert.
 
-![image description](images/new-alert.png)
+![image description](../applications/images/new-alert.png)
 
 ### Alert information
 
@@ -42,7 +42,7 @@ In the *Alert information* section of the *New Alert* dialog, enter the general 
 | Title | The title of the alert that will display in the selected channel if an alert is triggered. |
 | Description | The description of the alert that will display in the selected channel if an alert is triggered. |
 
-![image description](images/alert-info.png)
+![image description](../applications/images/alert-info.png)
 
 ### Alert metrics
 
@@ -50,11 +50,11 @@ In the *Alert metrics* section of the *New Alert* dialog, enter the required inf
 
 To add a new alert metric, select **New**. This displays the required fields to create the alert.
 
-![image description](images/first-alert.png)
+![image description](../applications/images/first-alert.png)
 
 Under *Metric*, select the specific environment component to provide alerts for. To set the metric, select the downward arrow to expand the dropdown list. Select a component to monitor from the list.
 
-![image description](images/metric.png)
+![image description](../applications/images/metric.png)
 
 1. Under *Statistic*, define what value the alert is based on. To set the statistic, select the downward arrow to expand the dropdown list. Select a value from the list to measure for the metric.
 
@@ -66,57 +66,57 @@ Under *Metric*, select the specific environment component to provide alerts for.
 
 Once you have completed all required fields, click **Save** to add the alert metric.
 
-![image description](images/checkmark.png)
+![image description](../applications/images/checkmark.png)
 
 ### Add multiple alert metrics
 
 More than one alert metric can be set for the selected environment(s). After you have saved a newly created alert metric, select **New** to create an additional alert.
 
-![image description](images/new.png)
+![image description](../applications/images/new.png)
 
 Follow the steps outlined above to complete the required alert metric details. Once you have completed the required fields in the *Alert information* and *Alert metrics* sections, select **Save** to create the new alert.
 
 If the alert is successfully created, it will be added to the list of alerts on the *Alerts* tab.
 
-![image description](images/save-alert.png)
+![image description](../applications/images/save-alert.png)
 
 ## Manage alerts
 
 Alerts are managed from the *Alerts* tab in the *Environments* section of Environment Operations Center. Each alert listed on the *Alerts* tab has a corresponding **Options** (**...**) menu that provides the option to edit or delete the alert.
 
-![image description](images/options.png)
+![image description](../applications/images/options.png)
 
 ### Edit alerts
 
 To edit an alert, select **Edit** from the **Options** (**...**) menu of the alert to edit.
 
-![image description](images/edit.png)
+![image description](../applications/images/edit.png)
 
 This opens the *Edit Alert* dialog which contains the same sections and fields as the *New Alert* dialog. Edit the required fields in the *Alert information* and *Alert metrics* sections.
 
-![image description](images/editdialog.png)
+![image description](../applications/images/editdialog.png)
 
 To edit a specific alert metric in the *Alert metrics* section, select the **Options** (**...**) menu associated with the alert metric. Select **Edit** to enable editing for all of the alert metric fields. Alternatively, you can select **Delete** to delete the alert metric.
 
-![image description](images/metric-options.png)
-![image description](images/metric-edit.png)
+![image description](../applications/images/metric-options.png)
+![image description](../applications/images/metric-edit.png)
 Once you have confirmed, select **Save** to save the updated alert.
 
-![image description](images/save-edit.png)
+![image description](../applications/images/save-edit.png)
 
 ### Delete alerts
 
 To delete an alert, select **Delete** from the **Options** (**...**) menu of the alert to delete.
 
-![image description](images/delete.png)
+![image description](../applications/images/delete.png)
 
 A notification displays to confirm that you would like to delete the selected alert. Select **Delete** to proceed and delete the alert.
 
-![image description](images/confirm-delete.png)
+![image description](../applications/images/confirm-delete.png)
 
 You'll receive a message confirming that the alert was successfully deleted and it will no longer be available in the list of alerts on the *Alerts* tab.
 
-![image description](images/deleted.png)
+![image description](../applications/images/deleted.png)
 
 ## Next steps
 
