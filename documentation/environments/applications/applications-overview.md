@@ -109,12 +109,12 @@ Refer to the [managing application updates](to-add) guide to learn how to update
 
 2. Next, select the ellipsis in the application to expand the **Options** menu.
 
-   ![image description](../images/delete-application.png)
+   ![image description](./images/delete-application.png)
 
 3. From the **Options** menu, select **Delete**. This will open the delete application dialog box. Enter the Application name in the dialog box and click **Delete**. 
    This will permanently delete the application.
 
-   ![image description](../images/delete-application-confirm.png)
+   ![image description](./images/delete-application-confirm.png)
 
 ## Next steps 
 
