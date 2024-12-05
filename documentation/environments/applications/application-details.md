@@ -1,6 +1,6 @@
 ---
-keywords:https://github.com/radiantlogic-v8/documentation-eoc/tree/shrijana-eocdocchanges/documentation/environments/environment-details
-title: Application Details
+keywords:
+title: Application details
 description: Get a quick introduction to navigating applications in Environment Operations Center. This includes where to see an overview, how to access logs, how to create backups, how to configure alerts and where to see the activity log.
 ---
 
