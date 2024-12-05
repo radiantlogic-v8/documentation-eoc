@@ -3,7 +3,7 @@ keywords:
 title: Delete an Environment
 description: Learn how to delete environments in Environment Operations Center.
 ---
-# Delete an Environment from its Detailed View
+# Delete an environment
 
 This guide outlines the required steps to delete an environment and the application(s) that are in the environment.
 
@@ -13,10 +13,10 @@ This guide outlines the required steps to delete an environment and the applicat
 
 To begin the workflow to delete the environment, navigate to the environments page and click the environment you would like to delete. If the environment has any existing application, you must delete the application first.
 To do so, select the ellipsis in the application to expand the **Options** menu.
-![image description](images/delete-application.png)
+![image description](../applications/images/delete-application.png)
 
 From the **Options** menu, select **Delete**. This will open the delete application dialog box. Enter the Application name in the dialog box and click **Delete**. This will permanently delete the application
-![image description](images/delete-application-confirm.png)
+![image description](../applications/images/delete-application-confirm.png)
 
 ## Enter environment details
 
@@ -26,7 +26,7 @@ After deleting the application(s) in the environment, you can now proceed to del
 
 To delete the selected environment, enter the name of the environment in the space provided in the dialog box and select the **Delete** button. The environment name entered must match the actual environment name exactly, otherwise you will receive an error message and will not be able to submit the delete request.
 
-![image description](images/delete-enter-name.png)
+![image description](../applications/images/delete-enter-name.png)
 
 If you would like to keep the environment and exit out of the confirmation dialog, select **Keep the Environment** to return to the *Overview*  screen.
 
@@ -38,4 +38,4 @@ If the environment could not be deleted, you will return to the environment *Ove
 
 ## Next steps
 
-After reading this guide you should have an understanding of the steps required to delete an existing environment. If you would prefer to update the environment, please refer to the guide on [updating an environment](update-environment.md).
+After reading this guide you should have an understanding of the steps required to delete an existing environment. If you would prefer to update the environment, please refer to the guide on [updating an environment](update-an-environment.md).
