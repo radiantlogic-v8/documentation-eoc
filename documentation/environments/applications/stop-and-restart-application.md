@@ -13,7 +13,7 @@ This guide outlines the required steps to stop an application while on the *Envi
 
 From the *environment* home screen, locate the application you would like to stop from the list of applications. Go the specific application and, on the right top corner, click on the power icon.
 
-![image description](Media/power-icon-stop.png)
+![image description](../environment-overview/Media/power-icon-stop.png)
 
 From the list of options select **STOP** to stop the application.
 
@@ -22,11 +22,11 @@ From the list of options select **STOP** to stop the application.
 
 A pop up appears asking to confirm Stopping the application, click **CONFIRM** to stop the application, or click **CANCEL** to cancel the operation.
 
-![image description](Media/power-icon-stop-confirmation.png)
+![image description](../environment-overview/Media/power-icon-stop-confirmation.png)
 
 In the upper-right corner of the application overview page, a message indicates the application is being stopped.
 
-![image description](Media/stopping-env-message.png)
+![image description](../environment-overview/Media/stopping-env-message.png)
 
 When the application is successfully stopped, the status of the application changes to **OFFLINE**.
 
@@ -37,15 +37,15 @@ When the application is successfully stopped, the status of the application chan
 To start the selected application, click the power icon in the upper-right corner of the *Overview* page.
 From the options listed, click **Start**.
 
-![image description](Media/start.png)
+![image description](../environment-overview/Media/start.png)
 
 A message prompts you to confirm the **Start application**. Click **Confirm** to start the application, or to go back click **Cancel**.
 
-![image description](Media/start-confirm.png)
+![image description](../environment-overview/Media/start-confirm.png)
 
 A "Starting application" message displays on the application *Overview* page.
 
-![image description](Media/starting-env.png)
+![image description](../environment-overview/Media/starting-env.png)
 
 
 > [!note] The process of starting an application may take up to 10 minutes.
@@ -54,4 +54,4 @@ A "Starting application" message displays on the application *Overview* page.
 
 After a successful restart of the application, status of the application turns to **OPERATIONAL** on the application *Overview* page.
 
-![image description](Media/operational-message.png)
+![image description](../environment-overview/Media/operational-message.png)
