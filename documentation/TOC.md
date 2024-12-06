@@ -1,8 +1,3 @@
----
-title: Environment Operations Center Guide
-description: Environment operations center guide
----
-
 # Environment Operations Center Guide
 - [Overview](#)
   - [Login](../login/login-overview.md)
@@ -23,21 +18,20 @@ description: Environment operations center guide
       - [Create a backup](../environments/applications/backup-and-restore/create-backup.md)
       - [Schedule automated backups](../environments/applications/backup-and-restore/schedule-backup.md)
 - [Logging](#)
-  - [Application logs](../logging/application-logs.md)
-  - [System logs](../logging/system-logs.md)
+  - [Application logs](../environments/applications/logging/environment-logs.md)
 - [Reporting](#)
   - [Reporting overview](../reporting/reporting-overview.md)
   - [Report types](../reporting/report-types.md)
 - [Monitoring](#)
   - [Monitoring overview](../monitoring/monitoring-overview.md)
 - [Alerting](#)
-  - [Alert management](../alert-management-overview.md)
+  - [Alert management](../environments/applications/alerting/alert-management-overview.md)
 - [Secure data connectors](#)
   - [Secure data connectors overview](../secure-data-connector/configure-sdc-service.md)
-  - [Add a data connector](../secure-data-connector/configure-sdc-service#adding-a-new-data-connector)
-  - [Manage data connectors](../secure-data-connector/configure-sdc-service#manage-data-connectors)
+  - [Add a data connector](../secure-data-connector/configure-sdc-service.md)
+  - [Manage data connectors](../secure-data-connector/configure-sdc-service.md)
   - [Configure a Secure Data Connector Client in on-premise or private cloud data sources network](#)
-    - [Deploy a Secure Data Connector Client](../secure-data-connector/configure-sdc-client#deploy-the-secure-data-connector-client)
+    - [Deploy a Secure Data Connector Client](../secure-data-connector/configure-sdc-client.md)
     - [Deploy a Secure Data Connector Client on a proxy network](../secure-data-connector/configure-sdc-client.md)
   - [Manage the Secure Data Connector Client](../secure-data-connector/manage-sdc-client.md)
 - [Admin](#)
@@ -51,7 +45,7 @@ description: Environment operations center guide
   - [User logins](#)
     - [Authentication](../admin/login/authentication.md)
     - [Microsoft SSO](../admin/login/microsoft-sso.md)
-  - [Role based permissions](#)
+  - [Role-based permissions](#)
     - [Role-based permissions](../admin/role-based-permission/role-based-permissions.md)
 - [Release Notes](#)
   - [1.0.0](../release-notes/eoc-1-0-0.md)
