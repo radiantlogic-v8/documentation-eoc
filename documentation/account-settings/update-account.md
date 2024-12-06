@@ -56,8 +56,6 @@ You can delete the API token by selecting the trash bin icon (![image descriptio
 
 A confirmation message will appear to verify that you would like to delete the API token and reminding you that a new API token will need to be generated for future calls. Select **Confirm** to delete the token.
 
-![image description](images/delete-confirmation.png)
-
 If the token is successfully deleted you will receive a confirmation message and the *API token* field will be empty. You can proceed to generate a new token or exit out of *Account Settings* without generating a new token by selecting **Save**.
 
 ## Next steps
