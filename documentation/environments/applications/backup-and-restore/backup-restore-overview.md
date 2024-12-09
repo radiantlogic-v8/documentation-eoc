@@ -39,6 +39,8 @@ For details on creating manual environment backups, see the [create a backup](cr
 
 Each backup has an **Options** (**...**) menu that allows you to either **Download** a backup or **Delete** the backup. Selecting **Download** will download the configuration file of that backup to your system. You will need a downloaded copy of the backup to [restore](../environment-overview/create-environments#advanced-setup) the environment if needed. Selecting **Delete** will permanently delete the backup.
 
+Note that if you use this backup to restore the application in a new environment, the [endpoint URLs](../endpoints-overview.md) of the application will be different than that of the original application.  
+
 ![image description](Media/backup-options.png)
 
 <!-- The workflow to restore a backup can also be initiated by selecting the **Restore** button. For more information on restoring backups, see the [restore a backup](restore-backup.md) guide.
