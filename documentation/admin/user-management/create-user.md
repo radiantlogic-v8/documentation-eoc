@@ -85,4 +85,4 @@ If the error in creating an user still persisits, conatct Radiant logic Support 
 
 ## Next Steps
 
-After reading this guide you should have an understanding of the steps required to create a user in Environment Operations Center. For details on editing an existing user, see the [edit a user](../admin/user-management/edit-user.md) guide.
+After reading this guide you should have an understanding of the steps required to create a user in Environment Operations Center. For details on editing an existing user, see the [edit a user](edit-user.md) guide.
