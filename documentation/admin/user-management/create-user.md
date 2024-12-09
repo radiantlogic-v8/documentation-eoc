@@ -5,7 +5,7 @@ description: Learn how to create new users and assign roles in Environment Opera
 ---
 # Create a User
 
-This guide outlines the required steps to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Tenant Administrator, Environment Administrator, and Environment User. For details on permissions for each role, see the [role-based permissions](../role-based-permission/role-based-permissions.md) guide.
+This guide outlines the required steps to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Tenant Administrator, Environment Administrator, and Environment User. For details on permissions for each role, see the [role-based permissions](../../role-based-permission/role-based-permissions.md) guide.
 
 ## Getting started
 
@@ -43,7 +43,7 @@ In the *Options* section, you can assign a specific role to a user. A user can a
 
 In addition to the account level role defined in the *Options* section, you can assign an environment level role to a user. For example, a user may be assigned Tenant Administrator to environments "A" and "B", and also be assigned as an Environment User for environments "C" and "D". The user holds two different roles, but the environment assignments for each role are unique.
 
-See the [role based permission](../role-based-permission/role-based-permissions.md) guide for further details on role definitions and permission details.
+See the [role based permission](../../role-based-permission/role-based-permissions.md) guide for further details on role definitions and permission details.
 
 To assign the user a role, select the *Role* field to expand the role dropdown. From the list, select the role that is best suited for the user.
 
@@ -85,4 +85,4 @@ If the error in creating an user still persisits, conatct Radiant logic Support 
 
 ## Next Steps
 
-After reading this guide you should have an understanding of the steps required to create a user in Environment Operations Center. For details on editing an existing user, see the [edit a user](edit-user.md) guide.
+After reading this guide you should have an understanding of the steps required to create a user in Environment Operations Center. For details on editing an existing user, see the [edit a user](../admin/user-management/edit-user.md) guide.
