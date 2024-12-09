@@ -104,11 +104,9 @@ The environment status changes depending on the state of the environment. Status
 
 If the environment version is out of date, an "Update Now" message appears next to the version number.
 
-For details on updating application, review the [update application](update-environment.md) guide.
+For details on updating application, review the [update application](update-an-application.md) guide.
 
 You can view an application's version history by selecting the **View Version History** button in the lower right corner of the *Environment Details* box.
-
-See the guide on [version history](update-environment#view-version-history) for further details on reviewing and restoring an environment's previous versions.
 
 
 ## Endpoints
@@ -119,4 +117,4 @@ The *Application Endpoints* section lists all of the environment endpoints. Note
 
 ## Next steps
 
-After reading this guide you should be able to navigate the *Overview* screen of an application and understand its main features including the top navigation, Application Details, Application Endpoints, and Service Monitoring. For details on updating the application, review the guide to [update an environment](update-environment.md).
+After reading this guide you should be able to navigate the *Overview* screen of an application and understand its main features including the top navigation, Application Details, Application Endpoints, and Service Monitoring. For details on updating the application, review the guide to [update an application](update-an-application.md).
