@@ -19,7 +19,7 @@
       - [Create a backup](../environments/applications/backup-and-restore/create-backup.md)
       - [Schedule automated backups](../environments/applications/backup-and-restore/schedule-backup.md)
 - [Logging](#)
-  - [Application logs](../environments/applications/logging/environment-logs.md)
+  - [Application logs](../environments/applications/logging/application-logs.md)
 - [Reporting](#)
   - [Reporting overview](../reporting/reporting-overview.md)
   - [Report types](../reporting/report-types.md)
