@@ -7,7 +7,7 @@ description: Learn how to create custom alerts to monitor the health and operati
 
 Custom alerts can be created in Environment Operations Center to help your teams monitor the health and operations of your environments. Once created, alerts are sent to your specified communication channels to keep you up to date on important changes, potential issues, or errors. This guide outlines the steps to create and manage alerts in Environment Operations Center.
 
->[!note]An integration channel to receive the alert must be created prior to setting up the alert. For details on adding communication channel integrations, see the [integrations](../integrations/manage-integrations.md) guide.
+>[!note]An integration channel to receive the alert must be created prior to setting up the alert. For details on adding communication channel integrations, see the [integrations](../../../admin/integrations/manage-integrations.md) guide.
 
 ## Getting started
 
@@ -120,4 +120,4 @@ You'll receive a message confirming that the alert was successfully deleted and 
 
 ## Next steps
 
-You should now have an understanding of the steps to create and manage alerts to help monitor your environments in Environment Operations Center. To learn more about managing communication channels see the [manage integrations](../integrations/manage-integrations.md) guide.
+You should now have an understanding of the steps to create and manage alerts to help monitor your environments in Environment Operations Center. To learn more about managing communication channels see the [manage integrations](../../../admin/integrations/manage-integrations.md) guide.
