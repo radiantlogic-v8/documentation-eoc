@@ -111,7 +111,7 @@ You can view an application's version history by selecting the **View Version Hi
 
 ## Endpoints
 
-The *Application Endpoints* section lists all of the environment endpoints. Note that the endpoints for Identity Analytics application differ from Identity Data Management application.
+The *Application Endpoints* section lists all of the environment endpoints. Note that the [endpoints](endpoints-overview.md) for Identity Analytics application differ from Identity Data Management application.
 
 ![image description](images/endpoints.png)
 
