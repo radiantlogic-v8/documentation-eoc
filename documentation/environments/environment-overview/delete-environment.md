@@ -35,7 +35,3 @@ If you would like to keep the environment and exit out of the confirmation dialo
 After selecting **Delete** in the confirmation dialog you will return to the *Environments* home screen. Here, you'll receive a confirmation message that the environment was successfully deleted and the environment will be removed from the environments list.
 
 If the environment could not be deleted, you will return to the environment *Overview* screen and receive an error notification indicating that the attempt to delete the environment failed. Select **Dismiss** to close the error notification.
-
-## Next steps
-
-After reading this guide you should have an understanding of the steps required to delete an existing environment. If you would prefer to update the environment, please refer to the guide on [updating an environment](update-an-environment.md).
