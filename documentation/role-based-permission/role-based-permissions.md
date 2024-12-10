@@ -47,4 +47,4 @@ From the Environment Operations Center home page, the Environment User can view 
 
 ## Next steps
 
-After reading this guide you should have an understanding of the different role assignments in Environment Operations Center and their permissions within the application. For details on user management, see the guides to [create a user](../user-management/create-user.md) or [edit a user](../user-management/edit-user.md).
+After reading this guide you should have an understanding of the different role assignments in Environment Operations Center and their permissions within the application. For details on user management, see the guides to [create a user](../admin/user-management/create-user.md) or [edit a user](../admin/user-management/edit-user.md).
