@@ -13,9 +13,11 @@ This guide outlines the required steps to delete an environment and the applicat
 
 To begin the workflow to delete the environment, navigate to the environments page and click the environment you would like to delete. If the environment has any existing application, you must delete the application first.
 To do so, select the ellipsis in the application to expand the **Options** menu.
+
 ![image description](../applications/images/delete-application.png)
 
-From the **Options** menu, select **Delete**. This will open the delete application dialog box. Enter the Application name in the dialog box and click **Delete**. This will permanently delete the application
+From the **Options** menu, select **Delete**. This will open the delete application dialog box. Enter the Application name in the dialog box and click **Delete**. This will permanently delete the application.
+
 ![image description](../applications/images/delete-application-confirm.png)
 
 ## Enter environment details
