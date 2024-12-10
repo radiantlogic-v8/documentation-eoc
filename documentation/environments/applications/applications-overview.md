@@ -19,7 +19,7 @@ In your environment, you can install one or both of the following RadiantLogic a
 
 ## Install an application 
 
-To install an application in a new environment, refer to the [Create an environment](to-add) guide. 
+To install an application in a new environment, refer to the [Create an environment](../environment-overview/environments.md) guide. 
 To add an application to an existing environment in the Environment Operations Center, follow these steps:
 
 1. After logging into your Environment Operations Center, select **Environments** in the left navigation.
@@ -68,7 +68,7 @@ This is an optional step and is not required. An advanced setup is available if 
 
 >![warn] Use this approach to restore an environment from an existing backup file. When creating a new environment, choose the backup configuration (ZIP file) that was downloaded from the environment you want to restore. 
 
-The **Install Samples** option imports sample data. See [Sample Data](../introduction/samples.md) for further details about sample data.
+The **Install Samples** option imports sample data.
 
 ### Custom Configuration
 
@@ -100,7 +100,7 @@ If there is an issue with the form submission, an error message states that the 
 
 ## Update an application 
 
-Refer to the [managing application updates](to-add) guide to learn how to update an application. 
+Refer to the [update an application](update-an-application) guide to learn how to update an application. 
 
 
 ## Delete an application 
