@@ -64,10 +64,8 @@ Select **Close** to exit the node details dialog.
 
 Alternatively, the log files of a node can be accessed by selecting **View Logs** from the associated **Options** (**menu**).
 
-> [!note] For further details on reviewing logs, see the [environment logs](../logging/environment-logs.md) guide.
-
 ![image description](images/options-view-logs.png)
 
 ## Next steps
 
-After reviewing this guide, you should have an understanding of how to review the status and health of specific FID nodes. For information on reviewing environment logs, see [environment logs](../logging/environment-logs.md).
+After reviewing this guide, you should have an understanding of how to review the status and health of specific FID nodes. For information on reviewing environment logs, see [environment logs](logging/application-logs.md).
