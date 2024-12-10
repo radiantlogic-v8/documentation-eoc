@@ -9,7 +9,6 @@
 - [Environments](#)
   - [Environments overview](../environments/environment-overview/environments.md)
   - [Create an environment](../environments/environment-overview/create-environments.md)
-  - [Update an environment](../environments/environment-overview/update-an-environment.md)
   - [Delete an environment](../environments/environment-overview/delete-environment.md)
   - [Applications](#)
     - [Application overview](../environments/applications/applications-overview.md)
