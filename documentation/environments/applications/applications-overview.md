@@ -100,7 +100,7 @@ If there is an issue with the form submission, an error message states that the 
 
 ## Update an application 
 
-Refer to the [update an application](update-an-application) guide to learn how to update an application. 
+Refer to the [update an application](update-an-application.md) guide to learn how to update an application. 
 
 
 ## Delete an application 
