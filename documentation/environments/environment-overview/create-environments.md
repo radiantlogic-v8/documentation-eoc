@@ -91,7 +91,7 @@ This is an optional step and is not required. An advanced setup is available if 
 
 >![warn] Use this approach to restore an environment from an existing backup file. When creating a new environment, choose the backup configuration (ZIP file) that was downloaded from the environment you want to restore. 
 
-The **Install Samples** option imports sample data. See [Sample Data](../introduction/samples.md) for further details about sample data.
+The **Install Samples** option imports sample data.
 
 #### Custom Configuration
 
@@ -140,4 +140,4 @@ Select the ellipsis (**...**) in line with the environment to display a list of 
 
 ## Next Steps
 
-Learn how to [update an application](to-add), [delete an application](to-add) and view application details such as the Control Panel UI.
+Learn how to view [application details](../applications/application-details), [update an application](../applications/update-an-application) and [delete an environment](delete-environment). 
