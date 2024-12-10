@@ -37,17 +37,10 @@ A refresh button is located in the upper right corner of the *Environments* scre
 
 ![image description](Media/refresh-envs.png)
 
-### Options Menu
-
-To view a list of operations that can be performed on a given environment, select the ellipsis (**...**) in the environment row or card to expand the **Options** menu. Options include:
-
-- **View Details**: takes you to an environment's *Overview* screen where you can view further details about the environment. To learn more about the environment *Overview*, review the [environment overview guide](../environment-details/environment-overview#environment-details).
-- **View logs**: takes you to an environment's *Logs* screen where you can view log files for a given date range. To learn how to review logs, visit the environment details [logs](../environment-details/environment-overview#logs) guide.
-- **Delete**: opens the dialog to being the workflow to delete an environment. For information on deleting an environment, review the [Delete an Environment](delete-an-environment.md) guide.
 
 ### New environment
 
-The **New Environment** button allows you to quickly start creating a new environment from the home screen. For details on how to create a new environment, review the guide on [creating a new environment](create-an-environment.md).
+The **New Environment** button allows you to quickly start creating a new environment from the home screen. For details on how to create a new environment, review the guide on [creating a new environment](create-environments.md).
 
 ### Applications
 
@@ -57,12 +50,12 @@ In your environment, you can install one or both of the following RadiantLogic a
 
 * **Identity Data Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
 
-Refer to the [Install an application](to-add) guide for additional details on the installation steps. 
+Refer to the [applications-overview](../applications/applications-overview.md) guide for additional details on the installation steps. 
 
 
 ## Access Permissions
 
-Depending on your [role](../../admin/role-based-permission/role-based-permissions/), your administrator may set your access permissions to read-only for certain environments. If you have read-only access:
+Depending on your [role](../../role-based-permission/role-based-permissions.md), your administrator may set your access permissions to read-only for certain environments. If you have read-only access:
 
 - You will not be able to create new environments and the **New Environment** button will be deactivated.
 - Certain environments will be hidden if you have not been assigned either read-only or editing permissions.
@@ -71,4 +64,4 @@ Depending on your [role](../../admin/role-based-permission/role-based-permission
 
 ## Next Steps
 
-After reading this guide you should have an understanding of how to navigate the *Environments* home screen and its main features. To begin setting up a new environment, review the documentation on [creating a new environment](create-an-environment.md).
+After reading this guide you should have an understanding of how to navigate the *Environments* home screen and its main features. To begin setting up a new environment, review the documentation on [creating a new environment](create-environments.md).
