@@ -68,4 +68,4 @@ Alternatively, the log files of a node can be accessed by selecting **View Logs*
 
 ## Next steps
 
-After reviewing this guide, you should have an understanding of how to review the status and health of specific FID nodes. For information on reviewing environment logs, see [environment logs](logging/application-logs.md).
+After reviewing this guide, you should have an understanding of how to review the status and health of specific FID nodes. For information on reviewing environment logs, see [application logs](logging/application-logs.md).
