@@ -140,4 +140,4 @@ Select the ellipsis (**...**) in line with the environment to display a list of 
 
 ## Next Steps
 
-Learn how to view [application details](../applications/application-details), [update an application](../applications/update-an-application) and [delete an environment](delete-environment). 
+Learn how to view [application details](../applications/application-details.md), [update an application](../applications/update-an-application.md) and [delete an environment](delete-environment.md). 
