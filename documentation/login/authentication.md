@@ -32,7 +32,7 @@ This guide provides information about configuring SSO with various OIDC provider
      * The discovery URL is the endpoint from which the OIDC provider's metadata is retrieved. This URL typically ends with /.well-known/openid-configuration (e.g., https://example.com/.well-known/openid-configuration). This URL provides essential information like the authorization and token endpoints, supported scopes, and other configuration details. This field does not apply for Github.
 
   4. REDIRECT URL
-     * This is the URL to which the OIDC provider will redirect users to, after successful authentication. It must match one of the redirect URIs registered in the OIDC provider's settings (e.g., https://yourapp.com/callback).
+     * This is the URL to which the OIDC provider will redirect users to, after successful authentication. 
     
   5. AUTHORIZATION ENDPOINT URL
      * This is the endpoint the client will use to initiate the OAuth2 authorization code flow. It typically looks like https://example.com/authorize.
