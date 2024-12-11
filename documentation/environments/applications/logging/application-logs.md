@@ -9,15 +9,13 @@ This guide outlines the steps to review logs for a specific application. Log fil
 
 Environment Operations Center is connected to Elastic and displays the Elastic monitoring user interface directly within the Environment Operations Center logging tab. This allows you to review environment logs directly in Environment Operations Center without having to navigate away from the application.
 
->[!note] For further details on specific log types and the data they provide, see the RadiantOne [logging and troubleshooting](../../../../idm/v8.1/troubleshooting/troubleshooting.md) guide.
+>[!note] For further details on specific log types and the data they provide, see the RadiantOne [logging and troubleshooting](../../../idm/v8.1/troubleshooting/troubleshooting.md) guide.
 
 ## Getting started
 
 To navigate to the *Logs* screen for a specific application, select **Logs** from the top navigation in the application's detailed view.
 
 From the logs tab you can filter and search the application logs to review detailed information about application activity.
-
-![image description](images/logs-tab.png)
 
 ## Filter and search logs
 
