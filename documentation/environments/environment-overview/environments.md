@@ -3,7 +3,7 @@ keywords:
 title: Environments Overview
 description: Learn how to navigate the Environments page and view environment details in Environment Operations Center, and understand the topics accessible in the options menu.
 ---
-# Environments Overview
+# Environments overview
 
 This guide provides an overview of the *Environments* home screen and its features. To navigate to the *Environments* home screen, select **Environments** in the left navigation.
 
@@ -53,7 +53,7 @@ In your environment, you can install one or both of the following RadiantLogic a
 Refer to the [applications-overview](../applications/applications-overview.md) guide for additional details on the installation steps. 
 
 
-## Access Permissions
+## Access permissions
 
 Depending on your [role](../../role-based-permission/role-based-permissions.md), your administrator may set your access permissions to read-only for certain environments. If you have read-only access:
 
@@ -62,6 +62,6 @@ Depending on your [role](../../role-based-permission/role-based-permissions.md),
 - You will not be able to edit or update the environments that you have read-only access to and the **Options** menu (**...**) will no longer be visible next to the environment. You can still view the details for these environments by selecting the environment name to navigate to their respective "Overview" screens.
 - An administrator can assign editing permission to you for specific environments. This allows you to edit, update, or delete the environments they have specified, while others remain hidden or read-only.
 
-## Next Steps
+## Next steps
 
 After reading this guide you should have an understanding of how to navigate the *Environments* home screen and its main features. To begin setting up a new environment, review the documentation on [creating a new environment](create-environments.md).
