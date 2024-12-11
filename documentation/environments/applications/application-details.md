@@ -80,7 +80,7 @@ In the right corner of the navigation menu, you can see:
 
 ![image description](images/operations.png)
 
-To learn how to update or delete the environment, review the respective [delete application](delete-environment.md) or [updated application](update-environment.md) guides. For details on monitoring and adjusting nodes, see the [update and monitor nodes](node-details.md) guide.
+To learn how to update or delete the application, review the respective [delete application](../environment-overview/delete-environment.md) or [update application](update-an-application.md) guides. For details on monitoring and adjusting nodes, see the [update and monitor nodes](node-details.md) guide.
 
 
 ## Application details
