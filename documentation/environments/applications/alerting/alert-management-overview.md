@@ -3,7 +3,7 @@ keywords:
 title: Alert Management
 description: Learn how to create custom alerts to monitor the health and operations of your environment. 
 ---
-# Alert Management
+# Alert management
 
 Custom alerts can be created in Environment Operations Center to help your teams monitor the health and operations of your environments. Once created, alerts are sent to your specified communication channels to keep you up to date on important changes, potential issues, or errors. This guide outlines the steps to create and manage alerts in Environment Operations Center.
 
