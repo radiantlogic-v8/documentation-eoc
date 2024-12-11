@@ -3,7 +3,7 @@ keywords:
 title: Reporting Overview
 description: Learn about the application reporting options available in the Environment Operations Center.
 ---
-# Reporting Overview
+# Reporting overview
 
 From the *Reporting* screen, you can generate various reports to assist in monitoring performance and operations within your application. This guide provides an overview of the *Reporting* section in Environment Operations Center, including its features and how to generate reports. 
 
