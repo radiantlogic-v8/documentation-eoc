@@ -1,11 +1,11 @@
 ---
 keywords:
 title: Create a User
-description: Learn how to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Tenant Administrator, Environment Administrator, and Environment User
+description: Learn how to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Read Only, Tenant Administrator, Environment Administrator, and Environment User
 ---
 # Create a User
 
-This guide outlines the required steps to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Tenant Administrator, Environment Administrator, and Environment User. For details on permissions for each role, see the [role-based permissions](../role-based-permission/role-based-permissions.md) guide.
+This guide outlines the required steps to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Tenant Administrator, Environment Administrator, and Environment User. For details on permissions for each role, see the [role-based permissions](../../role-based-permission/role-based-permissions.md) guide.
 
 ## Getting started
 
@@ -29,23 +29,21 @@ Set the user's status by adjusting the *Status* toggle to "Active".
 
 ![image description](images/create-user-details.png)
 
-All the fields in the *User Details* section are required and must be completed to submit the form. If a field is missing information, you cannot click **Save**. Hovering over the **Save** button displays a reminder that the form must be complete to create the user.
+All required fields in the *User Details* section must be filled out to submit the form. If a field is missing information, you cannot click **Save**. Hovering over the **Save** button displays a reminder that the form must be complete to create the user.
 
-![image description](images/create-save-disabled.png)
+Once you have completed the *User Details* section, you can proceed to the *Options* and *Role Details* section to assign the user a role and one or more environments.
 
-Once you have completed the *User Details* section, you can proceed to the *Role* and *Role Details* section to assign the user a role and one or more environments.
+## Options
 
-## Roles
-
-An user can assume two roles, either a **TENANT ADMIN** or an **ENVIRONMENT CREATOR**. These roles can be enabled/disabled using the toggle buttons.
+In the *Options* section, you can assign a specific role to a user. A user can assume one of these three roles, either a **READ-ONLY** user, a **TENANT ADMIN**, or an **ENVIRONMENT CREATOR**. These roles can be enabled/disabled using the toggle buttons. 
 
 ![image description](images/roles.png)
 
 ## Role details
 
-In the *Role Details* section you can assign roles and environments to the user. A user can be assigned to more than one role, but can only hold one role per environment. For example, a user may be assigned Tenant Administrator to environments "A" and "B", and also be assigned as an Environment User for environments "C" and "D". The user holds two different roles, but the environment assignments for each role are unique.
+In addition to the account level role defined in the *Options* section, you can assign an environment level role to a user. For example, a user may be assigned Tenant Administrator to environments "A" and "B", and also be assigned as an Environment User for environments "C" and "D". The user holds two different roles, but the environment assignments for each role are unique.
 
-See the [role based permission](../role-based-permission/role-based-permissions.md) guide for further details on role definitions and permission details.
+See the [role based permission](../../role-based-permission/role-based-permissions.md) guide for further details on role definitions and permission details.
 
 To assign the user a role, select the *Role* field to expand the role dropdown. From the list, select the role that is best suited for the user.
 
@@ -55,7 +53,7 @@ To assign an environment, select the *Environment* field to expand the environme
 
 ![image description](images/create-env.png)
 
-A user can be assigned to multiple environments for their given role. Continue selecting environments from the dropdown list until you have assigned all required environments to the user. Select the arrow (arrow icon) in the *Environment* field to close the drop-down list. (**confirming dropdown multi-selection functionality**).
+A user can be assigned to multiple environments for their given role. Continue selecting environments from the dropdown list until you have assigned all required environments to the user. Select the arrow (arrow icon) in the *Environment* field to close the drop-down list.
 
 ![image description](images/create-multiple-envs.png)
 
@@ -67,19 +65,13 @@ To edit the *Role Details* section after you have set the assignment, select **O
 
 ![image description](images/create-options.png)
 
-Once you have completed the *User Details* and *Role Details* sections, select **Save** to create the new user. The user receives an email notification at the email address associated with their user account confirming their user creation and the link to the EOC.
-
-![image description](images/create-save.png)
-
-To exit out of the *Create User* form without creating a new user, select **Cancel**.
+Once you have completed the *User Details* and *Role Details* sections, select **Save** to create the new user. The user receives an email notification at the email address associated with their user account confirming their user creation and the link to the EOC. To exit out of the *Create User* form without creating a new user, select **Cancel**.
 
 ![image description](images/create-cancel.png)
 
 You will receive a confirmation message notifying you that all the current form details will be lost. Select **Confirm** to continue and exit the *Create User* form without saving the current user details.
 
 If you wish to return to the *Create User* form to continue creating the new user, select **Cancel**.
-
-![image description](images/create-confirm-cancel.png)
 
 ## Confirmation
 

@@ -67,31 +67,23 @@ To update a user's status from the *Edit User* screen, adjust the *Status* toggl
 
 After selecting save, the *Users* tab indicates that the user status has been updated accordingly to the status you selected.
 
-![image description](images/edit-inactive-status2.png)
-
 ## Update role details
 
-To update the role or environment assignments of a user, from the *Edit User* screen select the **Options** (**...**) menu next to the role and environment pairing to be edited. Select **Edit** from the drop-down to enable editing for the role and environment fields.
+To update the role assignments of a user, from the *Edit User* screen, enable or disable the user role from the **Options** (**...**) menu next to the role.
 
 ![image description](images/edit-roledetails.png)
 
-### Update user role
+### Update user role for an environment
 
-To update the user role, select the down arrow located in the *Role* field to expand the drop-down menu.
+To update environment-specific role for the user,  select the Options (...) menu next to the role and environment pairing to be edited. Select Edit from the drop-down to enable editing for the role and environment fields.
+
+Next, select the down arrow located in the *Role* field to expand the drop-down menu.
 
 ![image description](images/edit-role-arrow.png)
 
-From the list of roles, select the role to assign to the user.
-
-![image description](images/edit-select-role.png)
-
-Select the checkmark icon (check mark icon) to set the new role.
-
-![image description](images/edit-role-checkmark.png)
+From the list of roles, select the role to assign to the user. Select the checkmark icon (check mark icon) to set the new role.
 
 Select **Save** to update the user role.
-
-![image description](images/edit-save-role.png)
 
 ### Update environment assignments
 
@@ -105,15 +97,8 @@ To add new environments, select the environments from the drop-down menu. Multip
 
 To remove assigned environments, select the **X** located next to the environment name.
 
-![image description](images/edit-delete-envs.png)
+Once you have updated the user environment assignments, select the **checkmark** to set the new environment assignments. Select **Save** to update the user environment assignments.
 
-Once you have updated the user environment assignments, select the **checkmark** to set the new environment assignments.
-
-![image description](images/edit-env-checkmark.png)
-
-Select **Save** to update the user environment assignments.
-
-![image description](images/edit-save-envs.png)
 
 ### Review user roles and environments
 
@@ -132,11 +117,8 @@ To reset the MFA token associated with an user, go to the options menu for that 
 
 ![image description](images/reset-mfa-button.png)
 
-A message box appears on the top right corner of the EOC page, saying the MFA reset has been successful.
+A message box appears on the top right corner of the EOC page, saying the MFA reset has been successful. The "MFA STATUS" for the user changes to "NOT SET".
 
-The "MFA STATUS" for the user changes to "NOT SET".
-
-![image description](images/mfa-not-set.png)
 
 ### Reset User Password
 
@@ -147,8 +129,6 @@ To reset the password for an user, from the options menu of the user, click **Re
 ![image description](images/reset-password-conf.png)
 
 After a successful reset of the password, a message confirms the password reset for the selected user.
-
-![image description](images/reset-password-conf-message.png)
 
 ## Next steps
 

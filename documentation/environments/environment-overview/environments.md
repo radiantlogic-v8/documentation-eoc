@@ -1,7 +1,7 @@
 ---
 keywords:
 title: Environments Overview
-description: Learn how to access environment details and status in Environment Operations Center, and understand the topics accessible in the options menu.
+description: Learn how to navigate the Environments page and view environment details in Environment Operations Center, and understand the topics accessible in the options menu.
 ---
 # Environments Overview
 
@@ -9,7 +9,7 @@ This guide provides an overview of the *Environments* home screen and its featur
 
 ![image description](Media/select-envs.png)
 
-The *Environments* home screen provides an overview of all your organization's available environments. Each environment is displayed with a set of 4 blocks, each with a different color, and provides information about the applications like if they are in operational, warning, critical or offline state.
+The *Environments* home screen provides an overview of all your organization's available environments. Each environment provides information about installed application(s).
 
 Two environment display views are available, either list- or grid-view. In the list-view, environments are organized by row with the associated environment details contained in the row.
 
@@ -19,7 +19,7 @@ In the grid-view, environments are organized in a card format with associated de
 
 ![image description](Media/envs-grid-view.png)
 
-Each environment has its own **Options** menu (**...**) that allows you to either ADD or DELETE the environment.
+Each environment has its own **Options** menu (**...**) that allows you to either add an application or delete the environment. 
 
 In the list-view, the options menu is located at the end of an environment row.
 
@@ -29,7 +29,7 @@ In the grid-view, the options menu is located in the upper corner of an environm
 
 ![image description](Media/options-grid.png)
 
-A **Search For** bar at the top of the *Environments* screen can be used to filter the listed environments. Enter an environment name, specific characters, or words in the space provided to quickly filter through the environments.
+A **Search** bar at the top of the *Environments* screen can be used to filter the listed environments. Enter an environment name, specific characters, or words in the space provided to quickly filter through the environments.
 
 ![image description](Media/search-to-filter.png)
 
@@ -37,82 +37,25 @@ A refresh button is located in the upper right corner of the *Environments* scre
 
 ![image description](Media/refresh-envs.png)
 
-## Environment details
 
-To access further details about an environment, select the name of the environment you wish to view.
+### New environment
 
-![image description](Media/env-details.png)
+The **New Environment** button allows you to quickly start creating a new environment from the home screen. For details on how to create a new environment, review the guide on [creating a new environment](create-environments.md).
 
-This brings you to the environment's *Overview* screen, where you can view further information about a given environment, such as node status or connections, and perform monitoring and updating actions.
+### Applications
 
-> To learn more about the environment *Overview* features, review the [environment details](../environment-details/environment-overview.md) guide.
+In your environment, you can install one or both of the following RadiantLogic applications:
 
-![image description](Media/detailed-view.png)
+* **Identity Data Management** – This application streamlines identity data by eliminating silos and ensuring seamless synchronization across your organization. It serves as a scalable, unified source of truth, helping to manage and maintain accurate, up-to-date identity information.
 
-## Environment status
+* **Identity Data Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
 
-The environment **Status** indicates the current state of the environment. Statuses automatically change as operations are performed on an environment or if any errors have occurred. Environment statuses include:
+Refer to the [applications-overview](../applications/applications-overview.md) guide for additional details on the installation steps. 
 
-- Operational: Indicates all FID and Zookeeper nodes are running.
-- Warning: There are nodes not running, but the minimum number of nodes required for an environment to operate are running.
-- Critical: This indicates that there is some issue with the application.
-- Offline: This indicates that the application has been stopped and is in offline state.
-- Outage: The minimum number of nodes required for an environment to operate are not running.
-- Update failed: An attempt to update the environment failed.
-- Creation failed: An attempt to create a new environment failed.
-- Import failed: An attempt to import a configuration file failed.
-- Updating: The environment is currently updating (this can take up to 1 hour).
-- Creating: The environment is currently being created (this can take up to 1 hour).
-
-![image description](Media/env-status.png)
-
-![image description](Media/env-warning.png)
-
-![image description](Media/env-critical.png)
-
-![image description](Media/env-offline.png)
-
-## Environment creation date
-
-The **Creation Date** indicates the date and time when the environment was created.
-
-![image description](Media/creation-date.png)
-
-## Environment version
-
-**Version** indicates the current version of the environment. The version number is set by the environment administrator during environment setup. If the environment version number no longer matches the current available version of Environment Operations Center, an "Update" notification is displayed next to the version number prompting you to update the environment.
-
-To learn more about updating an environment, review the [update an environment](update-an-environment.md) guide.
-
-![image description](Media/version.png)
-
-## Environment nodes
-
-**Nodes** indicates the number of nodes in the environment. The number of nodes is set by the environment administrator during environment setup. An environment Administrator can increase or decrease the number of nodes in an environment at any time.
-
-To learn more about adjusting the number of nodes in an environment, see the [update and monitor nodes](../environment-details/node-details.md) guide.
-
-![images description](Media/nodes.png)
-
-## Options Menu
-
-To view a list of operations that can be performed on a given environment, select the ellipsis (**...**) in the environment row or card to expand the **Options** menu. Options include:
-
-- **View Details**: takes you to an environment's *Overview* screen where you can view further details about the environment. To learn more about the environment *Overview*, review the [environment overview guide](../environment-details/environment-overview#environment-details).
-- **View logs**: takes you to an environment's *Logs* screen where you can view log files for a given date range. To learn how to review logs, visit the environment details [logs](../environment-details/environment-overview#logs) guide.
-- **Delete**: opens the dialog to being the workflow to delete an environment. For information on deleting an environment, review the [Delete an Environment](delete-an-environment.md) guide.
-
-![image description](Media/options-menu.png)
-
-## New environment
-
-The **New Environment** button allows you to quickly start creating a new environment from the home screen. For details on how to create a new environment, review the guide on [creating a new environment](create-an-environment.md).
-
-![image description](Media/new-env.png)
 
 ## Access Permissions
 
-Depending on your role, your administrator may set your access permissions to read-only for certain environments. If you have read-only access:
+Depending on your [role](../../role-based-permission/role-based-permissions.md), your administrator may set your access permissions to read-only for certain environments. If you have read-only access:
 
 - You will not be able to create new environments and the **New Environment** button will be deactivated.
 - Certain environments will be hidden if you have not been assigned either read-only or editing permissions.
@@ -121,4 +64,4 @@ Depending on your role, your administrator may set your access permissions to re
 
 ## Next Steps
 
-After reading this guide you should have an understanding of how to navigate the *Environments* home screen and its main features. To begin setting up a new environment, review the documentation on [creating a new environment](create-an-environment.md).
+After reading this guide you should have an understanding of how to navigate the *Environments* home screen and its main features. To begin setting up a new environment, review the documentation on [creating a new environment](create-environments.md).

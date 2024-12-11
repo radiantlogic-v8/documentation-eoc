@@ -7,7 +7,7 @@ description: Learn more about the administrative functions that can be performed
 
 This guide provides an overview of the *Admin* home screen and its features. From the *Admin* screen, you can access tabs to manage your account settings, Environment Operation Center users, environment alerts and integrations, and monitor cluster health.
 
-All Env Ops Center users can access the *Admin* screen, but view and edit permissions differ depending on a user's assigned role. For details on role-based permissions, see the [role-based permissions](role-based-permission/role-based-permissions.md) guide.
+All Environment Operations Center users can access the *Admin* screen, but view and edit permissions differ depending on a user's assigned role. For details on role-based permissions, see the [role-based permissions](../role-based-permission/role-based-permissions.md) guide.
 
 ## Getting started
 
@@ -88,4 +88,4 @@ The **Settings** page provides options to setup release channels and automatic/m
 
 ## Next steps
 
-After reading this guide you should be able to navigate the *Admin* home screen and understand its main features including the top navigation. For details on updating your account settings, review the [account settings](account-settings/update-account.md) guide. To learn how to create a new user, review the [create a new user](user-management/create-user.md) guide.
+After reading this guide you should be able to navigate the *Admin* home screen and understand its main features including the top navigation. For details on updating your account settings, review the [account settings](../account-settings/update-account.md) guide. To learn how to create a new user, review the [create a new user](user-management/create-user.md) guide.

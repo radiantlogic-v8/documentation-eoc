@@ -1,17 +1,17 @@
 ---
 keywords:
-title: Getting Started
-description: Getting started
+title: Overview
+description: Overview of EOC
 ---
 # Getting started
 
 Environment Operations Center allows you to control your RadiantOne implementation in a cloud environment. It provides all of the required tools to:
  
-1. Create and manage RadiantOne [environments](../environments/environment-overview/environments.md) as well as install and manage RadiantOne applications in your environments. 
+1. Create and manage RadiantOne [environments](../environments/environment-overview/environments.md) where you can install and manage RadiantOne applications in your environments. 
 
 2. [Securely connect with on-premises data ](../secure-data-connector/configure-sdc-service.md). Note that this feature is currently supported in Identity Data Management applications only.
 
-3. Observe usage and issues with [reporting](../reporting/reporting-overview.md), [monitoring](../monitoring/monitoring-overview.md), [logging](../environments/logging/environment-logs.md), and [alerting](../environments/environment-details/alert-management-overview.md) dashboards.
+3. Observe usage and issues with [reporting](../reporting/reporting-overview.md), [monitoring](../monitoring/monitoring-overview.md), [logging](../environments/applications/logging/application-logs.md), and [alerting](../environments/applications/alerting/alert-management-overview.md) dashboards.
 
 4. [Administrate](../admin/admin-overview.md) account settings, users, environment alerts and integrations depending on the user role.  
 
@@ -24,20 +24,20 @@ After logging in to the Environment Operations Center, the *Overview* screen app
 
 A navigation bar is located to the left and is visible from all screens within Environment Operation Center. You can access your account settings by selecting the avatar in the upper right corner, also visible from all screens in the application. If you are an admin, you can access admin settings by selecting the admin icon in the bottom left corner of the page. 
 
-## Account settings
+### Account settings
 
-A user avatar is always located in the upper right corner of the Env Ops Center user interface. Select the avatar to expand your account dropdown menu. 
+A user avatar is always located in the upper right corner of the Environment Operations Center user interface. Select the avatar to expand your account dropdown menu. 
 
 ![image description](Media/profile-icon.png)
 
-The dropdown displays your name, email, and permissions associated with the account. From the dropdown menu you can navigate to your **Account Settings**, access the **Help** center, or **Logout** of Env Ops Center.
+The dropdown displays your name, email, and permissions associated with the account. From the dropdown menu you can navigate to your **Account Settings**, access the **Help** center, or **Logout** of Environment Operations Center.
 
-For information on managing your account settings, see the [account settings](../admin/account-settings/update-account.md) guide.
+For information on managing your account settings, see the [account settings](../account-settings/update-account.md) guide.
 
 
 ### Quick links
 
-By default, the Quick Links section contains guides and resources to help you with your work in RadiantOne and Environment Operations Center. An admin can add or remove links to display relevant content in this section. For further details on role-based permissions, see the [role-based permissions](../admin/role-based-permission/role-based-permissions.md) guide.
+By default, the Quick Links section contains guides and resources to help you with your work in RadiantOne and Environment Operations Center. An admin can add or remove links to display relevant content in this section. For further details on role-based permissions, see the [role-based permissions](../role-based-permission/role-based-permissions.md) guide.
 
 ![image description](Media/documentation-link.png)
 
@@ -69,7 +69,7 @@ By clicking on it, you can change the layout of the home screen, add another wid
  ![image description](Media/customize.png)
 
 
-## Left navigation
+### Left navigation
 
 The left navigation contains links to various screens, providing access to the following Environment Operation Center features:
 
@@ -81,10 +81,10 @@ The left navigation contains links to various screens, providing access to the f
 
 - Secure data connectors: You can manage connections to on-premise data connectors in the *Secure Data Connectors* section. Select **Secure Data Connectors** to navigate to the *Secure Data Connectors* screen. For details on managing data connections, see the [secure data connectors](../secure-data-connectors/data-connectors-overview.md) guide. This feature is currently available only in the Identity Data Management application.
 
-- Observe: The Observe section contains navigation items for **[Reporting](../reporting/reporting-overview.md)**, **[Monitoring](../monitoring/monitoring-overview.md)**, **[Logging](../environments/logging/environment-logs.md)**, and **[Alerting](../environments/environment-details/alert-management-overview.md)**.
+- Observe: The Observe section contains navigation items for **[Reporting](../reporting/reporting-overview.md)**, **[Monitoring](../monitoring/monitoring-overview.md)**, **[Logging](../environments/applications/logging/application-logs.md)**, and **[Alerting](../environments/applications/alerting/alert-management-overview.md)** dashboards.
 
 - Admin: From the *Admin* section you can perform various administrative actions in Environment Operations Center. Select **Admin** to navigate to the *Admin* home screen. For further details on operations available in the *Admin* section, see the [admin overview](../admin/admin-overview.md) guide.
 
 ## Next steps
 
-After reading this guide you should have an understanding of the *Overview* screen components and how to navigate the Environment Operations Center user interface. For more information on environments, see the [environments overview](../environments/environment-overview/environments.md) guide. To learn how to create an environment, see the [create an environment](../environments/environment-overview/create-environments.md) guide.
+After reading this guide you should have an understanding of the *Overview* screen components and how to navigate the Environment Operations Center user interface. To learn how to create an environment, see the [create an environment](../environments/environment-overview/create-environments.md) guide.

@@ -46,11 +46,11 @@ The following sections outline common errors that can occur while deploying or r
 
 ### Duplicated token
 
-The unique token associated with a new data connector in Env Ops Center can only be used to deploy one secure data connector client. If a data connector token is used to run more than one client, you will receive a duplicate agent connection error in the client terminal.
+The unique token associated with a new data connector in Environment Operations Center can only be used to deploy one secure data connector client. If a data connector token is used to run more than one client, you will receive a duplicate agent connection error in the client terminal.
 
 ![image description](Media/err-duplicate-connection.png)
 
-To resolve the error, return to Env Ops Center an create a new secure data connector and use the unique token to deploy the client.
+To resolve the error, return to Environment Operations Center an create a new secure data connector and use the unique token to deploy the client.
 
 For details on creating a new data connector, see the [add a data connector](add-data-connector.md) guide. For details on deploying a secure data connector client, see the [deploy a secure data connector client](deploy-sdc-client.md) guide.
 
@@ -70,9 +70,9 @@ To resolve the connection failure, enter the special DNS name `host.docker.inter
 
 ### Inoperative test connection
 
-If the test connection is not working but you are unsure of the error, first review the secure data connector status in Env Ops Center.
+If the test connection is not working but you are unsure of the error, first review the secure data connector status in Environment Operations Center.
 
-First, save the backend data source, then login to Env Ops Center and navigate to details section of one of the *Secure Data Connectors* belonging to the group used for connection. If the Data source status is "Disconnected", the connection has not been correctly setup. Review the associated server name/IP and Server Port of this data source to make sure the data connector can connect to this server.
+First, save the backend data source, then login to Environment Operations Center and navigate to details section of one of the *Secure Data Connectors* belonging to the group used for connection. If the Data source status is "Disconnected", the connection has not been correctly setup. Review the associated server name/IP and Server Port of this data source to make sure the data connector can connect to this server.
 
 If the data source connector status is "Connected", then the inlets tunnel is working and data connector is able to connect to this data source.
 
