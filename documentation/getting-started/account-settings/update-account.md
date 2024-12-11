@@ -60,4 +60,4 @@ If the token is successfully deleted you will receive a confirmation message and
 
 ## Next steps
 
-After reading this guide you should have an understanding of how to update your account settings and manage your API tokens. For details on managing Environment Operations Center users, see the [create a new user](../admin/user-management/create-user.md) or [edit an existing user](../admin/user-management/edit-user.md) guides.
+After reading this guide you should have an understanding of how to update your account settings and manage your API tokens. For details on managing Environment Operations Center users, see the [create a new user](../../admin/user-management/create-user.md) or [edit an existing user](../../admin/user-management/edit-user.md) guides.
