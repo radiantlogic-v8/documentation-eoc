@@ -9,7 +9,7 @@ This guide walks you through the steps required to create a new environment and 
 
 An environment is where a RadiantOne product lives. Each environment is completely isolated and contains endpoints to access different applications. Each instance of the Environment Operations Center has a predefined number of production and non-production environments that can be created for production, development, quality assurance, and staging purposes.
 
-## Getting Started
+## Getting started
 
 Before setting up your environment, you need the following:
 
@@ -18,7 +18,7 @@ Before setting up your environment, you need the following:
 
 The new environment setup requires you to define the environment type, details, and provides an optional step to upload a configuration file from another environment.
 
-## Creating Environments
+## Creating environments
 
 To create a new environment, select **New Environment** on the *Environments* home screen or from the *Overview* home screen.
 
@@ -28,7 +28,7 @@ This takes you to the *New Environment* page that contains all the input fields 
 
 ![image description](Media/new-env-dialog.png)
 
-### Define Environment Type
+### Define environment type
 
 Start by selecting the required **Environment Type**.
 
@@ -56,7 +56,7 @@ In your environment, you can install one or both of the following RadiantLogic a
 To deploy an application, select the checkbox adjacent to the application name. In the expanded view, fill out all required information.
 ![image description](Media/apps-select.png)
 
-#### Application Details
+#### Application details
 
 Under the **Application Details** section, provide the required details such as the application version, password ,and application description.
 
@@ -85,7 +85,7 @@ To confirm your password, reenter or copy and paste your password in the confirm
 
 To reveal your original or confirmation password, select the eye icon (![image description](Media/eye-icon.png)) located within the text field you wish to view.
 
-### Advanced Setup
+### Advanced setup
 
 This is an optional step and is not required. An advanced setup is available if you would like to upload a configuration ZIP file from another environment or create the environment using samples. Enable advanced setup by toggling on **Advanced Setup**.
 
@@ -93,7 +93,7 @@ This is an optional step and is not required. An advanced setup is available if 
 
 The **Install Samples** option imports sample data.
 
-#### Custom Configuration
+#### Custom configuration
 
 To import a configuration file, select the configuration ZIP file to upload. You can locate the file on your system and drag and drop it into the provided space. Alternatively, you can select **choose file** within the upload box to open your system's file manager and locate the file to upload.
 
@@ -138,6 +138,6 @@ Select the ellipsis (**...**) in line with the environment to display a list of 
 - **Delete**: if the environment hasn't been successfully created, delete the failed instance.
 
 
-## Next Steps
+## Next steps
 
 Learn how to view [application details](../applications/application-details.md), [update an application](../applications/update-an-application.md) and [delete an environment](delete-environment.md). 
