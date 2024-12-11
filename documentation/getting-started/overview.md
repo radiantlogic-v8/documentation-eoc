@@ -79,9 +79,9 @@ The left navigation contains links to various screens, providing access to the f
 
 - Environments: The main *Environments* screen provides an overview of all the environments you have access to. Select **Environments** to navigate to the *Environments* overview. To learn more about the *Environments* section, see the [environments overview](../environments/environment-overview/environments.md) guide.
 
-- Secure data connectors: You can manage connections to on-premise data connectors in the *Secure Data Connectors* section. Select **Secure Data Connectors** to navigate to the *Secure Data Connectors* screen. For details on managing data connections, see the [secure data connectors](../secure-data-connectors/data-connectors-overview.md) guide. This feature is currently available only in the Identity Data Management application.
+- Secure data connectors: You can manage connections to on-premise data connectors in the *Secure Data Connectors* section. Select **Secure Data Connectors** to navigate to the *Secure Data Connectors* screen. For details on managing data connections, see the [secure data connectors](../secure-data-connector/configure-sdc-service.md) guide. This feature is currently available only in the Identity Data Management application.
 
-- Observe: The Observe section contains navigation items for **[Reporting](../reporting/reporting-overview.md)**, **[Monitoring](../monitoring/monitoring-overview.md)**, **[Logging](../environments/applications/logging/application-logs.md)**, and **[Alerting](../environments/applications/alerting/alert-management-overview.md)** dashboards.
+- Observe: The Observe section contains navigation items for [Reporting](../reporting/reporting-overview.md), [Monitoring](../monitoring/monitoring-overview.md), [Logging](../environments/applications/logging/application-logs.md), and [Alerting](../environments/applications/alerting/alert-management-overview.md) dashboards.
 
 - Admin: From the *Admin* section you can perform various administrative actions in Environment Operations Center. Select **Admin** to navigate to the *Admin* home screen. For further details on operations available in the *Admin* section, see the [admin overview](../admin/admin-overview.md) guide.
 
