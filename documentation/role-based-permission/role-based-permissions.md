@@ -2,7 +2,7 @@
 title: Role-based Permissions
 description: Learn about the various roles supported in Environment Operations Center - Tenant Administrator, Read-Only, Environment Administrator, and Environment User.
 ---
-# Role-based Permissions
+# Role-based permissions
 
 The operations a user can perform and what they can view in Environment Operations Center differ based on their assigned role. Environment Operations Center has three levels of user roles: Tenant Administrator, Environment Administrator, and Environment User. This guide outlines the permissions for each user role.
 
