@@ -37,7 +37,7 @@ For information on managing your account settings, see the [account settings](..
 
 ### Quick links
 
-By default, the Quick Links section contains guides and resources to help you with your work in RadiantOne and Environment Operations Center. An admin can add or remove links to display relevant content in this section. For further details on role-based permissions, see the [role-based permissions](../role-based-permission/role-based-permissions.md) guide.
+By default, the Quick Links section contains guides and resources to help you with your work in RadiantOne and Environment Operations Center. An admin can add or remove links to display relevant content in this section by using the **Add links** and **Manage links** options. 
 
 ![image description](Media/documentation-link.png)
 
@@ -87,4 +87,4 @@ The left navigation contains links to various screens, providing access to the f
 
 ## Next steps
 
-After reading this guide you should have an understanding of the *Overview* screen components and how to navigate the Environment Operations Center user interface. To learn how to create an environment, see the [create an environment](../environments/environment-overview/create-environments.md) guide.
+After reading this guide you should have an understanding of the *Overview* screen components and how to navigate the Environment Operations Center user interface. To learn about role-based permissions that different users have, see the [role-based permissions](../role-based-permission/role-based-permissions.md) guide. To learn how to create an environment, see the [create an environment](../environments/environment-overview/create-environments.md) guide.
