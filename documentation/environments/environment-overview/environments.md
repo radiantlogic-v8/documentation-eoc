@@ -19,12 +19,13 @@ In the grid-view, environments are organized in a card format with associated de
 
 ![image description](Media/envs-grid-view.png)
 
-You can also filter the display by using the filters dropdown and order the display based on the category of your choice. 
+You can also filter the display by using the filters dropdown and selecting a filter.
 
 ![image description](Media/filterby.png)
 
-![image description](Media/orderby.png)
+To change the order of displayed environments, use the order by option as shown below.
 
+![image description](Media/orderby.png)
 
 Each environment has its own **Options** menu (**...**) that allows you to either add an application or delete the environment. 
 
