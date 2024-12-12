@@ -13,11 +13,18 @@ The *Environments* home screen provides an overview of all your organization's a
 
 Two environment display views are available, either list- or grid-view. In the list-view, environments are organized by row with the associated environment details contained in the row.
 
-![image description](Media/envs-list-view.png)
+![image description](Media/select-envs.png)
 
 In the grid-view, environments are organized in a card format with associated details for an environment contained within the card.
 
 ![image description](Media/envs-grid-view.png)
+
+You can also filter the display by using the filters dropdown and order the display based on the category of your choice. 
+
+![image description](Media/filterby.png)
+
+![image description](Media/orderby.png)
+
 
 Each environment has its own **Options** menu (**...**) that allows you to either add an application or delete the environment. 
 
