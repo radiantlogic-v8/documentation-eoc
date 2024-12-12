@@ -63,6 +63,3 @@ This guide provides information about configuring SSO with various OIDC provider
 
 ### **Conclusion**
 By following the steps above, you can successfully set up and configure **SSO (Single Sign-On)** using **EOC's authentication provider** page. Once set up, this configuration will allow users to log into Environment Operations Center via your chosen OIDC provider. This removes the need to remember additional credentials for accessing EOC, improving security and user experience.
-
-If you encounter any issues, it’s helpful to consult the official Radiant Logic documentation or reach out to support for troubleshooting assistance.
-
