@@ -14,6 +14,7 @@
     - [Application overview](../environments/applications/applications-overview.md)
     - [Application details](../environments/applications/application-details.md)
     - [Update an application](../environments/applications/update-an-application.md)
+    - [Stop and restart an application](../environments/applications/stop-and-restart-application.md)
     - [Application endpoints](../environments/applications/endpoints-overview.md)
     - [Application nodes](../environments/applications/node-details.md)
     - [Backup and restore](#)
