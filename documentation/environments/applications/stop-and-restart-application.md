@@ -3,7 +3,7 @@ keywords:
 title: Stop and restart an Application
 description: Learn how to stop and restart an application in Environment Operations Center.
 ---
-# Stop an Application
+# Stop and restart an Application
 
 This guide outlines the required steps to stop an application while on the *Environments* home screen in Environment Operations Center.
 
