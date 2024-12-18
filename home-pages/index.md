@@ -15,7 +15,7 @@ The Environment Operations Center is a centralized control plane for managing an
   > [Environments](environments/environment-overview/create-environments)  
   > Learn how to use the Environment Operations Center as a centralized control plane to manage all RadiantOne environments.
 
-  > [Secure Data Connectors](secure-data-connector/configure-sdc)  
+  > [Secure Data Connectors](secure-data-connector/configure-sdc-service)  
   > Learn how to install, configure and use Secure Data Connectors as a secure way for cloud environments to selectively access on-premise identity data sources.
 
   > [Admin](admin/admin-overview)
