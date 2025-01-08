@@ -49,6 +49,4 @@
     - [Edit a user](../admin/user-management/edit-user.md)
     - [Delete a user](../admin/user-management/delete-user.md)
 - [Release Notes](#)
-  - [1.0.0](../release-notes/eoc-1-0-0.md)
-  - [1.1.0](../release-notes/eoc-1-1-0.md)
-  - [1.2.0](../release-notes/eoc-1-2-0.md)
+  - [Release notes](../release-notes/release-notes.md)
