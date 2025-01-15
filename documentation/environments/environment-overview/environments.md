@@ -19,11 +19,11 @@ In the grid-view, environments are organized in a card format with associated de
 
 ![image description](Media/envs-grid-view.png)
 
-You can also filter the display by using the filters dropdown and selecting a filter.
+You can filter the display by using the filters dropdown and selecting a filter.
 
 ![image description](Media/filterby.png)
 
-You can also click the start icon to add one or more environments to your Favorites list, in addition to adjusting the filter settings. This will ensure that only the environments most relevant to you are displayed.
+You can also click the start icon to add one or more environments to your Favorites list. Click "Favorites Only" to view the environments that are added to the Favorites list. Use this feature to view only the environments most relevant to you.
 
 ![image description](Media/favorites.png)
 
