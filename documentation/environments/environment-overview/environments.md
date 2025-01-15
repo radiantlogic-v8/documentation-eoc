@@ -23,6 +23,10 @@ You can also filter the display by using the filters dropdown and selecting a fi
 
 ![image description](Media/filterby.png)
 
+You can also click the start icon to add one or more environments to your Favorites list, in addition to adjusting the filter settings. This will ensure that only the environments most relevant to you are displayed.
+
+![image description](Media/favorites.png)
+
 To change the order of displayed environments, use the order by option as shown below.
 
 ![image description](Media/orderby.png)
