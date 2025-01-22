@@ -33,15 +33,26 @@ For more information on scheduling environment backups, see the [schedule backup
 
 You can create backups manually by selecting **Backup** or schedule an automated backup workflow by selecting the gear icon.
 
-For details on creating manual environment backups, see the [create a backup](create-backup.md) guide. For details on scheduling automated environment backups, see the [schedule a backup](schedule-backup.md) guide.
+For details on creating manual environment backups and restoring backups, see the [create a backup](create-backup.md) guide. For details on scheduling automated environment backups, see the [schedule a backup](schedule-backup.md) guide.
 
 ![image description](Media/backup-button.png)
 
-Each backup has an **Options** (**...**) menu that allows you to either **Download** a backup or **Delete** the backup. Selecting **Download** will download the configuration file of that backup to your system. You will need a downloaded copy of the backup to [restore](../applications-overview.md#custom-configuration) the environment if needed. Selecting **Delete** will permanently delete the backup.
+## Restore an existing application
 
-Note that if you use this backup to restore the application in a new environment, the [endpoint URLs](../endpoints-overview.md) of the application will be different than that of the original application.  
+You can restore your backed up application configuration to an existing environment or a new environment. Each backup has an Options (...) menu that allows you to either Download a backup, Restore a backup or Delete a backup.
 
-![image description](Media/backup-options.png)
+![image description](Media/backupandrestore.png)
+
+Selecting Download will download the configuration file of that backup to your system.
+
+To restore an existing application using a backup, click the Options (...) menu and select Restore. 
+In the confirmation dialog, confirm that you would like to proceed with the Restore option. After a few minutes, the restore process will complete and the application data will be restored to the backed up version. 
+
+To use the backup in a new environment, download the backup file that you would like to use by clicking the options menu and selecting Download. Next, follow the steps outlined [here](../applications-overview.md#custom-configuration). Note that if you use this backup to restore the application in a new environment, the [endpoint URLs](../endpoints-overview.md) of the application will be different than that of the original application.  
+
+
+Selecting Delete will permanently delete the backup.
+
 
 <!-- The workflow to restore a backup can also be initiated by selecting the **Restore** button. For more information on restoring backups, see the [restore a backup](restore-backup.md) guide.
 
