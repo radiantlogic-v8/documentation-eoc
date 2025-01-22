@@ -23,7 +23,7 @@ You can filter the display by using the filters dropdown and selecting a filter.
 
 ![image description](Media/filterby.png)
 
-You can also click the start icon to add one or more environments to your Favorites list. Click "Favorites Only" to view the environments that are added to the Favorites list. Use this feature to view only the environments most relevant to you.
+You can also click the start icon to add one or more environments to your Favorites list. Click "Favorites Only" to view the environments that are added to the Favorites list. Use this feature to view only the environments most relevant to you. Keep in mind, any filters you apply will be saved until you make further adjustments.
 
 ![image description](Media/favorites.png)
 
