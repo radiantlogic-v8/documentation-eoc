@@ -37,7 +37,7 @@ For details on creating manual environment backups and restoring backups, see th
 
 ![image description](Media/backup-button.png)
 
-## Restore an existing application
+## Restore a backup
 
 You can restore your backed up application configuration to an existing environment or a new environment. Each backup has an Options (...) menu that allows you to either Download a backup, Restore a backup or Delete a backup.
 
