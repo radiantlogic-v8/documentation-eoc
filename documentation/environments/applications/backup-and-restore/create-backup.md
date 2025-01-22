@@ -43,7 +43,7 @@ If the backup was successfully created, you will receive a confirmation message 
 If the backup could not be successfully created, you will receive an error message indicating that the backup creation failed and it will no longer be listed on the main *Backups* screen. Select **Dismiss** to close the message and proceed to try creating the backup again.
 
 
-## Restore an existing application
+## Restore a backup
 
 You can restore your backed up application configuration to an existing environment or a new environment. Each backup has an Options (...) menu that allows you to either Download a backup, Restore a backup or Delete a backup.
 
