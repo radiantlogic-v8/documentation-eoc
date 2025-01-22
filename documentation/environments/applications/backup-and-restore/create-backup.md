@@ -47,7 +47,7 @@ If the backup could not be successfully created, you will receive an error messa
 
 You can restore your backed up application configuration to an existing environment or a new environment. Each backup has an Options (...) menu that allows you to either Download a backup, Restore a backup or Delete a backup.
 
-![image description](Media/backup-restore.png)
+![image description](Media/backupandrestore.png)
 
 Selecting Download will download the configuration file of that backup to your system.
 
