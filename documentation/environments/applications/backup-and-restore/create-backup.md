@@ -42,6 +42,23 @@ If the backup was successfully created, you will receive a confirmation message 
 
 If the backup could not be successfully created, you will receive an error message indicating that the backup creation failed and it will no longer be listed on the main *Backups* screen. Select **Dismiss** to close the message and proceed to try creating the backup again.
 
+
+## Restore an existing application
+
+You can restore your backed up application configuration to an existing environment or a new environment. Each backup has an Options (...) menu that allows you to either Download a backup, Restore a backup or Delete a backup.
+
+![image description](Media/backup-restore.png)
+
+Selecting Download will download the configuration file of that backup to your system.
+
+To restore an existing application using a backup, click the Options (...) menu and select Restore. 
+In the confirmation dialog, confirm that you would like to proceed with the Restore option. After a few minutes, the restore process will complete and the application data will be restored to the backed up version. 
+
+To use the backup to create a new application, download the backup file that you would like to use by clicking the options menu and selecting Download. Next, follow the steps outlined [here](../applications-overview.md#custom-configuration). 
+
+Selecting Delete will permanently delete the backup.
+
+
 ## Next steps
 
 After reading this guide you should have an understanding of the steps required to create an application backup. To learn how to schedule automatic application backups, review the guide on [scheduling backups](schedule-backup.md).
