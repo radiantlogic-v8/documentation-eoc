@@ -75,7 +75,7 @@ Complete the required configuration fields and select **Test Connection** to tes
 
 The example below demonstrates how to configure an Elasticsearch integration. 
 
-![image description](images/log-config.png)
+![image description](images/Log-config.png)
 
 If the integration is successfully created, you will receive a confirmation message and the integration will be added to the list of integrations on the *Integrations* tab.
 
