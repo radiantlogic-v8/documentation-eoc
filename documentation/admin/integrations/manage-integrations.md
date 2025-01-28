@@ -52,8 +52,6 @@ If the integration is successfully created, you will receive a confirmation mess
 
 To add a new log integration, choose **LOG** as the integration type and click **New Integration**. This will open the *Integration Setup* dialog. From there, you'll need to specify the integration type and provide the necessary configuration details to complete the setup.
 
-![image description](images/new-int.png)
-
 ### Integration type
 
 Select an **Integration Type** from the available channels listed and select **Next** to continue.
