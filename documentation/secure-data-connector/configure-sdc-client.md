@@ -399,4 +399,4 @@ The `radiantone/sdc-client` is the latest image of the secure data connector cli
 
 ![image description](Media/docker-command-line.png)
 
-Once the client is running, you can can setup a connection with the on-premise backend. For details on setting up a connection, see the [Data Sources](../configuration/data-sources/data-sources.md) guide.
+Once the client is running, you can can setup a connection with the on-premise backend. For details on setting up a connection, see the [Data Sources](../../../../idm/v8.1/configuration/data-sources/data-sources.md) guide.
