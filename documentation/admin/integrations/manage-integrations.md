@@ -15,15 +15,17 @@ Radiant Logic supports two integration types:
   
 - **Log Integrations**: This integration allows you to automatically send logs to platforms such as ElasticSearch, OpenSearch, Splunk, S3, SumoLogic, and Grafana Loki.
 
-> Note that for both integration types, you must have an existing account with the service where you intend to send alerts or logs. For example, to receive alerts in Slack, you'll need to have a channel already set up.
+> [!note] For both integration types, you must have an existing account with the service where you intend to send alerts or logs. For example, to receive alerts in Slack, you'll need to have a channel already set up.
 
-The *Integrations* tab provides an overview of existing integrations and lists the label, integration type, and channel for each integration.
+To access the Integrations tab, click the admin icon in the bottom-left corner of the page, then select **Integration**. The *Integration* tab shows a summary of your current integrations, including their names and types. To set up a new integration, choose either Alerts or Log as the integration type, and then click **+ New Integration**.
 
 ![image description](images/home.png)
 
-## Configure a new integration
+Next, follow the steps listed below to configure an integration that suits your needs. 
 
-To add a new integration, select **New Integration** which opens the *Integration Setup* dialog. To complete the integration setup, you must provide an integration type and configuration details.
+## Configure a new Alerts integration
+
+To add a new alert integration, choose **ALERTS** as the integration type and click **New Integration**. This will open the *Integration Setup* dialog. From there, you'll need to specify the integration type and provide the necessary configuration details to complete the setup.
 
 ![image description](images/new-int.png)
 
@@ -44,6 +46,40 @@ The example below demonstrates how to configure email integration, allowing you 
 If the integration is successfully created, you will receive a confirmation message and the integration will be added to the list of integrations on the *Integrations* tab.
 
 > [!note] For the integration to become active, you will need to configure the applicable alerts to send to the channel. See the [alert management](../../environments/environment-details/alert-management-overview.md) guide to learn how to set up alerts to send via the integration.
+
+
+## Configure a new Log integration
+
+To add a new log integration, choose **LOG** as the integration type and click **New Integration**. This will open the *Integration Setup* dialog. From there, you'll need to specify the integration type and provide the necessary configuration details to complete the setup.
+
+![image description](images/new-int.png)
+
+### Integration type
+
+Select an **Integration Type** from the available channels listed and select **Next** to continue.
+
+![image description](images/log-type.png)
+
+### Configuration Details
+
+The required configuration details differ depending on the type of configuration selected. The table below shows the required fields for each integration. 
+
+| Integration Type | Required fields                         |
+|------------------|-----------------------------------------|
+| Elasticsearch    | Integration Name, Host, and Port        |
+| OpenSearch       | Integration Name, Host, and Port        |
+| Splunk           | Integration Name, Host, Port, and Token |
+| S3               | Integration Name, Bucket, and Region    |
+| Sumo Logic       | Integration Name and Endpoint           |
+| Grafana Loki     | Integration Name and URL                |
+
+Complete the required configuration fields and select **Test Connection** to test whether or not your integration works. If it is working as expected, select **Create** to finish setting up the new integration. To provide additional information, click the **+ Add field** button under Additional Configuration. 
+
+The example below demonstrates how to configure an Elasticsearch integration. 
+
+![image description](images/log-config.png)
+
+If the integration is successfully created, you will receive a confirmation message and the integration will be added to the list of integrations on the *Integrations* tab.
 
 ## Edit an integration
 
