@@ -9,6 +9,14 @@ External communication channels can be integrated with Environment Operations Ce
 
 ## Getting started
 
+Radiant Logic supports two integration types:
+
+- **Alert Integrations**: This integration allows you to automatically send application-related alerts to services such as Slack, Email, PagerDuty, and Webhook.
+  
+- **Log Integrations**: This integration allows you to automatically send logs to platforms such as ElasticSearch, OpenSearch, Splunk, S3, SumoLogic, and Grafana Loki.
+
+> Note that for both integration types, you must have an existing account with the service where you intend to send alerts or logs. For example, to receive alerts in Slack, you'll need to have a channel already set up.
+
 The *Integrations* tab provides an overview of existing integrations and lists the label, integration type, and channel for each integration.
 
 ![image description](images/home.png)
@@ -39,7 +47,7 @@ If the integration is successfully created, you will receive a confirmation mess
 
 ## Edit an integration
 
-Each integration listed on the *Integrations* tab has an **Options** (**...**) dropdown menu. From the dropdown, select **Edit** to begin editing the integration.
+Each integration listed on the *Integrations* tab has an **Options** (**...**) dropdown menu. From the dropdown, select **Edit** to begin editing the integration. 
 
 The workflow to edit an integration is the same as the *New Integration* workflow. You can select a new integration type and add the required configuration details. Alternatively, you can keep the same integration type and proceed to adjust the configuration details.
 
