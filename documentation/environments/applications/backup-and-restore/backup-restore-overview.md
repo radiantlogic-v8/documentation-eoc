@@ -1,31 +1,31 @@
 ---
 keywords:
 title: Backup Overview
-description: Get a quick introduction to backing up environments in Environment Operations Center.
+description: Get a quick introduction to backing up applications in Environment Operations Center.
 ---
 # Backup Overview
 
-You can create and restore backups of your environments in Environment Operations Center. Backups are managed within the detailed view of an environment, under the *Backups* tab. This guide provides an overview of the *Backups* tab and its features.
+In the Environment Operations Center, you can create and restore backups for your applications. Backup functionality is available for both the Identity Data Management and Identity Data Analytics applications. Backups are managed within the detailed view of each application, under the *Backups* tab. This guide provides an overview of the *Backups* tab and its features.
 
 ## Getting started
 
-To navigate to the *Backups* tab for a specific environment, select **Backups** from the top navigation in the environment's detailed view.
+To navigate to the *Backups* tab for a specific application, select **Backups** from the top navigation in the application's detailed view.
 
 ![image description](Media/select-backup-new.png)
 
-This brings you to the *Backups* view that provides a chronological overview of all backups that have been performed on the environment.
+This brings you to the *Backups* view that provides a chronological overview of all backups that have been performed on the application.
 
 ![image description](Media/backup-button.png)
 
 ## Review backups
 
-From the *Backups* tab, you can review all backups that have been performed on the environment. For each backup, the backup name, creation date, and version are listed.
+From the *Backups* tab, you can review all backups that have been performed on the application. For each backup, the backup name, creation date, and version are listed.
 
 ![image description](Media/backup-column-new.png)
 
-If you have set a scheduled backup for the environment, a "Scheduled" notification appears at the top of the workspace indicating the frequency and time of the scheduled backup.
+If you have set a scheduled backup for the application, a "Scheduled" notification appears at the top of the workspace indicating the frequency and time of the scheduled backup.
 
-For more information on scheduling environment backups, see the [schedule backups](schedule-backup.md) guide.
+For more information on scheduling backups, see the [schedule backups](schedule-backup.md) guide.
 
 ![image description](Media/backup-schdeule-button-new.png)
 
@@ -33,7 +33,7 @@ For more information on scheduling environment backups, see the [schedule backup
 
 You can create backups manually by selecting **Backup** or schedule an automated backup workflow by selecting the gear icon.
 
-For details on creating manual environment backups and restoring backups, see the [create a backup](create-backup.md) guide. For details on scheduling automated environment backups, see the [schedule a backup](schedule-backup.md) guide.
+For details on creating manual backups and restoring backups, see the [create a backup](create-backup.md) guide. For details on scheduling automated environment backups, see the [schedule a backup](schedule-backup.md) guide.
 
 ![image description](Media/backup-button.png)
 
@@ -66,4 +66,4 @@ The gear icon, **Restore**, and **Backup** buttons will be deactivated and the *
 
 ## Next steps
 
-After reading this guide you should have an understanding of how to navigate the *Backups* tab and its main features. To begin creating an environment backup, review the documentation on [creating a backup](create-backup.md).
+After reading this guide you should have an understanding of how to navigate the *Backups* tab and its main features. To begin creating a backup, review the documentation on [creating a backup](create-backup.md).
