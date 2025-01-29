@@ -9,7 +9,7 @@ This guide provides an overview of the steps required to create application back
 
 ## Getting started
 
-To begin creating a manual backup of an application, select the **Backup** button.
+To begin creating a manual backup of an application, open the **Backup** tab and click on the **backup** button.
 
 ![image description](Media/backups-schedule-button-new.png)
 
