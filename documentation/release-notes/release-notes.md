@@ -4,6 +4,6 @@ description: Environment Operations Center Release Notes
 ---
 
 - [Environment Operations Center](#)
-  - [v1.0.0](eoc-1-0-0.md)
-  - [v1.1.0](eoc-1-1-0.md)
-  - [v1.2.0](eoc-1-2-0.md)
+  - [February 2024](eoc-1-0-0.md)
+  - [July 2024](eoc-1-1-0.md)
+  - [October 2024](eoc-1-2-0.md)
