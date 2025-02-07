@@ -47,6 +47,15 @@ Select the **Date and Time** bar to set the date and time to refresh log data. A
 
 To review a different log file, select the **Log File** dropdown and select the log file to review. Once you select the file type, the page will load with the file details.
 
+## Download logs
+
+To download the application logs, click the ellipsis icon in the top-right corner of the page and select "Download Logs."
+![image description](images/download-logs.png)
+
+Next, enter a name for the log file and click the confirm button to proceed with the download. Once the download is complete, a success message will appear, and the logs will be saved as a zip file on your device.
+![image description](images/confirm-download.png)
+
+
 ## Next steps
 
 After reviewing this guide you should have an understanding of the steps required to review the log files of a specific application. To learn more about backing up an application, see the [backup and restore](../backup-and-restore/backup-restore-overview.md) documentation.
