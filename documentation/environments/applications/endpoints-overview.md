@@ -71,6 +71,15 @@ A message appears on the Environment Details Panel that says, "Deleting environm
 
 > If the status of the endpoint does not change and the enabling message still sppears, refresh the page.
 
+### Enable IP based access control
+
+IP based access control is supported by Identity Data Management applications. You can limit which IP addresses can access the application by using the Security settings. To do so, click the (...) menu and click on Security. 
+![image description](images/security.png)
+
+Next, enter one or more IP addresses that are allowed to access the application endpoints. Once you confirm the changes, the endpoints will be restarted and can only be accessed by the allowed list of IP addresses.
+
+![image description](images/ip-based-access.png)
+
 ## Identity Data Analytics Endpoint 
 
 Unlike Identity Data Management, Identity Analytics endpoints do not have a toggle option and are accessible through the URLs displayed in your account. 
@@ -93,3 +102,6 @@ This endpoint enables the IDA administrator to configure connectors for data ext
 ### Admin Console
 
 This is the Keycloak configuration interface used to manage end-user accounts and roles, providing access to the Portal. 
+
+
+
