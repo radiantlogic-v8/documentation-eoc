@@ -45,18 +45,19 @@ If the backup could not be successfully created, you will receive an error messa
 
 ## Restore a backup
 
-You can restore your backed up application configuration to an existing environment or a new environment. Each backup has an Options (...) menu that allows you to either Download a backup, Restore a backup or Delete a backup.
+You can restore your backed up Identity Data Management and Identity Analytics applications from the Backups tab. To restore an existing application (Identity Data Management or Identity Analytics application) using a backup, click the Options (...) menu and select Restore. 
+In the confirmation dialog, confirm that you would like to proceed with the Restore option. After a few minutes, the restore process will complete and the application data will be restored to the backed up version. 
+
+Selecting Delete will permanently delete the backup. 
+
+In an Identity Data Management application, you can use the back up file to restore a new application. Each backup has an Options (...) menu that allows you to either Download a backup, Restore a backup or Delete a backup. 
 
 ![image description](Media/backupandrestore.png)
 
-Selecting Download will download the configuration file of that backup to your system.
+Selecting Download will download the configuration file of that backup to your system. The download option is only available in Identity Data Management applications.
 
-To restore an existing application using a backup, click the Options (...) menu and select Restore. 
-In the confirmation dialog, confirm that you would like to proceed with the Restore option. After a few minutes, the restore process will complete and the application data will be restored to the backed up version. 
+To use the backup in a new Identity Data Management application, download the backup file that you would like to use by clicking the options menu and selecting Download. Next, create a new Identity Data Management application and use the downloaded backup file by following the steps outlined [here](../applications-overview.md#custom-configuration). Note that if you use this backup to restore the application in a new environment, the [endpoint URLs](../endpoints-overview.md) of the application will be different than that of the original application.  
 
-To use the backup in a new Identity Data Management application, download the backup file that you would like to use by clicking the options menu and selecting Download. Next, create a new application and use the downloaded backup file by following the steps outlined [here](../applications-overview.md#custom-configuration).  Note that this is only supported in Identity Data Management applications. 
-
-Selecting Delete will permanently delete the backup.
 
 
 ## Next steps
