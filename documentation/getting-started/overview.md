@@ -89,8 +89,13 @@ The left navigation contains links to various screens, providing access to the f
 
 Periodically, you may see a scheduled maintenance notice at the top of the home screen. This serves to inform you about upcoming maintenance that could affect the applications in your Environment Operations Center. You may also receive email notifications ahead of the maintenance.
 
+ ![image description](Media/schedule-maintenance-notice.png)
+
 After you click on the "Know more" link and confirm you've read it by clicking on the "I acknowledge this notification" checkbox, the alert will be removed from the landing page.
 
+You can also view additional information about maintenance schedules and updates by navigating to Admin > Settings > Scheduled Maintenance Settings page. 
+
+ ![image description](Media/schedule-maintenance-settings.png)
 
 ## Next steps
 
