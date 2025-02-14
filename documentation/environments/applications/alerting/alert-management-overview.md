@@ -51,7 +51,7 @@ To add a new alert metric, select **New**. This displays the required fields to 
 
 1. Under *Metric*, select the specific environment component to provide alerts for. To set the metric, select the downward arrow to expand the dropdown list. Select a component to monitor from the list. Optionally, you can also select a label to add a filter for the metric. 
 
-2. Under **Conditions**, specify values for the following fields:
+2. Under *Conditions*, specify values for the following fields:
 
 * Under *Statistic*, define what value the alert is based on. To set the statistic, select the downward arrow to expand the dropdown list. Select a value from the list to measure for the metric.
 * Under *Condition*, select the conditional expression to measure the metric against the threshold. To set the condition, select the downward arrow to expand the dropdown and select a conditional expression from the list. Once you select the statistic and the condition, you will see the current metric value for the condition under the *Statistic* field.
