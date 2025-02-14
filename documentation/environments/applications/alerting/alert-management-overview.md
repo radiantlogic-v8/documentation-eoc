@@ -53,10 +53,10 @@ To add a new alert metric, select **New**. This displays the required fields to 
 
 2. Under *Conditions*, specify values for the following fields:
 
-* Under *Statistic*, define what value the alert is based on. To set the statistic, select the downward arrow to expand the dropdown list. Select a value from the list to measure for the metric.
-* Under *Condition*, select the conditional expression to measure the metric against the threshold. To set the condition, select the downward arrow to expand the dropdown and select a conditional expression from the list. Once you select the statistic and the condition, you will see the current metric value for the condition under the *Statistic* field.
-* Under *Threshold*, select the percentage value that the condition is measured against. To set the threshold, enter a percentage in the space provided.
-* Under *Duration*, select the amount of time the condition must be met before the alert is sent. To set the duration, select the downward arrow to expand the dropdown and select a time from list.
+    * Under *Statistic*, define what value the alert is based on. To set the statistic, select the downward arrow to expand the dropdown list. Select a value from the list to measure for the metric.
+    * Under *Condition*, select the conditional expression to measure the metric against the threshold. To set the condition, select the downward arrow to expand the dropdown and select a conditional expression from the list. Once you select the statistic and the condition, you will see the current metric value for the condition under the *Statistic* field.
+    * Under *Threshold*, select the percentage value that the condition is measured against. To set the threshold, enter a percentage in the space provided.
+    * Under *Duration*, select the amount of time the condition must be met before the alert is sent. To set the duration, select the downward arrow to expand the dropdown and select a time from list.
 
 Once you have completed all required fields, click **Save** to add the alert metric.
 
