@@ -35,50 +35,38 @@ In the *Alert information* section of the *New Alert* dialog, enter the general 
 
 | Alert information | Description |
 | ----------------- | ----------- |
-| Alert name | A unique name to identify the alert. It is recommended to keep this relevant to the purpose of the alert. |
-| Environments | Select one or more environments to be monitored and receive alerts for. More than one environment can be selected from the dropdown menu. |
-| Notification channel | The notification channel to send the alert to. The dropdown will display all of the integration channels you have configured in your Environment Operations Center instance. |
+| Name | A unique name to identify the alert. It is recommended to keep this relevant to the purpose of the alert. |
 | Severity | Select a severity rating to accompany the alert. Severity options include "Info", "Warning", and "Error". |
-| Title | The title of the alert that will display in the selected channel if an alert is triggered. |
+| Notification channel | The notification channel to send the alert to. The dropdown will display all of the integration channels you have configured in your Environment Operations Center instance. |
 | Description | The description of the alert that will display in the selected channel if an alert is triggered. |
 
 ![image description](../images/alert-info.png)
 
 ### Alert metrics
 
-In the *Alert metrics* section of the *New Alert* dialog, enter the required information to create one or more alerts for your specified environment(s). The required information to create an alert includes the metric, statistic, condition, threshold, and duration. These fields are described in further detail below.
-
+In the *Alert Metrics* section of the *New Alert* dialog, provide the necessary information to create an alert for your selected environment(s). This includes specifying the metric and conditions (such as statistic, threshold, and duration) that will trigger the alert. These fields are explained in more detail below. The *Label* field is optional and can be used for additional filtering of the metric.
 To add a new alert metric, select **New**. This displays the required fields to create the alert.
 
 ![image description](../images/first-alert.png)
 
-Under *Metric*, select the specific environment component to provide alerts for. To set the metric, select the downward arrow to expand the dropdown list. Select a component to monitor from the list.
+1. Under *Metric*, select the specific environment component to provide alerts for. To set the metric, select the downward arrow to expand the dropdown list. Select a component to monitor from the list. Optionally, you can also select a label to add a filter for the metric. 
 
-![image description](../images/metric.png)
+2. Under **Conditions**, specify values for the following fields:
 
-1. Under *Statistic*, define what value the alert is based on. To set the statistic, select the downward arrow to expand the dropdown list. Select a value from the list to measure for the metric.
-
-2. Under *Condition*, select the conditional expression to measure the metric against the threshold. To set the condition, select the downward arrow to expand the dropdown and select a conditional expression from the list. Once you select the statistic and the condition, you will see the current metric value for the condition under the *Statistic* field. 
-
-3. Under *Threshold*, select the percentage value that the condition is measured against. To set the threshold, enter a percentage in the space provided.
-
-4. Under *Duration*, select the amount of time the condition must be met before the alert is sent. To set the duration, select the downward arrow to expand the dropdown and select a time from list.
+* Under *Statistic*, define what value the alert is based on. To set the statistic, select the downward arrow to expand the dropdown list. Select a value from the list to measure for the metric.
+* Under *Condition*, select the conditional expression to measure the metric against the threshold. To set the condition, select the downward arrow to expand the dropdown and select a conditional expression from the list. Once you select the statistic and the condition, you will see the current metric value for the condition under the *Statistic* field.
+* Under *Threshold*, select the percentage value that the condition is measured against. To set the threshold, enter a percentage in the space provided.
+* Under *Duration*, select the amount of time the condition must be met before the alert is sent. To set the duration, select the downward arrow to expand the dropdown and select a time from list.
 
 Once you have completed all required fields, click **Save** to add the alert metric.
-
-![image description](../images/checkmark.png)
 
 ### Add multiple alert metrics
 
 More than one alert metric can be set for the selected environment(s). After you have saved a newly created alert metric, select **New** to create an additional alert.
 
-![image description](../images/new.png)
-
 Follow the steps outlined above to complete the required alert metric details. Once you have completed the required fields in the *Alert information* and *Alert metrics* sections, select **Save** to create the new alert.
 
 If the alert is successfully created, it will be added to the list of alerts on the *Alerts* tab.
-
-![image description](../images/save-alert.png)
 
 ## Manage alerts
 
@@ -92,17 +80,12 @@ To edit an alert, select **Edit** from the **Options** (**...**) menu of the ale
 
 ![image description](../images/edit.png)
 
-This opens the *Edit Alert* dialog which contains the same sections and fields as the *New Alert* dialog. Edit the required fields in the *Alert information* and *Alert metrics* sections.
 
-![image description](../images/editdialog.png)
+This opens the *Edit Alert* dialog which contains the same sections and fields as the *New Alert* dialog. Edit the required fields in the *Alert information* and *Alert metrics* sections.
 
 To edit a specific alert metric in the *Alert metrics* section, select the **Options** (**...**) menu associated with the alert metric. Select **Edit** to enable editing for all of the alert metric fields. Alternatively, you can select **Delete** to delete the alert metric.
 
-![image description](../images/metric-options.png)
-![image description](../images/metric-edit.png)
 Once you have confirmed, select **Save** to save the updated alert.
-
-![image description](../images/save-edit.png)
 
 ### Delete alerts
 
