@@ -55,9 +55,9 @@ Under **Logs**, select **Log files configuration** and then click the **New** bu
 
 ![image description](images/new-log-config.png)
 
-For example, to add a connector log, enter the details as shown below:
+Here is an example of how you can add configurations for additional logs:
 
-![image description](images/new-log-entry.png)
+![image description](images/new-log-entries.png)
 
 Once you've entered the required information, click the blue checkmark and then click **Save**. After saving the configuration, any log files in that category will appear in your search results.
 
