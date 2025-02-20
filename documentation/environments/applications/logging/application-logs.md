@@ -49,7 +49,11 @@ To review a different log file, select the **Log File** dropdown and select the 
 
 If you find that certain logs are missing from your search results, you may need to configure those log files. To do this, click on the Application settings icon.
 
+![image description](images/app-log-settings.png)
+
 Under **Logs**, select **Log files configuration** and then click the **New** button to create a new log configuration. Fill in the necessary details, such as the name, path, index, retention days, and aggregator for the log file.
+
+![image description](images/new-log-config.png)
 
 For example, to add a connector log, enter the details as shown below:
 
@@ -64,8 +68,6 @@ To download the application logs, click the ellipsis icon in the top-right corne
 ![image description](images/download-logs.png)
 
 Next, enter a name for the log file and click the confirm button to proceed with the download. Once the download is complete, a success message will appear, and the logs will be saved as a zip file on your device.
-
-![image description](images/confirm-download.png)
 
 
 ## Next steps
