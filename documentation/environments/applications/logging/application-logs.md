@@ -65,7 +65,7 @@ Once you've entered the required information, click the blue checkmark and then 
 
 To download the application logs, click the ellipsis icon in the top-right corner of the page and select "Download Logs."
 
-![image description](images/download-logs.png)
+![image description](images/download_logs.png)
 
 Next, enter a name for the log file and click the confirm button to proceed with the download. Once the download is complete, a success message will appear, and the logs will be saved as a zip file on your device.
 
