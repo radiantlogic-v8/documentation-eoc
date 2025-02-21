@@ -55,7 +55,7 @@ Under **Logs**, select **Log files configuration** and then click the **New** bu
 
 Here is an example of how you can add configurations for additional logs:
 
-![image description](images/new-log-entries.png)
+![image description](images/new-logs-entries.png)
 
 Once you've entered the required information, click the blue checkmark and then click **Save**. After saving the configuration, any log files in that category will appear in your search results.
 
