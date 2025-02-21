@@ -53,8 +53,6 @@ If you find that certain logs are missing from your search results, you may need
 
 Under **Logs**, select **Log files configuration** and then click the **New** button to create a new log configuration. Fill in the necessary details, such as the name, path, index, retention days, and aggregator for the log file.
 
-![image description](images/new-log-config.png)
-
 Here is an example of how you can add configurations for additional logs:
 
 ![image description](images/new-log-entries.png)
