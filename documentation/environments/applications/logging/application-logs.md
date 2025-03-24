@@ -47,7 +47,11 @@ To review a different log file, select the **Log File** dropdown and select the 
 
 ## Configure Additional Logs
 
-If you find that certain logs are missing from your search results, you may need to configure those log files. To do this, click on the Application settings icon.
+If you find that certain logs are missing from your search results, you may need to configure those log files.
+
+> Note that this feature is only available for Identity Data Management applications running version 8.1.3 or higher.
+
+To do this, click on the Application settings icon.
 
 ![image description](images/app-log-settings.png)
 
@@ -64,6 +68,8 @@ Once you've entered the required information, click the blue checkmark and then 
 To download the application logs, click the ellipsis icon in the top-right corner of the page and select "Download Logs."
 
 ![image description](images/download_logs.png)
+
+> Note that this feature is only available for Identity Data Management applications running version 8.1.3 or higher.
 
 Next, enter a name for the log file and click the confirm button to proceed with the download. Once the download is complete, a success message will appear, and the logs will be saved as a zip file on your device.
 
