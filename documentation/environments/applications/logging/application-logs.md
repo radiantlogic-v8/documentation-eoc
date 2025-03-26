@@ -45,34 +45,6 @@ Select the **Date and Time** bar to set the date and time to refresh log data. A
 
 To review a different log file, select the **Log File** dropdown and select the log file to review. Once you select the file type, the page will load with the file details.
 
-## Configure Additional Logs
-
-If you find that certain logs are missing from your search results, you may need to configure those log files.
-
-> Note that this feature will only be available for Identity Data Management applications running version 8.1.4 or higher.
-
-To do this, click on the Application settings icon.
-
-![image description](images/app-log-settings.png)
-
-Under **Logs**, select **Log files configuration** and then click the **New** button to create a new log configuration. Fill in the necessary details, such as the name, path, index, retention days, and aggregator for the log file.
-
-Here is an example of how you can add configurations for additional logs:
-
-![image description](images/new-logs-entries.png)
-
-Once you've entered the required information, click the blue checkmark and then click **Save**. After saving the configuration, any log files in that category will appear in your search results.
-
-## Download logs
-
-To download the application logs, click the ellipsis icon in the top-right corner of the page and select "Download Logs."
-
-![image description](images/download_logs.png)
-
-> Note that this feature will only be available for Identity Data Management applications running version 8.1.4 or higher.
-
-Next, enter a name for the log file and click the confirm button to proceed with the download. Once the download is complete, a success message will appear, and the logs will be saved as a zip file on your device.
-
 
 ## Next steps
 
