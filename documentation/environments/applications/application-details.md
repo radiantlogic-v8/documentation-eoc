@@ -86,9 +86,9 @@ To learn how to update or delete the application, review the respective [delete 
 ## Application details
 
 The *Application Details* section outlines the environment name, status, nodes, type, version, and description of an application. In addition to viewing the application details, you can also perform these actions:
-* Update the version of the application by clicking **Update**
-* Scale the number of nodes for your application as needed by clicking **Scale**
-* View application version history 
+* Update the version of the application by clicking **Update**. 
+* Scale the number of nodes for your application as needed by clicking **Scale**. 
+* View application version history.
 
 ![image description](images/app-details.png)
 
