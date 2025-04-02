@@ -72,11 +72,11 @@ Under the *Monitoring* tab, you can view dashboard(s) with monitoring reports re
 
 In the right corner of the navigation menu, you can see:
 
-* **Settings** icon that lets you change application settings
-* **Bell** icon that shows you alerts related to the application
-* **Refresh** icon that lets you refresh and display the most up-to-date details for the application
-* **Power** icon that lets you start, stop, or restart application
-* **Options** (**...**) icon that lets you change password, view logs or delete the application
+* **Settings** icon that lets you change application settings.
+* **Bell** icon that shows you alerts related to the application.
+* **Refresh** icon that lets you refresh and display the most up-to-date details for the application.
+* **Power** icon that lets you start, stop, or restart application.
+* **Options** (**...**) icon that lets you reset password, view logs or delete the application.
 
 ![image description](images/operations.png)
 
