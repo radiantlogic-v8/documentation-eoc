@@ -83,9 +83,9 @@ You can filter tasks by application type or task status. To see only the filtere
 #### Actions related to a task 
 
 Additionally, you can also perform the following actions on a task:
-a. **Rerun** a failed or timed-out task.
-b. **Cancel** a stuck task that is in a pending state. Prior to using this feature, review logs of the task. If you notice that the task has timed out or has encountered an issue, you can use this feature to cancel the task. 
-c. **Fetch logs** of a task.
+* **Rerun** a failed or timed-out task.
+* **Cancel** a stuck task that is in a pending state. Prior to using this feature, review logs of the task. If you notice that the task has timed out or has encountered an issue, you can use this feature to cancel the task.
+* **Fetch logs** of a task.
 
 ![image description](images/rerunandlogs.png)
 
