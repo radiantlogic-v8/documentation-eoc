@@ -11,7 +11,7 @@ The following table provides an overview of user permissions for each role:
 |   | [Tenant Administrator](#tenant-administrator) | [Read-Only](#read-only) | [Environment Administrator](#environment-administrator) | [Environment User](#environment-user) | [Environment Creator](#environment-creator) |
 | -- | ------------------- | ------------------------- | ---------------- | ---------------- | ---------------- |
 | Environment Details | View and edit all environment details | View all environment details | View and edit assigned environments | View assigned environments | View and edit assigned environments, and create new ones. |
-| User Details | View and edit all user details | View all user details | View and edit all users within assigned environments | View user details within assigned environments and can only edit their own details | View user details within assigned environments and can only edit their own details |
+| User Details | View and edit all user details | View all user details | View and edit their own details only | View and edit their own details only | View and edit their own details only |
 
 ## Tenant administrator
 
@@ -31,7 +31,7 @@ From the Environment Operations Center home page, the Read-Only user can view al
 
 ## Environment administrator
 
-An Environment Administrator is granted permission to access all operations and views for the environments they have been assigned to. An Environment Administrator can edit their own user details and the details of all users within their assigned environments. They cannot view or edit environments or users that have not been assigned to them.
+An Environment administrator is granted permission to access all operations and views for the environments they have been assigned to. They can modify their own details but cannot view or update the details of other users.
 
 From the Environment Operations Center home page, the Environment Administrator can view and access operations for all of the environments they have been assigned to.
 
@@ -39,7 +39,7 @@ From the Environment Operations Center home page, the Environment Administrator 
 
 ## Environment creator
 
-An Environment creator is granted permission to access all operations and views for the environments they have been assigned to. In addition to managing existing environments, they can also create and manage new environments. They cannot view or edit environments or users that have not been assigned to them.
+An Environment creator is granted permission to access all operations and views for the environments they have been assigned to. In addition to managing existing environments, they can also create and manage new environments. They cannot view or edit environments that have not been assigned to them. They can modify their own details but cannot view or update the details of other users.
 
 ![image description](images/env-admin.png)
 
