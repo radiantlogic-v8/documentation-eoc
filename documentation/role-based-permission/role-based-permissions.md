@@ -9,9 +9,9 @@ The operations a user can perform and what they can view in Environment Operatio
 The following table provides an overview of user permissions for each role:
 
 |   | [Tenant Administrator](#tenant-administrator) | [Read-Only](#read-only) | [Environment Administrator](#environment-administrator) | [Environment User](#environment-user) | [Environment Creator](#environment-creator) |
-| -- | ------------------- | ------------------------- | ---------------- | ---------------- |
-| Environment Details | View and edit all environment details | View all environment details | View and edit assigned environments | View assigned environments |
-| User Details | View and edit all user details | View all user details | View and edit all users within assigned environments | View user details within assigned environments and can only edit their own details | Create and manage new environments as well as existing environments |
+| -- | ------------------- | ------------------------- | ---------------- | ---------------- | ---------------- |
+| Environment Details | View and edit all environment details | View all environment details | View and edit assigned environments | View assigned environments | View and edit assigned environments, and create new ones. |
+| User Details | View and edit all user details | View all user details | View and edit all users within assigned environments | View user details within assigned environments and can only edit their own details | View user details within assigned environments and can only edit their own details |
 
 ## Tenant administrator
 
