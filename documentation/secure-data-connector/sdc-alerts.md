@@ -23,6 +23,9 @@ To view the default alerts, go to **Secure Data Connectors > Alerts** in your En
 
 You can edit or delete a default alert by clicking the "..." menu and selecting the corresponding option. Clicking **Edit** allows you to customize the conditions of the alert by modifying the metric values.
 
+![Image showing the Alert screen](Media/editdeletealert.png)
+
+
 | Metric                         | Default Alert Values             | Description                                                                 |
 |-------------------------------|----------------------------------|-----------------------------------------------------------------------------|
 | `sdc_token_expiration_seconds` | Newest value is either `"604800 seconds"` or `"< 1 second"`. Duration is five minutes.  | Sends an alert if the token is set to expire within a week. You can modify this value to adjust the alert timing. The alert conditions are checked every five minutes by default.|
@@ -35,7 +38,7 @@ To do this, navigate to the Alerts page of the Secure Data Connector and enable 
 ## Creating New Alerts
 
 You can also create custom alerts for token expiry by clicking the **New Alert** button.
-![Image showing the Alert screen](Media/newsdcalert.png)
+![Image showing the new alert button](Media/newsdcalert.png)
 
 
 Fill in the required fields. The **Label** field is optional and can be used to add an additional filter to the selected metric.
