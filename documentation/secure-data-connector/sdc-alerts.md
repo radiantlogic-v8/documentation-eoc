@@ -31,9 +31,12 @@ You can edit or delete a default alert by clicking the "..." menu and selecting 
 | `sdc_token_expiration_seconds` | Newest value is either `"604800 seconds"` or `"< 1 second"`. Duration is five minutes.  | Sends an alert if the token is set to expire within a week. You can modify this value to adjust the alert timing. The alert conditions are checked every five minutes by default.|
 | `sdc_client_connection_status` | `1`                              | Alerts are triggered only when the Secure Data Connector is active.         |
 
-If you're using a connector with **Server version 1.2.0 or earlier**, you may need to manually enable default alerts to receive token expiry notifications.  
-To do this, navigate to the Alerts page of the Secure Data Connector and enable the default alert.
+If you're using a connector with **Server version 1.2.0 or earlier**, you may need to manually enable default alerts to receive token expiry notifications. 
+ 
+To do so, navigate to the **Alerts** screen of the Secure Data Connector and click the **Create default alerts** button. 
+![Image showing the Create default alerts button](Media/createdefaultalert.png)
 
+This will automatically set up the necessary alert for you.
 
 ## Creating New Alerts
 
