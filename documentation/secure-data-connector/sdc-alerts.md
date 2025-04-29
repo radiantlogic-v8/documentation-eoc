@@ -36,7 +36,7 @@ If you're using a connector with **Server version 1.2.0 or earlier**, you may ne
 To do so, navigate to the **Alerts** screen of the Secure Data Connector and click the **Create default alerts** button. 
 ![Image showing the Create default alerts button](Media/createdefaultalert.png)
 
-This will automatically set up the necessary alert for you.
+This will automatically set up the default alert for you.
 
 ## Creating New Alerts
 
