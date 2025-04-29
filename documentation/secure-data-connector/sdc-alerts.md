@@ -41,7 +41,7 @@ You can also create custom alerts for token expiry by clicking the **New Alert**
 ![Image showing the new alert button](Media/newsdcalert.png)
 
 
-Fill in the required fields. The **Label** field is optional and can be used to add an additional filter to the selected metric.
+Fill in the required fields. The **Label** field is optional and can be used to add an additional filter to the selected metric. Save the changes to activate your alert. 
 
 
 
