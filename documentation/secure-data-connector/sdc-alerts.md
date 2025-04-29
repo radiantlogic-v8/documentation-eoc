@@ -5,7 +5,7 @@ description: Configure alerts so that you are notified of important events that 
 
 ## Secure Data Connector Alerts
 
-RadiantLogic automatically generates **token expiry alerts** when you create a new **Secure Data Connector**. These alerts are sent both **one week before** the token expires and **immediately after** expiration, ensuring you're promptly informed about your connector’s token status.
+Radiant Logic automatically generates **token expiry alerts** when you create a new **Secure Data Connector**. These alerts are sent both **one week before** the token expires and **immediately after** expiration, ensuring you're promptly informed about your connector’s token status.
 
 > **Note:** Alerts are only triggered if the connector’s status is **active**. Inactive or stopped connectors will **not** send any alerts.
 
