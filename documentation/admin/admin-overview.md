@@ -74,21 +74,6 @@ Information on these tasks includes the environment and application the tasks wa
 
 ![image description](images/tasks.png)
 
-#### Filter tasks 
-
-You can filter tasks by application type or task status. To see only the filtered tasks, click the filter icon in the top-right corner of the screen and choose your desired filters.
-
-![image description](images/filter-tasks.png)
-
-#### Actions related to a task 
-
-Additionally, you can also perform the following actions on a task:
-* **Rerun** a failed or timed-out task.
-* **Cancel** a stuck task that is in a pending state. Prior to using this feature, review logs of the task. If you notice that the task has timed out or has encountered an issue, you can use this feature to cancel the task.
-* **Fetch logs** of a task.
-
-![image description](images/rerunandlogs.png)
-
 
 ### Authentication
 
