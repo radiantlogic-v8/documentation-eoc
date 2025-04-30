@@ -38,6 +38,7 @@
     - [Deploy a Secure Data Connector Client](../secure-data-connector/configure-sdc-client#deploy-the-secure-data-connector-client)
     - [Deploy a Secure Data Connector Client on a proxy network](../secure-data-connector/configure-sdc-client.md)
   - [Manage the Secure Data Connector Client](../secure-data-connector/manage-sdc-client.md)
+  - [Secure Data Connector Alerts](../secure-data-connector/sdc-alerts.md) 
 - [Role-based permissions](#)
   - [Role-based permissions](../role-based-permission/role-based-permissions.md)
 - [Admin](#)
