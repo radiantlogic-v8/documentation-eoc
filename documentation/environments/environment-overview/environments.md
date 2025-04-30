@@ -31,7 +31,7 @@ To change the order of displayed environments, use the order by option as shown 
 
 ![image description](Media/orderby.png)
 
-Each environment has its own **Options** menu (**...**) that allows you to either add an application or delete the environment. 
+Each environment has its own **Options** menu (**...**) that allows you to add add applications, delete the environment, or start, stop, and restart all applications at once
 
 In the list-view, the options menu is located at the end of an environment row.
 
