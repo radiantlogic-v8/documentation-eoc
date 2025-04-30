@@ -112,7 +112,7 @@ To regenerate the token:
 
 1. Navigate to your Secure Data Connector's Data Connector Info page.
 
-    ![image1](Media/image1.png)
+    ![image1](Media/regentoken.png)
 
 1. Click **Regenerate Token**. 
 

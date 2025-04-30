@@ -74,6 +74,7 @@ Information on these tasks includes the environment and application the tasks wa
 
 ![image description](images/tasks.png)
 
+
 ### Authentication
 
 The *Authentication* page provies an overview of all authentication providers. To add an authentication provider, click **New Provider**. 

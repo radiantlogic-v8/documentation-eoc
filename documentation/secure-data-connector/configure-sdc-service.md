@@ -124,6 +124,9 @@ The *Data Connector Info* section in the data connector detailed view outlines t
 | Group Name | The group the connector was assigned to during set up. There are a minimum of two connectors per network environment to enable load balancing.|
 | Description | Additional details about the data connector provided during setup. |
 | Connections | The number of on-prem or cloud backend connections made to the data connector. |
+| Server Version | Indicates the current server version of the data connector. |
+| Server Version | Indicates the current client version of the data connector. |
+| Token Expiration Date | Indicates when the token associated with the data connector expires. |  
 | Status | Indicates if the data connector is "Active", "Paused", "Inactive" or "Unregistered". |
 
 ![image description](Media/connector-info.png)
