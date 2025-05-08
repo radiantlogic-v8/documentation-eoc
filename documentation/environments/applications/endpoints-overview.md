@@ -20,7 +20,7 @@ If a task is already in progress and you attempt to start another task, then you
 
 ### Control Panel
 
-The **CONTROL PANEL UI** endpoint provides access to the Main Control Panel of FID and is enabled by default after the environment is created.
+The **CONTROL PANEL UI** endpoint provides access to the main Control Panel of Identity Data Management and is enabled by default after the environment is created.
 
 ![image description](images/cp-endpoint.png)
 

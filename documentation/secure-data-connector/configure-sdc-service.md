@@ -1,6 +1,6 @@
 ---
 title: Configure 
-description: Get a quick introduction to using Secure Data Connectors for connecting data from sources on-premises or private cloud environments to RadiantOne SaaS. Learn how to add a Secure Data Connector to deploy a secure tunnel for integrating data from data sources on-premises to RadiantOne FID running in the cloud environment.
+description: Get a quick introduction to using Secure Data Connectors for connecting data from sources on-premises or private cloud environments to RadiantOne SaaS. Learn how to add a Secure Data Connector to deploy a secure tunnel for integrating data from data sources on-premises to RadiantOne Identity Data Management running in the cloud environment.
 ---
 
 # Overview
@@ -42,9 +42,9 @@ The process to create a new secure data connector and establish a connection wit
 - The data connector group must be created in Environment Operations Center.
 - At least a data connector must be added to the group.
 - The secure data connector client must be deployed on the local machine.
-- The data source must be defined in the FID Control Panel. 
+- The data source must be defined in the Identity Data Management Control Panel.
 
-This guide outlines the steps to add a new secure data connector in Environment Operations Center. For details on deploying the secure data connector client, see the [configure a secure data connector client](configure-sdc-client.md) guide. For details on connecting to an on-premise backend from the control panel, see the RadiantOne System Administration Guide.
+This guide outlines the steps to add a new secure data connector in Environment Operations Center. For details on deploying the secure data connector client, see the [configure a secure data connector client](configure-sdc-client.md) guide. For details on connecting to an on-premise backend from the control panel, see the [Managing Data Sources](../../../../idm/v8.1/configuration/data-sources/data-sources/) guide.
 
 To establish a connection between Environment Operations Center and an on-premises network, a data connector must first be created in Environment Operations Center.
 
