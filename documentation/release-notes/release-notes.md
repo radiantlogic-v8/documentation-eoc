@@ -12,4 +12,5 @@ description: Environment Operations Center Release Notes
 
 - [Secure Data Connector Client](#)
   - [December 2024](sdc-1-1-0.md)
+  - [May 2025](sdc-1-2-1.md)
 
