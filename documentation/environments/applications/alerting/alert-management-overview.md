@@ -49,7 +49,9 @@ To add a new alert metric, select **New**. This displays the required fields to 
 
 ![image description](../images/first-alert.png)
 
-1. Under *Metric*, select the specific environment component to provide alerts for. To set the metric, select the downward arrow to expand the dropdown list. Select a component to monitor from the list. Optionally, you can also select a label to add a filter for the metric. 
+1. Under *Metric*, select the specific environment component to provide alerts for. To set the metric, select the downward arrow to expand the dropdown list. Select a component to monitor from the list. You can hover over any metric component name to view its definition.
+
+Optionally, you can also select a label to add a filter for the metric. 
 
 2. Under *Conditions*, specify values for the following fields:
 
