@@ -95,7 +95,23 @@ After you click on the "Know more" link and confirm you've read it by clicking o
 
 You can also view additional information about maintenance schedules and updates by navigating to Admin > Settings > Scheduled Maintenance Settings page. 
 
- ![image description](Media/schedule-maintenance-settings.png)
+ ![An image of schedule maintenance settings page](Media/schedule-maintenance-settings.png)
+
+#### Configure email recipients list
+
+By default, scheduled maintenance notification emails are sent to account administrators. You can customize this list by adding additional recipients by following these steps:
+
+1. Create an [email integration](././admin/integrations/manage-integrations/#integration-type) and include all the desired recipient email addresses.
+
+ ![An image of email integration page](Media/emailint.png) 
+ 
+2. Go to Admin > Settings > Scheduled Maintenance Settings.
+
+ ![An image of scheduled maintenance email settings](Media/emailsettings.png) 
+
+4. Under the Notifications section, select the email integration you just created.
+
+5. Save your changes. 
 
 ## Next steps
 
