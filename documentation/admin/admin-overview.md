@@ -74,6 +74,9 @@ Information on these tasks includes the environment and application the tasks wa
 
 ![image description](images/tasks.png)
 
+Clicking the arrow next to the task name reveals all actions related to the task and the status of each action.
+
+![An image showing the status of all processes](images/taskprocess.png)
 
 ### Authentication
 
