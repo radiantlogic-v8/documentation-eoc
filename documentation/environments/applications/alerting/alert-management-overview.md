@@ -27,7 +27,7 @@ You can search for an existing alert by using the search bar.
 
 To add a new alert, select **New Alert**. This opens the *New Alert* dialog where you will add the alert information and metrics to create the new alert.
 
-![image description](../images/new-alert.png)
+![An image of the new alert UI](../images/new-alert.png)
 
 You can choose a predefined template for common alert types such as CPU Usage, Memory Usage, Disk Usage, Disk Latency, VDS Running, etc. Selecting a template will automatically populate the relevant fields, which you can still edit if needed. Alternatively, select 'Custom' to create an alert with metrics and conditions of your choice.
 
@@ -50,7 +50,7 @@ In the *Alert information* section of the *New Alert* dialog, enter the general 
 In the *Alert Metrics* section of the *New Alert* dialog, provide the necessary information to create an alert for your selected environment(s). This includes specifying the metric and conditions (such as statistic, threshold, and duration) that will trigger the alert. These fields are explained in more detail below. The *Label* field is optional and can be used for additional filtering of the metric.
 To add a new alert metric, select **New**. This displays the required fields to create the alert.
 
-![image description](../images/first-alert.png)
+![An image of the alerts UI](../images/new-alert.png)
 
 1. Under *Metric*, select the specific environment component to provide alerts for. To set the metric, select the downward arrow to expand the dropdown list. Select a component to monitor from the list. You can hover over any metric component name to view its definition.
 
