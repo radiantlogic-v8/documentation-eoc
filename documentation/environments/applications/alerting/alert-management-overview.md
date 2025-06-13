@@ -5,9 +5,9 @@ description: Learn how to create custom alerts to monitor the health and operati
 ---
 # Alert management
 
-Custom alerts can be created in Environment Operations Center to help your teams monitor the health and operations of your environments. Once created, alerts are sent to your specified communication channels to keep you up to date on important changes, potential issues, or errors. This guide outlines the steps to create and manage alerts in Environment Operations Center.
+Alerts can be created in Environment Operations Center to help your teams monitor the health and operations of your environments. Once created, alerts are sent to your specified communication channels to keep you up to date on important changes, potential issues, or errors. This guide outlines the steps to create and manage alerts in Environment Operations Center.
 
->[!note]An integration channel to receive the alert must be created prior to setting up the alert. For details on adding communication channel integrations, see the [integrations](../../../admin/integrations/manage-integrations.md) guide.
+>[!note]An integration channel to receive the alert must be created prior to setting up the alert. For details on adding communication channel integrations, see the [integrations](../../../admin/integrations/manage-integrations.md) guide. 
 
 ## Getting started
 
@@ -29,12 +29,15 @@ To add a new alert, select **New Alert**. This opens the *New Alert* dialog wher
 
 ![image description](../images/new-alert.png)
 
+You can choose a predefined template for common alert types such as CPU Usage, Memory Usage, Disk Usage, Disk Latency, VDS Running, etc. Selecting a template will automatically populate the relevant fields, which you can still edit if needed. Alternatively, select 'Custom' to create an alert with metrics and conditions of your choice.
+
 ### Alert information
 
 In the *Alert information* section of the *New Alert* dialog, enter the general details for the alert in the spaces provided. These include:
 
 | Alert information | Description |
 | ----------------- | ----------- |
+| Template | The Template dropdown provides predefined alert templates for common monitoring scenarios. Select an existing template or select "custom" to create your own alert. |
 | Name | A unique name to identify the alert. It is recommended to keep this relevant to the purpose of the alert. |
 | Severity | Select a severity rating to accompany the alert. Severity options include "Info", "Warning", and "Error". |
 | Notification channel | The notification channel to send the alert to. The dropdown will display all of the integration channels you have configured in your Environment Operations Center instance. |
