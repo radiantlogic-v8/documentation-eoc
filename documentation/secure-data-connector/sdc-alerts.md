@@ -40,7 +40,9 @@ This will automatically set up the default alert for you.
 
 ## Creating New Alerts
 
-You can also create custom alerts for token expiry by clicking the **New Alert** button.
+You can also create a new alert by choosing a predefined template for common alert types such as SDC status, SDC expiration, etc. Selecting a template will automatically populate the relevant fields, which you can still edit if needed. Alternatively, select 'custom' to create an alert with metrics and conditions of your choice.
+
+To create a new alert, click the **New Alert** button and populate all required fields.
 ![Image showing the new alert button](Media/newsdcalert.png)
 
 
