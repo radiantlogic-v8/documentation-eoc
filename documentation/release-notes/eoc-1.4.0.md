@@ -4,7 +4,7 @@ description: Environment Operations Center July 2025 Release Notes
 ---
 # Environment Operations Center June 2025 Release Notes
 
-July 31, 2025
+July 29, 2025
 
 These release notes contain important information about new features, improvements and bug fixes for Environment Operations Center v1.4.0.
 These release notes contain the following sections:
@@ -22,6 +22,13 @@ These release notes contain the following sections:
 - [CUI-2401]: Fixed an issue with environments page filtering by User failing after a delete.
 - [CUI-2408]: Fixed an issue with inconsistency in the Discard Changes button in configuration promotion pipeline.
 - [CUI-2409]: Fixed an issue with incorrect count on the homepage application summary widget.
+- [CUI-2427]: Fixed an issue where "Confirm Email" functionality was not working in application creation.
+- [CUI-2437]: Added a "Test Connection" option to Integrations configuration in edit mode.
+
+## Security Vulnerability Fixes
+- [CUI-2434]: Updated the version of dependency form-data from 4.0.0 to 4.0.4 to address CVE-2025-7783.
+- [CUI-2435]: Updated the version of dependency form-data from 2.3.2 to 4.0.4 to address CVE-2025-7783.
+- [CUI-2436]: Updated the version of dependency form-data from 4.0.1 to 4.0.4 to address CVE-2025-7783.
 
 For known issues reported after the release, please see the Radiant Logic Knowledge Base: 
 https://support.radiantlogic.com/hc/en-us/categories/4412501931540-Known-Issues  
