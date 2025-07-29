@@ -28,6 +28,8 @@
   - [Report types](../reporting/report-types.md)
 - [Monitoring](#)
   - [Monitoring overview](../monitoring/monitoring-overview.md)
+- [Promotion pipelines](#)
+  - [Configuration Promotion](../promotion-pipelines/configuration-promotion.md)
 - [Alerting](#)
   - [Alert management](../environments/applications/alerting/alert-management-overview.md)
 - [Secure data connectors](#)
