@@ -13,9 +13,7 @@ This is particularly useful for promoting configuration updates from development
 
 This feature is supported in Identity Data Management version 8.1.4 or higher and requires EOC version 1.4.0 or higher.
 
-Through the Environment Operations Center, you can define the source and target environments.
-
-To create and configure a new promotion pipeline, follow these steps:
+Through the Environment Operations Center, you can define the source and target environments. To create and configure a new promotion pipeline, follow these steps:
 
 1. **Click the Promotion Pipelines icon** in the left-hand navigation bar.  
    Click the **New Pipeline** button. 
@@ -72,6 +70,7 @@ To create and configure a new promotion pipeline, follow these steps:
 
 
 8. **Start Promoting Configurations**  
-   After publishing, you can begin exporting configurations from the source to the target environment. 
+   After publishing, you can begin exporting configurations from the source to the target environment. **Ensure that the source and target environments are running the same version of Identity Data Management before initiating promotion of configurations.** 
+
    
    Refer to this [linked documentation](../../../idm/v8.1/deployment/configuration-promotion.md) to learn the next steps.
