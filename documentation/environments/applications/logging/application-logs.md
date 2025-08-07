@@ -5,7 +5,7 @@ description: Learn how to access and review logs for a specific application in E
 ---
 # Application Logs
 
-This guide outlines the steps to review logs for a specific application. Log files let you monitor activities and troubleshoot errors in your application. They outline the event description, a date and time stamp of when the event occurred, and the email of the user who triggered the event. The information contained in these logs is helpful if you require assistance from Radiant Logic Support to troubleshoot problems if they arise.
+This guide outlines the steps to review logs for a specific application. Log files let you monitor activities and troubleshoot errors in your application. The information contained in these logs is helpful if you require assistance from Radiant Logic Support to troubleshoot problems if they arise.
 
 Environment Operations Center is connected to Elastic and displays the Elastic monitoring user interface directly within the Environment Operations Center logging tab. This allows you to review environment logs directly in Environment Operations Center without having to navigate away from the application.
 
@@ -33,8 +33,6 @@ Once you have completed the search filter, select **Update** to display the filt
 
 To save frequently used queries, select the **Save** icon next to the **Save** bar and select **Save current query**.
 
-![image description](images/saved-queries.png)
-
 Logs can also be filtered by date and time. Select the **Calendar** icon to display the options to filter by quick select, commonly used, or recently used data ranges. There is also an option to set the refresh interval for log results.
 
 ![image description](images/date-range.png)
@@ -49,3 +47,4 @@ To review a different log file, select the **Log File** dropdown and select the 
 ## Next steps
 
 After reviewing this guide you should have an understanding of the steps required to review the log files of a specific application. To learn more about backing up an application, see the [backup and restore](../backup-and-restore/backup-restore-overview.md) documentation.
+
