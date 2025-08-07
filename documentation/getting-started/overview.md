@@ -101,7 +101,7 @@ You can also view additional information about maintenance schedules and updates
 
 By default, scheduled maintenance notification emails are sent to account administrators. You can customize this list by adding additional recipients by following these steps:
 
-1. Create an [email integration](././admin/integrations/manage-integrations/#integration-type) and include all the desired recipient email addresses.
+1. Create an [email integration](../admin/integrations/manage-integrations/#integration-type) and include all the desired recipient email addresses.
 
  ![An image of email integration page](Media/emailint.png) 
  
