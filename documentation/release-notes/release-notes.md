@@ -11,6 +11,7 @@ description: Environment Operations Center Release Notes
   - [May 2025](eoc-1-3-1.md)
   - [June 2025](eoc-1-3-2.md)
   - [July 2025](eoc-1-4-0.md)
+  - [September 2025](eoc-1-4-1.md)
 
 
 - [Secure Data Connector Client](#)
