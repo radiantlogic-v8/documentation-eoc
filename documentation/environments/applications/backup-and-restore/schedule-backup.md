@@ -71,5 +71,6 @@ If the scheduled backup could not be created, you will receive an error message 
 
 ## Next steps
 
-After reading this guide you should have an understanding of the steps required to schedule automated backups. To restore a new application from a backup, see the [advanced set up](../applications-overview/#advanced-setup). To restore an existing application from a backup, refer to the [restore a backup guide](./backup-restore-overview/#restore-a-backup)
+After reading this guide you should have an understanding of the steps required to schedule automated backups. To restore a new application from a backup, see the [advanced set up](../applications-overview/#advanced-setup). To restore an existing application from a backup, refer to the [restore a backup guide](./backup-restore-overview/#restore-a-backup).
+
 
