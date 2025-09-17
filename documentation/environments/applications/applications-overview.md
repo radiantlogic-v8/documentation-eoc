@@ -74,7 +74,7 @@ The **Install Samples** option imports sample data.
 
 To import a configuration file, select the backup configuration ZIP file to upload. You can locate the file on your system and drag and drop it into the provided space. Alternatively, you can select **choose file** within the upload box to open your system's file manager and locate the file to upload.
 
->![warn] The backup version must be the same as, or lower than, the version of the application you selected under [Application Details](./#application-details). For example, if you choose v8.1.5 for the new application, the backup file can be v8.1.5, v8.1.4, or any earlier version down to v8.0.
+>![warn] The backup version number must be less than or equal to the version of the application you selected under [Application Details](./#application-details). For example, if you choose v8.1.5 for the new application, the backup file can be v8.1.5, v8.1.4, or any earlier version down to v8.0.
 
 While your file is uploading, an **Uploading** message displays in the file upload box, along with a progress bar. You can cancel the file upload while it is in progress by selecting the **X** located in the progress bar box.
 
