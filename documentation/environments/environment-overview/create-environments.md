@@ -73,7 +73,7 @@ To set the Environment **Version**, select the version drop down to display all 
 
 #### Password
 
-Select a password by either entering your chosen password in the space provided, or by selecting the **Generate** button to have a password automatically generated for you. This is the password for the administrative super user account (cn=directory manager). The administrative super user set here is the break glass account for the Radiant Logic service and should be used as such. It is not recommended to use this account for general purpose access. Also note that password policies are not enforced for this account. Maintaining a break glass account that cannot be locked out is essential for ensuring uninterrupted emergency access to the RadiantOne service during incidents such as misconfigurations, authentication failures, or security breaches that might otherwise prevent all administrators from regaining control of an environment.
+Select a password by either entering your chosen password in the space provided, or by selecting the **Generate** button to have a password automatically generated for you. This is the password for the administrative super user account (cn=directory manager). The administrative super user set here is the break glass account for the Radiant Logic service and should be used as such. It is not recommended to use this account for general purpose access. Also note that LDAP password policies defined in RadiantOne are not enforced for this account. Maintaining a break glass account that cannot be locked out is essential for ensuring uninterrupted emergency access to the RadiantOne service during incidents such as misconfigurations, authentication failures, or security breaches that might otherwise prevent all administrators from regaining control of an environment.
 
 > Passwords must be a minimum of 12 characters, contain at least 1 special character, contain lower and upper case letters, and contain at least 1 number.
 
@@ -141,4 +141,5 @@ Select the ellipsis (**...**) in line with the environment to display a list of 
 ## Next steps
 
 Learn how to view [application details](../applications/application-details.md), [update an application](../applications/update-an-application.md) and [delete an environment](delete-environment.md). 
+
 
