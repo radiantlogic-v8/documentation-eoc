@@ -1,43 +1,43 @@
 ---
 keywords:
-title: Monitoring 
-description: Learn how to use the Monitoring section in Environment Operations Center to view metrics associated with a specific application in an environment. Default monitored metrics include CPU Usage, RAM Usage, Disk space used, connection pool usage, operations count since startup broken down by operation type, and current number of live connections.
+title: Dashboards 
+description: Learn how to use dashboards in Environment Operations Center to view metrics associated with a specific application in an environment. Default monitored metrics include CPU Usage, RAM Usage, Disk space used, connection pool usage, operations count since startup broken down by operation type, and current number of live connections.
 ---
-# Monitoring
+# Dashboards
 
-From the *Monitoring* screen, you can review the status and health of various RadiantOne components for each server. This guide provides an overview of the *Monitoring* section in Environment Operations Center and its features.
+From the *Dashboard* screen, you can review the status and health of various RadiantOne components for each server. This guide provides an overview of the *Dashboards* section in Environment Operations Center and its features.
 
->[!warning] Monitoring is a crucial step in maintaining the health of RadiantOne and it is recommended that you monitor these components on a regular basis.
+>[!warning] Monitoring via dashboards is a crucial step in maintaining the health of RadiantOne and it is recommended that you monitor these components on a regular basis.
 
 ## Getting started
 
-To navigate to the *Monitoring* screen, select **Monitoring** (![image description](Media/monitoring-icon.png)) from the left navigation.
+To navigate to the *Dashboards* screen, select **Dashboards** from the left navigation.
 
-![image description](Media/select-monitoring.png)
+(![image description](Media/dashboard-icon.png))
 
-## Monitor an environment
+## Generate a dashboard
 
-To generate monitoring metrics, an environment and at least one application must be selected.
+To generate dashboard with metrics, select an environment and at least one application must be selected.
 
 To set the environment, select an environment from the **Environment** dropdown, an application from the **Application** dropdown.
 Select a dashboard from the **Dashboard** dropdown and one or more nodes from the **Node** dropdown. 
 
-The monitoring dashboard will update to display the component metrics for all nodes selected.
+![image description](Media/dashboard-selection.png)
 
-![image description](Media/dashboard.png)
+The dashboard will update to display the component metrics for all nodes selected.
 
 To remove a node, select the "X" associated with the node name.
 
 
 ### Filter data by time range
 
-You can filter monitoring data by time range, allowing you to narrow down the targeted data to a specific time frame.
+You can filter dashboard data by time range, allowing you to narrow down the targeted data to a specific time frame.
 
 To filter by time, select a range from the **Time Range** dropdown.
 
-## Monitored Metrics for Identity Data Management
+## Metrics for Identity Data Management
 
-The monitoring dashboard displays several node component metrics, allowing you to monitor the health of RadiantOne service.
+The dashboard displays several node component metrics, allowing you to monitor the health of RadiantOne service.
 
 Component metrics displayed include:
 
