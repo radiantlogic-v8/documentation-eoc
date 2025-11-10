@@ -13,7 +13,7 @@ From the *Dashboard* screen, you can review the status and health of various Rad
 
 To navigate to the *Dashboards* screen, select **Dashboards** from the left navigation.
 
-(![image description](Media/dashboard-icon.png))
+![image description](Media/dashboard-icon.png)
 
 ## Generate a dashboard
 
