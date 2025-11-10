@@ -89,4 +89,4 @@ You can set a time range to auto-refresh the report with the latest data. To do 
 
 ## Next steps
 
-After reading this guide you should have an understanding of how to generate environment reports to review the operations and health of your applications. For details on reviewing detailed application logs, see the [application logs](../environments/applications/logging/application-logs.md) guide. To learn how to monitor RadiantOne components, see the [monitoring](../monitoring/monitoring-overview.md) guide.
+After reading this guide you should have an understanding of how to generate environment reports to review the operations and health of your applications. For details on reviewing detailed application logs, see the [application logs](../environments/applications/logging/application-logs.md) guide. To learn how to monitor RadiantOne components, see the [monitoring](../dashboards/dashboards-overview.md) guide.
