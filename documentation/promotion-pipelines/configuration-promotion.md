@@ -50,14 +50,7 @@ Click the plus (**+**) icon to add a source stage (e.g., QA stage). This stage r
 ### 3. Add Target Stages 
 
 Add one or more target stages (e.g., Demo/ Production). Click the plus (**+**) icon again and fill in the required fields.  
-Set **Source Stage** to *ROOT* and leave **Destination Stage** blank. Click **Create**. 
-
-![image showing how to add a target](Media/target.png)
-
-
-### 4. Link the Stages 
-
-Edit each target stage you created. Update its **Source Stage** to reference the correct upstream stage (e.g., QA or Demo Stage).  
+Set **Source Stage** to reference the correct upstream stage (e.g., QA or Demo Stage). Leave **Destination Stage** blank. Click **Create**. 
 
 ![image showing how to link stages](Media/link-stages.png)
 
@@ -96,18 +89,13 @@ iii. To create a destination stage, choose a creation method:
 - **Create New** (default), or  
 - **Clone from Existing Stage**.  
 
-iv. Select a **Source Stage** (e.g., ROOT).  
+iv. Select a **Source Stage**. The **Source Stage** must reference the correct upstream stage (e.g., QA).     
 
 v. Select the target **Environment** from the dropdown. Confirm the **Application Version** (automatically displayed after environment selection).  
 
 vi. Enter a **Stage Name** and optionally add a description.  
 
 vii. Click **CREATE** to save.  
-
-
-### 2. Link the Stages 
-
-Edit each destination stage you created. Update its **Source Stage** to reference the correct upstream stage (e.g., QA).  
 
 
 ### 3. Promote Application Version Updates 
