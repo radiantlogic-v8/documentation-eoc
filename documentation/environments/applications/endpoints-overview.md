@@ -80,6 +80,8 @@ Next, enter one or more IP addresses that are allowed to access the application 
 
 ![image description](images/ip-based-access.png)
 
+> The maximum number of IP addresses that can be whitelisted is 100.
+
 ## Identity Data Analytics Endpoint 
 
 Unlike Identity Data Management, Identity Analytics endpoints do not have a toggle option and are accessible through the URLs displayed in your account. 
@@ -102,6 +104,7 @@ This endpoint enables the IDA administrator to configure connectors for data ext
 ### Admin Console
 
 This is the Keycloak configuration interface used to manage end-user accounts and roles, providing access to the Portal. 
+
 
 
 
