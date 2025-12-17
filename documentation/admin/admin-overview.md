@@ -80,16 +80,22 @@ Clicking the arrow next to the task name reveals all actions related to the task
 
 ### Authentication
 
-The *Authentication* page provies an overview of all authentication providers. To add an authentication provider, click **New Provider**. 
+The *Authentication* page provies an overview of all authentication providers. To add an authentication provider, click **New Provider**. It also allows you to configure a OIDC provider and enable multi-factor authentication. 
 
 ![image description](images/authentication.png)
 
 ### Settings
 
-The **Settings** page provides options to setup release channels and automatic/manual update checks for the channel. It also allows you to configure a OIDC provider and enable multi-factor authentication. 
+The **Settings** page provides options to configure release channels,  manage automatic or manual update checks for each channel, and define retention policy settings for Environment Operations Center data.
 
 ![image description](images/settings-tab.png)
+
+The Scheduled Maintenance Settings option lets you define the list of email recipients who will receive maintenance notifications. Refer to the steps listed [here]([url](../getting-started/overview/#configure-email-recipients-list)) to learn more. 
+
+The Retention Policy Settings tab lets you define retention policies for logs, alerts, events, tasks, and notifications. Data associated with these object types is automatically deleted once the specified retention period expires.
+
 
 ## Next steps
 
 After reading this guide you should be able to navigate the *Admin* home screen and understand its main features including the top navigation. For details on updating your account settings, review the [account settings](../getting-started/account-settings/update-account.md) guide. To learn how to create a new user, review the [create a new user](user-management/create-user.md) guide.
+
