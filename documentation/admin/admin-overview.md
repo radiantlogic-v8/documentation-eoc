@@ -90,7 +90,7 @@ The **Settings** page provides options to configure release channels,  manage au
 
 ![image description](images/settings-tab.png)
 
-The Scheduled Maintenance Settings option lets you define the list of email recipients who will receive maintenance notifications. Refer to the steps listed [here](../../getting-started/overview/#configure-email-recipients-list) to learn more. 
+The Scheduled Maintenance Settings option lets you define the list of email recipients who will receive maintenance notifications. Refer to the steps listed [here](../getting-started/overview/#configure-email-recipients-list) to learn more. 
 
 The Retention Policy Settings tab lets you define retention policies for logs, alerts, events, tasks, and notifications. Data associated with these object types is automatically deleted once the specified retention period expires.
 
@@ -98,5 +98,6 @@ The Retention Policy Settings tab lets you define retention policies for logs, a
 ## Next steps
 
 After reading this guide you should be able to navigate the *Admin* home screen and understand its main features including the top navigation. For details on updating your account settings, review the [account settings](../getting-started/account-settings/update-account.md) guide. To learn how to create a new user, review the [create a new user](user-management/create-user.md) guide.
+
 
 
