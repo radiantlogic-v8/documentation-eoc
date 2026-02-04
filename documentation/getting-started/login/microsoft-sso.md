@@ -6,7 +6,11 @@ description: This Guide provides the information about configuring the SSO for M
 
 # Microsoft SSO
 
-This guide provides details on how to configure Microsoft SSO using Microsoft Entra ID. Note that by default, Radiant Logic provides you with an option to sign in with Microsoft. However, if you would like to set up Microsoft authentication on your own, follow the steps outlined in this guide. 
+This guide explains how to configure Microsoft Single Sign-On (SSO) using Microsoft Entra ID. By default, Radiant Logic offers a “Sign in with Microsoft” option. If you choose this method, when you click the Sign in with Microsoft button, you’ll be prompted to grant admin approval for the Environment Operations Center (EOC). Once an administrator authorizes access, you can log in using the Microsoft sign-in option.
+
+![menu](images/approval-request.png)
+
+Alternatively, if you prefer to configure Microsoft authentication on your own, follow the steps listed in this guide. 
 
 
 ## Registering your application in Entra ID 
@@ -82,6 +86,7 @@ After configuring OIDC with Microsoft Entra ID, you will need to enable this SSO
    iii. Optionally, you can enable EOC MFA. If you enable EOC MFA, upon logging in, the user will be see a prompt to set up MFA with an authenticator app. Complete the prompt to enable MFA.
 
    ![form](images/OIDC-form.png)
+
 
 
 
