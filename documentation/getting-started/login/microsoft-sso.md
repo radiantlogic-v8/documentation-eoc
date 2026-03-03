@@ -13,6 +13,7 @@ This guide explains how to configure Microsoft Single Sign-On (SSO) using Micros
 Alternatively, if you prefer to configure Microsoft authentication on your own, follow the steps listed in this guide. 
 
 
+
 ## Registering your application in Entra ID 
 
 This section describes how to establish your application as a recognized entity in Azure AD to facilitate secure interactions. 
@@ -65,7 +66,7 @@ The section describes how to integrate and verify that SSO via Azure AD is funct
 1. In your application authentication settings, input the Application (Client) ID and the Client Secret.
 2. Configure the authentication library or framework you are using (such as Microsoft's Identity platform libraries) to interact with Azure AD using these credentials.
 3. Implement a login feature where users are redirected to Azure AD for authentication.
-4. Verify that after successful authentication, Azure AD redirects users back to your application's specified redirect URI.
+4. Verify that after successful authentication, Entra ID redirects users back to your application's specified redirect URI.
     > [!note] Your application should handle this response to authenticate the user internally.
 5. After implementation, monitor the integration closely for any performance issues or errors.
 6. Review logs and user feedback to identify and troubleshoot any potential problems in the SSO process. 
@@ -87,6 +88,93 @@ After configuring OIDC with Microsoft Entra ID, you will need to enable this SSO
 
    ![form](images/OIDC-form.png)
 
+## User-Side Configuration (External Organization)
+
+When you add a user from an external organization to EOC — for example, adding `jane@contoso.com` while your EOC is registered under `radiantlogic.com`, additional configuration may be needed on the user's side.
+
+The steps depend on the external organization's security posture. There are three scenarios, from simplest to most restrictive which are explained below.
+
+### How It Works
+
+When an external user clicks "Sign in with Microsoft" on EOC:
+
+```
+User clicks "Sign in with Microsoft"
+    │
+    ▼
+Entra ID checks: Is this app known to the user's tenant?
+    │
+    ├── YES (Service Principal exists) → Sign in proceeds
+    │
+    └── NO (First-time access) → Consent required
+            │
+            ├── User consent allowed? → User approves → Service Principal created → Sign in proceeds
+            │
+            └── User consent blocked? → "Admin approval required" error
+                    │
+                    └── Admin must grant consent (see Scenario 2 or 3)
+```
+
+> **Key concept — Service Principal:** When an external user (or their admin) consents to your app, Entra ID creates a *Service Principal* in their tenant. Think of it as a local reference card for your app in their directory. It is what allows their admins to manage access, assign users, and apply their own security policies to your app. Without this Service Principal, the login cannot work.
+
+### Scenario 1: Default Entra ID Settings (No Action Required)
+
+This applies when the external organization uses default Entra ID settings and has not restricted user consent or cross-tenant access.
+
+**What happens:**
+
+1. You add the user's email (e.g., `jane@contoso.com`) in EOC.
+2. The user clicks "Sign in with Microsoft" on EOC's login page.
+3. Entra ID redirects them to their organization's sign-in page.
+4. After authentication, Entra ID shows a **consent prompt**:
+   > *"RadiantLogic EOC wants to: Sign you in and read your profile"*
+5. The user clicks **Accept**.
+6. A Service Principal is created in their tenant automatically.
+7. The user is signed in to EOC.
+
+**External admin action:** None required.
+
+**Subsequent logins:** The user signs in directly and no consent prompt appears again.
+
+> This scenario works when your app only requests basic permissions (`openid`, `profile`, `email`, `User.Read`) and the external org hasn't changed the default consent settings.
+
+
+### Scenario 2: Admin Consent Required (Most Enterprises)
+
+This scenario is applicable when the external organization has disabled user consent in their Entra ID. This is standard practice at most regulated enterprises and large organizations.
+
+When the user attempts to login to EOC, instead of a consent prompt, the user gets an error:
+
+`"AADSTS65001: The user or administrator has not consented to use the application. Need admin approval."`
+
+To resolve this issue, follow these steps:
+
+1. Share the Admin Consent URL.
+
+You (the EOC admin) will need to provide the external org's IT admin with an **admin consent URL**. Construct it as follows:
+
+```
+https://login.microsoftonline.com/{external-org-domain}/adminconsent?client_id={your-app-client-id}
+```
+
+**Example:**
+```
+https://login.microsoftonline.com/contoso.com/adminconsent?client_id=a1b2c3d4-e5f6-7890-abcd-ef1234567890
+```
+
+Alternatively, if the admin knows their tenant ID:
+
+```
+https://login.microsoftonline.com/{external-org-tenantID}/adminconsent?client_id={your-app-client-id}
+```
+
+**Example:**
+
+```
+https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/adminconsent?client_id=a1b2c3d4-e5f6-7890-abcd-ef1234567890
+```
+
+2. After the exteranl IT team's admin approves the access using the Admin Consent URL, the application gets registered in their tenant. Following this, users from their tenant who are assigned to EOC can login in successfully.
 
 
 
