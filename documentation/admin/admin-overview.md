@@ -78,6 +78,22 @@ Clicking the arrow next to the task name reveals all actions related to the task
 
 ![An image showing the status of all processes](images/taskprocess.png)
 
+#### Filter tasks 
+
+You can filter tasks by application type or task status. To see only the filtered tasks, click the filter icon in the top-right corner of the screen and choose your desired filters.
+
+![image description](images/filter-tasks.png)
+
+#### Actions related to a task 
+
+Additionally, you can also perform the following actions on a task:
+* **Rerun** a failed or timed-out task.
+* **Cancel** a stuck task that is in a pending state. Prior to using this feature, review logs of the task. If you notice that the task has timed out or has encountered an issue, you can use this feature to cancel the task.
+* **Fetch logs** of a task.
+
+![image description](images/rerunandlogs.png)
+
+
 ### Authentication
 
 The *Authentication* page provies an overview of all authentication providers. To add an authentication provider, click **New Provider**. It also allows you to configure a OIDC provider and enable multi-factor authentication. 
@@ -98,6 +114,7 @@ The Retention Policy Settings tab lets you define retention policies for logs, a
 ## Next steps
 
 After reading this guide you should be able to navigate the *Admin* home screen and understand its main features including the top navigation. For details on updating your account settings, review the [account settings](../getting-started/account-settings/update-account.md) guide. To learn how to create a new user, review the [create a new user](user-management/create-user.md) guide.
+
 
 
 
