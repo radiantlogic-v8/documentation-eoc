@@ -50,8 +50,6 @@ For details on managing integrations, see the [managing integrations](integratio
 
 The *Event* page provides an overview of all create, update, and delete activities performed for all environments, including the action, environment, date and time stamp of the activity, and the user who performed the activity.
 
-![image description](images/activity-log-tab.png)
-
 ### Tasks
 
 From the *Tasks* page, you can view information on the following EOC tasks.
@@ -98,8 +96,6 @@ Additionally, you can also perform the following actions on a task:
 
 The *Authentication* page provies an overview of all authentication providers. To add an authentication provider, click **New Provider**. It also allows you to configure a OIDC provider and enable multi-factor authentication. 
 
-![image description](images/authentication.png)
-
 ### Settings
 
 The **Settings** page provides options to configure release channels,  manage automatic or manual update checks for each channel, and define retention policy settings for Environment Operations Center data.
@@ -110,10 +106,29 @@ The Scheduled Maintenance Settings option lets you define the list of email reci
 
 The Retention Policy Settings tab lets you define retention policies for logs, alerts, events, tasks, and notifications. Data associated with these object types is automatically deleted once the specified retention period expires.
 
+### Status 
+
+The Status page provides an overview of the operational health of all system services. It allows administrators to quickly verify whether core components are running normally.
+
+![image showing status UI](images/status.png)
+
+The page displays a table of services with the following columns:
+
+* Service Name – The name of the system component.
+
+* Status – The current health state of the service and the duration for which it has been in that state.
+
+Each service is accompanied by a status indicator. A green indicator labeled “Operational” shows that the service is functioning normally. The duration displayed next to the status indicates how long the service has been continuously operational.
+
+Typical services listed on this page include backend components, user interface services, storage services, networking components, and supporting infrastructure such as caching or backup services.
+
+Admins can use this page to quickly confirm that all services are running as expected and to identify any services that may require attention if their status changes.
+
 
 ## Next steps
 
 After reading this guide you should be able to navigate the *Admin* home screen and understand its main features including the top navigation. For details on updating your account settings, review the [account settings](../getting-started/account-settings/update-account.md) guide. To learn how to create a new user, review the [create a new user](user-management/create-user.md) guide.
+
 
 
 
