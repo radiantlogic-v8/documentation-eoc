@@ -32,7 +32,7 @@ A user avatar is always located in the upper right corner of the Environment Ope
 
 The dropdown displays your name, email, and permissions associated with the account. From the dropdown menu you can navigate to your **Account Settings**, access the **Help** center, or **Logout** of Environment Operations Center.
 
-For information on managing your account settings, see the [account settings](../account-settings/update-account.md) guide.
+For information on managing your account settings, see the [account settings](./account-settings/update-account.md) guide.
 
 
 ### Quick links
