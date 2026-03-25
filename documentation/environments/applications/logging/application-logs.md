@@ -43,6 +43,23 @@ Select the **Date and Time** bar to set the date and time to refresh log data. A
 
 To review a different log file, select the **Log File** dropdown and select the log file to review. Once you select the file type, the page will load with the file details.
 
+## Download Identity Data Management logs
+
+To download logs for Identity Data Management through EOC, follow these steps:
+
+1. Go to the Application Overview page.
+2. In the top-right corner, click the "…" option.
+
+   ![Download logs option](images/download-logs.png)
+
+3. Select Download Logs.
+4. Enter a file name for the log download (the file will be saved as a .zip).
+5. Select the start date and time for the logs.
+6. Select the end date and time.
+7. Click Confirm. This downloads all Identity Data Management log files for the defined range into a ZIP file automatically.
+
+> All selected dates and times are converted to UTC for the download.
+
 
 ## Next steps
 
