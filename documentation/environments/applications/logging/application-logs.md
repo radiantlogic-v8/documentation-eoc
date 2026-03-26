@@ -50,12 +50,14 @@ To download logs for Identity Data Management through EOC, follow these steps:
 1. Go to the Application Overview page.
 2. In the top-right corner, click the "…" option.
 
-   ![Download logs option](images/download-logs.png)
+    ![Download logs menu](images/logdownloads.png)
 
 3. Select Download Logs.
+   
+    ![Download logs UI](images/download-logs.png)
+
 4. Enter a file name for the log download (the file will be saved as a .zip).
-5. Select the start date and time for the logs.
-6. Select the end date and time.
+5. Select the start date, end date and time for the logs.
 7. Click Confirm. This downloads all Identity Data Management log files for the defined range into a ZIP file automatically.
 
 
