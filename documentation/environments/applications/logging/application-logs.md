@@ -58,8 +58,6 @@ To download logs for Identity Data Management through EOC, follow these steps:
 6. Select the end date and time.
 7. Click Confirm. This downloads all Identity Data Management log files for the defined range into a ZIP file automatically.
 
-> All selected dates and times are converted to UTC for the download.
-
 
 ## Next steps
 
