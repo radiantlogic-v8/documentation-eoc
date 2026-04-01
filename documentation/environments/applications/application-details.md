@@ -113,6 +113,9 @@ You can view an application's version history by selecting the **View Version Hi
 
 The *Application Endpoints* section lists all of the environment endpoints. Note that the [endpoints](endpoints-overview.md) for Identity Analytics application differ from Identity Data Management application.
 
+>[!warning]
+> Enable IP Based Access Control in the Security settings to limit which IP addresses can access this LDAPS endpoint.
+
 ![image description](images/endpoints.png)
 
 ## Next steps
