@@ -81,6 +81,8 @@ The left navigation contains links to various screens, providing access to the f
 
 - Secure data connectors: You can manage connections to on-premise data connectors in the *Secure Data Connectors* section. Select **Secure Data Connectors** to navigate to the *Secure Data Connectors* screen. For details on managing data connections, see the [secure data connectors](../secure-data-connector/configure-sdc-service.md) guide. This feature is currently available only in the Identity Data Management application.
 
+- Promotion Pipelines: The [configuration promotion pipeline](../promotion-pipelines/configuration-promotion.md) supports promotion of validated configurations across multiple Identity Data Management (IDDM) environments.
+
 - Observe: The Observe section contains navigation items for [Reporting](../reporting/reporting-overview.md), [Monitoring](../dashboards/dashboards-overview.md), [Logging](../environments/applications/logging/application-logs.md), and [Alerting](../environments/applications/alerting/alert-management-overview.md) dashboards.
 
 - Admin: From the *Admin* section you can perform various administrative actions in Environment Operations Center. Select **Admin** to navigate to the *Admin* home screen. For further details on operations available in the *Admin* section, see the [admin overview](../admin/admin-overview.md) guide.
