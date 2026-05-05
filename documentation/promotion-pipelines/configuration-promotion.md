@@ -26,8 +26,8 @@ Through the Environment Operations Center, you can define the source and target 
 
 ### Requirements 
 
-- IDDM version 8.1.4+  
-- EOC version 1.4.0+  
+- IDDM version 8.4.0+  
+- EOC version 1.5.2+  
 - The source and target environments must run the same Identity Data Management application version.  
 - A promotion pipeline (like the one outlined in this document) must exist before configuration changes are made.  
 
