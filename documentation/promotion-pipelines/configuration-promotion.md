@@ -106,6 +106,4 @@ ii. Identify the Stage you want to promote from (typically your validated or tes
 
 iii. Click the double arrow (**>>**) button next to the source environment’s version.  
 
-  ![image showing the app version promotion icon](Media/version-promotion.png)
-
 iv. Review all impacted stages in the confirmation dialog. Click **Confirm** to begin promotion. Once the promotion is applied, the downstream stage is updated to the same version as the source stage.  
