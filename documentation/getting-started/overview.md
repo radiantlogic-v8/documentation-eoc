@@ -3,29 +3,28 @@ keywords:
 title: Overview
 description: Overview of EOC
 ---
+
 # Getting started
 
 Environment Operations Center allows you to control your RadiantOne implementation in a cloud environment. It provides all of the required tools to:
  
 1. Create and manage RadiantOne [environments](../environments/environment-overview/environments.md) where you can install and manage RadiantOne applications in your environments. 
-
 2. [Securely connect with on-premises data ](../secure-data-connector/configure-sdc-service.md). Note that this feature is currently supported in Identity Data Management applications only.
-
 3. Observe usage and issues with [reporting](../reporting/reporting-overview.md), [dashboards](../dashboards/dashboards-overview.md), [logging](../environments/applications/logging/application-logs.md), and [alerting](../environments/applications/alerting/alert-management-overview.md) dashboards.
-
 4. [Administrate](../admin/admin-overview.md) account settings, users, environment alerts and integrations depending on the user role.  
-
 5. Customize the homepage with widgets and relevant links.  
 
 This guide provides an overview of the Environment Operations Center home screen and how to navigate the user interface of this screen.
 
 ## Overview
-After logging in to the Environment Operations Center, the *Overview* screen appears. This is the Environment Operations Center home screen. It provides access to Radiant Logic quick links, application status and so on. You can customize the displayed layout of the screen. 
 
-A navigation bar is located to the left and is visible from all screens within Environment Operation Center. You can access your account settings by selecting the avatar in the upper right corner, also visible from all screens in the application. If you are an admin, you can access admin settings by selecting the admin icon in the bottom left corner of the page. 
+After logging in to the Environment Operations Center, the *Overview* screen appears. This is the Environment Operations Center home screen. It displays a description of the platform along with a summary of your environments, applications, secure data connectors, and system health. You can customize the displayed layout of the screen.
+
+A navigation bar is located to the left and is visible from all screens within Environment Operations Center. You can access your account settings by selecting the avatar in the upper right corner, also visible from all screens in the application. If you are an admin, you can access admin settings by selecting the admin icon in the bottom left corner of the page.
+
+![Overview screen](Media/overview-main.png)
 
 ### Account settings
-
 A user avatar is always located in the upper right corner of the Environment Operations Center user interface. Select the avatar to expand your account dropdown menu. 
 
 ![image description](Media/profile-icon.png)
@@ -34,29 +33,57 @@ The dropdown displays your name, email, and permissions associated with the acco
 
 For information on managing your account settings, see the [account settings](./account-settings/update-account.md) guide.
 
+### Environment summary
+
+At the top of the *Overview* screen, a summary bar displays high-level counts and health indicators across your tenant:
+
+- **Environments** — The total number of environments that are created in your account, broken down by **Production** and **NonProduction** counts.
+- **Applications** — The total number of applications registered, with a status breakdown showing counts for **Operational**, **Warning**, **Critical**, and **Offline** states.
+- **Secure Data Connectors** — The total number of secure data connectors, with counts for **Active**, **Paused**, **Failed**, and **Inactive** states.
+- **System Health** — An overall health percentage for the tenant, showing separate percentages for **Application** health and **Data Connector** health.
 
 ### Quick links
 
-By default, the Quick Links section contains guides and resources to help you with your work in RadiantOne and Environment Operations Center. An admin can add or remove links to display relevant content in this section by using the **Add links** and **Manage links** options. 
+By default, the Quick Links section contains guides and resources to help you with your work in RadiantOne and Environment Operations Center. An admin can add or remove links to display relevant content in this section by using the **Add link** and **Manage Links** options. 
 
 ![image description](Media/documentation-link.png)
 
-### Application status 
-
-The *Application Status* section on the *Overview* screen allows you to quickly preview your available environments and see the count of applications in various status — Operational, Offline, Critical, and Warning.
-
-![image description](Media/env-section.png)
-
-The **New Environment** button lets you create a new environment whereas the **Go to Environments** links takes you to the Environments page. 
-
 ### Subscriptions
 
-The **Subscriptions** section shows the number of used nodes and available nodes in an application. 
+The **Subscriptions** section shows the number of used nodes and available nodes per application type. It displays separate tiles for **Identity Data Management**, **Identity Data Analytics**, and **Identity Observability**, each showing the current node usage out of the total available.
 
+### Environments location
+
+The **Environments Location** section displays a world map showing the geographic distribution of this tenant's environments and applications across regions. Each cluster on the map is labeled with the count of environments in that location. You can zoom in and out using the **+** and **−** controls.
+
+![Environments location map](Media/environments-location.png)
+
+### Application version distribution
+
+The **Application Version Distribution** section shows the version distribution of applications within a selected application type. Use the dropdown menus to filter by application type (**IDDM**, **IDA**, or **IDO**) and to select the chart format. Available chart types are **Bar Chart**, **Line Chart**, **Pie Chart**, and **Area Chart**.
+
+![Application version distribution](Media/app-version-distribution.png)
+
+### Application status 
+
+The *Application Status* section displays the count of applications in various states such as **Operational**, **Warning**, **Critical**, and **Offline** to give you a quick snapshot of application health at a glance.
+
+![Application status section](Media/app-status.png)
+
+Use the **Environment** dropdown to filter the status counts by a specific environment or view counts across **All** environments.
+
+![Application status environment filter](Media/app-status-filter.png)
+
+The **New Environment** button lets you create a new environment. The **Go to Environments** link at the bottom of the section takes you to the Environments page.
 
 ### What's new
 
-The **What's new** section shows Radiant Logic's latest infographics, webinars, press releases and live events. 
+The **What's new** section keeps you up to date with Radiant Logic's latest content, including:
+
+- **Digital security articles** — Read the latest posts from the Radiant Logic team.
+- **Webinars** — Stay up to date on Radiant Logic webinars and get access to exclusive analyst research.
+- **Library** — Dive deeper into customer success stories, white papers, and more.
+- **User Groups** — Join a user group to keep a pulse on all things IAM.
 
 ### Custom widgets
 
@@ -68,14 +95,13 @@ By clicking on it, you can change the layout of the home screen, add another wid
 
  ![image description](Media/customize.png)
 
-
 ### Left navigation
 
-The left navigation contains links to various screens, providing access to the following Environment Operation Center features:
+The left navigation contains links to various screens, providing access to the following Environment Operations Center features:
 
 ![image description](Media/left-nav.png)
 
-- Overview: To navigate to the *Overview* screen, select either **Overview** or the Radiant Logic logo.
+- Overview: This is the landing page of the Environment Operations Center. To navigate to the *Overview* screen, select either **Overview** or the Radiant Logic logo. 
 
 - Environments: The main *Environments* screen provides an overview of all the environments you have access to. Select **Environments** to navigate to the *Environments* overview. To learn more about the *Environments* section, see the [environments overview](../environments/environment-overview/environments.md) guide.
 
@@ -104,15 +130,11 @@ You can also view additional information about maintenance schedules and updates
 By default, scheduled maintenance notification emails are sent to account administrators. You can customize this list by adding additional recipients by following these steps:
 
 1. Create an [email integration](../admin/integrations/manage-integrations/#integration-type) and include all the desired recipient email addresses.
-
  ![An image of email integration page](Media/emailint.png) 
  
 2. Go to Admin > Settings > Scheduled Maintenance Settings.
-
  ![An image of scheduled maintenance email settings](Media/emailsettings.png) 
-
 4. Under the Notifications section, select the email integration you just created.
-
 5. Save your changes. 
 
 ## Next steps
