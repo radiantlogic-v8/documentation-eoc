@@ -37,4 +37,21 @@ To create a new report, click **Reports** in the left navigation bar and follow 
 
 6. Use the Open Preview icon to review your report in a new tab. Click Send Preview to send a test copy and see what the report will look like. 
 
-7. Click the Create button to finalize and send or Save Draft to finalize it later. 
+7. Click the Create button to finalize and send or Save Draft to finalize it later.
+
+## Managing existing reports
+
+The **Reports** page lists every report you have created, along with its status and owner. From this screen you can edit, pause, and remove reports.
+
+- **Update a report.** Open a report, change its settings, and select **Update** to save your changes. (**Update** replaces **Create** for reports that already exist.)
+- **Pause a report.** Pause a scheduled report to stop it from sending, then resume it later when you need it again.
+- **Delete a report.** Remove a report you no longer need.
+- **Filter the list.** Use the filters to narrow the list by status or owner.
+
+A report's status reflects where it is in its lifecycle:
+
+- **Scheduled** — the report is active and sends on its configured frequency.
+- **Expired** — the report has reached its end date and no longer sends.
+
+![Reports list showing report statuses and the report builder](Media/01-reporting-builder.jpg)
+
