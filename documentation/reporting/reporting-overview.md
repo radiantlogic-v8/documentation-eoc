@@ -53,5 +53,3 @@ A report's status reflects where it is in its lifecycle:
 - **Scheduled** — the report is active and sends on its configured frequency.
 - **Expired** — the report has reached its end date and no longer sends.
 
-![Reports list showing report statuses and the report builder](Media/01-reporting-builder.jpg)
-
