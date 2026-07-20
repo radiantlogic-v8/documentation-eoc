@@ -44,6 +44,24 @@ To set the **Environment Name**, enter a unique name in the space provided. Name
 
 ![image description](Media/create-env-name.png)
 
+### Ephemeral environments
+
+An ephemeral environment is a temporary environment that deletes itself at a time you set. When you create the environment, set an expiry date and time. Environment Operations Center deletes the environment automatically when that time arrives, even if you forget to remove it, so unused environments do not continue to consume resources.
+
+![The ephemeral environment option with an expiry date and time](Media/03-ephemeral-env.jpg)
+
+If you add an ephemeral environment to a promotion pipeline, it loses its ephemeral property and becomes a regular environment.
+
+
+### Tiers and infrastructure
+
+Each environment is deployed on an infrastructure, and each infrastructure is tied to a cloud provider — for example, an AWS-based or Azure-based infrastructure. This is handled by Radiant Logic during your onboarding. Each tier supports a specific set of cloud providers: some tiers support every provider, while others support only a subset.
+
+> Tier visibility is feature-flagged, and the assigned tiers are configured for your account by Radiant Logic.
+
+![Tier selection filtered by the selected infrastructure](Media/03-tier-visibility.jpg)
+
+
 #### Deploy applications
 
 In your environment, you can install one or both of the following RadiantLogic applications:
