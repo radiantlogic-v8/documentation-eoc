@@ -9,9 +9,9 @@ Alerts can be created in Environment Operations Center to help your teams monito
 
 >[!note]An integration channel to receive the alert must be created prior to setting up the alert. For details on adding communication channel integrations, see the [integrations](../../../admin/integrations/manage-integrations.md) guide. 
 
-## Getting started
+## App-level alerts
 
-Navigate to the *Alerts* tab in the *Environments* section of environment operations center. From this tab, you can add new environment monitoring alerts and manage existing alerts.
+Open the *Alerts* tab by navigating to an application in one of your Environments. From this tab, you can add new environment monitoring alerts and manage existing alerts.
 
 ![image description](../images/alerts-tab.png)
 
@@ -21,6 +21,14 @@ All existing alerts are listed on the *Alerts* tab including the alert name, des
 You can search for an existing alert by using the search bar. 
 
 ![image description](../images/search.png)
+
+### Global alerts
+
+You can create alerts at the global level in addition to creating them within an individual application. Global alerts let you build any type of alert from one place.
+
+When you create an alert, you select a metric and its labels, such as namespace, job, node, and cluster name. Within an application, you see only that application's metrics — Identity Data Management (IDDM), Identity Analytics (IDA), Identity Data Observability (IDO), or Secure data connector. In the global alerts section, you will see all metrics across every application.
+
+![The global alert builder with the metric list open](images/02-alerts-global.jpg)
 
 
 ## Add alerts
@@ -73,11 +81,28 @@ Follow the steps outlined above to complete the required alert metric details. O
 
 If the alert is successfully created, it will be added to the list of alerts on the *Alerts* tab.
 
+
 ## Manage alerts
 
-Alerts are managed from the *Alerts* tab in the *Environments* section of Environment Operations Center. Each alert listed on the *Alerts* tab has a corresponding **Options** (**...**) menu that provides the option to edit or delete the alert.
+Each alert listed on the *Alerts* tab has a corresponding **Options** (**...**) menu that provides the option to edit or delete the alert.
 
 ![image description](../images/options.png)
+
+### Notification center
+ 
+The bell icon in the top navigation bar represents the Notification center. It shows alerts that are firing or that fired recently. After clicking on the bell icon, you can perform any of these actions:
+
+- Select an alert in the notification center to navigate to its source. For example, selecting a Secure data connector alert opens the Secure data connectors page.
+- Select **Mark as read** to remove an alert from the list.
+
+![The notification center showing firing alerts, the Alerts and Notifications tabs, and Mark as read](images/02-notification-center.jpg)
+
+### Pause an alert
+
+When an alert fires, Environment Operations Center sends notifications to the configured email address or Slack channel on the alert's schedule — for example, every five minutes. If you are already aware of the condition or want to pause the alert temporarily, select "pause alert" option to pause the notifications.
+
+![An alert list with the pause control](images/02-alerts-pause.jpg)
+
 
 ### Edit alerts
 
