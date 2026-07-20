@@ -24,11 +24,11 @@ You can search for an existing alert by using the search bar.
 
 ### Global alerts
 
-You can create alerts at the global level in addition to creating them within an individual application. Global alerts let you build any type of alert from one place.
+You can create alerts at the global level in addition to creating them within an individual application. Global alerts let you build any type of alert from one place. You can navigate to global alerts by clicking on the Admin icon and opening the Alerts tab.
 
-When you create an alert, you select a metric and its labels, such as namespace, job, node, and cluster name. Within an application, you see only that application's metrics — Identity Data Management (IDDM), Identity Analytics (IDA), Identity Data Observability (IDO), or Secure data connector. In the global alerts section, you will see all metrics across every application.
+When you create an alert, you select a metric and its labels, such as namespace, job, node, and cluster name. Within an application, you see only that application's metrics (Identity Data Management , Identity Analytics, Identity Data Observability , or Secure data connector). In the global alerts section, you will see all metrics across every application.
 
-![The global alert builder with the metric list open](images/02-alerts-global.jpg)
+![The global alert builder with the metric list open](../images/02-alerts-global.jpg)
 
 
 ## Add alerts
@@ -95,13 +95,11 @@ The bell icon in the top navigation bar represents the Notification center. It s
 - Select an alert in the notification center to navigate to its source. For example, selecting a Secure data connector alert opens the Secure data connectors page.
 - Select **Mark as read** to remove an alert from the list.
 
-![The notification center showing firing alerts, the Alerts and Notifications tabs, and Mark as read](images/02-notification-center.jpg)
-
 ### Pause an alert
 
-When an alert fires, Environment Operations Center sends notifications to the configured email address or Slack channel on the alert's schedule — for example, every five minutes. If you are already aware of the condition or want to pause the alert temporarily, select "pause alert" option to pause the notifications.
+When an alert fires, Environment Operations Center sends notifications to the configured email address or Slack channel on the alert's schedule — for example, every five minutes. If you are already aware of the condition or want to pause the alert temporarily, select the Pause option from the **Options** (**...**) menu to pause notifications.
 
-![An alert list with the pause control](images/02-alerts-pause.jpg)
+![An alert list with the pause control](../images/02-alerts-pause.jpg)
 
 
 ### Edit alerts
