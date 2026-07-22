@@ -55,3 +55,15 @@ A "Starting application" message displays on the application *Overview* page.
 After a successful restart of the application, status of the application turns to **OPERATIONAL** on the application *Overview* page.
 
 ![image description](../environment-overview/Media/operational-message.png)
+
+## Schedule start and stop
+
+You can schedule an application to start and stop automatically at set times. Scheduling is useful when you want to conserve resources during periods when the apps are not actively used.
+
+To set a schedule, define the time window for when the application should start and when it should stop.
+
+- Scheduling option is available to all three applications: Identity Data Management, Identity Analytics, and Identity Observability.
+- Only tenant admins and environment admins can create or change a schedule.
+
+![The start and stop schedule configuration](images/04-schedule-start-stop.jpg)
+
