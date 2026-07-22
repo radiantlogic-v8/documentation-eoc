@@ -29,6 +29,12 @@ To update your profile image, select "Edit Avatar" and select an image from you 
 
 ## Manage API tokens
 
+API tokens let applications connect to Environment Operations Center without signing in, and are available to every user, regardless of role, under Account Settings. You need a valid token to call Environment Operations Center endpoints; a request without one returns 401 Unauthorized. You can create up to five tokens in the Environment Operations Center. 
+
+Each token is unique to the user who creates it and is scoped to that user's access. For example, an environment user's token returns data only for that user's assigned environments. Using a token beyond its scope returns an unauthorized error.
+
+![The Account Token panel with the token counter, the New API Token form, and existing tokens](images/api-tokens.jpg)
+
 ### Create an API token
 
 To create a new API token, set the API expiration by selecting one of the **Expires In** radio buttons. Then select **Generate** to generate a new API token. A unique API token will populate in the *API token* input field.
@@ -43,6 +49,12 @@ A unique API token will populate in the *API token* input field and the creation
 
 You will receive a warning when your API token is close to expiring. A warning is displayed in your *Account Settings* next to the *Expiration Date* dropdown.
 > [!warning] API token expiry cannot be extended. Once a token has expired, a new token must be generated.
+
+The token list shows each token you have created, along with:
+
+- **Status** — **Active** or **Expired**.
+- **Creation date** and **expiration date**.
+- **Last used** — when the token was most recently used.
 
 ### Delete an API token
 
