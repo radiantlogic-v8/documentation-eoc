@@ -33,38 +33,32 @@ API tokens let applications connect to Environment Operations Center without sig
 
 Each token is unique to the user who creates it and is scoped to that user's access. For example, an environment user's token returns data only for that user's assigned environments. Using a token beyond its scope returns an unauthorized error.
 
-![The Account Token panel with the token counter, the New API Token form, and existing tokens](images/api-tokens.jpg)
+![The Account Token panel with the token counter, the New API Token form, and existing tokens](images/api-tokens.png)
 
 ### Create an API token
 
 To create a new API token, set the API expiration by selecting one of the **Expires In** radio buttons. Then select **Generate** to generate a new API token. A unique API token will populate in the *API token* input field.
 
-![image description](images/generate-token.png)
-
 A unique API token will populate in the *API token* input field and the creation and expiration dates will display below the token. Copy the token immediately and store in a safe place.
 
 > [!warning] Once you leave the page, you can no longer view or copy the API token. Ensure you copy the token before saving.
-
-![image description](images/created-copy.png)
 
 You will receive a warning when your API token is close to expiring. A warning is displayed in your *Account Settings* next to the *Expiration Date* dropdown.
 > [!warning] API token expiry cannot be extended. Once a token has expired, a new token must be generated.
 
 The token list shows each token you have created, along with:
 
-- **Status** — **Active** or **Expired**.
+- **Status**: **Active** or **Expired**.
 - **Creation date** and **expiration date**.
-- **Last used** — when the token was most recently used.
+- **Last used**: shows when the token was most recently used.
 
 ### Delete an API token
 
 Only one API token can be created at a time. If you need to create a new API token but one already exists, you must first delete the current token.
 
-You can delete the API token by selecting the trash bin icon (![image description](images/icon-delete.png)) located next to the *API Token* input field.
+You can delete the API token by selecting the **(...)** menu next to the *API Token* input field and clicking on the delete option.
 
 > [!warning] Deleting an API token is a permanent action and cannot be undone.
-
-![image description](images/delete-token.png)
 
 A confirmation message will appear to verify that you would like to delete the API token and reminding you that a new API token will need to be generated for future calls. Select **Confirm** to delete the token.
 
