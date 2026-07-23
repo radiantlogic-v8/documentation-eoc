@@ -33,7 +33,7 @@ Once you have set the correct version number, click **Update**. In the next dial
 
 ![image description](../environment-overview/Media/confirm-update.png)
 
-### Environment update confirmation
+### Application update confirmation
 
 After selecting **Update**, the status of the application being updated displays as "UPDATE APPLICATION". A confirmation message displays, indicating that the environment is being updated.
 
@@ -44,6 +44,16 @@ If the application updates successfully, a success notification displays, and th
 ![image description](../environment-overview/Media/update-success-operational.png)
 
 If an environment update is unsuccessful, an error notification displays, and the environment's status changes to "**Update Failed**".
+
+### Incremental updates
+
+When incremental updates are enabled for an application, you cannot skip versions. To reach a higher version, you update through each intermediate version in order. When incremental updates are disabled, you can update directly to any available version.
+
+> [!note] Incremental updates configured for each application at the tenant level. Contact Radiant Logic to enable the feature.
+
+![Selecting a version with incremental updates enabled](images/05-incremental-update.jpg)
+
+
 
 ## Previous updates
 
