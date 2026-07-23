@@ -43,11 +43,6 @@ If the application updates successfully, a success notification displays, and th
 
 If an environment update is unsuccessful, an error notification displays, and the environment's status changes to "**Update Failed**".
 
-### Incremental updates
-
-When incremental updates are enabled for an application, you cannot skip versions. To reach a higher version, you update through each intermediate version in order. When incremental updates are disabled, you can update directly to any available version.
-
-> [!note] Incremental updates are feature-flagged and configured for each application at the tenant level. Contact Radiant Logic to enable the feature.
 
 ## Previous updates
 
