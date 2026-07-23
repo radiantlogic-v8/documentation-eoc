@@ -50,9 +50,9 @@ This guide provides information about configuring SSO with various OIDC provider
      * The scope is a parameter that defines the level of access the application needs. For email-related information, the email scope is commonly used. It requests the OIDC provider to return the user's email address. For certain providers, this field is auto-selected and can not be edited.
 
  10. Configure EOC MFA **(Optional)**
-     * If you enable this option, user will be required to go through an additional step of identity verification. 
-   ![image description](images/eoc-mfa.png)
+     * When **Require MFA** is enabled, users are prompted for an authenticator code each time they sign in through a cloud identity provider — Microsoft, GitHub, or Google. When it is disabled, users sign in without the MFA step.
 
+- MFA is now configured at the tenant level when the tenant is created. This replaces the previous per-login-type setting applied during onboarding.
 
 #### **3. Save the Provider Configuration**
    - After entering all the details and verifying the information, click on the **Save** button to save your provider configuration.
