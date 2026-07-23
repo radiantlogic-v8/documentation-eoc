@@ -47,6 +47,19 @@ If the integration is successfully created, you will receive a confirmation mess
 
 > [!note] For the integration to become active, you will need to configure the applicable alerts to send to the channel. See the [alert management](../../environments/environment-details/alert-management-overview.md) guide to learn how to set up alerts to send via the integration.
 
+#### Webhook integrations
+
+You can send alert notifications to a webhook target: **Microsoft Teams**, **Google Chat**, or a **generic webhook** endpoint. Provide a valid webhook URL, then select **Test** to confirm the connection before you save.
+
+For Microsoft Teams, generate the webhook URL from a channel in your Microsoft account and paste it into the integration.
+
+### Additional configuration
+
+Most integrations include an **Additional Configuration** section for endpoints that require credentials — for example, a username and password, an HTTP method, or a credential schema for a secured webhook. These fields are optional; use them only when your integration target requires them.
+
+- Available for webhook integrations and, where applicable, PagerDuty.
+- Email and Slack integrations use generic configuration.
+- Log integrations (Elasticsearch, OpenSearch, and Splunk) include additional configuration because each connects to an account with its own username and password.
 
 ## Configure a new Log integration
 
