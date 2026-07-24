@@ -13,7 +13,7 @@ An environment is where a RadiantOne product lives. Each environment is complete
 
 Before setting up your environment, you need the following:
 
-- The version number that corresponds with your RadiantOne product (Identity Data Management and/or Identity Analytics).
+- The version number that corresponds with your RadiantOne product (Identity Data Management, Identity Data Analytics, and/or Identity Data Observability).
 - If you are deploying the Identity Data Management application, and want to initialize the product with configuration that has been exported from an existing environment, ensure you have the correct file type saved and ready to go since you need to select this file during creation of the new environment.
 
 The new environment setup requires you to define the environment type, details, and provides an optional step to upload a configuration file from another environment.
@@ -44,7 +44,7 @@ To set the **Environment Name**, enter a unique name in the space provided. Name
 
 ### Ephemeral environments
 
-An ephemeral environment is a temporary environment that deletes itself at a time you set. When you create the environment, set an expiry date and time. Environment Operations Center deletes the environment automatically when that time arrives, even if you forget to remove it, so unused environments do not continue to consume resources.
+An ephemeral environment is a temporary environment that deletes itself at a time you set. When you enable the ephemeral option during environment creation, set an expiry date and time. Environment Operations Center deletes the environment automatically when that time arrives, even if you forget to remove it, so unused environments do not continue to consume resources.
 
 ![The ephemeral environment option with an expiry date and time](Media/03-ephemeral-env.jpg)
 
@@ -55,20 +55,25 @@ If you add an ephemeral environment to a promotion pipeline, it loses its epheme
 
 ### Tiers and infrastructure
 
-Each environment is deployed on an infrastructure, and each infrastructure is tied to a cloud provider — for example, an AWS-based or Azure-based infrastructure. This is handled by Radiant Logic during your onboarding. Each tier supports a specific set of cloud providers: some tiers support every provider, while others support only a subset.
+Each environment is deployed on an infrastructure, and each infrastructure is tied to a cloud provider — for example, an AWS-based or Azure-based infrastructure. Your infrastructure is configured by Radiant Logic during onboarding. Each tier supports a specific set of cloud providers: some tiers support every provider, while others support only a subset.
+
+- When tier visibility is enabled, you select a tier during environment creation. The available tiers are filtered by the environment's infrastructure, so you see only the tiers that support that cloud provider.
+- When tier visibility is disabled, the environment uses the default tier (AWS) and no tier selection appears.
 
 > Tier visibility is feature-flagged, and the assigned tiers are configured for your account by Radiant Logic.
 
 ![Tier selection filtered by the selected infrastructure](Media/03-tier-visibility.jpg)
 
 
-#### Deploy applications
+### Deploy applications
 
-In your environment, you can install one or both of the following RadiantLogic applications:
+In your environment, you can install one or more of the following RadiantLogic applications:
 
 * **Identity Data Management** – This application streamlines identity data by eliminating silos and ensuring seamless synchronization across your organization. It serves as a scalable, unified source of truth, helping to manage and maintain accurate, up-to-date identity information.
 
 * **Identity Data Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
+
+* **Identity Data Observability** – Provides observability services for your identity data. Additional services such as extra S3 storage, Portal API, and MCP can be enabled for this application during application creation.
   
 
 To deploy an application, select the checkbox adjacent to the application name. In the expanded view, fill out all required information.
@@ -127,7 +132,7 @@ To delete the file and return to the file upload screen, select the trash can ic
 
 If the file upload is not successful, the configuration upload box displays with a red dashed outline and an error message appears just below. Review your file type to ensure you have selected the correct configuration file for upload and try again.
 
-#### Create the new environment
+### Create the new environment
 
 Once you have completed filling out the details for *Environment Type* and *Application Details* sections, click the **Create** button to create the new environment.
 
