@@ -26,8 +26,6 @@ To create a new environment, select **New Environment** on the *Environments* ho
 
 This takes you to the *New Environment* page that contains all the input fields for the information required to create a new environment. The following sections outline how to complete these required fields.
 
-![image description](Media/new-env-dialog.png)
-
 ### Define environment type
 
 Start by selecting the required **Environment Type**.
