@@ -50,6 +50,9 @@ For details on managing integrations, see the [managing integrations](integratio
 
 The *Event* page provides an overview of all create, update, and delete activities performed for all environments, including the action, environment, date and time stamp of the activity, and the user who performed the activity.
 
+The Auth Method column indicates the authentication method a user used to sign in, such as GitHub, Microsoft, Google, Local (email address and password), or an external identity provider like Okta. A single user account may appear with different authentication methods across events, depending on how the user signed in for each session.
+
+
 ### Tasks
 
 From the *Tasks* page, you can view information on the following EOC tasks.
