@@ -48,7 +48,6 @@ To create a new API token:
 > [!warning] Copy the token before you leave the page. After you leave, you can no longer view or copy the token. If you lose it, delete the token and generate a new one.
 
 ### Review your tokens
-
 The token list shows each token you have created, along with:
 
 - **Status**: **Active** or **Expired**.
@@ -67,7 +66,6 @@ Delete a token when you no longer need it or when you have reached the five-toke
 2. In the confirmation prompt, select **Confirm**.
 
 > [!warning] Deleting a token is permanent and cannot be undone. Any application still using the token can no longer call Environment Operations Center endpoints. Generate a new token for future calls.
-
 ## Next steps
 
 After reading this guide you should have an understanding of how to update your account settings and manage your API tokens. For details on managing Environment Operations Center users, see the [create a new user](../../admin/user-management/create-user.md) or [edit an existing user](../../admin/user-management/edit-user.md) guides.

@@ -41,8 +41,6 @@ An Environment Administrator cannot:
 
 From the Environment Operations Center home page, the Environment Administrator can view and access operations only for the environments they have been assigned to.
 
-![The environment admin view, limited to assigned environments](images/15-rbac-envadmin.jpg)
-
 ## Environment creator
 
 An Environment creator is granted permission to access all operations and views for the environments they have been assigned to. In addition to managing existing environments, they can also create and manage new environments. They cannot view or edit environments that have not been assigned to them. 
