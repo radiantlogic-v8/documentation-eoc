@@ -146,3 +146,14 @@ All of the on-premise or cloud connections made to the data connector are listed
 
 ![image description](Media/connections.png)
 
+## Select an infrastructure, then an environment
+
+Each environment is tied to an infrastructure. When you create a Secure data connector, select the infrastructure first, then select an environment. Only environments deployed in the selected infrastructure appear, which keeps connector configuration consistent within an infrastructure.
+
+![Creating a Secure data connector with the infrastructure selected before the environment](Media/12-sdc-infra.jpg)
+
+
+To create data groups and connectors, the infrastructure must have valid Secure data connector settings. These settings are configured when the infrastructure is created.
+
+If the settings are missing or invalid for a cluster, you can still create environments, but you cannot create Secure data connector groups or connectors for that environment.
+

@@ -53,6 +53,8 @@ You can send alert notifications to a webhook target: **Microsoft Teams**, **Goo
 
 For Microsoft Teams, generate the webhook URL from a channel in your Microsoft account and paste it into the integration.
 
+![The webhook integration with target options and the webhook URL field](images/10-webhook-integration.jpg)
+
 ### Additional configuration
 
 Most integrations include an **Additional Configuration** section for endpoints that require credentials — for example, a username and password, an HTTP method, or a credential schema for a secured webhook. These fields are optional; use them only when your integration target requires them.
@@ -60,6 +62,8 @@ Most integrations include an **Additional Configuration** section for endpoints 
 - Available for webhook integrations and, where applicable, PagerDuty.
 - Email and Slack integrations use generic configuration.
 - Log integrations (Elasticsearch, OpenSearch, and Splunk) include additional configuration because each connects to an account with its own username and password.
+
+![The additional-configuration fields for an integration](images/10-additional-config.jpg)
 
 ## Configure a new Log integration
 

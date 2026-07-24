@@ -105,6 +105,20 @@ If there is an issue with the form submission, an error message states that the 
 Refer to the [update an application](update-an-application.md) guide to learn how to update an application. 
 
 
+## Additional services (IDO)
+
+Identity Data Observability (IDO) applications support additional services that are enabled per allocation, including:
+
+- **Additional S3 storage** — extra storage for the application.
+- Other IDO services, such as **Portal API** and **MCP**.
+
+When a service is not enabled for the application, its option does not appear.
+
+> These services are feature-flagged. Contact Radiant Logic to enable them for an IDO application.
+
+![The additional S3 storage option for an IDO application](images/06-additional-s3.jpg)
+
+
 ## Delete an application 
 
 1. To begin the workflow to delete an application, navigate to the environments page and click on the environment where the application is installed. 

@@ -52,6 +52,8 @@ An ephemeral environment is a temporary environment that deletes itself at a tim
 
 If you add an ephemeral environment to a promotion pipeline, it loses its ephemeral property and becomes a regular environment.
 
+> Ephemeral environments are feature-flagged. If the feature is not enabled for your account, the option does not appear. Contact Radiant Logic to enable it.
+
 
 ### Tiers and infrastructure
 

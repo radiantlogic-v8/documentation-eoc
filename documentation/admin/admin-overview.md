@@ -50,7 +50,11 @@ For details on managing integrations, see the [managing integrations](integratio
 
 The *Event* page provides an overview of all create, update, and delete activities performed for all environments, including the action, environment, date and time stamp of the activity, and the user who performed the activity.
 
-The Auth Method column indicates the authentication method a user used to sign in, such as GitHub, Microsoft, Google, Local (email address and password), or an external identity provider like Okta. A single user account may appear with different authentication methods across events, depending on how the user signed in for each session.
+#### Authentication method in audit events
+
+Audit events now record the authentication method each user used to sign in — GitHub, Microsoft, Google, local, or an external provider such as Okta. The same account can show different methods across events, depending on how the user signed in each time.
+
+![Audit events showing the authentication method for each sign-in](images/14-audit-authmethod.png)
 
 
 ### Tasks
@@ -101,13 +105,23 @@ The *Authentication* page provies an overview of all authentication providers. T
 
 ### Settings
 
-The **Settings** page provides options to configure release channels,  manage automatic or manual update checks for each channel, and define retention policy settings for Environment Operations Center data.
+The **Settings** page provides options related to release channels and update checks for Environment Operations Center data.
 
 ![image description](images/settings-tab.png)
 
-The Scheduled Maintenance Settings option lets you define the list of email recipients who will receive maintenance notifications. Refer to the steps listed [here](../getting-started/overview/#configure-email-recipients-list) to learn more. 
+#### Release channels
 
-The Retention Policy Settings tab lets you define retention policies for logs, alerts, events, tasks, and notifications. Data associated with these object types is automatically deleted once the specified retention period expires.
+The release channels available to a tenant are controlled at the super-admin level — for example, official, nightly, release candidate, development, beta, and observability. A tenant sees only the release channels assigned to it, and changing the assignment changes what the tenant admin sees.
+
+![Release channels assigned to a tenant at the super-admin level](images/17-release-channels.jpg)
+
+#### Moved to the super-admin level
+
+- **Retention policy.** Previously configurable by tenant admins, the retention policy is now a super-admin setting. It removes records older than one year, including tasks, events, and alerts. It may be made available to tenants again on request.
+- **Version management.** Disabled for tenant admins. Minimum and maximum versions are assigned on the tenant itself.
+- **Scheduled maintenance.** Removed from the tenant Settings page. See the [Overview](../getting-started/overview.md) guide.
+
+![Retention policy settings](images/17-retention-policy.jpg)
 
 ### Status 
 

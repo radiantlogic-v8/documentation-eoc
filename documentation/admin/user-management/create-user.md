@@ -23,7 +23,7 @@ The *New User* page contains all of the required input fields to create a new us
 
 ## User details
 
-In the *User Details* section you must provide the new user's first name, last name, email, indicate if you want the user to be a local user, enter an email for notifications, and set the status to active/inactive in the corresponding fields.
+In the *User Details* section you must provide the new user's first name, last name, email, indicate if you want the user to be a local user, enter an email for notifications, and set the status to active/inactive in the corresponding fields. If Require MFA is enabled for local users, the local user is also prompted for MFA at sign-in.
 
 Set the user's status by adjusting the *Status* toggle to "Active".
 
@@ -35,7 +35,7 @@ Once you have completed the *User Details* section, you can proceed to the *Opti
 
 ## Options
 
-In the *Options* section, you can assign a specific role to a user. A user can assume one of these three roles, either a **READ-ONLY** user, a **TENANT ADMIN**, or an **ENVIRONMENT CREATOR**. These roles can be enabled/disabled using the toggle buttons. 
+In the *Options* section, you can assign a specific role to a user. A user can assume one of three roles: **Tenant Administrator**, **Environment Administrator**, or **Environment User**. Read-Only describes the access level available to a role rather than a separate role. An Environment Administrator is assigned to specific environments and cannot create new environments, while an Environment User has read-only access to the environments they are assigned to. These roles can be enabled/disabled using the toggle buttons. For full details on what each role can view and do, see the [role-based permissions](../../role-based-permission/role-based-permissions.md) guide.
 
 ![image description](images/roles.png)
 

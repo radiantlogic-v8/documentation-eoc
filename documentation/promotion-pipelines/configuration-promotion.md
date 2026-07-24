@@ -107,3 +107,12 @@ ii. Identify the Stage you want to promote from (typically your validated or tes
 iii. Click the double arrow (**>>**) button next to the source environment’s version.  
 
 iv. Review all impacted stages in the confirmation dialog. Click **Confirm** to begin promotion. Once the promotion is applied, the downstream stage is updated to the same version as the source stage.  
+
+## Adding an ephemeral environment to a pipeline
+
+When you add an ephemeral environment to a promotion pipeline, a confirmation prompt appears to warn you that the environment is currently ephemeral and that continuing converts it to a regular environment. If you continue, Environment Operations Center adds the environment to the pipeline and removes its ephemeral (auto-delete) property.
+
+> An environment that is already attached to a pipeline through one of its applications cannot be added again. Remove it from the pipeline first.
+
+![The Ephemeral Environment Detected warning alongside the Create New Stage panel](Media/13-pipeline-ephemeral.jpg)
+

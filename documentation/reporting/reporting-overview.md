@@ -53,3 +53,25 @@ A report's status reflects where it is in its lifecycle:
 - **Scheduled** — the report is active and sends on its configured frequency.
 - **Expired** — the report has reached its end date and no longer sends.
 
+Because reports draw on stored data, you can report over any time range. Select the period you need to generate reports for environments that are days or months old.
+
+![Reports list showing report statuses and the report builder](Media/01-reporting-builder.jpg)
+
+## Brand your reports
+
+By default, reports display the Radiant Logic logo in the email body and at the bottom of the PDF. To use your own branding, open the report settings and either paste an image URL or upload an image.
+
+- **PDF settings** control the images shown in the PDF.
+- **Email settings** control the images shown in the email body.
+
+![PDF and email branding settings for a report](Media/01-reporting-branding.jpg)
+
+## Share defaults
+
+The **Share** step includes a couple of default behaviors worth noting:
+
+- **Reply-To Email Address** — if you leave this field blank, replies default to the Radiant Logic SaaS address.
+- **Message** — the default message text is *Please find the report attached.*
+
+![Schedule and frequency options](Media/01-reporting-frequency.jpg)
+

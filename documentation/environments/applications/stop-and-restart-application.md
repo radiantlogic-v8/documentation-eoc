@@ -58,13 +58,26 @@ After a successful restart of the application, status of the application turns t
 
 ## Schedule start and stop
 
-You can schedule an application to start and stop automatically at set times. Scheduling is useful when you want to conserve resources during periods when the apps are not actively used.
+You can schedule an application to start and stop automatically at set times. Scheduling is useful when you want to conserve resources during periods of low use — for example, over a weekend or while you are away — and it reduces the risk of unattended changes while the application is stopped.
 
-To set a schedule, navigate to **Application Settings > Schedule** and define the time window for when the application should start and when it should stop.
+Scheduling applies to all three applications: Identity Data Management (IDDM), Identity Analytics (IDA), and Identity Data Observability (IDO). Only tenant admins and environment admins can create or change a schedule.
 
-- Scheduling option is available to all three applications: Identity Data Management, Identity Analytics, and Identity Observability.
+### Open the Scheduling tab
 
-Only tenant admins and environment admins can create or change a schedule.
+1. In the left navigation bar, select **Environments**.
+2. Open the environment that contains the application.
+3. Open the application to display its details.
+4. Open **Application Settings**, then select the **Scheduling** tab.
 
-![The start and stop schedule configuration](images/schedule-start-stop.png)
+### Set the schedule
+
+1. Set **Enabled** to **Active**.
+2. Under **Configuration**, select a **Timezone**.
+3. Select **Start Application**, then choose a frequency (for example, **Every Day**) and a start time (hour and minute).
+4. Select **Stop Application**, then choose a frequency and a stop time.
+5. Select **Save**.
+
+The tab confirms your settings below each field — for example, *The application is scheduled to start Every Day at 09:00* and *The application is scheduled to stop Every Day at 18:00*.
+
+![The Scheduling tab in Application Settings, showing the Enabled toggle, timezone, and start/stop times](images/04-schedule-start-stop.jpg)
 

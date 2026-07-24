@@ -60,17 +60,18 @@ To download logs for Identity Data Management through EOC, follow these steps:
 5. Select the start date, end date and time for the logs.
 7. Click Confirm. This downloads all Identity Data Management log files for the defined range into a ZIP file automatically.
 
-### Forward logs to an integration
+### Forward logs to an external integration
 
 If you want your logs in your own system, you can forward them to a log integration such as Elasticsearch, OpenSearch, or Splunk.
-To do this:
 
 1. Create the log integration under **Admin > Integrations**.
 2. Open the application's log file configuration and add the log integration.
 
-Environment Operations Center then pushes the logs at the configured path in addition to making them available in the application.
+Environment Operations Center then pushes the logs at the configured path — for example, the VDS server logs — to the integration, in addition to making them available in the application.
 
->[!note] Log forwarding is currently available for the Identity Data Management application only.
+>[!note] Log forwarding is currently available for the Identity Data Management (IDDM) application only.
+
+![The log file configuration with the option to add a log integration](images/11-log-forwarding.jpg)
 
 ## Next steps
 

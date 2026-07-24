@@ -31,11 +31,17 @@ From the Environment Operations Center home page, the Read-Only user can view al
 
 ## Environment administrator
 
-An Environment administrator is granted permission to access all operations and views for the environments they have been assigned to. 
+An Environment Administrator has access only to the environments they have been assigned to. Within those environments, an Environment Administrator can add applications and has read, write, and delete permissions.
 
-From the Environment Operations Center home page, the Environment Administrator can view and access operations for all of the environments they have been assigned to.
+An Environment Administrator cannot:
 
-![image description](images/env-admin.png)
+- Create new environments.
+- Create Secure Data Connector groups or connectors.
+- Use promotion pipelines or reporting, because both are tied to environments.
+
+From the Environment Operations Center home page, the Environment Administrator can view and access operations only for the environments they have been assigned to.
+
+![The environment admin view, limited to assigned environments](images/15-rbac-envadmin.jpg)
 
 ## Environment creator
 
@@ -46,11 +52,13 @@ An Environment creator is granted permission to access all operations and views 
 
 ## Environment user
 
-An Environment User is granted permission to only view the environments they have been assigned to, they have no access to edit the environments. Certain administrative functions are hidden, such as editing other users or updating environment authentication.
+An Environment User has read-only access to the environments they have been assigned to and cannot create, delete, or perform other actions on them. Certain administrative functions are hidden, such as editing other users or updating environment authentication.
 
 From the Environment Operations Center home page, the Environment User can view all of the environments they have been assigned to. An Environment User cannot perform operations on the environment and the  **Delete** button is disabled in the **Options** (**...**) drop down menu.
 
 ![image description](images/env-user.png)
+
+> **Coming soon:** A custom roles feature is planned. The restrictions above may change once it is available.
 
 ## Next steps
 

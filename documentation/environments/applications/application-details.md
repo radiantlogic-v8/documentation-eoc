@@ -72,7 +72,7 @@ Under the *Monitoring* tab, you can view dashboard(s) with monitoring reports re
 
 In the right corner of the navigation menu, you can see:
 
-* **Settings** icon that lets you change application settings.
+* **Settings** icon that opens Application Settings, which contains three tabs — **General**, **Scheduling**, and **Security**. Use **General** to change basic application settings, **Scheduling** to configure automatic start and stop (see [schedule start and stop](stop-and-restart-application.md)), and **Security** to manage IP-based access control.
 * **Bell** icon that shows you alerts related to the application.
 * **Refresh** icon that lets you refresh and display the most up-to-date details for the application.
 * **Power** icon that lets you start, stop, or restart application.
@@ -80,12 +80,14 @@ In the right corner of the navigation menu, you can see:
 
 ![image description](images/operations.png)
 
+![Application Settings showing the Scheduling tab and application details](images/04-schedule-start-stop.jpg)
+
 To learn how to update or delete the application, review the respective [delete application](../environment-overview/delete-environment.md) or [update application](update-an-application.md) guides. For details on monitoring and adjusting nodes, see the [update and monitor nodes](node-details.md) guide.
 
 
 ## Application details
 
-The *Application Details* section outlines the environment name, status, nodes, type, version, and description of an application. In addition to viewing the application details, you can also perform these actions:
+The *Application Details* section outlines the environment name, status, nodes, type, version, and description of an application. It also shows the **Infrastructure** the application is deployed on, including the cloud provider and cluster. In addition to viewing the application details, you can also perform these actions:
 * Update the version of the application by clicking **Update**. 
 * Scale the number of nodes for your application as needed by clicking **Scale**. 
 * View application version history.

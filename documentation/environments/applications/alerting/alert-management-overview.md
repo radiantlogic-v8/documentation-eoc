@@ -95,6 +95,8 @@ The bell icon in the top navigation bar represents the Notification center. It s
 - Select an alert in the notification center to navigate to its source. For example, selecting a Secure data connector alert opens the Secure data connectors page.
 - Select **Mark as read** to remove an alert from the list.
 
+![The notification center showing firing alerts and Mark as read](../images/02-notification-center.jpg)
+
 ### Pause an alert
 
 When an alert fires, Environment Operations Center sends notifications to the configured email address or Slack channel on the alert's schedule — for example, every five minutes. If you are already aware of the condition or want to pause the alert temporarily, select the Pause option from the **Options** (**...**) menu to pause notifications.

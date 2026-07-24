@@ -11,6 +11,8 @@ This guide provides an overview of the *Environments* home screen and its featur
 
 The *Environments* home screen provides an overview of all your organization's available environments. Each environment provides information about installed application(s).
 
+Environments are now deployed on a specific infrastructure, and each infrastructure is tied to a cloud provider. You can also create temporary "ephemeral" environments that delete themselves automatically at a time you set. To get started, see how to [create an environment](create-environments.md).
+
 Two environment display views are available, either list- or grid-view. In the list-view, environments are organized by row with the associated environment details contained in the row.
 
 ![image description](Media/select-envs.png)
@@ -65,6 +67,8 @@ In your environment, you can install one or both of the following RadiantLogic a
 * **Identity Data Management** – This application streamlines identity data by eliminating silos and ensuring seamless synchronization across your organization. It serves as a scalable, unified source of truth, helping to manage and maintain accurate, up-to-date identity information.
 
 * **Identity Data Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
+
+* **Identity Data Observability** – Provides observability services for your identity data. Additional services such as extra S3 storage, Portal API, and MCP can be enabled for this application.
 
 Refer to the [applications-overview](../applications/applications-overview.md) guide for additional details on the installation steps. 
 

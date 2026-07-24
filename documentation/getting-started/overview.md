@@ -33,6 +33,12 @@ The dropdown displays your name, email, and permissions associated with the acco
 
 For information on managing your account settings, see the [account settings](./account-settings/update-account.md) guide.
 
+### Notification center
+
+The bell icon in the top navigation bar shows alerts that are firing or fired recently, and the notification center lists every alert across the Environment Operations Center with its current status. Select an alert to open its alerts page, and select **Mark as read** to remove it from the list. For more detail, see the [alerting](../environments/applications/alerting/alert-management-overview.md) guide.
+
+![The bell icon and notification center in the top navigation bar](Media/16-overview-bell.jpg)
+
 ### Environment summary
 
 At the top of the *Overview* screen, a summary bar displays high-level counts and health indicators across your tenant:
@@ -121,21 +127,7 @@ Periodically, you may see a scheduled maintenance notice at the top of the home 
 
 After you click on the "Know more" link and confirm you've read it by clicking on the "I acknowledge this notification" checkbox, the alert will be removed from the landing page.
 
-You can also view additional information about maintenance schedules and updates by navigating to Admin > Settings > Scheduled Maintenance Settings page. 
-
- ![An image of schedule maintenance settings page](Media/schedule-maintenance-settings.png)
-
-#### Configure email recipients list
-
-By default, scheduled maintenance notification emails are sent to account administrators. You can customize this list by adding additional recipients by following these steps:
-
-1. Create an [email integration](../admin/integrations/manage-integrations/#integration-type) and include all the desired recipient email addresses.
- ![An image of email integration page](Media/emailint.png) 
- 
-2. Go to Admin > Settings > Scheduled Maintenance Settings.
- ![An image of scheduled maintenance email settings](Media/emailsettings.png) 
-4. Under the Notifications section, select the email integration you just created.
-5. Save your changes. 
+As a tenant admin, you see and acknowledge the maintenance notice only. Scheduled maintenance — including the list of email recipients who receive maintenance notifications — is now configured at the super-admin level and is no longer available on the tenant **Admin > Settings** page.
 
 ## Next steps
 

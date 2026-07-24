@@ -21,7 +21,9 @@ To view the default alerts, go to **Secure Data Connectors > Alerts** in your En
 
 ![Image showing the Alert screen](Media/Alerts.png)
 
-You can edit or delete a default alert by clicking the "..." menu and selecting the corresponding option. Clicking **Edit** allows you to customize the conditions of the alert by modifying the metric values.
+You can edit, delete, or pause a default alert by clicking the "..." menu and selecting the corresponding option. Clicking **Edit** allows you to customize the conditions of the alert by modifying the metric values.
+
+Alongside **Edit** and **Delete**, you can select **Pause** to temporarily stop an alert's notifications (email or Slack) and resume it later. Paused and firing alerts also appear in the global notification center, accessible from the bell icon.
 
 ![Image showing the Alert screen](Media/editdeletealert.png)
 

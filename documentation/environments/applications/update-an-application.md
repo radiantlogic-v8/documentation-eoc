@@ -51,6 +51,8 @@ When incremental updates are enabled for an application, you cannot skip version
 
 > [!note] Incremental updates configured for each application at the tenant level. Contact Radiant Logic to enable the feature.
 
+![Selecting a version with incremental updates enabled](images/05-incremental-update.jpg)
+
 
 ## Previous updates
 
