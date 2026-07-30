@@ -119,15 +119,15 @@ The left navigation contains links to various screens, providing access to the f
 
 - Admin: From the *Admin* section you can perform various administrative actions in Environment Operations Center. Select **Admin** to navigate to the *Admin* home screen. For further details on operations available in the *Admin* section, see the [admin overview](../admin/admin-overview.md) guide.
 
-### Scheduled maintenance notice
 
-Periodically, you may see a scheduled maintenance notice at the top of the home screen. This serves to inform you about upcoming maintenance that could affect the applications in your Environment Operations Center. You may also receive email notifications ahead of the maintenance.
-
- ![image description](Media/schedule-maintenance-notice.png)
-
-After you click on the "Know more" link and confirm you've read it by clicking on the "I acknowledge this notification" checkbox, the alert will be removed from the landing page.
-
-As a tenant admin, you see and acknowledge the maintenance notice only. Scheduled maintenance — including the list of email recipients who receive maintenance notifications — is now configured at the super-admin level and is no longer available on the tenant **Admin > Settings** page.
+## AI Assistant
+ 
+The Environment Operations Center includes a built-in AI assistant that answers questions about product features, configuration, troubleshooting, and everyday usage so you can get help without leaving the application. It is scoped to the Environment Operations Center and if you ask something outside that scope, it will ask you to rephrase.
+ 
+Open the assistant from the **chat icon** in the **bottom-right corner** of the interface once you're logged in. Type a question, press **Enter**, and the assistant replies based on your query. It retains context across the conversation, so you can ask follow-ups naturally, and it preserves your history if you close the window—reopen it anytime to pick up where you left off.
+ 
+If the assistant can't fully resolve your question, you can escalate the conversation to support. An available agent is assigned automatically, is announced in the chat when they join, and responds to you directly in the same window.
+ 
 
 ## Next steps
 
