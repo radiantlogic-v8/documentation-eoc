@@ -146,12 +146,23 @@ All of the on-premise or cloud connections made to the data connector are listed
 
 ![image description](Media/connections.png)
 
-## Select an infrastructure, then an environment
+
+## Version Compatibility Status
+
+Starting with **SDC Server version 1.4.0**, Environment Operations Center displays the compatibility status between the SDC
+client and server versions for each data connector.
+
+| Indicator | Meaning |
+|-----------|---------|
+| **Compatible** | The client version is confirmed compatible with the server version. |
+| **Incompatible** | The client version is **not** compatible with the server version. You will need to [update your SDC client version](./manage-sdc-client/#update-the-secure-data-connector-client) to the latest available version.|
+
+
+## Select an infrastructure
 
 Each environment is tied to an infrastructure. When you create a Secure data connector, select the infrastructure first, then select an environment. Only environments deployed in the selected infrastructure appear, which keeps connector configuration consistent within an infrastructure.
 
 ![Creating a Secure data connector with the infrastructure selected before the environment](Media/12-sdc-infra.jpg)
-
 
 To create data groups and connectors, the infrastructure must have valid Secure data connector settings. These settings are configured when the infrastructure is created.
 
