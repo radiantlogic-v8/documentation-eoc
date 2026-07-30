@@ -1,9 +1,9 @@
 ---
 keywords:
-title: Stop and restart an Application
-description: Learn how to stop and restart an application in Environment Operations Center.
+title: Stop and start an Application
+description: Learn how to stop and start an application in Environment Operations Center.
 ---
-# Stop and restart an Application
+# Stop and start an Application
 
 This guide outlines the required steps to stop an application while on the *Environments* home screen in Environment Operations Center.
 
@@ -52,7 +52,7 @@ A "Starting application" message displays on the application *Overview* page.
 
 ## Confirmation
 
-After a successful restart of the application, status of the application turns to **OPERATIONAL** on the application *Overview* page.
+After a successful start of the application, status of the application turns to **OPERATIONAL** on the application *Overview* page.
 
 ![image description](../environment-overview/Media/operational-message.png)
 
