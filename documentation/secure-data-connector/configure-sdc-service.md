@@ -18,7 +18,8 @@ This section describes secure data connectors and groups.
 ### Secure Data Connector
 
 A secure data connector (SDC) provides a secure channel for all TCP-based communication (LDAP, SQL, etc.) between your cloud-based RadiantOne environments and your on-premise or private cloud data sources. One or more secure data connectors can be deployed in your on-premises network.The SDC has been designed and architected with security as its first concern. Here are a few key points concerning security:
-- All communications between the SDC and the RadiantOne cloud environments occur over a TLS-only secured WebSocket tunnel. The data exchanged over this channel is encrypted and protected from unauthorized access.
+
+- All communications between the SDC and the RadiantOne cloud environments occur over a TLS-only secured WebSocket tunnel using HTTPS (port 443). Ensure that your network and firewall rules allow outbound HTTPS traffic on port 443 from the host where the SDC client is deployed. The data exchanged over this channel is encrypted and protected from unauthorized access. No inbound ports need to be opened on your network.
 - The initial connection between the SDC and the RadiantOne cloud environments must be initiated from the SDC (on-premise client). The RadiantOne cloud environment cannot initiate this connection.
 - The connection between the SDC and the RadiantOne cloud environment requires authentication based on a token generated from the EOC. Attempts at establishing unauthenticated connections from unrecognized SDCs or other clients are rejected. 
 
