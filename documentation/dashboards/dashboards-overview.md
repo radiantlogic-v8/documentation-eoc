@@ -5,7 +5,7 @@ description: Learn how to use dashboards in Environment Operations Center to vie
 ---
 # Dashboards
 
-From the *Dashboard* screen, you can review the status and health of various RadiantOne components for each server. This guide provides an overview of the *Dashboards* section in Environment Operations Center and its features.
+From the *Dashboard* screen, you can review the status and health of various RadiantOne components. This guide provides an overview of the *Dashboards* section in Environment Operations Center and its features.
 
 >[!warning] Monitoring via dashboards is a crucial step in maintaining the health of RadiantOne and it is recommended that you monitor these components on a regular basis.
 
@@ -22,6 +22,8 @@ To generate dashboard with metrics, select an environment and at least one appli
 To set the environment, select an environment from the **Environment** dropdown, an application from the **Application** dropdown.
 Select a dashboard from the **Dashboard** dropdown and one or more nodes from the **Node** dropdown. 
 
+The dashboards offered depend on the application you select. For Identity Data Management, the options are **IDDM Dashboard** and **Audit Report**.
+
 ![image description](Media/dashboard-selection.png)
 
 The dashboard will update to display the component metrics for all nodes selected.
@@ -34,6 +36,14 @@ To remove a node, select the "X" associated with the node name.
 You can filter dashboard data by time range, allowing you to narrow down the targeted data to a specific time frame.
 
 To filter by time, select a range from the **Time Range** dropdown.
+
+### Refresh the dashboard
+
+The controls at the right end of the dashboard toolbar let you:
+
+- Select the **refresh** icon to reload the dashboard on demand.
+- Select the **open in new tab** icon to view the dashboard on its own page.
+- Use the interval dropdown (for example, `1m`) to set how often the dashboard reloads its data automatically.
 
 ## Metrics for Identity Data Management
 

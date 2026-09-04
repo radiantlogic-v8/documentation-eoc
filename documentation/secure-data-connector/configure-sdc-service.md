@@ -28,7 +28,7 @@ Secure data connectors are organized in **groups**. A group is a logical groupin
 
 ## Secure Data Connector Home Screen
 
-The *Secure Data Connector* home screen provides an overview of all your organization's configured data connectors and allows you to manage them.
+The *Secure Data Connectors* home screen provides an overview of all your organization's configured data connectors and allows you to manage them. Use the search bar to find a group by name, select **Favorites Only** to show only your favorite groups, and use the **filters** and sort controls to narrow and order the list.
 
 The list of data connectors is organized by group. Each group has a set of RadiantOne environments that are allowed to use the data connectors belonging to that group.
 Each group contains a list of data connectors and their associated information (name, description, status). You can expand/collapse each group to show or hide the associated data connectors.
@@ -55,15 +55,13 @@ To add a new group, select **New Group** from the *Secure Data Connectors* home 
 #### Add a group 
 
 Before you can add new data connectors, you must first add a **group**. This can be done by clicking **New Group**.
-
-In a **new row**, enter the group name and select one or multiple environments from the list of available environments in the provided group and environment fields.
-
->[!note] Group and Environment are required fields and must be entered to create the group.
+Enter the group name, then select the infrastructure and the environment in the fields provided.
 
 | Group Info | Description |
 | ------------------- | ----------- |
-| Group Name | Provide a group name that is relevant to how secure data connectors will be grouped under this group. Groups provide failover and load balancing for the network. |
-| Environment | A minimum of one environment must be associated to a group.  Select environment(s) from the **Environment** list, a group can be associated to multiple environments.
+| Group Name | Provide a group name that is relevant to how secure data connectors will be grouped under this group. Groups provide failover and load balancing for the network. The name is appended to your tenant's read-only prefix, shown to the left of the field, and the counter below the field shows how many of the available characters you have used. |
+| Infrastructure | Select the infrastructure the group belongs to from the **Select Infrastructure** list. The environments offered in the next field are filtered by this selection. See [Select an infrastructure](#select-an-infrastructure) below. |
+| Environment | A minimum of one environment must be associated to a group.  Select environment(s) from the **Choose Environment** list.
 
 Once you have entered these fields, select :white_check_mark: to add the new group.
 

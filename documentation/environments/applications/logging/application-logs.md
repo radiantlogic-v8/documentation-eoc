@@ -13,15 +13,19 @@ Environment Operations Center is connected to Elastic and displays the Elastic m
 
 ## Getting started
 
-To navigate to the *Logs* screen for a specific application, select **Logs** from the top navigation in the application's detailed view.
+To navigate to the *Logs* screen, select **Logs** under **Observe** in the left navigation. Then choose the environment whose logs you want to review from the **Environment** dropdown, and the application from the **Application** dropdown.
 
-From the logs tab you can filter and search the application logs to review detailed information about application activity.
+From the *Logs* screen you can filter and search the application logs to review detailed information about application activity.
 
 ## Filter and search logs
 
-The search bar allows you to filter log results by field. Select the **Search** bar to expand a list of fields and select a field to filter the log files by.
+The search bar allows you to filter log results by field. Select the **Search** bar to expand a list of fields and select a field to filter the log files by. Queries are written in KQL.
 
 ![image description](images/search.png)
+
+Select **+ Add filter** below the search bar to build a filter. The panel on the left lists the fields available in the selected log source: use **Search field names** to find a field by name, **Filter by type** to narrow the list to a field type, and **Available fields** to browse them all.
+
+Select **Refresh** at the right end of the search bar to rerun the query.
 
 Select an operator and enter a value to refine the query.
 
@@ -33,15 +37,11 @@ Once you have completed the search filter, select **Update** to display the filt
 
 To save frequently used queries, select the **Save** icon next to the **Save** bar and select **Save current query**.
 
-Logs can also be filtered by date and time. Select the **Calendar** icon to display the options to filter by quick select, commonly used, or recently used data ranges. There is also an option to set the refresh interval for log results.
+Logs can also be filtered by date and time. Select the **Calendar** icon to display the options to filter by quick select, commonly used, or recently used date ranges. There is also an option to set the refresh interval for log results. Select **Show dates** to enter an explicit start and end for the range instead.
 
 ![image description](images/date-range.png)
 
 Select the **Date and Time** bar to set the date and time to refresh log data. After setting the interval, select **Update** to apply the refresh interval.
-
-## Change log type
-
-To review a different log file, select the **Log File** dropdown and select the log file to review. Once you select the file type, the page will load with the file details.
 
 ## Download Identity Data Management logs
 

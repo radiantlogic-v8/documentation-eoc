@@ -33,11 +33,19 @@ Through the Environment Operations Center, you can define the source and target 
 
 ### 1. Create a New Promotion Pipeline 
 
-In the EOC, click the **Promotion Pipelines** icon on the left navigation bar.  
+In the EOC, select **Promotion Pipelines** under **Manage** in the left navigation.  
 
 ![image of new configuration pipeline button](Media/config-new.png)
 
-Click **New Pipeline**. Enter pipeline details and click **Create**.  
+Select **New Pipeline** to open the *New Promotion Pipeline* form, then complete the following fields:
+
+- **Name** — a name for the pipeline, up to 20 characters.
+- **Description** — an optional description of what the pipeline promotes.
+- **Application** — the application type the pipeline applies to.
+
+Select **Create** to create the pipeline. If you select **Cancel** instead, a confirmation prompt asks you to confirm that you want to abort the pipeline creation and warns that any progress will be lost.
+
+![The New Promotion Pipeline form](Media/18-new-pipeline.png)
 
 
 ### 2. Add a Source Stage 

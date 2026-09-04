@@ -25,14 +25,14 @@ A navigation bar is located at the top of the *Admin* home screen and is visible
 - Integration
 - Events
 - Tasks
-- Authentication
+- Alerts
 - Settings
 
 ![image description](images/top-nav.png)
 
 ### Users
 
-The *Users* tab allows you to manage all users within your Environment Operation Center instance. From here you can view a user's name, email address, and status.
+The *Users* tab allows you to manage all users within your Environment Operation Center instance. From here you can view a user's name, role, email address, status, last login time, and MFA status. Use the **filters** control to narrow the list, and select **New User** to add a user.
 
 For details on managing Environment Operation Center users, including their roles and permissions, see the [user management](user-management/create-user.md) guide.
 
@@ -40,19 +40,25 @@ For details on managing Environment Operation Center users, including their role
 
 ### Integration
 
-From the *Integrations* page you can manage your connections to external applications to send alerts from Environment Operations Center. The *Integrations* tab displays the integration "Label", indicating the integrations purpose, and the "Integration", indicating the external application the integration is connected to.
+From the *Integrations* page you can manage your connections to external applications to send alerts and logs from Environment Operations Center. The *Integration* tab displays the integration "Name", indicating the integration's purpose, and the "Integration", indicating the external application the integration is connected to.
+
+Use the **View** toggle to switch between **Alerts** integrations and **Log** integrations, then select **New Integration** to add one.
 
 For details on managing integrations, see the [managing integrations](integrations/manage-integrations.md) guide.
 
 ![image description](images/integration-tab.png)
 
-### Event
+### Events
 
-The *Event* page provides an overview of all create, update, and delete activities performed for all environments, including the action, environment, date and time stamp of the activity, and the user who performed the activity.
+The *Events* page provides an overview of all create, update, and delete activities performed for all environments. Each entry lists the status of the activity, the action, a description, the type of object the activity applied to, the user who performed it, and the start and end times.
 
-#### Authentication method in audit events
+Use the **View** toggle to switch between the **Activity log** and the **Audit** view. Select one or more of the user avatars next to the search bar to show only the activities performed by those users, and use the **filters** control to narrow the list further.
 
-Audit events now record the authentication method each user used to sign in — GitHub, Microsoft, Google, local, or an external provider such as Okta. The same account can show different methods across events, depending on how the user signed in each time.
+![The Events page in the Activity log view](images/18-events-tab.png)
+
+#### Authentication 
+
+Audit events display the authentication method each user used to sign in — GitHub, Microsoft, Google, local, or an external provider such as Okta. The same account can show different methods across events, depending on how the user signed in each time.
 
 ![Audit events showing the authentication method for each sign-in](images/14-audit-authmethod.png)
 
@@ -75,7 +81,7 @@ From the *Tasks* page, you can view information on the following EOC tasks.
 - Enable endpoint
 - Disable endpoint
 
-Information on these tasks includes the environment and application the tasks was performed on, the task's start and end times, and the task's status. The search bar in the upper-left corner allows you to display tasks for specified environments. 
+Information on these tasks includes the environment and application the task was performed on, the task's start and end times, and the task's status. The search bar in the upper-left corner allows you to display tasks for specified environments, and the user avatars next to it let you show only the tasks started by specific users. 
 
 ![image description](images/tasks.png)
 
@@ -99,13 +105,15 @@ Additionally, you can also perform the following actions on a task:
 ![image description](images/rerunandlogs.png)
 
 
-### Authentication
+### Alerts
 
-The *Authentication* page provies an overview of all authentication providers. To add an authentication provider, click **New Provider**. It also allows you to configure a OIDC provider and enable multi-factor authentication. 
+The *Alerts* tab lists the global alerts for your tenant. Global alerts let you build any type of alert from one place: within an application you see only that application's metrics, while in the global alerts view you see all metrics across every application. Select **New Alert** to create one. For details on building and managing alerts, see the [alert management](../environments/applications/alerting/alert-management-overview.md) guide.
+
+![The Alerts tab in the Admin section](images/18-admin-alerts-tab.png)
 
 ### Settings
 
-The **Settings** page provides options related to release channels and update checks for Environment Operations Center data.
+The **Settings** page provides options related to release channels and updates for Environment Operations Center, and contains the authentication provider settings. Select **Save** to apply your changes, or **Cancel** to discard them.
 
 ![image description](images/settings-tab.png)
 
@@ -114,6 +122,12 @@ The **Settings** page provides options related to release channels and update ch
 The release channels available to a tenant are controlled at the super-admin level — for example, official, nightly, release candidate, development, beta, and observability. A tenant sees only the release channels assigned to it, and changing the assignment changes what the tenant admin sees.
 
 ![Release channels assigned to a tenant at the super-admin level](images/17-release-channels.jpg)
+
+Select **Check for updates** next to **Manual update** to check for new versions on demand. The time of the last check appears next to the button.
+
+#### Authentication
+
+The *Authentication* section of the *Settings* page lists all authentication providers along with their provider name, discovery URL, and status. To add an authentication provider, select **New Provider**. This is also where you configure an OIDC provider and enable multi-factor authentication.
 
 #### Moved to the super-admin level
 

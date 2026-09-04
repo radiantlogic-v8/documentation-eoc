@@ -13,7 +13,7 @@ An environment is where a RadiantOne product lives. Each environment is complete
 
 Before setting up your environment, you need the following:
 
-- The version number that corresponds with your RadiantOne product (Identity Data Management, Identity Data Analytics, and/or Identity Data Observability).
+- The version number that corresponds with your RadiantOne product (Identity Data Management, Identity Analytics, and/or Identity Observability).
 - If you are deploying the Identity Data Management application, and want to initialize the product with configuration that has been exported from an existing environment, ensure you have the correct file type saved and ready to go since you need to select this file during creation of the new environment.
 
 The new environment setup requires you to define the environment type, details, and provides an optional step to upload a configuration file from another environment.
@@ -38,7 +38,7 @@ To set the **Environment Type**, use the radio buttons to select either **Non-pr
 
 #### Environment name
 
-To set the **Environment Name**, enter a unique name in the space provided. Names must follow the naming convention: can be alphanumeric, can contain underscores and hyphens, cannot contain any other special characters, and can contain 18 characters or less.
+In the **Environment Name** field, enter a unique name.
 
 ![image description](Media/create-env-name.png)
 
@@ -71,23 +71,28 @@ In your environment, you can install one or more of the following RadiantLogic a
 
 * **Identity Data Management** – This application streamlines identity data by eliminating silos and ensuring seamless synchronization across your organization. It serves as a scalable, unified source of truth, helping to manage and maintain accurate, up-to-date identity information.
 
-* **Identity Data Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
+* **Identity Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
 
-* **Identity Data Observability** – Provides observability services for your identity data. Additional services such as extra S3 storage, Portal API, and MCP can be enabled for this application during application creation.
-  
+* **Identity Observability** – Provides observability services for your identity data including AI agents' data. You may request additional services such as extra storage, Portal API, and MCP features to be enabled for this application during application creation.
 
 To deploy an application, select the checkbox adjacent to the application name. In the expanded view, fill out all required information.
 ![image description](Media/apps-select.png)
 
+Applications that are not part of your subscription are shown greyed out and labelled *Not in current subscription*. 
+
 #### Application details
 
-Under the **Application Details** section, provide the required details such as the application version, password ,and application description.
+Under the **Application Details** section, provide the required details such as the application version, password, and application description. The **Nodes** row at the top of the section shows how many of your subscription's nodes are already in use, for example *1 of 2 used*.
 
-There are minor differences in the application details form for Identity Data Management and Identity Analytics application. For Identity Data Management deployment, you have the option to enable advanced setup if you wish to deploy the application using an existing configuration file. Note that this option is available only in Identity Data Management, not in Identity Analytics.
+There are minor differences in the application details form for each application. For Identity Data Management deployment, you have the option to enable advanced setup if you wish to deploy the application using an existing configuration file. Note that this option is available only in Identity Data Management.
 
 ![image description](Media/iddm-details.png)
 
 ![image description](Media/ida-details.png)
+
+For Identity Observability, the form also asks for a setup email address. Enter the address in **Setup Email Address** and repeat it in **Confirm Setup Email Address**, or select **Auto-fill** to populate both fields with the email address of the signed-in account.
+
+![The Application Details form for Identity Observability](Media/18-ido-details.png)
 
 
 #### Version
@@ -96,13 +101,9 @@ To set the Environment **Version**, select the version drop down to display all 
 
 #### Password
 
-Select a password by either entering your chosen password in the space provided, or by selecting the **Generate** button to have a password automatically generated for you. This is the password for the administrative super user account (cn=directory manager). The administrative super user set here is the break glass account for the Radiant Logic service and should be used as such. It is not recommended to use this account for general purpose access. Also note that LDAP password policies defined in RadiantOne are not enforced for this account. Maintaining a break glass account that cannot be locked out is essential for ensuring uninterrupted emergency access to the RadiantOne service during incidents such as misconfigurations, authentication failures, or security breaches that might otherwise prevent all administrators from regaining control of an environment.
+Select a password by either entering your chosen password in the space provided, or by selecting the **Generate** button to have a password automatically generated for you.
 
-> Passwords must be a minimum of 12 characters, contain at least 1 special character, contain lower and upper case letters, and contain at least 1 number.
-
-Depending on the complexity and strength of your password, you will receive a notification that your password is "Weak", "Fair", "Good", or "Strong". It is recommended that you adjust the password until you receive a "Strong" rating. Adjust your password accordingly to ensure you have entered a strong password before proceeding to the confirmation step.
-
-To confirm your password, reenter or copy and paste your password in the confirmation space provided. If you selected to have a password automatically generated, the password will also automatically populate in the confirmation text box.
+To confirm your password, reenter your password in the confirmation space provided. If you selected to have a password automatically generated, use the copy icon to the right of the field to copy it, then paste it into the confirmation field.
 
 ![image description](Media/password.png)
 
@@ -110,11 +111,9 @@ To reveal your original or confirmation password, select the eye icon (![image d
 
 ### Advanced setup
 
-This is an optional step and is not required. An advanced setup is available if you would like to upload a configuration ZIP file from another environment or create the environment using samples. Enable advanced setup by toggling on **Advanced Setup**.
+The application details end with an **Options** section that contains two optional toggles: **Install Samples**, which imports sample data, and **Advanced Setup**.
 
->![warn] Use this approach to restore an environment from an existing backup file. When creating a new environment, choose the backup configuration (ZIP file) that was downloaded from the environment you want to restore. 
-
-The **Install Samples** option imports sample data.
+Advanced setup is not required. It can be used to restore an Identity Data Management application from an existing backup file. When creating a new application, choose the backup configuration (ZIP file) that was downloaded from the environment you want to restore.
 
 #### Custom configuration
 

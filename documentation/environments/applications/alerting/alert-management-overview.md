@@ -9,13 +9,13 @@ Alerts can be created in Environment Operations Center to help your teams monito
 
 >[!note]An integration channel to receive the alert must be created prior to setting up the alert. For details on adding communication channel integrations, see the [integrations](../../../admin/integrations/manage-integrations.md) guide. 
 
-## App-level alerts
+## Application alerts
 
-Open the *Alerts* tab by navigating to an application in one of your Environments. From this tab, you can add new environment monitoring alerts and manage existing alerts.
+To open the *Alerts* screen, select **Alerts** under **Observe** in the left navigation. Then choose the environment you want to monitor from the **Environment** dropdown and the application from the **Application** dropdown. From this screen, you can add new environment monitoring alerts and manage existing alerts.
 
 ![image description](../images/alerts-tab.png)
 
-All existing alerts are listed on the *Alerts* tab including the alert name, description, environment name, notification channel, when it was last updated, and the severity of the alert. 
+All existing alerts are listed on the *Alerts* screen, including the alert name, when the alert status was last refreshed, and its current status. Select the arrow next to an alert name to expand the row and review the alert's details. 
 ![image description](../images/alert-details.png)
 
 You can search for an existing alert by using the search bar. 
@@ -26,14 +26,14 @@ You can search for an existing alert by using the search bar.
 
 You can create alerts at the global level in addition to creating them within an individual application. Global alerts let you build any type of alert from one place. You can navigate to global alerts by clicking on the Admin icon and opening the Alerts tab.
 
-When you create an alert, you select a metric and its labels, such as namespace, job, node, and cluster name. Within an application, you see only that application's metrics (Identity Data Management , Identity Analytics, Identity Data Observability , or Secure data connector). In the global alerts section, you will see all metrics across every application.
+When you create an alert, you select a metric and its labels, such as namespace, job, node, and cluster name. Within an application, you see only that application's metrics (Identity Data Management, Identity Analytics, Identity Observability, or Secure data connector). In the global alerts section, you will see all metrics across every application.
 
 ![The global alert builder with the metric list open](../images/02-alerts-global.jpg)
 
 
 ## Add alerts
 
-To add a new alert, select **New Alert**. This opens the *New Alert* dialog where you will add the alert information and metrics to create the new alert.
+To add a new alert, select **New Alert**. This opens the new alert form directly above the alert list, where you add the alert information and its metric to create the new alert.
 
 ![An image of the new alert UI](../images/new-alert.png)
 
@@ -41,7 +41,7 @@ You can choose a predefined template for common alert types such as CPU Usage, M
 
 ### Alert information
 
-In the *Alert information* section of the *New Alert* dialog, enter the general details for the alert in the spaces provided. These include:
+Enter the general details for the alert in the alerts form. These include:
 
 | Alert information | Description |
 | ----------------- | ----------- |
@@ -55,8 +55,7 @@ In the *Alert information* section of the *New Alert* dialog, enter the general 
 
 ### Alert metrics
 
-In the *Alert Metrics* section of the *New Alert* dialog, provide the necessary information to create an alert for your selected environment(s). This includes specifying the metric and conditions (such as statistic, threshold, and duration) that will trigger the alert. These fields are explained in more detail below. The *Label* field is optional and can be used for additional filtering of the metric.
-To add a new alert metric, select **New**. This displays the required fields to create the alert.
+Specify the metric and conditions (such as statistic, threshold, and duration) that trigger the alert. These fields are explained in more detail below. The *Labels* field is optional and can be used for additional filtering of the metric.
 
 ![An image of the alerts UI](../images/new-alert.png)
 
@@ -67,24 +66,16 @@ Optionally, you can also select a label to add a filter for the metric.
 2. Under *Conditions*, specify values for the following fields:
 
     * Under *Statistic*, define what value the alert is based on. To set the statistic, select the downward arrow to expand the dropdown list. Select a value from the list to measure for the metric.
-    * Under *Condition*, select the conditional expression to measure the metric against the threshold. To set the condition, select the downward arrow to expand the dropdown and select a conditional expression from the list. Once you select the statistic and the condition, you will see the current metric value for the condition under the *Statistic* field.
+    * Under *Condition*, select the conditional expression to measure the metric against the threshold. To set the condition, select the downward arrow to expand the dropdown and select a conditional expression from the list. The current value of the selected metric is shown as **Current Value** to the right of the *Metric* dropdown.
     * Under *Threshold*, select the percentage value that the condition is measured against. To set the threshold, enter a percentage in the space provided.
     * Under *Duration*, select the amount of time the condition must be met before the alert is sent. To set the duration, select the downward arrow to expand the dropdown and select a time from list.
 
-Once you have completed all required fields, click **Save** to add the alert metric.
-
-### Add multiple alert metrics
-
-More than one alert metric can be set for the selected environment(s). After you have saved a newly created alert metric, select **New** to create an additional alert.
-
-Follow the steps outlined above to complete the required alert metric details. Once you have completed the required fields in the *Alert information* and *Alert metrics* sections, select **Save** to create the new alert.
-
-If the alert is successfully created, it will be added to the list of alerts on the *Alerts* tab.
+Once you have completed all required fields, select **Save** to create the alert, or **Cancel** to discard it.
 
 
 ## Manage alerts
 
-Each alert listed on the *Alerts* tab has a corresponding **Options** (**...**) menu that provides the option to edit or delete the alert.
+Each alert listed on the *Alerts* screen has a corresponding **Options** (**...**) menu that provides the option to edit or delete the alert.
 
 ![image description](../images/options.png)
 
@@ -111,11 +102,7 @@ To edit an alert, select **Edit** from the **Options** (**...**) menu of the ale
 ![image description](../images/edit.png)
 
 
-This opens the *Edit Alert* dialog which contains the same sections and fields as the *New Alert* dialog. Edit the required fields in the *Alert information* and *Alert metrics* sections.
-
-To edit a specific alert metric in the *Alert metrics* section, select the **Options** (**...**) menu associated with the alert metric. Select **Edit** to enable editing for all of the alert metric fields. Alternatively, you can select **Delete** to delete the alert metric.
-
-Once you have confirmed, select **Save** to save the updated alert.
+This opens the alert in an editable form containing the same fields as the new alert form. Edit the fields you want to change, then select **Save** to save the updated alert, or **Cancel** to discard your changes.
 
 ### Delete alerts
 
@@ -127,7 +114,7 @@ A notification displays to confirm that you would like to delete the selected al
 
 ![image description](../images/confirm-delete.png)
 
-You'll receive a message confirming that the alert was successfully deleted and it will no longer be available in the list of alerts on the *Alerts* tab.
+You'll see a message confirming that the alert was successfully deleted.
 
 ![image description](../images/deleted.png)
 

@@ -13,10 +13,9 @@ This document outlines how to create, preview,  and share reports.
 
 ## Creating a Report
 
-To create a new report, click **Reports** in the left navigation bar and follow the steps below:
+To create a new report, select **Reports** under **Observe** in the left navigation and follow the steps below:
 
-
-1. Click Create to begin a new report. Enter a name for your report. 
+1. Select **New Report** to begin a new report. Enter a name for your report in the **Report Name** field. 
 
 2. Under Dashboards, select the dashboard to include in the report.  Select the relevant period for the dashboard and specify the desired environment. Click ADD DASHBOARD if you would like to include more dashboards in the report. 
 
@@ -33,11 +32,11 @@ To create a new report, click **Reports** in the left navigation bar and follow 
  ![An image of Share and Format options](Media/share-report.png "An image of Share and Format options")
 
 
-5. Under Format, select the desired document options. You can attach the report as an attached image or a PDF, set the orientation (for example, Landscape), and choose the zoom percentage for how the report will be displayed. 
+5. Under Format, select the desired document options. In the **Format** dropdown you can choose to attach the report as an image or as a PDF, set the **Orientation** (for example, Landscape), and choose the **Zoom** percentage for how the report will be displayed. 
 
 6. Use the Open Preview icon to review your report in a new tab. Click Send Preview to send a test copy and see what the report will look like. 
 
-7. Click the Create button to finalize and send or Save Draft to finalize it later.
+7. Select **Create** to finalize and send the report, or **Save Draft** to finalize it later.
 
 ## Managing existing reports
 

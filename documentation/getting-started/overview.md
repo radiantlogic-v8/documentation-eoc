@@ -56,7 +56,7 @@ By default, the Quick Links section contains guides and resources to help you wi
 
 ### Subscriptions
 
-The **Subscriptions** section shows the number of used nodes and available nodes per application type. It displays separate tiles for **Identity Data Management**, **Identity Data Analytics**, and **Identity Observability**, each showing the current node usage out of the total available.
+The **Subscriptions** section shows the number of used nodes and available nodes per application type. It displays separate tiles for **Identity Data Management**, **Identity Analytics**, and **Identity Observability**, each showing the current node usage out of the total available.
 
 ### Environments location
 
@@ -109,25 +109,25 @@ The left navigation contains links to various screens, providing access to the f
 
 - Overview: This is the landing page of the Environment Operations Center. To navigate to the *Overview* screen, select either **Overview** or the Radiant Logic logo. 
 
+The navigation items are grouped under two headings: **Manage**, which contains Environments, Secure Data Connectors, and Promotion Pipelines, and **Observe**, which contains Dashboards, Logs, Alerts, and Reports. Overview sits above both groups and Admin sits at the bottom of the navigation.
+
 - Environments: The main *Environments* screen provides an overview of all the environments you have access to. Select **Environments** to navigate to the *Environments* overview. To learn more about the *Environments* section, see the [environments overview](../environments/environment-overview/environments.md) guide.
 
 - Secure data connectors: You can manage connections to on-premise data connectors in the *Secure Data Connectors* section. Select **Secure Data Connectors** to navigate to the *Secure Data Connectors* screen. For details on managing data connections, see the [secure data connectors](../secure-data-connector/configure-sdc-service.md) guide. This feature is currently available only in the Identity Data Management application.
 
 - Promotion Pipelines: The [configuration promotion pipeline](../promotion-pipelines/configuration-promotion.md) supports promotion of validated configurations across multiple Identity Data Management (IDDM) environments.
 
-- Observe: The Observe section contains navigation items for [Reporting](../reporting/reporting-overview.md), [Monitoring](../dashboards/dashboards-overview.md), [Logging](../environments/applications/logging/application-logs.md), and [Alerting](../environments/applications/alerting/alert-management-overview.md) dashboards.
+- Observe: The **Observe** group contains navigation items for [Dashboards](../dashboards/dashboards-overview.md), [Logs](../environments/applications/logging/application-logs.md), [Alerts](../environments/applications/alerting/alert-management-overview.md), and [Reports](../reporting/reporting-overview.md).
 
 - Admin: From the *Admin* section you can perform various administrative actions in Environment Operations Center. Select **Admin** to navigate to the *Admin* home screen. For further details on operations available in the *Admin* section, see the [admin overview](../admin/admin-overview.md) guide.
 
 
 ## AI Assistant
- 
-The Environment Operations Center includes a built-in AI assistant that answers questions about product features, configuration, troubleshooting, and everyday usage so you can get help without leaving the application. It is scoped to the Environment Operations Center and if you ask something outside that scope, it will ask you to rephrase.
- 
-Open the assistant from the **chat icon** in the **bottom-right corner** of the interface once you're logged in. Type a question, press **Enter**, and the assistant replies based on your query. It retains context across the conversation, so you can ask follow-ups naturally, and it preserves your history if you close the window—reopen it anytime to pick up where you left off.
- 
-If the assistant can't fully resolve your question, you can escalate the conversation to support. An available agent is assigned automatically, is announced in the chat when they join, and responds to you directly in the same window.
- 
+
+The Environment Operations Center includes a built-in AI assistant that answers questions about product features, configuration, troubleshooting, and everyday usage so you can get help without leaving the application. Open it from the **chat icon** in the bottom-right corner of the interface.
+
+For details on asking questions and escalating a conversation to support, see the [AI assistant](ai-assistant.md) guide.
+
 
 ## Next steps
 
