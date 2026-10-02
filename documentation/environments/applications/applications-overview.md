@@ -111,11 +111,11 @@ When a service is not enabled for the application, its option does not appear.
 
 ## Delete an application 
 
-1. To begin the workflow to delete an application, navigate to the environments page and click on the environment where the application is installed. 
+1. On the *Environments* screen, expand the environment where the application is installed.
 
-2. Next, select the ellipsis in the application to expand the **Options** menu.
+2. Select **Options** (**...**) at the end of the application's row.
 
-   ![image description](./images/delete-application.png)
+   ![The Options menu for an application](../environment-overview/Media/application-options-menu.png)
 
 3. From the **Options** menu, select **Delete**. In the dialog, enter the application name and select **Delete**. This permanently deletes the application.
 

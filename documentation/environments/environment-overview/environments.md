@@ -5,51 +5,75 @@ description: Learn how to navigate the Environments page and view environment de
 ---
 # Environments overview
 
-This guide provides an overview of the *Environments* home screen and its features. To navigate to the *Environments* home screen, select **Environments** in the left navigation.
+This guide describes the *Environments* screen and its features. To open it, select **Environments** in the left navigation.
 
 ![image description](Media/select-envs.png)
 
-The *Environments* home screen provides an overview of all your organization's available environments. In the list-view, each environment row shows the environment name, its type (**NonProduction** or **Production**), a badge for each installed application, the infrastructure the environment is deployed on, the description, the owner, and a count of applications by status.
+The *Environments* screen lists all of your organization's environments that you have access to. In list view, each environment row shows the environment name, its type (**NonProduction** or **Production**), a badge for each installed application, the infrastructure the environment is deployed on, the description, the owner, and a count of applications by status. A clock icon next to the type marks an ephemeral environment, which deletes itself automatically at a time you set. Expand a row to list the environment's applications with their status, creation date, version, and nodes.
 
-Environments are now deployed on a specific infrastructure, and each infrastructure is tied to a cloud provider. You can also create temporary "ephemeral" environments that delete themselves automatically at a time you set. To get started, see how to [create an environment](create-environments.md).
+Each infrastructure is tied to a cloud provider. To get started, see how to [create an environment](create-environments.md).
 
-Two environment display views are available, either list- or grid-view. In the list-view, environments are organized by row with the associated environment details contained in the row.
+Use the view toggle in the upper-right corner to switch between list view, which shows one environment per row, and grid view, which shows each environment as a card.
 
-![image description](Media/select-envs.png)
+### Filter and sort environments
 
-In the grid-view, environments are organized in a card format with associated details for an environment contained within the card.
+Select the **filters** dropdown to narrow the list. You can filter by:
 
-You can filter the display by using the filters dropdown and selecting a filter.
+- **Environment type**: **Production** or **NonProduction**.
+- **Application**: **Identity Analytics**, **Identity Data Management**, **Identity Data Platform**, or **None** for environments without applications.
+- **Application status**: **Operational**, **Warning**, **Critical**, or **Offline**.
 
-Additionally, environments can be filtered by the creator to display only those associated with a specific user. To apply this filter, hover over the desired user's name, then click on it to display all environments created by that user.
+![The environment filters dropdown](Media/environment-filters.png)
+
+To show only the environments a specific user created, select that user's avatar next to the search bar.
 
 ![image description](Media/filterbyuser.png)
 
-You can also click the start icon to add one or more environments to your Favorites list. Click "Favorites Only" to view the environments that are added to the Favorites list. Use this feature to view only the environments most relevant to you. Keep in mind, any filters you apply will be saved until you make further adjustments.
+Select the star icon next to an environment to add it to your favorites, then select **Favorites Only** to show only your favorite environments. Environment Operations Center keeps the filters you apply until you change them.
 
 ![image description](Media/favorites.png)
 
-To change the order of displayed environments, use the order by option as shown below.
+To change the order of the environments, use the sort control (for example, **Creation Date**).
 
 ![image description](Media/orderby.png)
 
-Each environment has its own **Options** menu (**...**) that allows you to add add applications, delete the environment, or start, stop, and restart all applications at once
+Use the **Search** bar to find an environment by name, and select the refresh icon in the upper-right corner to reload the list.
 
-In the list-view, the options menu is located at the end of an environment row.
+### Environment options
 
-![image description](Media/options-list.png)
+Each environment has an **Options** (**...**) menu, at the end of the row in list view or in the upper corner of the card in grid view. The menu contains:
 
-In the grid-view, the options menu is located in the upper corner of an environment card.
+- **Add Application**: add an application to the environment.
+- **Delete Environment**: delete the environment. You must delete the environment's applications first. See [delete an environment](delete-environment.md).
+- **Start All Applications**, **Stop All Applications**, and **Restart All Applications**: act on every application in the environment at once.
+- **Environment Settings**: change the environment's description and ephemeral setting.
 
-![image description](Media/options-grid.png)
+Options that don't currently apply are greyed out, for example **Start All Applications** when all applications are already running.
 
-A **Search** bar at the top of the *Environments* screen can be used to filter the listed environments. Enter an environment name, specific characters, or words in the space provided to quickly filter through the environments.
+![The Options menu for an environment](Media/environment-options-menu.png)
 
-A refresh button is located in the upper right corner of the *Environments* screen. Select the refresh icon to pull up to date information about the environments.
+### Application options
+
+Each application in an expanded environment row has its own **Options** (**...**) menu at the end of the row. The menu contains:
+
+- **View Details**: lets you open the application's *Overview* screen. See [application details](../applications/application-details.md).
+- **View Logs**: lets you open the application's logs. See [application logs](../applications/logging/application-logs.md).
+- **Delete**: lets you delete the application. See [delete an application](../applications/applications-overview.md#delete-an-application).
+
+![The Options menu for an application](Media/application-options-menu.png)
+
+### Environment settings
+
+Select **Environment Settings** from an environment's **Options** (**...**) menu to open the *Environment Settings* panel.
+
+- **Environment Details**: the **Environment Name** is read-only. Edit the **Description** as needed.
+- **Ephemeral Environment**: switch the **Enabled** toggle to **Active** to make the environment ephemeral, so that the environment and its applications are deleted automatically after the configured time. Switch it to **Inactive** to keep the environment. For details, see [ephemeral environments](create-environments.md#ephemeral-environments).
+
+![The Environment Settings panel with the Ephemeral Environment section](Media/environment-settings.png)
 
 ### New environment
 
-The **New Environment** button allows you to quickly start creating a new environment from the home screen. For details on how to create a new environment, review the guide on [creating a new environment](create-environments.md).
+Select **New Environment** to create an environment. For details, see [create an environment](create-environments.md).
 
 ### Applications
 
@@ -59,21 +83,21 @@ In your environment, you can install one or more of the following RadiantLogic a
 
 * **Identity Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
 
-* **Identity Data Platform** – Provides observability services for your identity data. Additional services such as extra S3 storage, Portal API, and MCP can be enabled for this application.
+* **Identity Data Platform** (previously known as Identity Observability) – Provides observability services for your identity data. Additional services such as extra S3 storage, Portal API, and MCP can be enabled for this application.
 
 > Applications that are not part of your subscription are shown greyed out and labelled *Not in current subscription*, and their checkbox cannot be selected.
 
-Refer to the [applications-overview](../applications/applications-overview.md) guide for additional details on the installation steps. 
+For installation details, see the [applications overview](../applications/applications-overview.md) guide.
 
 ## Access permissions
 
-Depending on your [role](../../role-based-permission/role-based-permissions.md), your administrator may set your access permissions to read-only for certain environments. If you have read-only access:
+Depending on your [role](../../role-based-permission/role-based-permissions.md), your administrator may give you read-only access to some environments. If you have read-only access:
 
-- You will not be able to create new environments and the **New Environment** button will be deactivated.
-- Certain environments will be hidden if you have not been assigned either read-only or editing permissions.
-- You will not be able to edit or update the environments that you have read-only access to and the **Options** menu (**...**) will no longer be visible next to the environment. You can still view the details for these environments by selecting the environment name to navigate to their respective "Overview" screens.
-- An administrator can assign editing permission to you for specific environments. This allows you to edit, update, or delete the environments they have specified, while others remain hidden or read-only.
+- You cannot create environments, and the **New Environment** button is deactivated.
+- Environments you have not been assigned are hidden.
+- You cannot change environments you have read-only access to, and their **Options** (**...**) menu is hidden. You can still select the environment name to view its *Overview* screen.
+- An administrator can give you edit access to specific environments, so that you can edit, update, or delete them while others stay hidden or read-only.
 
 ## Next steps
 
-After reading this guide you should have an understanding of how to navigate the *Environments* home screen and its main features. To begin setting up a new environment, review the documentation on [creating a new environment](create-environments.md).
+You can now navigate the *Environments* screen and use its main features. To set up an environment, see [create an environment](create-environments.md).

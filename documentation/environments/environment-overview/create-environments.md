@@ -48,6 +48,8 @@ Optionally, enter a description of the environment in the **Description** field.
 
 An ephemeral environment is a temporary environment that deletes itself at a time you set. When you turn on the **Ephemeral** toggle during environment creation, select the calendar icon to set the date and time when the environment expires. A message below the field confirms when the environment and its applications will be deleted. Environment Operations Center deletes the environment automatically when that time arrives, even if you forget to remove it, so unused environments do not continue to consume resources.
 
+You can also turn the ephemeral setting on or off later from **Environment Settings** in the environment's **Options** (**...**) menu. See [environment settings](environments.md#environment-settings).
+
 If you add an ephemeral environment to a promotion pipeline, it loses its ephemeral property and becomes a regular environment.
 
 > Ephemeral environments are feature-flagged. If the feature is not enabled for your account, the option does not appear. Contact Radiant Logic to enable it.

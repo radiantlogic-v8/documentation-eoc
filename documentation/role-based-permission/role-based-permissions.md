@@ -6,12 +6,16 @@ description: Learn about the default roles in Environment Operations Center - Te
 
 The operations a user can perform and what they can view in Environment Operations Center depend on their assigned role. Environment Operations Center includes six default roles: Tenant Admin, Tenant Admin Read-Only, Tenant User, Environment Creator, Environment Admin, and Environment User. Tenant admins can also create custom roles on the **Roles** tab of the *Admin* screen. This guide outlines the permissions for each default role.
 
-The following table provides an overview of user permissions for each role:
+The following table summarizes the permissions for each default role:
 
-|   | [Tenant Administrator](#tenant-administrator) | [Tenant Admin Read-Only](#tenant-admin-read-only) | [Environment Administrator](#environment-administrator) | [Environment User](#environment-user) | [Environment Creator](#environment-creator) |
-| -- | ------------------- | ------------------------- | ---------------- | ---------------- | ---------------- |
-| Environment Details | View and edit all environment details | View all environment details | View and edit assigned environments | View assigned environments | View and edit assigned environments, and create new ones. |
-| User Details | View and edit all user details | View all user details | View and edit their own details only | View and edit their own details only | View and edit their own details only |
+| Role | Environments | Users |
+| ---- | ------------ | ----- |
+| [Tenant Admin](#tenant-administrator) | View and edit all environments | View and edit all users |
+| [Tenant Admin Read-Only](#tenant-admin-read-only) | View all environments | View all users |
+| [Environment Creator](#environment-creator) | View and edit assigned environments, and create new ones | View and edit their own details only |
+| [Environment Admin](#environment-administrator) | View and edit assigned environments | View and edit their own details only |
+| [Environment User](#environment-user) | View assigned environments | View and edit their own details only |
+| [Tenant User](#tenant-user) | Minimal environment access | – |
 
 ## Tenant administrator
 

@@ -27,7 +27,9 @@ Each log file the application writes is a separate log source. Select the log so
 
 The field list below the dropdown shows the fields in the selected log source. Use **Search field names** to find a field by name and **Filter by type** to narrow the list to a field type.
 
-After you run a search, the screen shows the number of matching entries (hits) in a chart, followed by a table that lists each entry's time and contents.
+After you run a search, the screen shows the number of matching entries (hits) in a chart, followed by a table that lists each entry's time and contents. Select the arrow next to an entry to expand it.
+
+![The Logs tab showing a log source, a filter, the hits chart, and a log entry](images/application-logs-search.png)
 
 ## Filter and search logs
 

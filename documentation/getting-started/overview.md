@@ -35,8 +35,6 @@ For information on managing your account settings, see the [account settings](./
 
 The bell icon in the top navigation bar opens the notification center, which has two tabs: **Alerts**, which shows alerts that are firing or fired recently, and **Notifications**. Select an alert to open its alerts page, and select **Mark as read** to remove it from the list. For more detail, see the [alerting](../environments/applications/alerting/alert-management-overview.md) guide.
 
-![The bell icon and notification center in the top navigation bar](Media/16-overview-bell.jpg)
-
 ### Environment summary
 
 At the top of the *Overview* screen, a summary bar displays high-level counts and health indicators across your tenant:
@@ -49,8 +47,6 @@ At the top of the *Overview* screen, a summary bar displays high-level counts an
 ### Quick links
 
 By default, the Quick Links section contains guides and resources to help you with your work in RadiantOne and Environment Operations Center. An admin can add or remove links to display relevant content in this section by using the **Add link** and **Manage Links** options. 
-
-![image description](Media/documentation-link.png)
 
 ### Subscriptions
 
@@ -66,17 +62,11 @@ The **Environments Location** section displays a world map showing the geographi
 
 The **Application Version Distribution** section shows the version distribution of applications within a selected application type. Use the dropdown menus to filter by application type (**Identity Data Management**, **Identity Analytics**, or **Identity Data Platform**) and to select the chart format. Available chart types are **Bar Chart**, **Line Chart**, **Pie Chart**, and **Area Chart**.
 
-![Application version distribution](Media/app-version-distribution.png)
-
 ### Application status 
 
 The *Application Status* section displays the count of applications in various states such as **Operational**, **Warning**, **Critical**, and **Offline** to give you a quick snapshot of application health at a glance.
 
-![Application status section](Media/app-status.png)
-
 Use the **Environment** dropdown to filter the status counts by a specific environment or view counts across **All** environments.
-
-![Application status environment filter](Media/app-status-filter.png)
 
 The **New Environment** button lets you create a new environment. The **Go to Environments** link at the bottom of the section takes you to the Environments page.
 
@@ -121,7 +111,7 @@ The navigation items are grouped under two headings: **Manage**, which contains 
 
 ## AI Assistant
 
-The Environment Operations Center includes a built-in AI assistant that answers questions about product features, configuration, troubleshooting, and everyday usage so you can get help without leaving the application. Open it from the **chat icon** in the bottom-right corner of the interface.
+The Environment Operations Center includes a built-in AI assistant that answers questions about product features, configuration, troubleshooting, and everyday usage so you can get help without leaving the application. Open it from the chat icon (![The chat icon](Media/chat-icon.png)) in the bottom-right corner of the interface.
 
 For details on asking questions and escalating a conversation to support, see the [AI assistant](ai-assistant.md) guide.
 
