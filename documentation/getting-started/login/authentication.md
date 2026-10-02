@@ -4,7 +4,6 @@ title: Authentication
 description: This guide provides information about configuring SSO with various OIDC providers in the Environment Operations Center. 
 ---
 
-
 ## Authentication
 This guide provides information about configuring SSO with various OIDC providers in the Environment Operations Center. 
 
@@ -16,7 +15,6 @@ This guide provides information about configuring SSO with various OIDC provider
 
 #### **1. Navigate to the Admin screen**
    - In your Environment Operations Center account, navigate to the **Admin** screen and click **Authentication**. Next, click **New Provider**.
-   ![image description](images/admin-page.png)
 
 #### **2. Provide required details related to your OIDC provider**
 
@@ -50,9 +48,7 @@ This guide provides information about configuring SSO with various OIDC provider
      * The scope is a parameter that defines the level of access the application needs. For email-related information, the email scope is commonly used. It requests the OIDC provider to return the user's email address. For certain providers, this field is auto-selected and can not be edited.
 
  10. Configure EOC MFA **(Optional)**
-     * If you enable this option, user will be required to go through an additional step of identity verification. 
-   ![image description](images/eoc-mfa.png)
-
+     * When **Require MFA** is enabled, users are prompted for an authenticator code each time they sign in. For details, see [Require MFA](#require-mfa) below.
 
 #### **3. Save the Provider Configuration**
    - After entering all the details and verifying the information, click on the **Save** button to save your provider configuration.
@@ -60,6 +56,16 @@ This guide provides information about configuring SSO with various OIDC provider
 #### **4. Enable SSO for Users**
    - Once the SSO is established, you can assign the provider to the appropriate user and specify the conditions for login when adding new users from the **Users** tab.
 
+### Require MFA
+
+When **Require MFA** is enabled, users are prompted for a six-digit authenticator code each time they sign in through a cloud identity provider — Microsoft, GitHub, or Google. When it is disabled, users sign in without the MFA step.
+
+- MFA is now configured at the tenant level when the tenant is created. This replaces the previous per-login-type setting applied during onboarding.
+- You can optionally extend MFA to local users (email and password accounts). When you do, local users are also prompted for MFA at sign-in.
+
+![The Require MFA setting for cloud providers and local users](images/07-require-mfa.jpg)
+
+![The authenticator setup prompt shown at sign-in](images/07-mfa-page.jpg)
 
 ### **Conclusion**
 By following the steps above, you can successfully set up and configure **SSO (Single Sign-On)** using **EOC's authentication provider** page. Once set up, this configuration will allow users to log into Environment Operations Center via your chosen OIDC provider. This removes the need to remember additional credentials for accessing EOC, improving security and user experience.

@@ -5,26 +5,23 @@ description: Configure alerts so that you are notified of important events that 
 
 ## Secure Data Connector Alerts
 
-Radiant Logic automatically generates **token expiry alerts** when you create a new **Secure Data Connector**. These alerts are sent both **one week before** the token expires and **immediately after** expiration, ensuring you're promptly informed about your connector’s token status.
+When you create a new **Secure Data Connector**, Environment Operations Center automatically creates a default alert for it, named *Default alert &lt;connector name&gt; SDC*, that sends **token expiry alerts**. These alerts are sent both **one week before** the token expires and **immediately after** expiration, ensuring you're promptly informed about your connector’s token status.
 
 > **Note:** Alerts are only triggered if the connector’s status is **active**. Inactive or stopped connectors will **not** send any alerts.
 
-You can check the token expiration date and connector status by navigating to **Secure Data Connectors > Overview**.
-
-![Image showing the Overview screen of a Secure Data Connector](Media/sdc-overview.png)
+To check the token expiration date and connector status, open the data connector from the *Secure Data Connectors* screen and review the **View Details** tab.
 
 ---
 
 ## Managing Default Alerts
 
-To view the default alerts, go to **Secure Data Connectors > Alerts** in your Environment Operations Center.
+To view the default alerts, open the data connector from the *Secure Data Connectors* screen and select the **Alerts** tab. The tab lists each alert with the time its status was last refreshed and its current status, such as *Normal*.
 
-![Image showing the Alert screen](Media/Alerts.png)
+You can edit, delete, or pause a default alert by clicking the "..." menu and selecting the corresponding option. Clicking **Edit** allows you to customize the conditions of the alert by modifying the metric values.
 
-You can edit or delete a default alert by clicking the "..." menu and selecting the corresponding option. Clicking **Edit** allows you to customize the conditions of the alert by modifying the metric values.
+Select **Pause** to temporarily stop an alert's notifications (email or Slack) and resume it later. Paused and firing alerts also appear in the global notification center, accessible from the bell icon.
 
 ![Image showing the Alert screen](Media/editdeletealert.png)
-
 
 | Metric                         | Default Alert Values             | Description                                                                 |
 |-------------------------------|----------------------------------|-----------------------------------------------------------------------------|
@@ -45,10 +42,5 @@ You can also create a new alert by choosing a predefined template for common ale
 To create a new alert, click the **New Alert** button and populate all required fields.
 ![Image showing the new alert button](Media/newsdcalert.png)
 
-
 Fill in the required fields. The **Label** field is optional and can be used to add an additional filter to the selected metric. Save the changes to activate your alert. 
-
-
-
-
 

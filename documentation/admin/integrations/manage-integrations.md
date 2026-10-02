@@ -5,7 +5,7 @@ description: Learn how to integrate with external notification services (e.g. Sl
 ---
 # Manage Integrations
 
-External communication channels can be integrated with Environment Operations Center to receive alerts or notifications about changes of state. From the *Integrations* tab in the Admin section, administrators can add, edit, or delete integrations. This guide outlines the required steps to manage communication channel integrations.
+Integrate external services with Environment Operations Center to send them alerts and logs. From the *Integration* tab of the *Admin* screen, administrators add, edit, and delete integrations. This guide explains how to manage integrations.
 
 ## Getting started
 
@@ -17,7 +17,7 @@ Radiant Logic supports two integration types:
 
 > [!note] For both integration types, you must have an existing account with the service where you intend to send alerts or logs. For example, to receive alerts in Slack, you'll need to have a channel already set up.
 
-To access the Integrations tab, click the admin icon in the bottom-left corner of the page, then select **Integration**. The *Integration* tab shows a summary of your current integrations, including their names and types. To set up a new integration, choose either Alerts or Log as the integration type, and then click **+ New Integration**.
+To open the *Integration* tab, select **Admin** at the bottom of the left navigation, then select **Integration**. The tab lists your integrations with their names and types. Use the **View** toggle to switch between **Alerts** and **Log** integrations, then select **New Integration** to add one.
 
 ![image description](images/home.png)
 
@@ -25,42 +25,56 @@ Next, follow the steps listed below to configure an integration that suits your 
 
 ## Configure a new Alerts integration
 
-To add a new alert integration, choose **ALERTS** as the integration type and click **New Integration**. This will open the *Integration Setup* dialog. From there, you'll need to specify the integration type and provide the necessary configuration details to complete the setup.
-
-![image description](images/new-int.png)
+To add an alert integration, set the **View** toggle to **Alerts** and select **New Integration**. The *Integration Setup* dialog opens, where you choose the integration type and then enter its configuration.
 
 ### Integration type
 
-Select an **Integration Type** from the available channels listed and select **Next** to continue.
-
-![image description](images/type.png)
+Select **Slack**, **Email**, **PagerDuty**, or **Webhook**, then select **Next**.
 
 ### Configuration Details
 
-The required configuration details differ depending on the type of configuration selected. Complete the required configuration fields and select **Create** to finish setting up the new integration.
+The required fields depend on the integration type. Every type requires an **Integration Name** of up to 255 characters.
 
-The example below demonstrates how to configure email integration, allowing you to specify one or more comma-separated email addresses for receiving alerts.
+| Integration type | Required fields |
+| ---------------- | --------------- |
+| Slack | Integration Name, API URL, and Channel |
+| Email | Integration Name and Email Recipients (separate multiple addresses with commas) |
+| PagerDuty | Integration Name and Integration Key |
+| Webhook | Webhook Type (Generic Webhook), Integration Name, and Webhook URL |
+
+Select **Test** to check the connection, then select **Create** to create the integration. The following example shows an email integration.
 
 ![image description](images/config.png)
 
-If the integration is successfully created, you will receive a confirmation message and the integration will be added to the list of integrations on the *Integrations* tab.
+When Environment Operations Center creates the integration, a confirmation message appears and the integration appears on the *Integration* tab.
 
-> [!note] For the integration to become active, you will need to configure the applicable alerts to send to the channel. See the [alert management](../../environments/environment-details/alert-management-overview.md) guide to learn how to set up alerts to send via the integration.
+> [!note] An integration sends alerts only after you configure alerts to use it. See the [alert management](../../environments/applications/alerting/alert-management-overview.md) guide to set up alerts that send to the integration.
 
+#### Webhook integrations
+
+Select **Generic Webhook** from the **Webhook Type** dropdown, enter a valid **Webhook URL**, then select **Test** to confirm the connection before you save.
+
+### Additional configuration
+
+Webhook and log integrations include an **Additional Configuration** section for targets that need more settings, such as a username and password, an HTTP method (for example **PUT**), or a credential schema for a secured webhook. Select **Add field** to add a setting. These fields are optional; use them only when your integration target requires them.
+
+- Available for webhook integrations and, where applicable, PagerDuty.
+- Email and Slack integrations use generic configuration.
+- Log integrations (Elasticsearch, OpenSearch, and Splunk) include additional configuration because each connects to an account with its own username and password.
 
 ## Configure a new Log integration
 
-To add a new log integration, choose **LOG** as the integration type and click **New Integration**. This will open the *Integration Setup* dialog. From there, you'll need to specify the integration type and provide the necessary configuration details to complete the setup.
+To add a log integration, set the **View** toggle to **Log** and select **New Integration**. The *Integration Setup* dialog opens, where you choose the integration type and then enter its configuration.
 
 ### Integration type
 
-Select an **Integration Type** from the available channels listed and select **Next** to continue.
+Select the log platform, then select **Next**.
 
 ![image description](images/log-type.png)
 
 ### Configuration Details
 
-The required configuration details differ depending on the type of configuration selected. The table below shows the required fields for each integration. 
+The required fields depend on the integration type:
 
 | Integration Type | Required fields                         |
 |------------------|-----------------------------------------|
@@ -71,37 +85,29 @@ The required configuration details differ depending on the type of configuration
 | Sumo Logic       | Integration Name and Endpoint           |
 | Grafana Loki     | Integration Name and URL                |
 
-Complete the required configuration fields and select **Test Connection** to test whether or not your integration works. If it is working as expected, select **Create** to finish setting up the new integration. To provide additional information, click the **+ Add field** button under Additional Configuration. 
+Complete the required fields and select **Test Connection** to check that the integration works, then select **Create**. To add more settings, select **Add field** under **Additional Configuration**.
 
-The example below demonstrates how to configure an Elasticsearch integration. 
+The following example shows an Elasticsearch integration.
 
 ![image description](images/Log-config.png)
 
-If the integration is successfully created, you will receive a confirmation message and the integration will be added to the list of integrations on the *Integrations* tab.
+When Environment Operations Center creates the integration, a confirmation message appears and the integration appears on the *Integration* tab.
 
 ## Edit an integration
 
-Each integration listed on the *Integrations* tab has an **Options** (**...**) dropdown menu. From the dropdown, select **Edit** to begin editing the integration. 
+To edit an integration, select **Edit** from its **Options** (**...**) menu. Editing follows the same steps as creating an integration: you can choose a different integration type, or keep the type and change the configuration.
 
-The workflow to edit an integration is the same as the *New Integration* workflow. You can select a new integration type and add the required configuration details. Alternatively, you can keep the same integration type and proceed to adjust the configuration details.
+> [!note] When you change an integration, also update any alerts that send to it. See the [alert management](../../environments/applications/alerting/alert-management-overview.md) guide for details on editing alerts.
 
-> [!note] When updating an integration, ensure any alerts that have been created for the channel are also updated with the correct channel information. See the [alert management](../../environments/environment-details/alert-management-overview.md) documentation for details on editing alerts.
-
-![image description](images/edit-config.png)
-
-If the integration successfully updates, a confirmation message displays, and the details are updated on the *Integrations* tab.
+When the update succeeds, a confirmation message appears and the *Integration* tab shows the new details.
 
 ## Delete an integration
 
-To delete an integration, select **Delete** from the the **Options** (**...**) menu.
-
-![image description](images/delete.png)
-
-A message displays, asking you to confirm that you would like to delete the selected integration. Select **Delete** to delete the integration.
+To delete an integration, select **Delete** from its **Options** (**...**) menu. In the confirmation dialog, select **Delete**.
 
 ![image description](images/confirm-delete.png)
 
-The integration is removed from the *Integrations* tab, and alerts are no longer sent to the communication channel.
+Environment Operations Center removes the integration from the *Integration* tab and stops sending alerts to it.
 
 ## Next steps
 

@@ -6,88 +6,77 @@ description: Learn how to enable/disable endpoints of applications in Environmen
 
 # Application endpoints
 
-The Environment Operations Center has various endpoints for Identity Data Management and Identity Data Analytics applications. This document provides an overview of these
-endpoints and how they can be disabled or enabled as required.
+Identity Data Management and Identity Analytics applications each have a set of endpoints. This guide describes these endpoints and how to enable or disable them.
+
+The endpoints appear in the *Application Endpoints* panel on the application's *Overview* screen. Use the view toggle in the upper-right corner of the panel to switch between **list view**, which shows one endpoint per row, and **grid view**, which arranges the endpoints as cards. Each endpoint has a status indicator that is green when the endpoint is enabled, and a copy icon so you can copy its URL. Endpoints that can be turned on and off also have a toggle. In grid view, each card shows the endpoint's name and status.
 
 > [!note] You may enable or disable only one endpoint at a time. 
 
 ## Identity Data Management Endpoints
 
-Identity Data Management has the following endpoints which can be enabled or disabled using the toggle button. Once you enable or disable an endpoint, you will see a notification about the action being performed. The status and the progress of the task is also displayed in the application overview screen. The enabling/disabling task takes about 5-10 minutes to complete.
+Identity Data Management has the following endpoints: **Control Panel UI**, **API**, **LDAPS**, and **REST**. Use the toggle to enable or disable the Control Panel UI, LDAPS, and REST endpoints; the API endpoint is always enabled. When you enable or disable an endpoint, a notification appears and the application's *Overview* screen shows the task's progress. The task takes about 5-10 minutes.
 
-If a task is already in progress and you attempt to start another task, then you’ll see an error message explaining why the task can not be performed. In this case, wait for the existing task to complete and retry at a later time.
-
+If you try to start a task while another is in progress, an error message explains why. Wait for the current task to finish, then try again.
 
 ### Control Panel
 
-The **CONTROL PANEL UI** endpoint provides access to the main Control Panel of Identity Data Management and is enabled by default after the environment is created.
+The **Control Panel UI** endpoint opens the Identity Data Management Control Panel. It is enabled by default when you create the application.
 
 ![image description](images/cp-endpoint.png)
 
-Click the URL directly or copy and paste it in a browser to open control panel in a new window. Login with your credentials to view the control panel.
+Select the URL, or copy it into a browser, to open the Control Panel in a new window. Sign in with your credentials.
 
 ![image description](images/cp-login-page.png)
 
 ### API
 
-The Configuration REST API is enabled by default. To use this endpoint, copy it and paste it into the URL field of your REST client.
-The RadiantOne service can respond to REST requests via HTTP/SOAP.
+The **API** endpoint gives access to the Configuration REST API and is always enabled. To use it, copy the URL into your REST client. The RadiantOne service responds to REST requests over HTTP/SOAP.
 
 ![image description](images/config-endpoint.png)
 
-
 ### LDAPS
 
-The **LDAPS** endpoint provides access to RadiantOne through LDAPS protocol.
-
-The LDAPS is disabled by default, and can be enabled by using toggle button.
+The **LDAPS** endpoint gives access to RadiantOne over the LDAPS protocol. It is disabled by default; turn on its toggle to enable it.
 
 ![image description](images/ldaps.png)
 
-When the endpoint is enabled, a confirmation message appears, the toggle turns green, and a message appears on the **Application Details** panel that indicates "Enabling environment LDAPS endpoint".
-The endpoint enabling process takes about 5-10 minutes for an endpoint to be successfully enabled.
+When you enable the endpoint, a confirmation message appears, the toggle turns green, and the **Application Details** panel shows "Enabling environment LDAPS endpoint". Enabling takes about 5-10 minutes.
 
 #### Disabling LDAPS
 
-To disable the LDAPS endpoint, toggle the LDAPS endpoint (which is green) off.
-
-A message appears on the Environment Details Panel indicatinh that the endpoint is being disabled. 
+To disable the LDAPS endpoint, turn off its toggle. The **Application Details** panel shows that the endpoint is being disabled.
 
 ### REST
 
-The **REST** endpoint provides API access to RadiantOne.
+The **REST** endpoint gives API access to RadiantOne.
 
 ![image description](images/rest-api.png)
 
-The REST endpoint is disabled by default, and can be enabled by using toggle button.
-
-When the endpoint is enabled, the toggle turns green and a message appears on the **Application Details** panel that indicating that the task has been initated.
+The REST endpoint is disabled by default; turn on its toggle to enable it. When you enable it, the toggle turns green and the **Application Details** panel shows that the task has started.
 
 #### Disabling REST
 
-To disable the REST endpoint, toggle the REST endpoint (which is green).
+To disable the REST endpoint, turn off its toggle. The **Application Details** panel shows "Deleting environment REST endpoint".
 
-A message appears on the Environment Details Panel that says, "Deleting environment REST endpoint".
-
-> If the status of the endpoint does not change and the enabling message still sppears, refresh the page.
+> If the endpoint's status does not change and the enabling message still appears, refresh the page.
 
 ### Enable IP based access control
 
-IP based access control is supported by Identity Data Management applications. You can limit which IP addresses can access the application by using the Security settings. To do so, click the (...) menu and click on Security. 
-![image description](images/security.png)
+Identity Data Management applications support IP based access control. Use the Security settings to limit which IP addresses can access the application.
 
-Next, enter one or more IP addresses that are allowed to access the application endpoints. Once you confirm the changes, the endpoints will be restarted and can only be accessed by the allowed list of IP addresses.
+To do so, select the **Settings** (gear) icon in the action bar of the application's detailed view to open *Application Settings*, then open the **Security** tab. Toggle **Enabled** to active and expand **IP CIDR notation** to enter the addresses.
 
-![image description](images/ip-based-access.png)
+![The Security tab in Application Settings, showing IP-Based Access Control](images/security.png)
 
-> The maximum number of IP addresses that can be whitelisted is 100.
+Enter one or more IP addresses that can access the application endpoints. When you confirm the changes, Environment Operations Center restarts the endpoints, and only the allowed IP addresses can access them.
 
-## Identity Data Analytics Endpoint 
+> You can add up to 100 IP addresses to the allow list.
 
-Unlike Identity Data Management, Identity Analytics endpoints do not have a toggle option and are accessible through the URLs displayed in your account. 
+## Identity Analytics Endpoints
+
+Identity Analytics endpoints do not have toggles. Open them through the URLs shown in the *Application Endpoints* panel.
 
 ![image description](images/IDA-endpoints.png)
-
 
 ### Portal
 
@@ -99,12 +88,9 @@ This endpoint is for the administrator of the Identity Analytics instance to per
 
 ### Controller
 
-This endpoint enables the IDA administrator to configure connectors for data extraction, manage data files once uploaded (e.g., in "import files" and "uploads"), and oversee data ingestion into the IDA database through "execution plans." Learn more about the Controller interface here: [Controller](https://developer.radiantlogic.com/ia/version-1.5/containers/controller/).
+This endpoint lets the Identity Analytics administrator configure connectors for data extraction, manage data files once uploaded (e.g., in "import files" and "uploads"), and oversee data ingestion into the Identity Analytics database through "execution plans." Learn more about the Controller interface here: [Controller](https://developer.radiantlogic.com/ia/version-1.5/containers/controller/).
 
 ### Admin Console
 
 This is the Keycloak configuration interface used to manage end-user accounts and roles, providing access to the Portal. 
-
-
-
 

@@ -9,7 +9,9 @@ This guide provides an overview of the *Environments* home screen and its featur
 
 ![image description](Media/select-envs.png)
 
-The *Environments* home screen provides an overview of all your organization's available environments. Each environment provides information about installed application(s).
+The *Environments* home screen provides an overview of all your organization's available environments. In the list-view, each environment row shows the environment name, its type (**NonProduction** or **Production**), a badge for each installed application, the infrastructure the environment is deployed on, the description, the owner, and a count of applications by status.
+
+Environments are now deployed on a specific infrastructure, and each infrastructure is tied to a cloud provider. You can also create temporary "ephemeral" environments that delete themselves automatically at a time you set. To get started, see how to [create an environment](create-environments.md).
 
 Two environment display views are available, either list- or grid-view. In the list-view, environments are organized by row with the associated environment details contained in the row.
 
@@ -17,11 +19,7 @@ Two environment display views are available, either list- or grid-view. In the l
 
 In the grid-view, environments are organized in a card format with associated details for an environment contained within the card.
 
-![image description](Media/envs-grid-view.png)
-
 You can filter the display by using the filters dropdown and selecting a filter.
-
-![image description](Media/filterby.png)
 
 Additionally, environments can be filtered by the creator to display only those associated with a specific user. To apply this filter, hover over the desired user's name, then click on it to display all environments created by that user.
 
@@ -47,12 +45,7 @@ In the grid-view, the options menu is located in the upper corner of an environm
 
 A **Search** bar at the top of the *Environments* screen can be used to filter the listed environments. Enter an environment name, specific characters, or words in the space provided to quickly filter through the environments.
 
-![image description](Media/search-to-filter.png)
-
 A refresh button is located in the upper right corner of the *Environments* screen. Select the refresh icon to pull up to date information about the environments.
-
-![image description](Media/refresh-envs.png)
-
 
 ### New environment
 
@@ -60,14 +53,17 @@ The **New Environment** button allows you to quickly start creating a new enviro
 
 ### Applications
 
-In your environment, you can install one or both of the following RadiantLogic applications:
+In your environment, you can install one or more of the following RadiantLogic applications:
 
 * **Identity Data Management** – This application streamlines identity data by eliminating silos and ensuring seamless synchronization across your organization. It serves as a scalable, unified source of truth, helping to manage and maintain accurate, up-to-date identity information.
 
-* **Identity Data Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
+* **Identity Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
+
+* **Identity Data Platform** – Provides observability services for your identity data. Additional services such as extra S3 storage, Portal API, and MCP can be enabled for this application.
+
+> Applications that are not part of your subscription are shown greyed out and labelled *Not in current subscription*, and their checkbox cannot be selected.
 
 Refer to the [applications-overview](../applications/applications-overview.md) guide for additional details on the installation steps. 
-
 
 ## Access permissions
 

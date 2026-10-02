@@ -12,8 +12,6 @@ This guide explains how to configure Microsoft Single Sign-On (SSO) using Micros
 
 Alternatively, if you prefer to configure Microsoft authentication on your own, follow the steps listed in this guide. 
 
-
-
 ## Registering your application in Entra ID 
 
 This section describes how to establish your application as a recognized entity in Azure AD to facilitate secure interactions. 
@@ -138,7 +136,6 @@ This applies when the external organization uses default Entra ID settings and h
 
 > This scenario works when your app only requests basic permissions (`openid`, `profile`, `email`, `User.Read`) and the external org hasn't changed the default consent settings.
 
-
 ### Scenario 2: Admin Consent Required (Most Enterprises)
 
 This scenario is applicable when the external organization has disabled user consent in their Entra ID. This is standard practice at most regulated enterprises and large organizations.
@@ -175,6 +172,4 @@ https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/admincons
 ```
 
 2. After the exteranl IT team's admin approves the access using the Admin Consent URL, the application gets registered in their tenant. Following this, users from their tenant who are assigned to EOC can login in successfully.
-
-
 

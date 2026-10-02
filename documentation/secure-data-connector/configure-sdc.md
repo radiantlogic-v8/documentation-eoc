@@ -11,12 +11,12 @@ This guide describes the following topics.
 - [Managing Secure Data Connectors](Managing-secure-data-connectors)
 
 > [!warning] Secure Data Connectors are supported only in Identity Data Management applications.  
-> For information on configuring data upload in Identity Data Analytics, refer to the [PowerShell extraction](https://developer.radiantlogic.com/ia/version-1.5/configuration/powershell-extraction/)
+> For information on configuring data upload in Identity Analytics, refer to the [PowerShell extraction](https://developer.radiantlogic.com/ia/version-1.5/configuration/powershell-extraction/)
  guide.   
 
 ### Managing Groups
 
-This section describes how to add, edit, and delete SDC groups.
+This section describes how to add, edit, and delete SDC groups. A group's **Options** (**...**) menu contains **Add Data Connector**, **Edit**, and **Delete**.
 
 #### Adding Groups
 
@@ -24,13 +24,15 @@ To add an SDC group:
 
 1. In the navigation pane on the left, select **Secure Data Connectors**.
 
-1. In the upper-right corner, click **New Group**.
+1. In the upper-right corner, select **New Group**.
 
-1. Enter a group name.
+1. Enter a group name of up to 40 characters.
 
-1. From the drop-down menu, select an environment.
+1. Select the infrastructure from the infrastructure dropdown.
 
-1. Click ![image description](Media/check-mark.png).
+1. Select one or more environments from the environment dropdown. Only environments in the selected infrastructure appear.
+
+1. Select ![image description](Media/check-mark.png).
 
 The new group is displayed. 
 
@@ -38,25 +40,21 @@ The new group is displayed.
 
 1. In the navigation pane on the left, select **Secure Data Connectors**.
 
-1. Click "..." next to the group you want to edit.
+1. Select **Options** (**...**) next to the group you want to edit, then select **Edit**.
 
-    ![image description](Media/edit-group.png).
+1. Change the group name or environments.
 
-1. Edit the group name and/or change the group's environment.
-
-1. Click ![image description](Media/check-mark.png).
+1. Select ![image description](Media/check-mark.png).
 
 #### Deleting Groups
 
 1. In the navigation pane on the left, select **Secure Data Connectors**.
 
-1. Click "..." next to the group you want to edit.
+1. Select **Options** (**...**) next to the group you want to delete, then select **Delete**.
 
-  ![image description](Media/delete-button.png).
+1. In the *Delete Group* dialog, enter the name of the group and select **Delete**.
 
-1. In the Delete Group dialog box, enter the name of the group and click Delete.
-
-  ![image description](Media/delete-group.png).
+  ![image description](Media/delete-group.png)
 
 ### Managing Secure Data Connectors
 
@@ -120,4 +118,4 @@ If you would like to keep the connector, select **Cancel** to exit out of the wo
 
 ![image description](Media/confirm-delete.png)
 
-If the connector is successfully deleted, you will receive a confirmation message on the *Secure Data Connectors* home screen and the connector will no longer be available in the lits of connectors.
+If the connector is successfully deleted, you will receive a confirmation message on the *Secure Data Connectors* home screen and the connector no longer appears in the list of connectors.

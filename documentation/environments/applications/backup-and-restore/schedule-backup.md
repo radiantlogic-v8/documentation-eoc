@@ -1,76 +1,49 @@
 ---
 keywords:
-title: Schedule Automated Environment Backups
-description: Learn how to schedule automated backups of environments in Environment Operations Center.
+title: Schedule Automatic Application Backups
+description: Learn how to schedule automatic backups of applications in Environment Operations Center.
 ---
-# Schedule Automated Environment Backups
 
-This guide provides an overview of the steps required to schedule automated backups for a specific environment. For details on manually creating backups, see the [create a backup](create-backup.md) guide.
+# Schedule automatic application backups
+
+This guide explains how to schedule automatic backups for an application. For details on creating backups manually, see the [create a backup](create-backup.md) guide.
 
 ## Getting started
 
-To start, select an application in your environment and click **BACKUPS** to open the backup screen. 
-![image description](Media/backup-nav.png)
+Select an application in your environment and open its **Backups** tab.
 
-To navigate to the *Backup Settings* screen, from the *Backups* tab, select the gear icon (![image description](Media/gear-icon.png)). 
-![image description](Media/backup-default-disabled.png)
-
-The *Backup Settings* view contains all of the fields required to create a scheduled backup.
-
-![image description](Media/backup-schedule-page.png)
+Select the gear icon (![image description](Media/gear-icon.png)) next to the *Scheduled* status to open the *Backup Settings* screen.
 
 ## Backup settings
 
-To create a scheduled backup, you must complete the sections outlined on the *Backup Settings* screen. This includes "Data retention policy", "Automatic Backups" and "Schedule".
+The *Backup Settings* screen has three sections: **Automatic Backups**, **Data retention policy**, and **Schedule**.
 
-### Automatic Backups
+### Automatic backups
 
-The **Automatic Backups** section provides toggle options to enable/disable the automatic backups. To enable scheduled backup, toggle the ENABLED option to ACTIVE. 
-
-![image description](Media/auto-backup-enable-new.png)
+To turn on scheduled backups, switch the **Enabled** toggle from **Inactive** to **Active**.
 
 ### Data retention policy
 
-The data retention policy specifies when to delete previously created backups. To set the retention period for your scheduled backups, select a time period from the dropdown menu.
-
-Scheduled backups can be stored for 10, 20, 30 or 60 days.
-
-![image description](Media/backup-retention-policy-new.png)
+The data retention policy deletes backup runs older than the period you select. Select **10 Days**, **20 Days**, **30 Days**, or **60 Days** from the **Retention Period** dropdown. The default is 30 days.
 
 ### Schedule
 
-In the "Schedule" section you will set the frequency, period, and start time for the scheduled backup to run.
+Use the **Schedule** section to set when the backup runs:
 
-To set the frequency, select the dropdown menu and select a frequency from the list. A backup can be scheduled to run daily, weekly, or monthly.
+- **Timezone** shows the time zone the schedule uses.
+- **Backup Frequency**: select **Daily**, **Weekly**, or **Monthly**.
+- **Every**: for daily backups, select how often the backup runs: every **2**, **4**, **8**, **12**, or **24 hours**.
+- **Starting On**: for weekly and monthly backups, select the day the backup runs.
+- **At**: select the time the backup starts.
 
-![image description](Media/backup-schedule-new.png)
-
-To set the backup either daily, weekly or monthly select the options from the drop-own menu
-
-![image description](Media/backup-daily-weekly.png)
-
-To set the backup period, select the dropdown menu and select a number of days from the list.
-
-![image description](Media/backup-period.png)
-
-To set the backup start date, select the dropdown menu and select a week day from the list.
-
-> **NOTE:** Backup day option is available only when Monthly is choosen for frequency
-
-![images description](Media/backup-day.png)
-
-To set the backup start time, select the dropdown menu and select a time from the list. Once all fields are complete, select **Save** to create the scheduled backup.
-
-![image description](Media/backup-time.png)
+Below the fields, Environment Operations Center summarizes the schedule in words, shows the date and time of the next backup, and shows the schedule as a cron expression. Check the summary, then select **Save** to save the schedule, or **Cancel** to discard your changes.
 
 ## Confirmation
 
-Once you have saved the environment backup settings, you will return to the *Backups* tab. If the scheduled backup was successfully created you will receive a confirmation message. Select **Dismiss** to close the confirmation message.
+After you save the backup settings, Environment Operations Center returns you to the *Backups* tab and shows a confirmation message. The *Scheduled* status now shows the frequency and time of the scheduled backup and when the next backup runs.
 
-If the scheduled backup could not be created, you will receive an error message indicating that creating the scheduled backup failed. Select **Dismiss** to close the error message and proceed to try creating the scheduled backup again.
+If Environment Operations Center cannot save the schedule, an error message appears. Close the message and try again.
 
 ## Next steps
 
-After reading this guide you should have an understanding of the steps required to schedule automated backups. To restore a new application from a backup, see the [advanced set up](../applications-overview/#advanced-setup). To restore an existing application from a backup, refer to the [restore a backup guide](./backup-restore-overview/#restore-a-backup).
-
-
+You can now schedule automatic backups. To restore a new application from a backup, see [advanced setup](../applications-overview.md#advanced-setup). To restore an existing application from a backup, see [restore a backup](backup-restore-overview.md#restore-a-backup).

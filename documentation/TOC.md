@@ -6,6 +6,7 @@
     - [Authentication](../getting-started/login/authentication.md)
     - [Microsoft SSO](../getting-started/login/microsoft-sso.md)
   - [Account settings](../getting-started/account-settings/update-account.md)
+  - [AI Assistant](../getting-started/ai-assistant.md)
 - [Environments](#)
   - [Environments overview](../environments/environment-overview/environments.md)
   - [Create an environment](../environments/environment-overview/create-environments.md)

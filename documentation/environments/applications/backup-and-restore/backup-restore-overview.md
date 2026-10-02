@@ -5,48 +5,39 @@ description: Get a quick introduction to backing up applications in Environment 
 ---
 # Backup Overview
 
-In the Environment Operations Center, you can create and restore backups for your applications. Backup functionality is available for both the Identity Data Management and Identity Data Analytics applications. Backups are managed within the detailed view of each application, under the *Backups* tab. This guide provides an overview of the *Backups* tab and its features.
+In Environment Operations Center, you create and restore backups of your applications' configuration. Backups are available for Identity Data Management and Identity Analytics applications. You manage backups from the *Backups* tab in each application's detailed view. This guide describes the *Backups* tab and its features.
 
 ## Getting started
 
-To navigate to the *Backups* tab for a specific application, select **Backups** from the top navigation in the application's detailed view.
+To open the *Backups* tab for an application, select **Backups** in the top navigation of the application's detailed view.
 
-![image description](Media/backups-schedule-button-new.png)
-
-This brings you to the *Backups* view that provides a chronological overview of all backups that have been performed on the application.
+The *Backups* tab lists all backups of the application, newest first.
 
 ## Review backups
 
-From the *Backups* tab, you can review all backups that have been performed on the application. For each backup, the backup name, creation date, and version are listed.
+The *Backups* tab lists each backup with its name, creation date, version, and size. Select a column heading to sort the list, and use the **Search for Backups** bar to find a backup by name. Use the controls below the list to set how many backups appear per page and to move between pages.
 
-![image description](Media/backup-list.png)
-
-If you have set a scheduled backup for the application, a "Scheduled" notification appears at the top of the workspace indicating the frequency and time of the scheduled backup.
+Next to the search bar, the *Scheduled* status shows whether automatic backups are enabled. When they are, it shows the frequency and time of the scheduled backup and when the next backup runs. When they are not, it reads *Scheduled: disabled*.
 
 For more information on scheduling backups, see the [schedule backups](schedule-backup.md) guide.
 
 ## Manage backups
 
-You can create backups manually by clicking the **Backup** button or schedule an automated backup workflow by selecting the gear icon.
+Select **Backup** to create a backup manually. Backup names can be up to 20 characters. To schedule automatic backups, select the gear icon next to the *Scheduled* status.
 
-For details on creating manual backups and restoring backups, see the [create a backup](create-backup.md) guide. For details on scheduling automated environment backups, see the [schedule a backup](schedule-backup.md) guide.
-
+For details on creating backups manually, see the [create a backup](create-backup.md) guide. For details on scheduling automatic backups, see the [schedule a backup](schedule-backup.md) guide.
 
 ## Restore a backup
 
-You can restore your backed up Identity Data Management and Identity Analytics applications from the Backups tab. To restore an existing application (Identity Data Management or Identity Analytics application) using a backup, click the Options (...) menu and select Restore. 
-In the confirmation dialog, confirm that you would like to proceed with the Restore option. After a few minutes, the restore process will complete and the application data will be restored to the backed up version. 
+Each backup has an **Options** (**...**) menu with **Download**, **Restore**, and **Delete**.
 
-Selecting Delete will permanently delete the backup. 
+To restore an existing Identity Data Management or Identity Analytics application from a backup, select **Restore** from the backup's **Options** (**...**) menu, then confirm in the dialog. After a few minutes, Environment Operations Center restores the application to the backed-up version.
 
-In an Identity Data Management application, you can use the back up file to restore a new application. Each backup has an Options (...) menu that allows you to either Download a backup, Restore a backup or Delete a backup. 
+**Delete** permanently deletes the backup.
 
-![image description](Media/backupandrestore.png)
+**Download** saves the backup's configuration file to your computer. This option is available only for Identity Data Management applications.
 
-Selecting Download will download the configuration file of that backup to your system. The download option is only available in Identity Data Management applications.
-
-To use the backup in a new Identity Data Management application, download the backup file that you would like to use by clicking the options menu and selecting Download. Next, create a new Identity Data Management application and use the downloaded backup file by following the steps outlined [here](../applications-overview.md#custom-configuration). Note that if you use this backup to restore the application in a new environment, the [endpoint URLs](../endpoints-overview.md) of the application will be different than that of the original application.  
-
+To use a backup in a new Identity Data Management application, select **Download** from the backup's **Options** (**...**) menu. Then create a new Identity Data Management application and upload the downloaded file, as described in [custom configuration](../applications-overview.md#custom-configuration). If you restore the backup in a new environment, the application's [endpoint URLs](../endpoints-overview.md) differ from those of the original application.  
 
 <!-- The workflow to restore a backup can also be initiated by selecting the **Restore** button. For more information on restoring backups, see the [restore a backup](restore-backup.md) guide.
 
@@ -54,10 +45,10 @@ To use the backup in a new Identity Data Management application, download the ba
 
 ## Read-only mode
 
-If you have read-only access to the environment, you will still be able to view the list of backups that have been performed and the backup schedule if an automated backup has been created. You will not be able to create new backups or modify existing backups.
+If you have read-only access to the environment, you can still view the list of backups and the backup schedule, but you cannot create or modify backups.
 
-The gear icon, **Restore**, and **Backup** buttons will be deactivated and the **Options** (**...**) menu for each backup wil be hidden.
+The gear icon and the **Backup** button are deactivated, and the **Options** (**...**) menu for each backup is hidden.
 
 ## Next steps
 
-After reading this guide you should have an understanding of how to navigate the *Backups* tab and its main features. To begin creating a backup, review the documentation on [creating a backup](create-backup.md).
+You can now navigate the *Backups* tab and use its main features. To create a backup, see [create a backup](create-backup.md).

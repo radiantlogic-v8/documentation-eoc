@@ -43,3 +43,19 @@ Logging in with microsoft requires additional authorization from Azure.
 ### Next Steps
 Refer to the [Microsoft SSO guide](./microsoft-sso.md
 ) to learn how to set up single sign on with Microsoft. 
+
+## Local users
+
+A local user is an account created within the tenant that signs in with an email address and password rather than through a cloud identity provider such as Microsoft, GitHub, or Google.
+
+Local users are useful when:
+
+- The email address you want is already associated with a cloud identity provider.
+- You need a test account.
+- You want to grant a specific role, such as environment admin, without tying it to a cloud identity.
+
+To create a local user, open the user-creation screen as a tenant admin and enable the local user option.
+
+## Authentication providers (SSO login)
+
+If you prefer not to use local users or the built-in cloud providers, you can add your own authentication providers. The providers you configure appear as options on the SSO login screen.

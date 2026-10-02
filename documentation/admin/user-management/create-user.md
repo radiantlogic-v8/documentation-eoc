@@ -1,88 +1,64 @@
 ---
 keywords:
 title: Create a User
-description: Learn how to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Read Only, Tenant Administrator, Environment Administrator, and Environment User
+description: Learn how to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. You assign roles to each user through access control
 ---
 # Create a User
 
-This guide outlines the required steps to create new users and assign roles in Environment Operations Center. What a user can view and which actions they can perform are dependent on their assigned role. User roles include Tenant Administrator, Environment Administrator, and Environment User. For details on permissions for each role, see the [role-based permissions](../../role-based-permission/role-based-permissions.md) guide.
+This guide explains how to create a user and assign their roles in Environment Operations Center. What a user can view and do depends on the roles you assign them. For details on the default roles and their permissions, see the [role-based permissions](../../role-based-permission/role-based-permissions.md) guide.
 
 ## Getting started
 
-Select **Admin** from the left navigation to access the *Admin* home screen and *Users* tab.
+Select **Admin** from the left navigation to open the *Admin* screen on the *Users* tab.
 
-![image description](images/admin-section.png)
+To create a user, select **New User** on the *Users* tab.
 
-To create a new user, click **New User** on the *Users* tab.
-
-![image description](images/create-button.png)
-
-The *New User* page contains all of the required input fields to create a new user. Provide the user's details and assign their role and environments. All fields must be completed in both sections to create a new user.
-
-![image description](images/create-user.png)
+The *Create User* page has two sections: **User Details** and **Access Control**.
 
 ## User details
 
-In the *User Details* section you must provide the new user's first name, last name, email, indicate if you want the user to be a local user, enter an email for notifications, and set the status to active/inactive in the corresponding fields.
+In the *User Details* section, enter the following:
 
-Set the user's status by adjusting the *Status* toggle to "Active".
+| Field | Description |
+| ----- | ----------- |
+| First Name | Required. Up to 50 characters. |
+| Last Name | Required. Up to 50 characters. |
+| Email | Required. Environment Operations Center checks that the address is valid. |
+| Local User | Turn on to create a local user who signs in with a password. When you turn it on, **Create Password** and **Confirm Password** fields appear. Enter a password or select **Generate**. The password must have at least 16 characters, lowercase and uppercase letters, at least 1 number, and at least 1 special character. If Require MFA is enabled for local users, the user is also prompted for MFA at sign-in. |
+| Notification Email | The address that receives notifications for the user. |
+| Status | Active by default. Turn off to create the user as inactive. |
 
 ![image description](images/create-user-details.png)
 
-All required fields in the *User Details* section must be filled out to submit the form. If a field is missing information, you cannot click **Save**. Hovering over the **Save** button displays a reminder that the form must be complete to create the user.
+You cannot select **Save** until all required fields are complete.
 
-Once you have completed the *User Details* section, you can proceed to the *Options* and *Role Details* section to assign the user a role and one or more environments.
+## Access control
 
-## Options
+Use the *Access Control* section to assign the user's roles. Each row assigns roles in one tenant.
 
-In the *Options* section, you can assign a specific role to a user. A user can assume one of these three roles, either a **READ-ONLY** user, a **TENANT ADMIN**, or an **ENVIRONMENT CREATOR**. These roles can be enabled/disabled using the toggle buttons. 
+1. Select **Add Access Control**. A new row appears.
+2. Select the tenant from the **Tenant** dropdown.
+3. Select the **Roles** button in the **Role** column, which shows how many roles are assigned (for example *0 Roles*), and choose the roles for that tenant.
+4. Select the checkmark to confirm the row, or the **X** to discard it.
 
-![image description](images/roles.png)
+To change or remove a row after you confirm it, select **Options** (**...**) at the end of the row.
 
-## Role details
+To create custom roles to assign here, see [roles](../admin-overview.md#roles).
 
-In addition to the account level role defined in the *Options* section, you can assign an environment level role to a user. For example, a user may be assigned Tenant Administrator to environments "A" and "B", and also be assigned as an Environment User for environments "C" and "D". The user holds two different roles, but the environment assignments for each role are unique.
+## Save the user
 
-See the [role based permission](../../role-based-permission/role-based-permissions.md) guide for further details on role definitions and permission details.
+When you have completed both sections, select **Save** to create the user. The user receives an email with their account information and a link to Environment Operations Center.
 
-To assign the user a role, select the *Role* field to expand the role dropdown. From the list, select the role that is best suited for the user.
-
-![image description](images/create-role.png)
-
-To assign an environment, select the *Environment* field to expand the environment dropdown. From the list of environments, select one or more environments to assign the user to.
-
-![image description](images/create-env.png)
-
-A user can be assigned to multiple environments for their given role. Continue selecting environments from the dropdown list until you have assigned all required environments to the user. Select the arrow (arrow icon) in the *Environment* field to close the drop-down list.
-
-![image description](images/create-multiple-envs.png)
-
-Once you have completed the *Role* and *Environment* fields, select the checkmark button to set the user's role and environment assignment. For details on assigning multiple roles and special cases concerning role assignments, see the [role based permissions](../role-based-permission/role-based-permissions.md) guide.
-
-![image description](images/create-select-checkmark.png)
-
-To edit the *Role Details* section after you have set the assignment, select **Options** (**...**) located next to the user's role and environment assignment. This expands a drop-down menu listing the options to **Edit** or **Delete** the role and environment assignment.
-
-![image description](images/create-options.png)
-
-Once you have completed the *User Details* and *Role Details* sections, select **Save** to create the new user. The user receives an email notification at the email address associated with their user account confirming their user creation and the link to the EOC. To exit out of the *Create User* form without creating a new user, select **Cancel**.
-
-![image description](images/create-cancel.png)
-
-You will receive a confirmation message notifying you that all the current form details will be lost. Select **Confirm** to continue and exit the *Create User* form without saving the current user details.
-
-If you wish to return to the *Create User* form to continue creating the new user, select **Cancel**.
+To leave the *Create User* page without creating the user, select **Cancel**. A message warns you that the current form details will be lost. Select **Confirm** to leave, or **Cancel** to return to the form.
 
 ## Confirmation
 
-After completing the *Create User* form and selecting **Save**, you are directed to the *Users* tab where a success message indicates that the user has been successfully created and will appear in the list of users. The new user receives a confirmation email notification at the specified address containing their new account information and login details.
+After you save, Environment Operations Center returns you to the *Users* tab, shows a success message, and adds the user to the list.
 
 ![image description](images/create-success.png)
 
-If an error occurs and the user is not successfully created, please double check the email address provided for any case sensitivities.
+If Environment Operations Center cannot create the user, check the email address, including its capitalization. If the error persists, contact Radiant Logic Support.
 
-If the error in creating an user still persisits, conatct Radiant logic Support for assistance.
+## Next steps
 
-## Next Steps
-
-After reading this guide you should have an understanding of the steps required to create a user in Environment Operations Center. For details on editing an existing user, see the [edit a user](edit-user.md) guide.
+You can now create a user in Environment Operations Center. To edit an existing user, see the [edit a user](edit-user.md) guide.

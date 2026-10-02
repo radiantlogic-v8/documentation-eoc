@@ -31,7 +31,6 @@ To update a secure data connector client on Docker, stop the Docker image and th
 
 Installing a rolling update allows the client to continue running with no downtime during the update. To install a rolling update, create a new data connector in Environment Operations Center (see the [add a data connector](add-data-connector.md) guide) within the same group as the client you would like to update. 
 
-
 Copy the new token from the *Data Connector Registration* dialog in the data connector details section.
 
 ![image description](Media/docker-token.png)
@@ -111,8 +110,6 @@ To regenerate the token:
 1. Select **Secure Data Connectors** from the left navigation bar. 
 
 1. Navigate to your Secure Data Connector's Data Connector Info page.
-
-    ![image1](Media/regentoken.png)
 
 1. Click **Regenerate Token**. 
 
