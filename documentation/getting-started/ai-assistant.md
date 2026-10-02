@@ -11,7 +11,7 @@ The Environment Operations Center includes a built-in AI assistant that answers 
 
 ## Getting started
 
-To open the assistant, select the **chat icon** in the bottom-right corner of the interface once you are logged in. The assistant opens in a panel that displays the Radiant Logic name and the expected response time.
+To open the assistant, select the chat icon (![The chat icon](Media/chat-icon.png)) in the bottom-right corner of the interface once you are logged in. The assistant opens in a panel that displays the Radiant Logic name and the expected response time.
 
 Enter your question in the **Message** field and select **Start Conversation**.
 

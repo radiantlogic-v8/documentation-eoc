@@ -36,7 +36,7 @@
 - [Secure data connectors](#)
   - [Secure data connectors overview](../secure-data-connector/configure-sdc-service.md)
   - [Add a data connector](../secure-data-connector/configure-sdc-service#adding-a-new-data-connector)
-  - [Manage data connectors](../secure-data-connector/configure-sdc-service#manage-data-connectors)
+  - [Manage data connectors](../secure-data-connector/configure-sdc-service/#manage-data-connectors)
   - [Configure a Secure data connector Client in on-premise or private cloud data sources network](#)
     - [Deploy a Secure data connector Client](../secure-data-connector/configure-sdc-client#deploy-the-secure-data-connector-client)
     - [Deploy a Secure data connector Client on a proxy network](../secure-data-connector/configure-sdc-client.md)

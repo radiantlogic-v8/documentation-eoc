@@ -6,7 +6,7 @@ description: Get a quick introduction to navigating applications in Environment 
 
 # Application details
 
-Each application installed in your environment has a detailed view where you monitor the application's status and perform operations on it. This guide outlines the detailed view of an application as seen in the application *Overview* screen. For an overview of the *Environments* screen that lists all available environments, see the [environments overview guide](../environment-overview/environments.md).
+Each application installed in your environment has a detailed view where you can monitor the application's status and perform operations on it. This guide outlines the detailed view of an application as seen in the application *Overview* screen. For an overview of the *Environments* screen that lists all available environments, see the [environments overview guide](../environment-overview/environments.md).
 
 ## Getting started
 
@@ -15,6 +15,8 @@ To navigate to the detailed view of an application, select an application name f
 This opens the application's *Overview* screen that displays the application details, status, endpoints, and operational information. Use the navigation bar at the top of the page to open the application's monitoring and updating tools.
 
 The breadcrumb at the top of the screen shows **Environments**, the environment name, and an application dropdown. Use the dropdown to switch to another application in the same environment.
+
+![The application Overview screen with the Application Details and Application Endpoints panels and the service list](images/application-overview.png)
 
 ## Top navigation
 
@@ -32,13 +34,15 @@ The navigation bar at the top of the *Overview* screen stays visible on every ta
 
 The *Logs* tab lets you search the application's log entries for troubleshooting and analysis. Select a log source, such as *vds_server_access.log\**, from the dropdown above the field list, then search the entries with a KQL query, add filters, and set the time range. The tab shows the number of matching entries (hits) in a chart, followed by the entries themselves.
 
+![The Logs tab showing a log source, a filter, the hits chart, and a log entry](logging/images/application-logs-search.png)
+
 You can also search logs from the *Logs* screen under **Observe** in the left navigation, where you first select the environment and application. For further details, see the [application logs](logging/application-logs.md) guide.
 
 ### Backups
 
 Use the *Backups* tab to create and view backups of the application's configuration. The tab lists each backup with its name, creation date, version, and size, and shows whether scheduled backups are enabled. When they are, the status also shows when the next backup runs; otherwise it reads *Scheduled: disabled*. Backup names can be up to 20 characters. Use the search bar to find a backup by name.
 
-For information on managing your environment backups, refer to the [backup and restore documentation](backup-and-restore/backup-restore-overview.md).
+For information on managing your backups, refer to the [backup and restore documentation](backup-and-restore/backup-restore-overview.md).
 
 ### Alerts
 

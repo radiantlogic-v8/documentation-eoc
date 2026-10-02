@@ -9,8 +9,6 @@ Secure data connectors(SDCs) allow data to flow from your on premises or private
 
 To navigate to the *Secure Data Connectors* home screen, select **Secure Data Connectors** (![image description](Media/agent-icon.png)) from the left navigation bar.
 
-![image description](Media/secure-data-connectors.png)
-
 ## Concepts
 
 This section describes secure data connectors and groups.
@@ -29,12 +27,12 @@ Secure data connectors are organized in **groups**. A group is a logical groupin
 
 ## Secure Data Connector Home Screen
 
-The *Secure Data Connector* home screen provides an overview of all your organization's configured data connectors and allows you to manage them.
+The *Secure Data Connectors* home screen provides an overview of all your organization's configured data connectors and allows you to manage them. Use the search bar to find a group by name, select **Favorites Only** to show only your favorite groups, and use the **filters** and sort controls to narrow and order the list.
 
 The list of data connectors is organized by group. Each group has a set of RadiantOne environments that are allowed to use the data connectors belonging to that group.
-Each group contains a list of data connectors and their associated information (name, description, status). You can expand/collapse each group to show or hide the associated data connectors.
+Each group row shows the group name with its number of data connectors, the infrastructure badge (for example *aws US-EAST-1 (local)*), the environments the group is associated with, the group's owner, and a count of its data connectors by status. Select the star next to a group to add it to your favorites, and select the refresh icon in the upper-right corner to reload the list.
 
-![image description](Media/connector-info-expanded.png)
+Expand a group to list its data connectors. For each connector, the list shows its name, description, status, version, creation date, and last modified date. Select the arrow next to a group name to expand or collapse it.
 
 ### Adding a new data connector
 
@@ -57,14 +55,15 @@ To add a new group, select **New Group** from the *Secure Data Connectors* home 
 
 Before you can add new data connectors, you must first add a **group**. This can be done by clicking **New Group**.
 
-In a **new row**, enter the group name and select one or multiple environments from the list of available environments in the provided group and environment fields.
+In the new row, enter the group name, then select the infrastructure and one or more environments.
 
->[!note] Group and Environment are required fields and must be entered to create the group.
+>[!note] Group name, infrastructure, and environment are required to create the group.
 
 | Group Info | Description |
 | ------------------- | ----------- |
-| Group Name | Provide a group name that is relevant to how secure data connectors will be grouped under this group. Groups provide failover and load balancing for the network. |
-| Environment | A minimum of one environment must be associated to a group.  Select environment(s) from the **Environment** list, a group can be associated to multiple environments.
+| Group Name | Provide a group name that is relevant to how secure data connectors will be grouped under this group. Groups provide failover and load balancing for the network. The name is appended to your tenant's read-only prefix, shown to the left of the field, and can be up to 40 characters long. |
+| Infrastructure | Select the infrastructure the group belongs to. The environments offered in the next field are filtered by this selection. See [Select an infrastructure](#select-an-infrastructure) below. |
+| Environment | Select one or more environments from the dropdown. A group must be associated with at least one environment. |
 
 Once you have entered these fields, select :white_check_mark: to add the new group.
 
@@ -74,32 +73,30 @@ Once the group is successfully created, it is displayed in the list of available
 
 #### Add data connector information
 
-Now that **group** being created, the next step is to add a new data connector. Select **...** from last column of selected group to get list of options, from these options select ***Add Data Connector***.
+After you create the group, add a data connector to it. Select **Options** (**...**) at the end of the group row, then select **Add Data Connector**. A new row opens in the group's connector list.
 
-![image description](Media/add-data-connector.png)
+Enter the data connector's name and description in the row.
 
-In the *New Data Connector* row, enter the data connector information in the provided name and description fields.
-
->[!note] Name is a required field and must be entered to create the connector.
+>[!note] Name is required. The name is appended to your tenant's read-only prefix, shown to the left of the field, and can be up to 40 characters long.
 
 | Data Connector Info | Description |
 | ------------------- | ----------- |
 | Name | Provide a name that is relevant to the network being connected to. |
 | Description | The description field is optional but is recommended to provide any details that are relevant about the network. This helps with maintaining data connectors. |
 
-Once you have completed entering the required fields for new data connector, select :white_check_mark: to add the new connector.
+Select :white_check_mark: to add the connector, or **X** to discard the row.
 
 ![image description](Media/save-connector.png)
 
-If the data connector is successfully created, it appears in the list of available data connectors under the *Group*.
+When Environment Operations Center creates the connector, the message "Successfully added the Data Connector" appears and the connector appears in the group's list.
 
-The *Status* of the new data connector displays as "UNREGISTERED". A connection needs to be established between a new data connector and the on-prem or cloud network for the connector to become "Active". For details on deploying the secure data connector client, see the [configure a secure data connector client](configure-sdc-client.md) guide.
+The new data connector's status is "UNREGISTERED". The connector becomes "Active" after you deploy the secure data connector client and it connects to Environment Operations Center. For details on deploying the secure data connector client, see the [configure a secure data connector client](configure-sdc-client.md) guide.
 
 ![image description](Media/new-connector-created.png)
 
 ### Manage data connectors
 
-Each data connector has an **Options** (**"..."**) menu that allows you to manage the connector. For more details on managing data connectors, please refer to the [Manage Data Connectors](configure-sdc.md) guide.
+Each data connector has an **Options** (**...**) menu for managing the connector. For details, see the [manage data connectors](configure-sdc.md) guide.
 
 ![image description](Media/options.png)
 
@@ -117,18 +114,21 @@ Another way to access data connector details is to select **View Details** from 
 
 ### Data connector info
 
-The *Data Connector Info* section in the data connector detailed view outlines the following information about the connector:
+The data connector's detailed view has two tabs: **View Details** and **Alerts**. The *Data Connector Info* section on the **View Details** tab shows the following information about the connector:
 
 | Data Connector Information | Description |
 | ------------------- | ----------- |
 | Name | The unique name provided for the connector during setup. |
 | Group Name | The group the connector was assigned to during set up. There are a minimum of two connectors per network environment to enable load balancing.|
 | Description | Additional details about the data connector provided during setup. |
-| Connections | The number of on-prem or cloud backend connections made to the data connector. |
+| Connections | The number of on-prem or cloud backend connections made to the data connector, shown as connected out of total, for example *0/0*. |
 | Server Version | Indicates the current server version of the data connector. |
 | Client Version | Indicates the current client version of the data connector. |
-| Token Expiration Date | Indicates when the token associated with the data connector expires. |  
-| Status | Indicates if the data connector is "Active", "Paused", "Inactive" or "Unregistered". |
+| Compatibility | Whether the client version is compatible with the server version. See [Version compatibility status](#version-compatibility-status). |
+| Creation Date | When the data connector was created. |
+| Last Modified Date | When the data connector was last changed. |
+| Token Expiration Date | When the token associated with the data connector expires. |
+| Status | Whether the data connector is "Active", "Paused", "Inactive", or "Unregistered". An unregistered connector also shows a **Register** button, which opens the registration token you use to deploy the client. |
 
 ![image description](Media/connector-info.png)
 
@@ -143,7 +143,25 @@ All of the on-premise or cloud connections made to the data connector are listed
 | Tunnel Port | The high port where the connection is initiated. |
 | Server Name/IP | The IP of the on-prem or cloud data source that has been connected. |
 | Server Port | The port of the on-prem or cloud data source where the connection was made. |
-| Status | Indicates if the connection is "Connected" or "Disconnected". |
+| Last Known Status | Whether the connection was last "Connected" or "Disconnected". |
 
-![image description](Media/connections.png)
+## Version compatibility status
+
+Starting with **SDC Server version 1.4.0**, the **Compatibility** field in the *Data Connector Info* section shows whether the SDC client and server versions are compatible.
+
+| Indicator | Meaning |
+|-----------|---------|
+| **Compatible** | The client version is confirmed compatible with the server version. |
+| **Incompatible** | The client version is **not** compatible with the server version. [Update your SDC client](./manage-sdc-client/#update-the-secure-data-connector-client) to the latest available version.|
+| **Not Available** | Environment Operations Center cannot determine compatibility yet, for example because the connector is not registered and has no client version. |
+
+## Select an infrastructure
+
+Each environment is tied to an infrastructure. When you create a Secure data connector group, select the infrastructure first, then select an environment. Only environments deployed in the selected infrastructure appear, which keeps connector configuration consistent within an infrastructure.
+
+![Creating a Secure data connector with the infrastructure selected before the environment](Media/12-sdc-infra.jpg)
+
+To create data groups and connectors, the infrastructure must have valid Secure data connector settings. These settings are configured when the infrastructure is created.
+
+If the settings are missing or invalid for a cluster, you can still create environments, but you cannot create Secure data connector groups or connectors for that environment.
 
