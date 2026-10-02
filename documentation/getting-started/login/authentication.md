@@ -4,7 +4,6 @@ title: Authentication
 description: This guide provides information about configuring SSO with various OIDC providers in the Environment Operations Center. 
 ---
 
-
 ## Authentication
 This guide provides information about configuring SSO with various OIDC providers in the Environment Operations Center. 
 
@@ -16,7 +15,6 @@ This guide provides information about configuring SSO with various OIDC provider
 
 #### **1. Navigate to the Admin screen**
    - In your Environment Operations Center account, navigate to the **Admin** screen and click **Authentication**. Next, click **New Provider**.
-   ![image description](images/admin-page.png)
 
 #### **2. Provide required details related to your OIDC provider**
 
@@ -57,7 +55,6 @@ This guide provides information about configuring SSO with various OIDC provider
 
 #### **4. Enable SSO for Users**
    - Once the SSO is established, you can assign the provider to the appropriate user and specify the conditions for login when adding new users from the **Users** tab.
-
 
 ### Require MFA
 

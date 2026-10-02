@@ -5,17 +5,54 @@ description: Learn about Access Reports available in Environment Operations Cent
 ---
 # Types of Reports
 
-This guide outlines the types of reports available in Environment Operations Center for you to monitor activities and the overall health of your environments. Only Access Log Reports are currently available in Environment Operations Center. Additional report types will be added in future releases.
+This guide outlines the types of reports available in Environment Operations Center for you to monitor activities and the overall health of your environments.
 
-The reporting dashboards displayed in Environment Operation Center are a representation of the Kibana log monitoring user interface available. Every time any application or client accesses the server, that data is captured in log files available through Elastic Search. Logs can be searched or filtered in Environment Operations Center for particular events or activities.
+A report is generated from a dashboard. When you build a report, you select the dashboard to include, the period it covers, and the environment it applies to, and Environment Operations Center renders that dashboard as a PDF on the schedule you set. The report types available to you are therefore the dashboards available for your applications. For the steps to build one, see the [reporting overview](reporting-overview.md).
+
+The same dashboards are also available to view directly, from the [Dashboards](../dashboards/dashboards-overview.md) screen and from the **Monitoring** tab of an application.
+
+## Available dashboards
+
+The dashboards offered depend on the application you select.
+
+### Identity Data Management
+
+| Dashboard | Description |
+| --------- | ----------- |
+| IDDM Dashboard | Health and activity metrics for a selected node, including CPU, memory, disk, and file descriptor usage, leader and ZooKeeper status, HDAP store count and size, up time, operation count, live connections, and peak values. |
+| Audit Report | Client access activity drawn from the access logs, including operation counts by type, connections by host, and result codes. |
+
+### Identity Analytics
+
+| Dashboard | Description |
+| --------- | ----------- |
+| IDA Dashboard | Health and activity metrics for the Identity Analytics application. |
+
+### Identity Data Platform
+
+| Dashboard | Description |
+| --------- | ----------- |
+| IDO - Portal Dashboards | Activity and health for the Identity Data Platform portal. |
+| IDO - Observations - Channels contention | Contention across observation channels. |
+| IDO - Observations - Functional | Functional observation results. |
+| IDO - Observations - Process | Observation processing activity. |
+| IDO - Observations - Timings | Timing measurements for observations. |
+| IDO - Alert center | Alerts raised by the Identity Data Platform application. |
+| IDO - Graph Database | Health and activity of the graph database. |
+| IDO - ID Sync Config | Identity synchronization configuration. |
+| IDO - System | System health of the Identity Data Platform application. |
+| IDO - Writeback service | Activity of the writeback service. |
+| IDO Graph Pipeline Sink | Activity of the graph pipeline sink. |
+
+> The dashboards available to you depend on the applications installed in the environment and on your subscription. If an application is not installed, its dashboards do not appear.
 
 ## Access reports
 
-Data is pulled from the Access Logs to build access reports. Information provided by these logs includes client requests to RadiantOne and the responses. The report outlines how long operations run and provides a summary of associated error codes.
+The **Audit Report** dashboard is built from the access logs. Information provided by these logs includes client requests to RadiantOne and the responses. The report outlines how long operations run and provides a summary of associated error codes.
 
 ### Operation types
 
-The types of operations included in Access Reports are:
+The types of operations included in the access data are:
 
 - connections:
 - bind: LDAP bind (authentication) requests received by RadiantOne.
@@ -27,7 +64,7 @@ The types of operations included in Access Reports are:
 
 ### Standard report details
 
-The Access Report lists the following details for all operation types:
+The access data covers the following details for all operation types:
 
 - response time interval: how long the operation took to complete (in milliseconds)
 - response time threshold: any operation that exceeds a specified response time.

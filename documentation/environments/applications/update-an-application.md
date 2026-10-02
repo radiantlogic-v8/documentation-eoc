@@ -5,91 +5,62 @@ description: Learn how to manually update the RadiantOne application  version ru
 ---
 # Update an application
 
-When version updates are available for an application running in an environment in your Environment Operations Center instance, you will see an *Update* notification. You can update your application from the **Application Details**
-screen. 
-> [!note] Before getting started, make sure you have your current version of Environment Operations Center and the required number of RadiantOne nodes to display for each environment that requires updating.
+When a version update is available for an application, Environment Operations Center shows an *Update* notification. Update the application from its **Application Details** panel.
+> [!note] Before you start, make sure you know your current version and have the required number of RadiantOne nodes for each environment you are updating.
 
- When an application requires updating, an **Update** message appears next to the application version number under "Application Details" and also under the selected environment in environments page.
+When an application needs an update, an **Update** message appears next to the version number in the *Application Details* panel and under the environment on the *Environments* screen.
 
-![image description](../environment-overview/Media/update-alert.png)
-
-> [!note] Ensure that your application is active and hasn't stopped. If the status of your application is OFFLINE, you will not see the Update option for your application unless to restart the application.  
+> [!note] The application must be running. If its status is *Offline*, the **Update** option does not appear until you restart the application.
 
 ### Launch update
 
-Begin the application update workflow by selecting the **Update** message. The designated application page displays, and the **UPDATE** option is available next to the **VERSION** number. Selecting update opens the **Update** dialog box.
-
-![image description](../environment-overview/Media/select-update.png)
+Select the **Update** message. The application's *Overview* screen opens with an **Update** option next to the **Version** number. Select **Update** to open the *Update* dialog.
 
 ### Select a version number
 
- To update your application, select the next available version number that is ahead of your current environment version. Your currently installed version number is displayed just above the dropdown menu for reference.
+Select the next available version after your current version. The dialog shows your current version above the dropdown for reference.
 
-> [!note] Application versions can only be increased incrementally. You cannot select a version that is more than one level ahead of your current version.
+> [!note] When incremental updates are enabled, you cannot select a version more than one level ahead of your current version. See [incremental updates](#incremental-updates).
 
 ![image description](../environment-overview/Media/select-version.png)
 
-Once you have set the correct version number, click **Update**. In the next dialog, click **UPDATE**.  The update process typically takes around 10 minutes. To quit the update and return to the main *Environments* screen, select **Cancel**.
+Select **Update**, then select **Update** again in the confirmation dialog. The update usually takes about 10 minutes. To cancel the update and return to the *Environments* screen, select **Cancel**.
 
 ![image description](../environment-overview/Media/confirm-update.png)
 
 ### Application update confirmation
 
-After selecting **Update**, the status of the application being updated displays as "UPDATE APPLICATION". A confirmation message displays, indicating that the environment is being updated.
+While the update runs, the application's status shows "UPDATE APPLICATION" and a confirmation message appears.
 
 ![image description](../environment-overview/Media/updating-env-message.png)
 
-If the application updates successfully, a success notification displays, and the application's status changes to "Operational".
+When the update succeeds, a success notification appears and the application's status changes to "Operational".
 
-![image description](../environment-overview/Media/update-success-operational.png)
-
-If an environment update is unsuccessful, an error notification displays, and the environment's status changes to "**Update Failed**".
+If the update fails, an error notification appears and the application's status changes to "**Update Failed**".
 
 ### Incremental updates
 
 When incremental updates are enabled for an application, you cannot skip versions. To reach a higher version, you update through each intermediate version in order. When incremental updates are disabled, you can update directly to any available version.
 
-> [!note] Incremental updates configured for each application at the tenant level. Contact Radiant Logic to enable the feature.
+> [!note] Incremental updates are configured for each application at the tenant level. Contact Radiant Logic to enable the feature.
 
 ![Selecting a version with incremental updates enabled](images/05-incremental-update.jpg)
 
-
 ## Previous updates
 
-You can view updates previously applied to an application from the *Version History*, located within a specific application's details view.
+To view updates previously applied to an application, open the application's *Overview* screen and select **View Version History** next to the version number in the *Application Details* panel.
 
-To navigate to an application's details section, select the environment name from the *Environments* home screen.
-
-This brings you to the *Overview* screen. From here, select **View Version History** to open the *Version History* dialog.
-
-![image description](../environment-overview/Media/view-version-history.png)
-
-The *Version History* dialog displays a chronological list of all previous updates including the version number, the date the update was applied, and the user who applied the update.
-
+The *Version History* dialog lists all previous updates in order, with the version number, the date of the update, and the user who applied it.
 
 ### Revert to a previous version
 
-To be able to revert to a previous application update, you must have first created a backup of the environment after it was updated. For details on creating backups, see the [create a backup](backup-and-restore/create-backup.md) guide.
+To revert to a previous version, you need a backup that you created after the application was updated to that version. For details on creating backups, see the [create a backup](backup-and-restore/create-backup.md) guide.
 
-To revert to a previous update, follow the same steps to restore an environment backup. Ensure the version number of the back up matches the version number that you would like to restore the environment to.
+To revert, [restore the backup](backup-and-restore/backup-restore-overview.md#restore-a-backup). Make sure the backup's version matches the version you want to restore.
 
-## Update Super User Credentials
+## Update User credentials
 
-When an environment is created where the RadiantOne Identity Data Management product is installed, the Super User credentials are defined.  To update these credentials in Environment Operations Center,  select the environment name > Identity Data Management application from the *Environments* home screen.
-Choose the **Change Password** option from the "..." menu.
+You define the User credentials when you create an Identity Data Management application. To change them, open the application from the *Environments* screen and select **Reset Password** from the **Options** (**...**) menu.
 
-![image description](../environment-overview/Media/change-password-option.png)
-
-Enter the new password, confirm the value and click **Apply Password**. You can click *Generate* to autogenerate a password as an alternative to entering your own value. If you choose to auto-generate a value, remember to click the *Copy to Clipboard* icon to share the new value with your RadiantOne Adminstrator.
-
-
-
-
-
-
-
-
-
-
-
+Enter the new password, confirm it, and select **Apply Password**. Alternatively, select **Generate** to create a password automatically. If you generate a password, select the **Copy to Clipboard** icon so you can share it with your RadiantOne administrator.
 

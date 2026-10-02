@@ -5,35 +5,32 @@ description: Learn how to create configuration promotion and application update 
 
 # Promotion Pipelines 
 
-Promotion pipelines enable the transfer of updates between different application environments. In the Environment Operations Center, the following promotions are supported: 
- 
-* **Configuration Updates Promotion:** This supports promotion of validated configuration updates only for Identity Data Management applications.  
- 
-* **Version Updates Promotion:** This supports promotion of application version updates for all application types: Identity Data Management, Identity Analytics, and Identity Observability. 
+Use promotion pipelines to promote configuration or application version updates between environments. Environment Operations Center supports two types of promotion:
 
+* **Configuration Updates Promotion:** promotes validated configuration updates. Available for Identity Data Management applications only. The applications in the pipeline must be on the same version before you can promote.
+
+* **Version Updates Promotion:** promotes application version updates. Available for all application types: Identity Data Management, Identity Analytics, and Identity Data Platform.
+
+The *Promotion Pipelines* page lists your pipelines. Use the filter options on the page to narrow the list.
 
 ## Configuration Updates Promotion 
 
-The configuration promotion pipeline supports promotion of validated configurations across multiple Identity Data Management (IDDM) environments. 
-
-This is particularly useful for promoting configuration updates from development to QA and/or production environments.  
+The configuration promotion pipeline promotes validated configurations across multiple Identity Data Management environments, for example from development to QA or production.
  
-> You must create a promotion pipeline by following the steps outlined here before making configuration changes in Identity Data Management that need to be promoted. Ensure that both the source and target environments are running the same version of Identity Data Management. 
+> Create the promotion pipeline before you make the Identity Data Management configuration changes you want to promote. The source and target environments must run the same Identity Data Management version.
 
-This feature is supported in Identity Data Management version **8.1.4 or higher** and requires **EOC version 1.4.0 or higher**. 
-
-Through the Environment Operations Center, you can define the source and target environments. To create and configure a new promotion pipeline, follow these steps: 
+To create and configure a pipeline, define its source and target environments as described in the following steps.
 
 ### Requirements 
 
 - Identity Data Management version 8.4.0+  
-- EOC version 1.5.2+  
+- Environment Operations Center version 1.5.2+
 - The source and target environments must run the same Identity Data Management application version.  
-- A promotion pipeline (like the one outlined in this document) must exist before configuration changes are made.  
+- The promotion pipeline must exist before you make the configuration changes.
 
 ### 1. Create a New Promotion Pipeline 
 
-In the EOC, select **Promotion Pipelines** under **Manage** in the left navigation.  
+Select **Promotion Pipelines** under **Manage** in the left navigation.
 
 ![image of new configuration pipeline button](Media/config-new.png)
 
@@ -43,84 +40,78 @@ Select **New Pipeline** to open the *New Promotion Pipeline* form, then complete
 - **Description** — an optional description of what the pipeline promotes.
 - **Application** — the application type the pipeline applies to.
 
-Select **Create** to create the pipeline. If you select **Cancel** instead, a confirmation prompt asks you to confirm that you want to abort the pipeline creation and warns that any progress will be lost.
+Select **Create** to create the pipeline. If you select **Cancel**, a prompt asks you to confirm that you want to stop creating the pipeline and warns that you will lose your progress.
 
 ![The New Promotion Pipeline form](Media/18-new-pipeline.png)
 
-
 ### 2. Add a Source Stage 
 
-Click the plus (**+**) icon to add a source stage (e.g., QA stage). This stage represents the environment where configuration changes originate. Fill in the required fields and click **Create**. 
+Select the plus (**+**) icon to add a source stage, for example a QA stage. The source stage is the environment where configuration changes originate. Fill in the required fields and select **Create**.
 
 ![image showing how to add a source](Media/source.png)
 
-
 ### 3. Add Target Stages 
 
-Add one or more target stages (e.g., Demo/ Production). Click the plus (**+**) icon again and fill in the required fields.  
-Set **Source Stage** to reference the correct upstream stage (e.g., QA or Demo Stage). Leave **Destination Stage** blank. Click **Create**. 
+Add one or more target stages, for example Demo or Production. Select the plus (**+**) icon again and fill in the required fields. Set **Source Stage** to the upstream stage, for example QA or Demo. Leave **Destination Stage** blank. Select **Create**.
 
 ![image showing how to link stages](Media/link-stages.png)
 
+### 4. Publish the Pipeline 
 
-### 5. Publish the Pipeline 
-
-Once all stages are configured, click the **Publish** icon to activate the pipeline.  
+When all stages are configured, select the **Publish** icon to activate the pipeline.
 
 ![image showing the publish icon](Media/publish.png)
 
+After you publish the pipeline, you can view its publish and version history to see each published version of the pipeline and track changes over time.
 
-### 6. Start Promoting Configurations 
+### 5. Start Promoting Configurations 
 
-After publishing, you can export configurations from the source to target environments. Ensure both environments run the same Identity Data Management version before promoting. Refer to this [linked documentation](../../../idm/v8.1/deployment/configuration-promotion.md) to learn the next steps.
-
+After you publish the pipeline, you can export configurations from the source to the target environments. Make sure both environments run the same Identity Data Management version before you promote. For the next steps, see [configuration promotion](../../../idm/v8.1/deployment/configuration-promotion.md) in the Identity Data Management documentation.
 
 ## Application Version Updates Promotion 
  
 
-You can use the promotion pipeline to promote application version updates from source applications to its linked destination applications so that all linked applications in the pipeline have the same version. To accomplish this, create source and destination stages following the same process described earlier in this document. The steps are repeated below for reference. 
-
+Use a promotion pipeline to promote application version updates from a source application to its linked destination applications, so that all linked applications in the pipeline run the same version. Create the source and destination stages as described earlier; the steps are repeated here for reference.
 
 ### 1. Create Source and Destination Stages 
 
-i. Navigate to the **Promotion Pipeline** page and click **Create New Stage**.  
+i. Open the **Promotion Pipelines** page and select **Create New Stage**.
 
 ii. Choose **Create New** to create a Source Stage with the following details:  
 
 - Enter a name in the **Name** field.  
 - (Optional) Add a description in the **Description** field.  
-- Select the **Environment** from the dropdown menus.  
-- Click **CREATE** to save your source stage.  
+- Select the **Environment** from the dropdown.
+- Select **Create** to save the source stage.
 
 iii. To create a destination stage, choose a creation method:  
 
 - **Create New** (default), or  
 - **Clone from Existing Stage**.  
 
-iv. Select a **Source Stage**. The **Source Stage** must reference the correct upstream stage (e.g., QA).     
+iv. Select the upstream stage, for example QA, as the **Source Stage**.
 
-v. Select the target **Environment** from the dropdown. Confirm the **Application Version** (automatically displayed after environment selection).  
+v. Select the target **Environment** from the dropdown, then confirm the **Application Version** that appears after you select the environment.
 
 vi. Enter a **Stage Name** and optionally add a description.  
 
-vii. Click **CREATE** to save.  
+vii. Select **Create** to save.
 
-
-### 3. Promote Application Version Updates 
+### 2. Promote Application Version Updates 
 
 i. Open the **Promotion Pipeline** interface.  
 
-ii. Identify the Stage you want to promote from (typically your validated or tested version).  
+ii. Find the stage you want to promote from, typically the one with your validated or tested version.
 
-iii. Click the double arrow (**>>**) button next to the source environment’s version.  
+iii. Select the double arrow (**>>**) next to the source environment's version.
 
-iv. Review all impacted stages in the confirmation dialog. Click **Confirm** to begin promotion. Once the promotion is applied, the downstream stage is updated to the same version as the source stage.  
+iv. Review the affected stages in the confirmation dialog, then select **Confirm** to start the promotion. When the promotion finishes, the downstream stages run the same version as the source stage.
 
 ## Adding an ephemeral environment to a pipeline
 
-When you add an ephemeral environment to a promotion pipeline, a confirmation prompt appears to warn you that the environment is currently ephemeral and that continuing converts it to a regular environment. If you continue, Environment Operations Center adds the environment to the pipeline and removes its ephemeral (auto-delete) property.
+When you add an ephemeral environment to a promotion pipeline, a prompt warns you that the environment is ephemeral and that continuing converts it to a regular environment. If you continue, Environment Operations Center adds the environment to the pipeline and removes its ephemeral (auto-delete) property.
 
-> An environment that is already attached to a pipeline through one of its applications cannot be added again. Remove it from the pipeline first.
+> You cannot add an environment that is already in a pipeline through one of its applications. Remove it from the pipeline first.
 
 ![The Ephemeral Environment Detected warning alongside the Create New Stage panel](Media/13-pipeline-ephemeral.jpg)
 

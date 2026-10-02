@@ -19,11 +19,7 @@ Two environment display views are available, either list- or grid-view. In the l
 
 In the grid-view, environments are organized in a card format with associated details for an environment contained within the card.
 
-![image description](Media/envs-grid-view.png)
-
 You can filter the display by using the filters dropdown and selecting a filter.
-
-![image description](Media/filterby.png)
 
 Additionally, environments can be filtered by the creator to display only those associated with a specific user. To apply this filter, hover over the desired user's name, then click on it to display all environments created by that user.
 
@@ -49,12 +45,7 @@ In the grid-view, the options menu is located in the upper corner of an environm
 
 A **Search** bar at the top of the *Environments* screen can be used to filter the listed environments. Enter an environment name, specific characters, or words in the space provided to quickly filter through the environments.
 
-![image description](Media/search-to-filter.png)
-
 A refresh button is located in the upper right corner of the *Environments* screen. Select the refresh icon to pull up to date information about the environments.
-
-![image description](Media/refresh-envs.png)
-
 
 ### New environment
 
@@ -68,7 +59,7 @@ In your environment, you can install one or more of the following RadiantLogic a
 
 * **Identity Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
 
-* **Identity Observability** – Provides observability services for your identity data. Additional services such as extra S3 storage, Portal API, and MCP can be enabled for this application.
+* **Identity Data Platform** – Provides observability services for your identity data. Additional services such as extra S3 storage, Portal API, and MCP can be enabled for this application.
 
 > Applications that are not part of your subscription are shown greyed out and labelled *Not in current subscription*, and their checkbox cannot be selected.
 

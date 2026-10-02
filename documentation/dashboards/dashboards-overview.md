@@ -30,7 +30,6 @@ The dashboard will update to display the component metrics for all nodes selecte
 
 To remove a node, select the "X" associated with the node name.
 
-
 ### Filter data by time range
 
 You can filter dashboard data by time range, allowing you to narrow down the targeted data to a specific time frame.
@@ -66,5 +65,4 @@ Component metrics displayed include:
 | Peak Stats | Peak statistics for various components, such as CPU, Connections, Memory, and Disk. |
 | CPU Usage | A line graph that charts CPU usage over time. |
 | RAM Usage | A line graph that charts RAM usage over time. |
-
 

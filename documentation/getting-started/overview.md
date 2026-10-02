@@ -27,15 +27,13 @@ A navigation bar is located to the left and is visible from all screens within E
 ### Account settings
 A user avatar is always located in the upper right corner of the Environment Operations Center user interface. Select the avatar to expand your account dropdown menu. 
 
-![image description](Media/profile-icon.png)
-
-The dropdown displays your name, email, and permissions associated with the account. From the dropdown menu you can navigate to your **Account Settings**, access the **Help** center, or **Logout** of Environment Operations Center.
+The dropdown shows your name, email, the Environment Operations Center version, and your role. From the dropdown you can open your **Account Settings**, open the **Help** center, change the **Color scheme** (Light, Dark, or System default), or **Logout** of Environment Operations Center.
 
 For information on managing your account settings, see the [account settings](./account-settings/update-account.md) guide.
 
 ### Notification center
 
-The bell icon in the top navigation bar shows alerts that are firing or fired recently, and the notification center lists every alert across the Environment Operations Center with its current status. Select an alert to open its alerts page, and select **Mark as read** to remove it from the list. For more detail, see the [alerting](../environments/applications/alerting/alert-management-overview.md) guide.
+The bell icon in the top navigation bar opens the notification center, which has two tabs: **Alerts**, which shows alerts that are firing or fired recently, and **Notifications**. Select an alert to open its alerts page, and select **Mark as read** to remove it from the list. For more detail, see the [alerting](../environments/applications/alerting/alert-management-overview.md) guide.
 
 ![The bell icon and notification center in the top navigation bar](Media/16-overview-bell.jpg)
 
@@ -56,7 +54,7 @@ By default, the Quick Links section contains guides and resources to help you wi
 
 ### Subscriptions
 
-The **Subscriptions** section shows the number of used nodes and available nodes per application type. It displays separate tiles for **Identity Data Management**, **Identity Analytics**, and **Identity Observability**, each showing the current node usage out of the total available.
+The **Subscriptions** section shows the number of used nodes and available nodes per application type. It displays separate tiles for **Identity Data Management**, **Identity Analytics**, and **Identity Data Platform**, each showing the current node usage out of the total available.
 
 ### Environments location
 
@@ -66,7 +64,7 @@ The **Environments Location** section displays a world map showing the geographi
 
 ### Application version distribution
 
-The **Application Version Distribution** section shows the version distribution of applications within a selected application type. Use the dropdown menus to filter by application type (**IDDM**, **IDA**, or **IDO**) and to select the chart format. Available chart types are **Bar Chart**, **Line Chart**, **Pie Chart**, and **Area Chart**.
+The **Application Version Distribution** section shows the version distribution of applications within a selected application type. Use the dropdown menus to filter by application type (**Identity Data Management**, **Identity Analytics**, or **Identity Data Platform**) and to select the chart format. Available chart types are **Bar Chart**, **Line Chart**, **Pie Chart**, and **Area Chart**.
 
 ![Application version distribution](Media/app-version-distribution.png)
 
@@ -115,19 +113,17 @@ The navigation items are grouped under two headings: **Manage**, which contains 
 
 - Secure data connectors: You can manage connections to on-premise data connectors in the *Secure Data Connectors* section. Select **Secure Data Connectors** to navigate to the *Secure Data Connectors* screen. For details on managing data connections, see the [secure data connectors](../secure-data-connector/configure-sdc-service.md) guide. This feature is currently available only in the Identity Data Management application.
 
-- Promotion Pipelines: The [configuration promotion pipeline](../promotion-pipelines/configuration-promotion.md) supports promotion of validated configurations across multiple Identity Data Management (IDDM) environments.
+- Promotion Pipelines: The [configuration promotion pipeline](../promotion-pipelines/configuration-promotion.md) supports promotion of validated configurations across multiple Identity Data Management environments.
 
 - Observe: The **Observe** group contains navigation items for [Dashboards](../dashboards/dashboards-overview.md), [Logs](../environments/applications/logging/application-logs.md), [Alerts](../environments/applications/alerting/alert-management-overview.md), and [Reports](../reporting/reporting-overview.md).
 
 - Admin: From the *Admin* section you can perform various administrative actions in Environment Operations Center. Select **Admin** to navigate to the *Admin* home screen. For further details on operations available in the *Admin* section, see the [admin overview](../admin/admin-overview.md) guide.
-
 
 ## AI Assistant
 
 The Environment Operations Center includes a built-in AI assistant that answers questions about product features, configuration, troubleshooting, and everyday usage so you can get help without leaving the application. Open it from the **chat icon** in the bottom-right corner of the interface.
 
 For details on asking questions and escalating a conversation to support, see the [AI assistant](ai-assistant.md) guide.
-
 
 ## Next steps
 

@@ -11,8 +11,6 @@ This guide provides an overview of how to update your account settings and manag
 
 From any section or tab in Environment Operations Center, your account avatar will be visible in the upper right corner of the screen. To access your account settings, select the avatar icon to expand the account dropdown menu. From the dropdown menu, select **Account Settings** to open the *Account Settings* screen.
 
-![image description](images/account-settings.png)
-
 ## Account settings
 
 From the *Account Settings* screen you can update your user details including your first name, last name, email address associated with the account, email address to receive notifications and your profile image.

@@ -11,7 +11,6 @@ This guide covers the **additional steps** needed for running the client in a pr
 
 >[!note] You must create a secure data connector endpoint in Environment Operations Center before deploying on the client side. For details on how to create a secure data connector in Environment Operations Center, see the [add a data connector](configure-sdc-service#adding-a-new-data-connector) guide.
 
-
 ## Proxy Configuration for Windows
 
 To have secure data connector client run on a Windows system, refer the section ***Deploy on Windows*** in [deploy a secure data connector client](#deploy-the-secure-data-connector-client) guide.
@@ -111,7 +110,6 @@ Replace `/path/on/host` with an actual path on your host machine where you want 
 
 Once the client is running, you can can set up a connection with the on-premise backend. For details on setting up a connection, see the [Data Sources](../configuration/data-sources/data-sources.md) guide.
 
-
 # Deploy the Secure Data Connector Client
 
 Once a secure data connector has been created in Environment Operations Center, the client must be deployed on your local system before you can establish a connection. This guide outlines the system requirements and steps to deploy a data connector client on a Windows, Linux, or Docker system.
@@ -143,7 +141,6 @@ To locate these dependencies in Environment Operations Center, select the connec
 In the *Data Connector Info* section the connector status displays as "Unregistered", and there are no available connections. 
 
 Next to the status in the *Data Connector Info* section select **Register**.
-![image description](Media/connector-register.png)
 
 For Windows or Linux systems, select the applicable card to download the binary.
 

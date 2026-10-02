@@ -13,7 +13,7 @@ An environment is where a RadiantOne product lives. Each environment is complete
 
 Before setting up your environment, you need the following:
 
-- The version number that corresponds with your RadiantOne product (Identity Data Management, Identity Analytics, and/or Identity Observability).
+- The version number that corresponds with your RadiantOne product (Identity Data Management, Identity Analytics, and/or Identity Data Platform).
 - If you are deploying the Identity Data Management application, and want to initialize the product with configuration that has been exported from an existing environment, ensure you have the correct file type saved and ready to go since you need to select this file during creation of the new environment.
 
 The new environment setup requires you to define the environment type, details, and provides an optional step to upload a configuration file from another environment.
@@ -22,48 +22,35 @@ The new environment setup requires you to define the environment type, details, 
 
 To create a new environment, select **New Environment** on the *Environments* home screen or from the *Overview* home screen.
 
-![image description](Media/create-new.png)
+This takes you to the *New Environment* page that contains all the input fields for the information required to create a new environment. The following sections outline more details about these fields.
 
-This takes you to the *New Environment* page that contains all the input fields for the information required to create a new environment. The following sections outline how to complete these required fields.
+### Define environment details
 
-### Define environment type
+Start by filling out the **Environment Details** section.
 
-Start by selecting the required **Environment Type**.
+#### Type
 
-#### Environment type
+To set the **Type**, use the radio buttons to select either **NonProduction**, for development and testing, or **Production**, for production purposes.
 
-To set the **Environment Type**, use the radio buttons to select either **Non-production**, for development and testing, or **Production**, for production purposes.
+#### Name
 
-![image description](Media/create-env-type.png)
+In the **Name** field, enter a unique name. The name can be up to 5 characters long.
 
-#### Environment name
+#### Infrastructure
 
-In the **Environment Name** field, enter a unique name.
+From the **Infrastructure** dropdown, select the infrastructure to deploy the environment on. Each infrastructure is tied to a cloud provider, for example an AWS-based or Azure-based infrastructure, and is configured by Radiant Logic during onboarding.
 
-![image description](Media/create-env-name.png)
+#### Description
+
+Optionally, enter a description of the environment in the **Description** field. The description can be up to 255 characters long.
 
 ### Ephemeral environments
 
-An ephemeral environment is a temporary environment that deletes itself at a time you set. When you enable the ephemeral option during environment creation, set an expiry date and time. Environment Operations Center deletes the environment automatically when that time arrives, even if you forget to remove it, so unused environments do not continue to consume resources.
-
-![The ephemeral environment option with an expiry date and time](Media/03-ephemeral-env.jpg)
+An ephemeral environment is a temporary environment that deletes itself at a time you set. When you turn on the **Ephemeral** toggle during environment creation, select the calendar icon to set the date and time when the environment expires. A message below the field confirms when the environment and its applications will be deleted. Environment Operations Center deletes the environment automatically when that time arrives, even if you forget to remove it, so unused environments do not continue to consume resources.
 
 If you add an ephemeral environment to a promotion pipeline, it loses its ephemeral property and becomes a regular environment.
 
 > Ephemeral environments are feature-flagged. If the feature is not enabled for your account, the option does not appear. Contact Radiant Logic to enable it.
-
-
-### Tiers and infrastructure
-
-Each environment is deployed on an infrastructure, and each infrastructure is tied to a cloud provider — for example, an AWS-based or Azure-based infrastructure. Your infrastructure is configured by Radiant Logic during onboarding. Each tier supports a specific set of cloud providers: some tiers support every provider, while others support only a subset.
-
-- When tier visibility is enabled, you select a tier during environment creation. The available tiers are filtered by the environment's infrastructure, so you see only the tiers that support that cloud provider.
-- When tier visibility is disabled, the environment uses the default tier (AWS) and no tier selection appears.
-
-> Tier visibility is feature-flagged, and the assigned tiers are configured for your account by Radiant Logic.
-
-![Tier selection filtered by the selected infrastructure](Media/03-tier-visibility.jpg)
-
 
 ### Deploy applications
 
@@ -73,16 +60,15 @@ In your environment, you can install one or more of the following RadiantLogic a
 
 * **Identity Analytics** – This application offers deep insights into potential gaps in your identity data, particularly in relation to access management workflows. It enhances visibility, enabling you to identify and address blind spots, while strengthening your organization’s overall identity security posture.
 
-* **Identity Observability** – Provides observability services for your identity data including AI agents' data. You may request additional services such as extra storage, Portal API, and MCP features to be enabled for this application during application creation.
+* **Identity Data Platform** (previously known as Identity Observability) – Provides observability services for your identity data including AI agents' data. You may request additional services such as extra storage, Portal API, and MCP features to be enabled for this application during application creation.
 
 To deploy an application, select the checkbox adjacent to the application name. In the expanded view, fill out all required information.
-![image description](Media/apps-select.png)
 
-Applications that are not part of your subscription are shown greyed out and labelled *Not in current subscription*. 
+Applications that are not part of your subscription are shown greyed out and labelled *Not in current subscription*, and you cannot select them. For example, Identity Data Platform is greyed out if it is not included in your subscription.
 
 #### Application details
 
-Under the **Application Details** section, provide the required details such as the application version, password, and application description. The **Nodes** row at the top of the section shows how many of your subscription's nodes are already in use, for example *1 of 2 used*.
+Under the **Application Details** section, provide the required details such as the application version, password, and application description. The **Nodes** row at the top of each application's section shows how many of that application's subscription nodes are already in use, for example *0 of 3 used*.
 
 There are minor differences in the application details form for each application. For Identity Data Management deployment, you have the option to enable advanced setup if you wish to deploy the application using an existing configuration file. Note that this option is available only in Identity Data Management.
 
@@ -90,20 +76,24 @@ There are minor differences in the application details form for each application
 
 ![image description](Media/ida-details.png)
 
-For Identity Observability, the form also asks for a setup email address. Enter the address in **Setup Email Address** and repeat it in **Confirm Setup Email Address**, or select **Auto-fill** to populate both fields with the email address of the signed-in account.
-
-![The Application Details form for Identity Observability](Media/18-ido-details.png)
-
+For Identity Analytics and Identity Data Platform, the form also asks for a setup email address. Enter the address in **Setup Email Address** and repeat it in **Confirm Setup Email Address**, or select **Auto-fill** to populate both fields with the email address of the signed-in account.
 
 #### Version
 
-To set the Environment **Version**, select the version drop down to display all available versions. Select the value that corresponds with your organization's version of Environment Operations Center.
+To set the application **Version**, select the version drop down to display all available versions. Select the value that corresponds with your organization's version of Environment Operations Center.
 
 #### Password
 
-Select a password by either entering your chosen password in the space provided, or by selecting the **Generate** button to have a password automatically generated for you.
+Enter a password in the **Create Password** field, or select **Generate** to have a password automatically generated for you. The password must meet the following requirements:
 
-To confirm your password, reenter your password in the confirmation space provided. If you selected to have a password automatically generated, use the copy icon to the right of the field to copy it, then paste it into the confirmation field.
+- At least 16 characters
+- Both lowercase and uppercase letters
+- At least 1 number
+- At least 1 special character, excluding `' " / \ € £ ; : & “ ” ‘ ’`
+
+A strength bar below the field shows how strong the password is as you type.
+
+To confirm your password, reenter it in the **Confirm Password** field. If you selected to have a password automatically generated, use the copy icon to the right of the field to copy it, then paste it into the confirmation field.
 
 ![image description](Media/password.png)
 
@@ -111,7 +101,7 @@ To reveal your original or confirmation password, select the eye icon (![image d
 
 ### Advanced setup
 
-The application details end with an **Options** section that contains two optional toggles: **Install Samples**, which imports sample data, and **Advanced Setup**.
+Each application's details end with an **Options** section that contains optional toggles. Identity Data Management and Identity Analytics include **Install Samples**, which imports sample data. Identity Data Management also includes **Advanced Setup**.
 
 Advanced setup is not required. It can be used to restore an Identity Data Management application from an existing backup file. When creating a new application, choose the backup configuration (ZIP file) that was downloaded from the environment you want to restore.
 
@@ -123,33 +113,21 @@ While your file is uploading, an **Uploading** message displays in the file uplo
 
 Once your configuration file has successfully loaded, the file name displays in place of the file upload box. Select **Create** to create the new environment.
 
-![image description](Media/config-uploaded.png)
-
 To delete the file and return to the file upload screen, select the trash can icon located in the same box as the successful file upload.
-
-![image description](Media/delete-config.png)
 
 If the file upload is not successful, the configuration upload box displays with a red dashed outline and an error message appears just below. Review your file type to ensure you have selected the correct configuration file for upload and try again.
 
 ### Create the new environment
 
-Once you have completed filling out the details for *Environment Type* and *Application Details* sections, click the **Create** button to create the new environment.
-
+Once you have completed filling out the *Environment Details* and *Application Details* sections, click the **Create** button to create the new environment.
 
 ## New environment confirmation
 
-After saving the New Environment details form, you return to the *Environments* home screen. A confirmation message appears noting that your environment is being created and that the process can take up to twenty minutes. The status of your new environment shows as "Create Application". Select **Dismiss** to close the confirmation message.
-
+After saving the New Environment details form, a confirmation message appears noting that your environment is being created and that the process can take up to twenty minutes.
 
 ![image description](Media/creating2.png)
 
 Once the environment has been successfully created, the environment's status changes to "Operational".
-
-### Form submission failure
-
-If there is an issue with the form submission, an error message states that the new environment creation failed and the new environment will no longer be visible in the environment list on the *Environments* home screen. Select **Dismiss** to close the error message and proceed to restart the workflow to create a new environment.
-
-### Failure to create new environment
 
 If there is an error and the environment cannot be created, the environment status changes to "Creation Failed".
 
@@ -159,9 +137,7 @@ Select the ellipsis (**...**) in line with the environment to display a list of 
 - **View Logs**: troubleshoot where the error may have occurred while the form data was processing.
 - **Delete**: if the environment hasn't been successfully created, delete the failed instance.
 
-
 ## Next steps
 
 Learn how to view [application details](../applications/application-details.md), [update an application](../applications/update-an-application.md) and [delete an environment](delete-environment.md). 
-
 

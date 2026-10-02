@@ -39,4 +39,3 @@ To keep the user and exit out of the *Delete User* dialog, select **Keep The Use
 
 You should now have an understanding of the steps required to delete a user in Environment Operations Center. To learn more about user management see the [create a user](create-user.md) guide or the [edit a user](edit-user.md) guide.
 
-
